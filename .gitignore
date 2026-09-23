@@ -1,0 +1,31 @@
+# Generated full corpus and materialized split files
+data/records.jsonl
+data/train.jsonl
+data/validation.jsonl
+data/test.jsonl
+metadata/split_index.csv
+
+# Python runtime output
+__pycache__/
+*.py[cod]
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments, secrets and editor files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Build and temporary output
+*.zip
+*.tmp
+*.partial
+*.bak
+dist/
+build/

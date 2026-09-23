@@ -1,0 +1,8 @@
+{
+  "english_scenario_cue_in_non_english_text": 0,
+  "human_validated_languages": [],
+  "interpretation": "No English leaf-cue injection was detected; native-speaker validation is still required for every non-English language.",
+  "non_english_records": 60631,
+  "non_english_records_requiring_native_review": 60631,
+  "version": "1.2.0"
+}

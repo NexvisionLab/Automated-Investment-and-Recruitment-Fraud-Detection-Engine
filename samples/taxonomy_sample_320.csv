@@ -1,0 +1,653 @@
+id,label,domain,taxonomy_id,language,country,channel,text,split
+NVJI-0051201,scam,job,J01,ko,KR,whatsapp,"[unknown_sender] 최종​ 경고.​ 고수익 아르바이트. 최종 경고. 결제하세요 1000. https://job-j01-96.invalid/nv-be80f5911e
+[recipient] 기관의 공식 채널을 통해 독립적으로 확인하세요.
+[unknown_sender] 한 시간 이내. 한 시간 이내.
+[recipient] 수수료, 보증금, 비밀번호, OTP 또는 송금이 필요하지 않습니다.
+[unknown_sender] 저에게 돈을 보내세요 1000. https://case-96.invalid/nv-be80f5911e Ref: NV-BE80F5911E",train
+NVJI-0000689,scam,job,J01,id,MY,job_board,pemberitahuan terakhir. kerja dari rumah. dalam satu jam. kirim uang kepada saya 250. https://job-j01-9.invalid/nv-8019b90684 Ref: NV-8019B90684,train
+NVJI-0009617,scam,job,J01,ms,BN,chat_group,notis terakhir. kerja dari rumah. dalam masa satu jam. pindahkan wang sekarang 250. https://job-j01-13.invalid/nv-3cb061ac7f Ref: NV-3CB061AC7F,train
+NVJI-0009633,scam,job,J01,ru,KZ,job_board,действуйте​ немедленно.​ простые задания за комиссию. последнее предупреждение. переведите деньги сейчас 1000. https://job-j01-29.invalid/nv-1d70278e3f Ref: NV-1D70278E3F,test
+NVJI-0001793,scam,job,J01,pt,PT,telegram,aja imediatamente. trabalhe em casa. dentro de uma hora. faça o pagamento 250. https://job-j01-46.invalid/nv-fdd5f6ec2f Ref: NV-FDD5F6EC2F,train
+NVJI-0048481,scam,job,J01,ur,IN,social_media_dm,"[unknown_sender] آخری انتباہ. پارٹ ٹائم نوکری. فوری کارروائی کریں. ابھی رقم بھیجیں 49. https://job-j01-92.invalid/nv-6e8ca1e777
+[recipient] ادارے کے سرکاری ذریعے سے تصدیق کریں۔
+[unknown_sender] فوری کارروائی کریں. فوری کارروائی کریں.
+[recipient] کسی فیس، جمع، پاس ورڈ، او ٹی پی یا رقم کی منتقلی کی ضرورت نہیں ہے۔
+[unknown_sender] ابھی رقم بھیجیں 49. https://case-92.invalid/nv-6e8ca1e777 Ref: NV-6E8CA1E777",train
+NVJI-0006433,scam,job,J01,bn,IN,telegram,এক ঘণ্টার মধ্যে. খণ্ডকালীন চাকরি. অবিলম্বে ব্যবস্থা নিন. আমাকে টাকা পাঠান 49. https://job-j01-30.invalid/nv-75d667b517 Ref: NV-75D667B517,validation
+NVJI-0000145,scam,job,J01,ur,IN,chat_group,فوری کارروائی کریں. پارٹ ٹائم نوکری. فوری کارروائی کریں. ادائیگی کریں 49. https://job-j01-47.invalid/nv-0c238a26a0 Ref: NV-0C238A26A0,train
+NVJI-0006625,scam,job,J01,ar,SA,email,تصرف فوراً. وظيفة بدوام جزئي. تصرف فوراً. قم بالدفع 49. https://job-j01-28.invalid/nv-ed76825533 Ref: NV-ED76825533,train
+NVJI-0003665,scam,job,J01,vi,VN,email,hành động ngay lập tức. làm việc tại nhà. trong vòng một giờ. chuyển tiền ngay 250. https://job-j01-75.invalid/nv-7f52c44d35 Ref: NV-7F52C44D35,train
+NVJI-0049538,scam,job,J02,id,MY,chat_group,"[unknown_sender] kerja dari rumah. keuntungan dijamin; dalam satu jam. https://job-j02-82.invalid/nv-6993cce61b
+[recipient] Verifikasi melalui saluran resmi organisasi.
+[unknown_sender] pemberitahuan terakhir. tanpa risiko.
+[recipient] Tidak diperlukan biaya, deposit, kata sandi, OTP, atau transfer uang.
+[unknown_sender] lakukan pembayaran 75. https://case-82.invalid/nv-6993cce61b Ref: NV-6993CCE61B",train
+NVJI-0001298,scam,job,J02,es,CO,job_board,trabaja desde casa. ganancias garantizadas; actúa inmediatamente. https://job-j02-36.invalid/nv-33c4e56f5e Ref: NV-33C4E56F5E,train
+NVJI-0000498,scam,job,J02,ta,LK,job_board,எளிய பணிக்கு கமிஷன். தினசரி வருமானம்; உடனடியாக செயல்படவும். https://job-j02-12.invalid/nv-807d3d5db4 Ref: NV-807D3D5DB4,train
+NVJI-0004386,scam,job,J02,th,TH,chat_group,งานง่ายได้ค่าคอมมิชชั่น. ผลตอบแทนรายวัน; ดำเนินการทันที. https://job-j02-20.invalid/nv-c3c185af8f Ref: NV-C3C185AF8F,train
+NVJI-0007378,scam,job,J02,es,CO,telegram,trabajo​ a​ tiempo parcial. sin riesgo; dentro de una hora. https://job-j02-5.invalid/nv-ad18019c54 Ref: NV-AD18019C54,train
+NVJI-0003218,scam,job,J02,pt,BR,whatsapp,trabalhe em casa. lucro garantido; aviso final. https://job-j02-16.invalid/nv-c7212eb027 Ref: NV-C7212EB027,validation
+NVJI-0001842,scam,job,J02,tl,PH,job_board,simpleng task may komisyon. araw-araw na balik; huling babala. https://job-j02-95.invalid/nv-cddab5fdae Ref: NV-CDDAB5FDAE,train
+NVJI-0048034,scam,job,J02,zh,MY,telegram,"[unknown_sender] 兼职工作.​ 稳赚不赔;​ 最后通知. https://job-j02-33.invalid/nv-f0c2a3d8a3
+[recipient] 请通过机构的官方渠道独立核实。
+[unknown_sender] 立即处理. 保证收益.
+[recipient] 无需支付费用、押金或转账，也不要提供密码或验证码。
+[unknown_sender] 立即转账 1500. https://case-33.invalid/nv-f0c2a3d8a3 Ref: NV-F0C2A3D8A3",train
+NVJI-0009746,scam,job,J02,tl,PH,sms,trabaho mula sa bahay. garantisadong kita; sa loob ng isang oras. https://job-j02-45.invalid/nv-542874be70 Ref: NV-542874BE70,validation
+NVJI-0048402,scam,job,J02,de,DE,chat_group,"[unknown_sender] einfache aufgaben gegen provision. tägliche rendite; letzte warnung. https://job-j02-13.invalid/nv-579893293d
+[recipient] Prüfen Sie dies über den offiziellen Kanal der Organisation.
+[unknown_sender] innerhalb einer stunde. tägliche rendite.
+[recipient] Es sind keine Gebühr, Kaution, Passwort, OTP oder Geldüberweisung erforderlich.
+[unknown_sender] schicken sie mir geld 399. https://case-13.invalid/nv-579893293d Ref: NV-579893293D",train
+NVJI-0011507,scam,job,J03,ur,AE,chat_group,گھر​ سے​ کام. منفی بیلنس. ابھی رقم بھیجیں 2500. Ref: NV-9DEEFE9977,train
+NVJI-0050771,scam,job,J03,ms,BN,social_media_dm,"[unknown_sender] kerja​ dari​ rumah. baki negatif. hantar wang kepada saya 2500.
+[recipient] Sahkan melalui saluran rasmi organisasi.
+[unknown_sender] notis terakhir. tambah nilai untuk pengeluaran.
+[recipient] Tiada yuran, deposit, kata laluan, OTP atau pindahan wang diperlukan.
+[unknown_sender] buat bayaran 2500. https://case-54.invalid/nv-82dbc84602 Ref: NV-82DBC84602",train
+NVJI-0008819,scam,job,J03,ms,BN,chat_group,kerja​ dari​ rumah. baki negatif. hantar wang kepada saya 2500. Ref: NV-5EE45D3CEE,train
+NVJI-0050195,scam,job,J03,th,TH,whatsapp,"[unknown_sender] ทำงานจากที่บ้าน.​ ยอดคงเหลือติดลบ.​ โอนเงินตอนนี้ 2500.
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] คำเตือนครั้งสุดท้าย. เติมเงินเพื่อถอนรายได้.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] ชำระเงิน 2500. https://case-60.invalid/nv-3711ec85f4 Ref: NV-3711EC85F4",train
+NVJI-0002979,scam,job,J03,ko,KR,chat_group,고수익 아르바이트. 출금하려면 충전. 결제하세요 99. Ref: NV-8916AE69F0,train
+NVJI-0008707,scam,job,J03,id,SG,social_media_dm,pekerjaan paruh waktu. isi saldo untuk membuka tugas. lakukan pembayaran 500. Ref: NV-64E715A494,train
+NVJI-0048947,scam,job,J03,ms,BN,job_board,"[unknown_sender] kerja​ dari​ rumah. baki negatif. pindahkan wang sekarang 2500.
+[recipient] Sahkan melalui saluran rasmi organisasi.
+[unknown_sender] notis terakhir. tambah nilai untuk pengeluaran.
+[recipient] Tiada yuran, deposit, kata laluan, OTP atau pindahan wang diperlukan.
+[unknown_sender] buat bayaran 2500. https://case-73.invalid/nv-714c941e19 Ref: NV-714C941E19",train
+NVJI-0001187,scam,job,J03,de,CH,email,arbeiten​ sie​ von zu hause. negativer kontostand. überweisen sie das geld sofort 2500. Ref: NV-9A349F3C9F,train
+NVJI-0051699,scam,job,J03,ru,KZ,chat_group,"[unknown_sender] простые задания за комиссию. пополните счет для вывода. произведите оплату 99.
+[recipient] Проверьте информацию через официальный канал организации.
+[unknown_sender] в течение часа. отрицательный баланс.
+[recipient] Не требуются комиссия, депозит, пароль, OTP или перевод денег.
+[unknown_sender] отправьте мне деньги 99. https://case-12.invalid/nv-d0eb5f543f Ref: NV-D0EB5F543F",train
+NVJI-0008531,scam,job,J03,ru,KZ,whatsapp,подработка.​ отрицательный​ баланс. отправьте мне деньги 2500. Ref: NV-153A6184C3,validation
+NVJI-0007780,scam,job,J04,de,AT,email,letzte warnung — teilzeitjob. risikofrei. https://job-j04-19.invalid/nv-12c7156628. Ref: NV-12C7156628,train
+NVJI-0003956,scam,job,J04,ta,SG,telegram,இறுதி அறிவிப்பு — வீட்டிலிருந்து வேலை. உத்தரவாத லாபம். https://job-j04-75.invalid/nv-dbdd56c937. Ref: NV-DBDD56C937,train
+NVJI-0003684,scam,job,J04,vi,VN,email,hành​ động​ ngay lập tức — nhiệm vụ đơn giản nhận hoa hồng. lợi nhuận hàng ngày. https://job-j04-94.invalid/nv-0b449d4c2b. Ref: NV-0B449D4C2B,train
+NVJI-0010020,scam,job,J04,pt,BR,whatsapp,aja​ imediatamente​ — tarefas simples com comissão. retorno diário. https://job-j04-28.invalid/nv-4b802a0bd1. Ref: NV-4B802A0BD1,validation
+NVJI-0004164,scam,job,J04,ms,SG,telegram,notis​ terakhir​ — tugas mudah dapat komisen. keuntungan harian. https://job-j04-89.invalid/nv-aa1232ccdb. Ref: NV-AA1232CCDB,train
+NVJI-0003860,scam,job,J04,ms,BN,job_board,dalam masa satu jam — kerja dari rumah. pulangan dijamin. https://job-j04-76.invalid/nv-48a0f3d5f6. Ref: NV-48A0F3D5F6,train
+NVJI-0051844,scam,job,J04,ur,IN,job_board,"[unknown_sender] فوری کارروائی کریں — پارٹ ٹائم نوکری. بغیر خطرہ. https://job-j04-60.invalid/nv-fea70018af.
+[recipient] ادارے کے سرکاری ذریعے سے تصدیق کریں۔
+[unknown_sender] فوری کارروائی کریں. یقینی منافع.
+[recipient] کسی فیس، جمع، پاس ورڈ، او ٹی پی یا رقم کی منتقلی کی ضرورت نہیں ہے۔
+[unknown_sender] ابھی رقم بھیجیں 120. https://case-60.invalid/nv-fea70018af Ref: NV-FEA70018AF",train
+NVJI-0049972,scam,job,J04,zh,HK,social_media_dm,"[unknown_sender] 立即处理 — 兼职工作. 稳赚不赔. https://job-j04-31.invalid/nv-786fda2425.
+[recipient] 请通过机构的官方渠道独立核实。
+[unknown_sender] 立即处理. 保证收益.
+[recipient] 无需支付费用、押金或转账，也不要提供密码或验证码。
+[unknown_sender] 立即转账 120. https://case-31.invalid/nv-786fda2425 Ref: NV-786FDA2425",train
+NVJI-0051252,scam,job,J04,de,DE,social_media_dm,"[unknown_sender] handeln​ sie​ sofort — einfache aufgaben gegen provision. tägliche rendite. https://job-j04-50.invalid/nv-018caf08f5.
+[recipient] Prüfen Sie dies über den offiziellen Kanal der Organisation.
+[unknown_sender] innerhalb einer stunde. tägliche rendite.
+[recipient] Es sind keine Gebühr, Kaution, Passwort, OTP oder Geldüberweisung erforderlich.
+[unknown_sender] schicken sie mir geld 5000. https://case-50.invalid/nv-018caf08f5 Ref: NV-018CAF08F5",test
+NVJI-0003652,scam,job,J04,ta,SG,chat_group,ஒரு மணி நேரத்திற்குள் — பகுதி நேர வேலை. ஆபத்து இல்லாத வருமானம். https://job-j04-62.invalid/nv-238ed6a652. Ref: NV-238ED6A652,train
+NVJI-0048805,scam,job,J05,ar,SA,sms,"[unknown_sender] تحذير أخير. وظيفة بدوام جزئي. رسوم المعالجة. قم بالدفع 49. https：//job-j05-28.invalid/nv-c71f5069c1 Ref： NV-C71F5069C1
+[recipient] تحقق بشكل مستقل عبر القناة الرسمية للمؤسسة.
+[unknown_sender] تصرف فوراً. رسوم المعالجة.
+[recipient] لا يلزم دفع رسوم أو وديعة أو تقديم كلمة مرور أو رمز تحقق أو تحويل أموال.
+[unknown_sender] حوّل المال الآن 49. https://case-28.invalid/nv-c71f5069c1 Ref: NV-C71F5069C1",train
+NVJI-0001285,scam,job,J05,ur,IN,whatsapp,ایک گھنٹے کے اندر. پارٹ ٹائم نوکری. پروسیسنگ فیس. ادائیگی کریں 49. https：//job-j05-23.invalid/nv-fadbe23d36 Ref： NV-FADBE23D36,train
+NVJI-0006421,scam,job,J05,tl,SG,job_board,huling babala. part time na trabaho. processing fee. magpadala ng pera ngayon 49. https：//job-j05-18.invalid/nv-0826321917 Ref： NV-0826321917,train
+NVJI-0006773,scam,job,J05,de,CH,email,letzte warnung. arbeiten sie von zu hause. freigabegebühr. leisten sie die zahlung 250. hxxps://job-j05-79[.]invalid/nv-c895be5bda Ref: NV-C895BE5BDA,train
+NVJI-0006933,scam,job,J05,vi,VN,whatsapp,hành động ngay lập tức... nhiệm vụ đơn giản nhận hoa hồng. tiền đặt cọc được hoàn lại. chuyển tiền ngay 1000. https://job-j05-45.invalid/nv-8218c6b351 Ref: NV-8218C6B351,train
+NVJI-0004645,scam,job,J05,de,AT,whatsapp,handeln sie sofort. teilzeitjob. bearbeitungsgebühr. leisten sie die zahlung 49. https：//job-j05-85.invalid/nv-2634455842 Ref： NV-2634455842,train
+NVJI-0010229,scam,job,J05,pt,PT,sms,aviso final. trabalhe em casa. taxa de liberação. envie dinheiro para mim 250. hxxps://job-j05-43[.]invalid/nv-1729cd9ec3 Ref: NV-1729CD9EC3,train
+NVJI-0004693,scam,job,J05,ru,KZ,email,последнее предупреждение. работа на дому. комиссия за обработку. отправьте мне деньги 49. https：//job-j05-36.invalid/nv-8f837ca529 Ref： NV-8F837CA529,train
+NVJI-0010485,scam,job,J05,th,TH,telegram,ภายในหนึ่งชั่วโมง... งานง่ายได้ค่าคอมมิชชั่น. เงินมัดจำคืนได้. ส่งเงินให้ฉัน 1000. https://job-j05-8.invalid/nv-29155174ae Ref: NV-29155174AE,test
+NVJI-0003829,scam,job,J05,hi,SG,telegram,अंतिम चेतावनी. पार्ट टाइम नौकरी. प्रोसेसिंग फीस. अभी पैसे भेजें 49. https：//job-j05-45.invalid/nv-caa780d37b Ref： NV-CAA780D37B,train
+NVJI-0002070,scam,job,J06,tl,PH,social_media_dm,simpleng task may komisyon. release fee; sa loob ng isang oras. hxxps://job-j06-32[.]invalid/nv-466ec73a79 Ref: NV-466EC73A79,train
+NVJI-0008774,scam,job,J06,ko,KR,job_board,간단한 작업으로 수수료. 처리 수수료; 한 시간 이내. https：//job-j06-43.invalid/nv-7cae56697d Ref： NV-7CAE56697D,train
+NVJI-0005382,scam,job,J06,id,ID,telegram,tugas mudah dapat komisi. biaya pencairan; dalam satu jam. hxxps://job-j06-46[.]invalid/nv-4d01bfab5a Ref: NV-4D01BFAB5A,train
+NVJI-0050246,scam,job,J06,hi,AE,social_media_dm,"[unknown_sender] घर से काम. प्रोसेसिंग फीस; अंतिम चेतावनी. https：//job-j06-14.invalid/nv-4280de624c Ref： NV-4280DE624C
+[recipient] संगठन के आधिकारिक माध्यम से स्वतंत्र पुष्टि करें।
+[unknown_sender] अंतिम चेतावनी. वापसी योग्य जमा.
+[recipient] कोई शुल्क, जमा, पासवर्ड, ओटीपी या धन हस्तांतरण आवश्यक नहीं है।
+[unknown_sender] भुगतान करें 75. https://case-14.invalid/nv-4280de624c Ref: NV-4280DE624C",train
+NVJI-0051894,scam,job,J06,id,ID,whatsapp,"[unknown_sender] tugas mudah dapat komisi. biaya pencairan; pemberitahuan terakhir. hxxps://job-j06-13[.]invalid/nv-64ef2761f4
+[recipient] Verifikasi melalui saluran resmi organisasi.
+[unknown_sender] dalam satu jam. biaya pencairan.
+[recipient] Tidak diperlukan biaya, deposit, kata sandi, OTP, atau transfer uang.
+[unknown_sender] kirim uang kepada saya 399. https://case-13.invalid/nv-64ef2761f4 Ref: NV-64EF2761F4",train
+NVJI-0009878,scam,job,J06,vi,VN,telegram,làm việc tại nhà. phí xử lý; cảnh báo cuối cùng. https：//job-j06-80.invalid/nv-a85c8adec8 Ref： NV-A85C8ADEC8,train
+NVJI-0002310,scam,job,J06,bn,BD,sms,সহজ কাজে কমিশন. রিলিজ ফি; শেষ সতর্কতা. hxxps://job-j06-78[.]invalid/nv-e4e416b816 Ref: NV-E4E416B816,train
+NVJI-0003734,scam,job,J06,hi,AE,job_board,घर से काम. प्रोसेसिंग फीस; एक घंटे के भीतर. https：//job-j06-47.invalid/nv-0c31bd1108 Ref： NV-0C31BD1108,train
+NVJI-0050710,scam,job,J06,tl,PH,job_board,"[unknown_sender] part time na trabaho... refundable deposit; kumilos agad. https://job-j06-90.invalid/nv-501008ac59
+[recipient] Mag-verify sa opisyal na channel ng organisasyon.
+[unknown_sender] kumilos agad. processing fee.
+[recipient] Walang bayad, deposito, password, OTP, o pagpapadala ng pera na kailangan.
+[unknown_sender] magpadala ng pera ngayon 1500. https://case-90.invalid/nv-501008ac59 Ref: NV-501008AC59",validation
+NVJI-0003782,scam,job,J06,en,IN,sms,Example Meridian Talent | work from home. mandatory training certificate must be purchased from us. processing fee; act immediately. https：//job-j06-95.invalid/nv-e66c084e76 Ref： NV-E66C084E76,train
+NVJI-0003975,scam,job,J07,ta,MY,telegram,எளிய பணிக்கு கமிஷன். திரும்பப்பெறக்கூடிய வைப்பு. எனக்கு பணம் அனுப்புங்கள் 99. Ref： NV-72B4154B47,train
+NVJI-0007399,scam,job,J07,fr,CH,telegram,emploi à temps partiel. frais de traitement. transférez l'argent maintenant 500. Ref: NV-EE84EA4F75,test
+NVJI-0010103,scam,job,J07,ja,JP,sms,簡単な作業で報酬... 解除手数料. 支払いをしてください 2500. Ref: NV-E95E3B1E68,test
+NVJI-0007287,scam,job,J07,hi,IN,sms,आसान काम पर कमीशन. वापसी योग्य जमा. मेरे खाते में पैसे भेजें 99. Ref： NV-1C0B931930,train
+NVJI-0048503,scam,job,J07,ko,KR,social_media_dm,"[unknown_sender] 간단한 작업으로 수수료... 해제 수수료. 결제하세요 2500.
+[recipient] 기관의 공식 채널을 통해 독립적으로 확인하세요.
+[unknown_sender] 최종 경고. 환불 가능한 보증금.
+[recipient] 수수료, 보증금, 비밀번호, OTP 또는 송금이 필요하지 않습니다.
+[unknown_sender] 결제하세요 2500. https://case-17.invalid/nv-bdd9dca4b4 Ref: NV-BDD9DCA4B4",train
+NVJI-0048343,scam,job,J07,pt,PT,sms,"[unknown_sender] trabalho de meio período. taxa de processamento. envie dinheiro para mim 500.
+[recipient] Verifique pelo canal oficial da organização.
+[unknown_sender] aja imediatamente. taxa de processamento.
+[recipient] Nenhuma taxa, depósito, senha, OTP ou transferência de dinheiro é necessária.
+[unknown_sender] transfira o dinheiro agora 500. https://case-51.invalid/nv-e347422954 Ref: NV-E347422954",train
+NVJI-0051943,scam,job,J07,th,TH,email,"[unknown_sender] งานพาร์ทไทม์. ค่าดำเนินการ. ส่งเงินให้ฉัน 500.
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] ดำเนินการทันที. ค่าดำเนินการ.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] โอนเงินตอนนี้ 500. https://case-62.invalid/nv-f950ec7ad2 Ref: NV-F950EC7AD2",train
+NVJI-0011543,scam,job,J07,hi,AE,social_media_dm,घर से काम... रिलीज शुल्क. भुगतान करें 2500. Ref: NV-8733F90C82,validation
+NVJI-0048727,scam,job,J07,bn,IN,telegram,"[unknown_sender] খণ্ডকালীন চাকরি. প্রসেসিং ফি. পেমেন্ট করুন 500.
+[recipient] প্রতিষ্ঠানের সরকারি চ্যানেলে যাচাই করুন।
+[unknown_sender] অবিলম্বে ব্যবস্থা নিন. প্রসেসিং ফি.
+[recipient] কোনো ফি, জমা, পাসওয়ার্ড, ওটিপি বা টাকা পাঠানো প্রয়োজন নেই।
+[unknown_sender] এখনই টাকা পাঠান 500. https://case-47.invalid/nv-4677b00a92 Ref: NV-4677B00A92",train
+NVJI-0008023,scam,job,J07,id,SG,sms,pekerjaan paruh waktu. biaya pemrosesan. kirim uang kepada saya 500. Ref: NV-3B310A0CCD,train
+NVJI-0009064,scam,job,J08,en,SG,social_media_dm,act immediately — part-time job. Example Bluehaven Recruitment says： deposit the company cheque and return the excess payment. make the payment. Use https：//job-j08-42.invalid/nv-2eee0556da. Ref： NV-2EEE0556DA,train
+NVJI-0004440,scam,job,J08,ar,AE,email,تصرف فوراً !!! مهام سهلة مقابل عمولة... أرسل لي المال. https://job-j08-74.invalid/nv-9fec02ffa7. Ref: NV-9FEC02FFA7,train
+NVJI-0011736,scam,job,J08,ar,AE,chat_group,خلال ساعة !!! مهام سهلة مقابل عمولة... أرسل لي المال. https://job-j08-95.invalid/nv-7e6ccc6acb. Ref: NV-7E6CCC6ACB,train
+NVJI-0051720,scam,job,J08,zh,SG,chat_group,"[unknown_sender] 立即处理 !!! 简单任务赚佣金... 支付这笔款项. https://job-j08-33.invalid/nv-d3445b3fd1.
+[recipient] 请通过机构的官方渠道独立核实。
+[unknown_sender] 最后通知. 支付这笔款项.
+[recipient] 无需支付费用、押金或转账，也不要提供密码或验证码。
+[unknown_sender] 支付这笔款项 5000. https://case-33.invalid/nv-d3445b3fd1 Ref: NV-D3445B3FD1",train
+NVJI-0006232,scam,job,J08,ru,RU,job_board,последнее предупреждение — работа на дому. произведите оплату. https：//job-j08-23.invalid/nv-2b96174d06. Ref： NV-2B96174D06,train
+NVJI-0007144,scam,job,J08,ru,RU,whatsapp,в течение часа — работа на дому. произведите оплату. https：//job-j08-62.invalid/nv-add76471d0. Ref： NV-ADD76471D0,train
+NVJI-0002424,scam,job,J08,bn,BD,email,অবিলম্বে ব্যবস্থা নিন !!! সহজ কাজে কমিশন... আমাকে টাকা পাঠান. https://job-j08-95.invalid/nv-e7b6a6b256. Ref: NV-E7B6A6B256,train
+NVJI-0000536,scam,job,J08,ta,SG,email,இறுதி அறிவிப்பு — வீட்டிலிருந்து வேலை. உடனே பணம் அனுப்பவும். hxxps://job-j08-50[.]invalid/nv-399d2f3984. Ref: NV-399D2F3984,train
+NVJI-0048632,scam,job,J08,bn,BD,job_board,"[unknown_sender] অবিলম্বে ব্যবস্থা নিন — বাড়ি থেকে কাজ. এখনই টাকা পাঠান. hxxps://job-j08-49[.]invalid/nv-33fbe31041.
+[recipient] প্রতিষ্ঠানের সরকারি চ্যানেলে যাচাই করুন।
+[unknown_sender] শেষ সতর্কতা. পেমেন্ট করুন.
+[recipient] কোনো ফি, জমা, পাসওয়ার্ড, ওটিপি বা টাকা পাঠানো প্রয়োজন নেই।
+[unknown_sender] পেমেন্ট করুন 750. https://case-49.invalid/nv-33fbe31041 Ref: NV-33FBE31041",test
+NVJI-0001976,scam,job,J08,ru,RU,sms,последнее предупреждение — подработка. переведите деньги сейчас. hxxps://job-j08-35[.]invalid/nv-da56c24fae. Ref: NV-DA56C24FAE,train
+NVJI-0050809,scam,job,J09,ms,MY,email,"[unknown_sender] bertindak segera. kerja sambilan. penghantaran bungkusan gagal. pindahkan wang sekarang 49. https://job-j09-92.invalid/nv-cd6ade5234
+[recipient] Sahkan melalui saluran rasmi organisasi.
+[unknown_sender] bertindak segera. penghantaran bungkusan gagal.
+[recipient] Tiada yuran, deposit, kata laluan, OTP atau pindahan wang diperlukan.
+[unknown_sender] pindahkan wang sekarang 49. https://case-92.invalid/nv-cd6ade5234 Ref: NV-CD6ADE5234",train
+NVJI-0051993,scam,job,J09,de,DE,chat_group,"[unknown_sender] letzte​ warnung.​ einfache aufgaben gegen provision. lieferadresse unvollständig. überweisen sie das geld sofort 1000. https://job-j09-15.invalid/nv-6f2437a4b9
+[recipient] Prüfen Sie dies über den offiziellen Kanal der Organisation.
+[unknown_sender] innerhalb einer stunde. zahlen sie die erneute zustellung.
+[recipient] Es sind keine Gebühr, Kaution, Passwort, OTP oder Geldüberweisung erforderlich.
+[unknown_sender] schicken sie mir geld 1000. https://case-15.invalid/nv-6f2437a4b9 Ref: NV-6F2437A4B9",train
+NVJI-0005817,scam,job,J09,ms,SG,sms,bertindak​ segera.​ tugas mudah dapat komisen. alamat penghantaran tidak lengkap. hantar wang kepada saya 1000. https://job-j09-93.invalid/nv-61bc8ff874 Ref: NV-61BC8FF874,train
+NVJI-0009129,scam,job,J09,de,DE,job_board,handeln​ sie​ sofort. einfache aufgaben gegen provision. lieferadresse unvollständig. leisten sie die zahlung 1000. https://job-j09-10.invalid/nv-f4f9ed5369 Ref: NV-F4F9ED5369,validation
+NVJI-0006905,scam,job,J09,fr,CA,job_board,agissez immédiatement. travaillez à domicile. payez les frais de relivraison. transférez l'argent maintenant 250. https://job-j09-17.invalid/nv-76e12d4b8f Ref: NV-76E12D4B8F,test
+NVJI-0001785,scam,job,J09,tl,SG,sms,kumilos​ agad.​ simpleng task may komisyon. kulang ang address. ipadala sa akin ang pera 1000. https://job-j09-38.invalid/nv-58e2dc3c62 Ref: NV-58E2DC3C62,train
+NVJI-0049753,scam,job,J09,bn,IN,whatsapp,"[unknown_sender] এক ঘণ্টার মধ্যে. খণ্ডকালীন চাকরি. পার্সেল ডেলিভারি ব্যর্থ. আমাকে টাকা পাঠান 49. https://job-j09-6.invalid/nv-8b60f7e5b9
+[recipient] প্রতিষ্ঠানের সরকারি চ্যানেলে যাচাই করুন।
+[unknown_sender] অবিলম্বে ব্যবস্থা নিন. পার্সেল ডেলিভারি ব্যর্থ.
+[recipient] কোনো ফি, জমা, পাসওয়ার্ড, ওটিপি বা টাকা পাঠানো প্রয়োজন নেই।
+[unknown_sender] এখনই টাকা পাঠান 49. https://case-6.invalid/nv-8b60f7e5b9 Ref: NV-8B60F7E5B9",test
+NVJI-0002473,scam,job,J09,ms,MY,job_board,dalam masa satu jam. kerja sambilan. penghantaran bungkusan gagal. hantar wang kepada saya 49. https://job-j09-47.invalid/nv-5a797b9428 Ref: NV-5A797B9428,train
+NVJI-0008185,scam,job,J09,ko,KR,job_board,최종 경고. 재택 부업. 택배 배송에 실패했습니다. 결제하세요 49. https://job-j09-36.invalid/nv-116d0bbc7e Ref: NV-116D0BBC7E,train
+NVJI-0011849,scam,job,J09,ur,AE,whatsapp,آخری انتباہ. گھر سے کام. دوبارہ ترسیل کی فیس دیں. مجھے پیسے بھیجیں 250. https://job-j09-14.invalid/nv-331c689d5c Ref: NV-331C689D5C,validation
+NVJI-0050122,scam,job,J10,ru,RU,job_board,"[unknown_sender] работа​ на​ дому. произведите оплату; в течение часа. https://job-j10-84.invalid/nv-f8e85d5ae5
+[recipient] Проверьте информацию через официальный канал организации.
+[unknown_sender] действуйте немедленно. переведите деньги сейчас.
+[recipient] Не требуются комиссия, депозит, пароль, OTP или перевод денег.
+[unknown_sender] переведите деньги сейчас 1500. https://case-84.invalid/nv-f8e85d5ae5 Ref: NV-F8E85D5AE5",train
+NVJI-0048682,scam,job,J10,ta,LK,whatsapp,"[unknown_sender] பகுதி​ நேர​ வேலை. பணம் செலுத்தவும்; ஒரு மணி நேரத்திற்குள். https://job-j10-2.invalid/nv-bd7ccfdb7c
+[recipient] நிறுவனத்தின் அதிகாரப்பூர்வ வழியில் சரிபார்க்கவும்.
+[unknown_sender] உடனடியாக செயல்படவும். உடனே பணம் அனுப்பவும்.
+[recipient] கட்டணம், வைப்பு, கடவுச்சொல், OTP அல்லது பணப் பரிமாற்றம் தேவையில்லை.
+[unknown_sender] உடனே பணம் அனுப்பவும் 1500. https://case-2.invalid/nv-bd7ccfdb7c Ref: NV-BD7CCFDB7C",test
+NVJI-0001402,scam,job,J10,ko,KR,job_board,재택​ 부업.​ 결제하세요; 한 시간 이내. https://job-j10-43.invalid/nv-d9aad52a40 Ref: NV-D9AAD52A40,train
+NVJI-0005498,scam,job,J10,pt,BR,job_board,trabalhe em casa. transfira o dinheiro agora; dentro de uma hora. https://job-j10-65.invalid/nv-4790a3777d Ref: NV-4790A3777D,train
+NVJI-0006554,scam,job,J10,tl,PH,sms,trabaho mula sa bahay. magpadala ng pera ngayon; kumilos agad. https://job-j10-54.invalid/nv-02e916fce6 Ref: NV-02E916FCE6,train
+NVJI-0003978,scam,job,J10,pt,BR,email,tarefas simples com comissão. envie dinheiro para mim; dentro de uma hora. https://job-j10-0.invalid/nv-baa2a8440b Ref: NV-BAA2A8440B,train
+NVJI-0048298,scam,job,J10,ru,RU,chat_group,"[unknown_sender] работа​ на​ дому. произведите оплату; действуйте немедленно. https://job-j10-6.invalid/nv-8531507da0
+[recipient] Проверьте информацию через официальный канал организации.
+[unknown_sender] действуйте немедленно. переведите деньги сейчас.
+[recipient] Не требуются комиссия, депозит, пароль, OTP или перевод денег.
+[unknown_sender] переведите деньги сейчас 1500. https://case-6.invalid/nv-8531507da0 Ref: NV-8531507DA0",train
+NVJI-0049354,scam,job,J10,bn,BD,whatsapp,"[unknown_sender] খণ্ডকালীন​ চাকরি.​ পেমেন্ট করুন; শেষ সতর্কতা. https://job-j10-92.invalid/nv-2e9f77dee3
+[recipient] প্রতিষ্ঠানের সরকারি চ্যানেলে যাচাই করুন।
+[unknown_sender] অবিলম্বে ব্যবস্থা নিন. এখনই টাকা পাঠান.
+[recipient] কোনো ফি, জমা, পাসওয়ার্ড, ওটিপি বা টাকা পাঠানো প্রয়োজন নেই।
+[unknown_sender] এখনই টাকা পাঠান 1500. https://case-92.invalid/nv-2e9f77dee3 Ref: NV-2E9F77DEE3",train
+NVJI-0049226,scam,job,J10,th,TH,sms,"[unknown_sender] ทำงานจากที่บ้าน. โอนเงินตอนนี้; ดำเนินการทันที. https://job-j10-61.invalid/nv-516f25ae9e
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] คำเตือนครั้งสุดท้าย. ชำระเงิน.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] ชำระเงิน 75. https://case-61.invalid/nv-516f25ae9e Ref: NV-516F25AE9E",train
+NVJI-0002522,scam,job,J10,ja,JP,sms,簡単な作業で報酬. 今すぐ送金してください; 直ちに対応してください. https://job-j10-96.invalid/nv-8c3f0492b7 Ref: NV-8C3F0492B7,train
+NVJI-0003483,scam,job,J11,es,CO,chat_group,tareas sencillas con comisión. realiza el pago. transfiere el dinero ahora 99. Ref: NV-BB36B19E75,train
+NVJI-0000235,scam,job,J11,pt,PT,whatsapp,trabalho de meio período. transfira o dinheiro agora. faça o pagamento 500. Ref: NV-35FE5B971B,train
+NVJI-0011771,scam,job,J11,hi,AE,email,घर​ से​ काम. मेरे खाते में पैसे भेजें. मेरे खाते में पैसे भेजें 2500. Ref: NV-70E8B60A1A,train
+NVJI-0010171,scam,job,J11,es,MX,telegram,trabajo a tiempo parcial. transfiere el dinero ahora. transfiere el dinero ahora 500. Ref: NV-1897CEE0D1,validation
+NVJI-0051291,scam,job,J11,hi,IN,email,"[unknown_sender] आसान काम पर कमीशन. भुगतान करें. भुगतान करें 99.
+[recipient] संगठन के आधिकारिक माध्यम से स्वतंत्र पुष्टि करें।
+[unknown_sender] एक घंटे के भीतर. मेरे खाते में पैसे भेजें.
+[recipient] कोई शुल्क, जमा, पासवर्ड, ओटीपी या धन हस्तांतरण आवश्यक नहीं है।
+[unknown_sender] मेरे खाते में पैसे भेजें 99. https://case-89.invalid/nv-044da0e4fa Ref: NV-044DA0E4FA",train
+NVJI-0000859,scam,job,J11,ta,MY,chat_group,பகுதி நேர வேலை. உடனே பணம் அனுப்பவும். உடனே பணம் அனுப்பவும் 500. Ref: NV-E54E2348C4,train
+NVJI-0005755,scam,job,J11,vi,VN,sms,việc làm bán thời gian. chuyển tiền ngay. thực hiện thanh toán 500. Ref: NV-7F2281BEF8,train
+NVJI-0002091,scam,job,J11,en,AU,social_media_dm,simple tasks with commission: payment assistant. mystery-shopper assignment requires gift-card purchases. make the payment. make the payment 99. Contact us off-platform. Ref: NV-4659AB61C5,train
+NVJI-0049899,scam,job,J11,id,ID,whatsapp,"[unknown_sender] tugas mudah dapat komisi. lakukan pembayaran. lakukan pembayaran 99.
+[recipient] Verifikasi melalui saluran resmi organisasi.
+[unknown_sender] dalam satu jam. kirim uang kepada saya.
+[recipient] Tidak diperlukan biaya, deposit, kata sandi, OTP, atau transfer uang.
+[unknown_sender] kirim uang kepada saya 99. https://case-55.invalid/nv-aa1a28abd4 Ref: NV-AA1A28ABD4",train
+NVJI-0000603,scam,job,J11,ja,JP,job_board,高収入アルバイト. 支払いをしてください. 今すぐ送金してください 99. Ref: NV-CDC215488B,train
+NVJI-0050460,scam,job,J12,ko,KR,chat_group,"[unknown_sender] 즉시​ 조치하세요​ — 고수익 아르바이트. 한 시간 이내. https://job-j12-34.invalid/nv-0c98edc59b.
+[recipient] 기관의 공식 채널을 통해 독립적으로 확인하세요.
+[unknown_sender] 한 시간 이내. 한 시간 이내.
+[recipient] 수수료, 보증금, 비밀번호, OTP 또는 송금이 필요하지 않습니다.
+[unknown_sender] 저에게 돈을 보내세요 5000. https://case-34.invalid/nv-0c98edc59b Ref: NV-0C98EDC59B",train
+NVJI-0002892,scam,job,J12,ta,SG,job_board,உடனடியாக​ செயல்படவும்​ — எளிய பணிக்கு கமிஷன். ஒரு மணி நேரத்திற்குள். https://job-j12-78.invalid/nv-0d2469b146. Ref: NV-0D2469B146,train
+NVJI-0049596,scam,job,J12,es,MX,job_board,"[unknown_sender] actúa​ inmediatamente​ — tareas sencillas con comisión. dentro de una hora. https://job-j12-43.invalid/nv-53d4d9c77e.
+[recipient] Verifique por el canal oficial de la organización.
+[unknown_sender] dentro de una hora. dentro de una hora.
+[recipient] No se requiere tarifa, depósito, contraseña, OTP ni transferencia de dinero.
+[unknown_sender] envíame dinero 5000. https://case-43.invalid/nv-53d4d9c77e Ref: NV-53D4D9C77E",validation
+NVJI-0000444,scam,job,J12,pt,BR,whatsapp,aja​ imediatamente​ — tarefas simples com comissão. dentro de uma hora. https://job-j12-55.invalid/nv-bf28993bef. Ref: NV-BF28993BEF,test
+NVJI-0001708,scam,job,J12,vi,VN,telegram,trong vòng một giờ — việc làm bán thời gian. cảnh báo cuối cùng. https://job-j12-58.invalid/nv-fdf0799502. Ref: NV-FDF0799502,train
+NVJI-0009564,scam,job,J12,pt,BR,email,aviso​ final​ — tarefas simples com comissão. dentro de uma hora. https://job-j12-57.invalid/nv-8ccba09dba. Ref: NV-8CCBA09DBA,train
+NVJI-0008492,scam,job,J12,tl,PH,telegram,huling babala — trabaho mula sa bahay. kumilos agad. https://job-j12-52.invalid/nv-81ce9f4f16. Ref: NV-81CE9F4F16,train
+NVJI-0004220,scam,job,J12,zh,SG,chat_group,最后通知 — 在家工作. 立即处理. https://job-j12-48.invalid/nv-0f74709027. Ref: NV-0F74709027,train
+NVJI-0005740,scam,job,J12,zh,SG,telegram,最后通知 — 兼职工作. 马上行动. https://job-j12-16.invalid/nv-4d46d699a5. Ref: NV-4D46D699A5,test
+NVJI-0009916,scam,job,J12,vi,VN,whatsapp,trong vòng một giờ — việc làm bán thời gian. cảnh báo cuối cùng. https://job-j12-21.invalid/nv-0fd5946e62. Ref: NV-0FD5946E62,train
+NVJI-0010765,scam,job,J13,bn,IN,social_media_dm,অবিলম্বে ব্যবস্থা নিন. খণ্ডকালীন চাকরি. প্রসেসিং ফি. পেমেন্ট করুন 49. https：//job-j13-94.invalid/nv-4c22f61fcf Ref： NV-4C22F61FCF,test
+NVJI-0006957,scam,job,J13,ms,SG,telegram,dalam masa satu jam... tugas mudah dapat komisen. deposit boleh dikembalikan. hantar wang kepada saya 1000. https://job-j13-69.invalid/nv-1526c3e46b Ref: NV-1526C3E46B,validation
+NVJI-0003501,scam,job,J13,id,ID,job_board,dalam satu jam... tugas mudah dapat komisi. deposit dapat dikembalikan. lakukan pembayaran 1000. https://job-j13-8.invalid/nv-88115bdeb4 Ref: NV-88115BDEB4,train
+NVJI-0010973,scam,job,J13,hi,AE,email,तुरंत कार्रवाई करें. घर से काम. रिलीज शुल्क. भुगतान करें 250. hxxps://job-j13-11[.]invalid/nv-abccf512be Ref: NV-ABCCF512BE,validation
+NVJI-0008621,scam,job,J13,ja,JP,email,1時間以内. 簡単な作業で報酬. 解除手数料. 私にお金を送って 250. hxxps://job-j13-84[.]invalid/nv-b9276f58e6 Ref: NV-B9276F58E6,train
+NVJI-0004317,scam,job,J13,ta,IN,social_media_dm,இறுதி அறிவிப்பு... எளிய பணிக்கு கமிஷன். திரும்பப்பெறக்கூடிய வைப்பு. எனக்கு பணம் அனுப்புங்கள் 1000. https://job-j13-48.invalid/nv-0a6e88d810 Ref: NV-0A6E88D810,test
+NVJI-0003293,scam,job,J13,es,CO,job_board,dentro de una hora. trabaja desde casa. tarifa de liberación. realiza el pago 250. hxxps://job-j13-91[.]invalid/nv-004026eb61 Ref: NV-004026EB61,train
+NVJI-0010397,scam,job,J13,ta,IN,sms,உடனடியாக செயல்படவும். வீட்டிலிருந்து வேலை. விடுவிப்பு கட்டணம். உடனே பணம் அனுப்பவும் 250. hxxps://job-j13-17[.]invalid/nv-d890687bf5 Ref: NV-D890687BF5,train
+NVJI-0007773,scam,job,J13,zh,TW,whatsapp,马上行动... 简单任务赚佣金. 可退还押金. 立即转账 1000. https://job-j13-12.invalid/nv-a3601baac4 Ref: NV-A3601BAAC4,train
+NVJI-0010413,scam,job,J13,en,NZ,chat_group,within one hour... Example Cedarline Staffing: simple tasks with commission !!! warehouse coordinator. overseas placement requires visa and travel fees in advance. refundable deposit. transfer the money now 1000. https://job-j13-33.invalid/nv-6820c07a72 Ref: NV-6820C07A72,train
+NVJI-0051694,scam,job,J14,ja,JP,social_media_dm,"[unknown_sender] 在宅の副業... パスワードを教えて; 最終警告. https://job-j14-7.invalid/nv-528fa9f3d7
+[recipient] 組織の公式窓口から独自に確認してください。
+[unknown_sender] 直ちに対応してください. 認証コードを送って.
+[recipient] 手数料、保証金、パスワード、OTP、送金は必要ありません。
+[unknown_sender] 今すぐ送金してください 1500. https://case-7.invalid/nv-528fa9f3d7 Ref: NV-528FA9F3D7",test
+NVJI-0049166,scam,job,J14,ar,EG,whatsapp,"[unknown_sender] العمل من المنزل. أرسل رمز التحقق; تحذير أخير. https：//job-j14-1.invalid/nv-a616d3011d Ref： NV-A616D3011D
+[recipient] تحقق بشكل مستقل عبر القناة الرسمية للمؤسسة.
+[unknown_sender] تحذير أخير. أعطني كلمة المرور.
+[recipient] لا يلزم دفع رسوم أو وديعة أو تقديم كلمة مرور أو رمز تحقق أو تحويل أموال.
+[unknown_sender] قم بالدفع 75. https://case-1.invalid/nv-a616d3011d Ref: NV-A616D3011D",train
+NVJI-0001966,scam,job,J14,de,AT,social_media_dm,teilzeitjob... geben sie ihr passwort an; letzte warnung. https://job-j14-25.invalid/nv-76da62f293 Ref: NV-76DA62F293,train
+NVJI-0048638,scam,job,J14,vi,VN,sms,"[unknown_sender] làm việc tại nhà. gửi mã otp; trong vòng một giờ. https：//job-j14-55.invalid/nv-002932b7cd Ref： NV-002932B7CD
+[recipient] Hãy xác minh qua kênh chính thức của tổ chức.
+[unknown_sender] cảnh báo cuối cùng. cung cấp mật khẩu.
+[recipient] Không yêu cầu phí, tiền đặt cọc, mật khẩu, OTP hoặc chuyển tiền.
+[unknown_sender] thực hiện thanh toán 75. https://case-55.invalid/nv-002932b7cd Ref: NV-002932B7CD",train
+NVJI-0005614,scam,job,J14,de,AT,telegram,teilzeitjob... geben sie ihr passwort an; innerhalb einer stunde. https://job-j14-84.invalid/nv-9f2db031f4 Ref: NV-9F2DB031F4,train
+NVJI-0003598,scam,job,J14,pt,BR,telegram,trabalho de meio período... forneça sua senha; dentro de uma hora. https://job-j14-8.invalid/nv-1a0c249b60 Ref: NV-1A0C249B60,train
+NVJI-0048686,scam,job,J14,fr,BE,telegram,"[unknown_sender] travaillez à domicile. envoyez le code otp; agissez immédiatement. https：//job-j14-6.invalid/nv-e1d7e85b8e Ref： NV-E1D7E85B8E
+[recipient] Vérifiez par le canal officiel de l’organisation.
+[unknown_sender] dernier avertissement. donnez votre mot de passe.
+[recipient] Aucun frais, dépôt, mot de passe, OTP ou transfert d’argent n’est requis.
+[unknown_sender] effectuez le paiement 75. https://case-6.invalid/nv-e1d7e85b8e Ref: NV-E1D7E85B8E",train
+NVJI-0048846,scam,job,J14,th,TH,sms,"[unknown_sender] งานง่ายได้ค่าคอมมิชชั่น. แชร์รหัสยืนยัน; ภายในหนึ่งชั่วโมง. hxxps://job-j14-69[.]invalid/nv-c3f4dc19ed
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] ภายในหนึ่งชั่วโมง. แชร์รหัสยืนยัน.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] ส่งเงินให้ฉัน 399. https://case-69.invalid/nv-c3f4dc19ed Ref: NV-C3F4DC19ED",train
+NVJI-0004798,scam,job,J14,hi,SG,email,पार्ट टाइम नौकरी... पासवर्ड बताएं; तुरंत कार्रवाई करें. https://job-j14-44.invalid/nv-1521eb370f Ref: NV-1521EB370F,train
+NVJI-0010830,scam,job,J14,ru,RU,job_board,простые задания за комиссию. передайте код из смс; действуйте немедленно. hxxps://job-j14-62[.]invalid/nv-c054bb546e Ref: NV-C054BB546E,train
+NVJI-0051775,scam,job,J15,ru,KZ,email,"[unknown_sender] работа на дому. ваш телефон взломан. произведите оплату 500.
+[recipient] Проверьте информацию через официальный канал организации.
+[unknown_sender] действуйте немедленно. ваш телефон взломан.
+[recipient] Не требуются комиссия, депозит, пароль, OTP или перевод денег.
+[unknown_sender] переведите деньги сейчас 500. https://case-88.invalid/nv-87d30c739b Ref: NV-87D30C739B",train
+NVJI-0010687,scam,job,J15,de,AT,chat_group,teilzeitjob. ihr telefon wurde gehackt. leisten sie die zahlung 500. Ref: NV-ACF5CE972B,test
+NVJI-0005743,scam,job,J15,id,SG,email,pekerjaan paruh waktu. ponsel anda diretas. kirim uang kepada saya 500. Ref: NV-5E65090C8E,train
+NVJI-0008319,scam,job,J15,th,TH,whatsapp,งานง่ายได้ค่าคอมมิชชั่น. ติดตั้งแอปนี้. ชำระเงิน 99. Ref： NV-7DAB97367D,train
+NVJI-0011743,scam,job,J15,en,AE,whatsapp,part-time job: mystery shopper. install the interview application or APK before the meeting. install this interview application. send the funds 500. Contact us off-platform. Ref: NV-9B1DC57E1D,train
+NVJI-0002031,scam,job,J15,vi,VN,job_board,nhiệm vụ đơn giản nhận hoa hồng. cài đặt ứng dụng này. thực hiện thanh toán 99. Ref： NV-13B759EE8E,validation
+NVJI-0000879,scam,job,J15,id,ID,chat_group,tugas mudah dapat komisi. instal aplikasi ini. lakukan pembayaran 99. Ref： NV-E094DED824,validation
+NVJI-0001343,scam,job,J15,ar,JO,chat_group,العمل من المنزل... الدعم الفني. قم بالدفع 2500. Ref: NV-95464CD6E9,train
+NVJI-0009775,scam,job,J15,de,AT,email,teilzeitjob. ihr telefon wurde gehackt. leisten sie die zahlung 500. Ref: NV-4C15795C6A,train
+NVJI-0008031,scam,job,J15,ar,JO,email,مهام سهلة مقابل عمولة. ثبّت هذا التطبيق. قم بالدفع 99. Ref： NV-8283E61EAF,train
+NVJI-0005008,scam,job,J16,bn,BD,email,শেষ সতর্কতা — খণ্ডকালীন চাকরি. শেষ সতর্কতা. https：//job-j16-60.invalid/nv-fc77c4e954. Ref： NV-FC77C4E954,train
+NVJI-0006448,scam,job,J16,pt,BR,sms,aviso final — trabalho de meio período. aviso final. https：//job-j16-45.invalid/nv-8abb290a07. Ref： NV-8ABB290A07,train
+NVJI-0002992,scam,job,J16,de,AT,email,letzte warnung — teilzeitjob. letzte warnung. https：//job-j16-81.invalid/nv-48d113b6dc. Ref： NV-48D113B6DC,train
+NVJI-0006032,scam,job,J16,de,CH,whatsapp,handeln sie sofort — arbeiten sie von zu hause. handeln sie sofort. hxxps://job-j16-17[.]invalid/nv-98a7a7792d. Ref: NV-98A7A7792D,test
+NVJI-0000416,scam,job,J16,vi,VN,job_board,hành động ngay lập tức — làm việc tại nhà. hành động ngay lập tức. hxxps://job-j16-27[.]invalid/nv-ca54f1b50c. Ref: NV-CA54F1B50C,train
+NVJI-0006640,scam,job,J16,de,AT,whatsapp,innerhalb einer stunde — teilzeitjob. letzte warnung. https：//job-j16-43.invalid/nv-a00898f7e6. Ref： NV-A00898F7E6,train
+NVJI-0001552,scam,job,J16,ar,AE,chat_group,تحذير أخير — وظيفة بدوام جزئي. تحذير أخير. https：//job-j16-96.invalid/nv-7b3ad31705. Ref： NV-7B3AD31705,train
+NVJI-0002560,scam,job,J16,ja,JP,chat_group,最終警告 — 在宅の副業. 最終警告. https：//job-j16-37.invalid/nv-9971dc1e7c. Ref： NV-9971DC1E7C,train
+NVJI-0003600,scam,job,J16,de,DE,email,innerhalb einer stunde !!! einfache aufgaben gegen provision... innerhalb einer stunde. https://job-j16-10.invalid/nv-4095e6ede5. Ref: NV-4095E6EDE5,train
+NVJI-0002800,scam,job,J16,pt,BR,telegram,aja imediatamente — trabalho de meio período. aviso final. https：//job-j16-83.invalid/nv-4c954e52e7. Ref： NV-4C954E52E7,train
+NVJI-0021537,scam,investment,I01,hi,IN,social_media_dm,अंतिम​ चेतावनी.​ ट्रेडिंग प्लेटफॉर्म. बिना जोखिम. मेरे खाते में पैसे भेजें 1000. https://investment-i01-30.invalid/nv-bf72700989 Ref: NV-BF72700989,train
+NVJI-0018465,scam,investment,I01,th,TH,telegram,ดำเนินการทันที.​ แพลตฟอร์มซื้อขาย.​ ไม่มีความเสี่ยง. ส่งเงินให้ฉัน 1000. https://investment-i01-62.invalid/nv-c4428dcddf Ref: NV-C4428DCDDF,test
+NVJI-0015201,scam,investment,I01,en,US,chat_group,final​ notice.​ Example Northstar Crypto: private trading platform — forex. a trusted online friend has a private investment tip. risk-free returns. make the payment 1000. https://investment-i01-96.invalid/nv-0f2ff3174b Ref: NV-0F2FF3174B,train
+NVJI-0052465,scam,investment,I01,es,ES,telegram,"[unknown_sender] aviso​ final.​ plataforma de trading. sin riesgo. envíame dinero 1000. https://investment-i01-76.invalid/nv-4f152f93c0
+[recipient] Verifique por el canal oficial de la organización.
+[unknown_sender] dentro de una hora. rentabilidad diaria.
+[recipient] No se requiere tarifa, depósito, contraseña, OTP ni transferencia de dinero.
+[unknown_sender] envíame dinero 1000. https://case-76.invalid/nv-4f152f93c0 Ref: NV-4F152F93C0",train
+NVJI-0013505,scam,investment,I01,ko,KR,sms,즉시 조치하세요. 암호화폐 투자. 매일 수익. 지금 송금하세요 250. https://investment-i01-49.invalid/nv-069e0b826e Ref: NV-069E0B826E,train
+NVJI-0013649,scam,investment,I01,pt,PT,chat_group,aja imediatamente. investimento em criptomoedas. retorno diário. envie dinheiro para mim 250. https://investment-i01-96.invalid/nv-0a36903b96 Ref: NV-0A36903B96,train
+NVJI-0023105,scam,investment,I01,en,US,whatsapp,within one hour. Example Atlas Quant: cryptocurrency investment — gold. a trusted online friend has a private investment tip. daily returns. transfer the money now 250. https://investment-i01-46.invalid/nv-6c36ba1170 Ref: NV-6C36BA1170,validation
+NVJI-0015873,scam,investment,I01,fr,CA,chat_group,agissez​ immédiatement.​ plateforme de trading. sans risque. transférez l'argent maintenant 1000. https://investment-i01-89.invalid/nv-85634bcbd7 Ref: NV-85634BCBD7,validation
+NVJI-0014833,scam,investment,I01,ar,SA,telegram,خلال ساعة. فرصة استثمار. ربح مضمون. أرسل لي المال 49. https://investment-i01-19.invalid/nv-4c1de4149a Ref: NV-4C1DE4149A,train
+NVJI-0052257,scam,investment,I01,pt,PT,email,"[unknown_sender] aviso final. investimento em criptomoedas. retorno diário. transfira o dinheiro agora 250. https://investment-i01-62.invalid/nv-42f74d50ce
+[recipient] Verifique pelo canal oficial da organização.
+[unknown_sender] aviso final. sem risco.
+[recipient] Nenhuma taxa, depósito, senha, OTP ou transferência de dinheiro é necessária.
+[unknown_sender] faça o pagamento 250. https://case-62.invalid/nv-42f74d50ce Ref: NV-42F74D50CE",train
+NVJI-0055074,scam,investment,I02,ur,PK,social_media_dm,"[unknown_sender] کرپٹو سرمایہ کاری. یقینی منافع; آخری انتباہ. https://investment-i02-66.invalid/nv-2484fae683
+[recipient] ادارے کے سرکاری ذریعے سے تصدیق کریں۔
+[unknown_sender] آخری انتباہ. بغیر خطرہ.
+[recipient] کسی فیس، جمع، پاس ورڈ، او ٹی پی یا رقم کی منتقلی کی ضرورت نہیں ہے۔
+[unknown_sender] ادائیگی کریں 75. https://case-66.invalid/nv-2484fae683 Ref: NV-2484FAE683",train
+NVJI-0020562,scam,investment,I02,ta,LK,whatsapp,வர்த்தக தளம். தினசரி வருமானம்; உடனடியாக செயல்படவும். https://investment-i02-25.invalid/nv-b31b78e539 Ref: NV-B31B78E539,train
+NVJI-0013186,scam,investment,I02,ru,RU,chat_group,инвестиционная​ возможность.​ без риска; в течение часа. https://investment-i02-21.invalid/nv-62b86f5af4 Ref: NV-62B86F5AF4,train
+NVJI-0053362,scam,investment,I02,hi,SG,sms,"[unknown_sender] ट्रेडिंग प्लेटफॉर्म. रोजाना रिटर्न; तुरंत कार्रवाई करें. https://investment-i02-3.invalid/nv-ac334e675d
+[recipient] संगठन के आधिकारिक माध्यम से स्वतंत्र पुष्टि करें।
+[unknown_sender] एक घंटे के भीतर. रोजाना रिटर्न.
+[recipient] कोई शुल्क, जमा, पासवर्ड, ओटीपी या धन हस्तांतरण आवश्यक नहीं है।
+[unknown_sender] मेरे खाते में पैसे भेजें 399. https://case-3.invalid/nv-ac334e675d Ref: NV-AC334E675D",train
+NVJI-0023170,scam,investment,I02,de,AT,telegram,investitionsmöglichkeit.​ risikofrei;​ handeln sie sofort. https://investment-i02-14.invalid/nv-3ba07041aa Ref: NV-3BA07041AA,train
+NVJI-0013330,scam,investment,I02,bn,BD,job_board,বিনিয়োগের​ সুযোগ.​ ঝুঁকিমুক্ত; এক ঘণ্টার মধ্যে. https://investment-i02-68.invalid/nv-3291f9a18a Ref: NV-3291F9A18A,train
+NVJI-0016338,scam,investment,I02,vi,VN,sms,nền tảng giao dịch. lợi nhuận hàng ngày; trong vòng một giờ. https://investment-i02-69.invalid/nv-fbd336f967 Ref: NV-FBD336F967,validation
+NVJI-0018418,scam,investment,I02,pt,BR,sms,oportunidade​ de​ investimento. sem risco; aja imediatamente. https://investment-i02-15.invalid/nv-a14720742a Ref: NV-A14720742A,train
+NVJI-0019794,scam,investment,I02,ko,KR,social_media_dm,거래 플랫폼. 매일 수익; 한 시간 이내. https://investment-i02-33.invalid/nv-4aa03e3753 Ref: NV-4AA03E3753,train
+NVJI-0023714,scam,investment,I02,zh,MY,whatsapp,加密货币投资. 保证收益; 马上行动. https://investment-i02-73.invalid/nv-26a3c4fc95 Ref: NV-26A3C4FC95,train
+NVJI-0017539,scam,investment,I03,zh,MY,whatsapp,投资机会. 保证收益. 立即转账 500. Ref: NV-35AB7BFB86,train
+NVJI-0020819,scam,investment,I03,ja,JP,telegram,暗号資産投資.​ 毎日の収益.​ 私にお金を送って 2500. Ref: NV-D4EEC3D555,test
+NVJI-0017459,scam,investment,I03,vi,VN,telegram,đầu​ tư​ tiền điện tử. lợi nhuận hàng ngày. gửi tiền cho tôi 2500. Ref: NV-7F1C4BCBBD,train
+NVJI-0022755,scam,investment,I03,ur,PK,social_media_dm,ٹریڈنگ پلیٹ فارم. بغیر خطرہ. مجھے پیسے بھیجیں 99. Ref: NV-A2D7BF8DEA,validation
+NVJI-0016643,scam,investment,I03,tl,SG,email,crypto​ investment.​ araw-araw na balik. magbayad ngayon 2500. Ref: NV-F615B85E20,train
+NVJI-0052067,scam,investment,I03,pt,PT,telegram,"[unknown_sender] oportunidade de investimento. lucro garantido. faça o pagamento 500.
+[recipient] Verifique pelo canal oficial da organização.
+[unknown_sender] aja imediatamente. lucro garantido.
+[recipient] Nenhuma taxa, depósito, senha, OTP ou transferência de dinheiro é necessária.
+[unknown_sender] transfira o dinheiro agora 500. https://case-66.invalid/nv-3832eec1eb Ref: NV-3832EEC1EB",train
+NVJI-0052323,scam,investment,I03,th,TH,social_media_dm,"[unknown_sender] ลงทุนคริปโต.​ ผลตอบแทนรายวัน.​ ชำระเงิน 2500.
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] คำเตือนครั้งสุดท้าย. ไม่มีความเสี่ยง.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] ชำระเงิน 2500. https://case-31.invalid/nv-46996c17c3 Ref: NV-46996C17C3",train
+NVJI-0017811,scam,investment,I03,fr,CH,whatsapp,plateforme de trading. sans risque. effectuez le paiement 99. Ref: NV-310D8B52EC,train
+NVJI-0054787,scam,investment,I03,hi,SG,chat_group,"[unknown_sender] ट्रेडिंग प्लेटफॉर्म. बिना जोखिम. मेरे खाते में पैसे भेजें 99.
+[recipient] संगठन के आधिकारिक माध्यम से स्वतंत्र पुष्टि करें।
+[unknown_sender] एक घंटे के भीतर. रोजाना रिटर्न.
+[recipient] कोई शुल्क, जमा, पासवर्ड, ओटीपी या धन हस्तांतरण आवश्यक नहीं है।
+[unknown_sender] मेरे खाते में पैसे भेजें 99. https://case-70.invalid/nv-bef9a108da Ref: NV-BEF9A108DA",validation
+NVJI-0022931,scam,investment,I03,vi,VN,chat_group,đầu​ tư​ tiền điện tử. lợi nhuận hàng ngày. gửi tiền cho tôi 2500. Ref: NV-FA16EE977B,train
+NVJI-0018660,scam,investment,I04,zh,SG,social_media_dm,最后通知​ —​ 外汇交易平台. 每天固定回报. https://investment-i04-63.invalid/nv-db55275f46. Ref: NV-DB55275F46,train
+NVJI-0054020,scam,investment,I04,ms,BN,telegram,"[unknown_sender] notis terakhir — peluang pelaburan. keuntungan tanpa risiko. https://investment-i04-79.invalid/nv-fcaceb3ccb.
+[recipient] Sahkan melalui saluran rasmi organisasi.
+[unknown_sender] bertindak segera. pulangan dijamin.
+[recipient] Tiada yuran, deposit, kata laluan, OTP atau pindahan wang diperlukan.
+[unknown_sender] pindahkan wang sekarang 120. https://case-79.invalid/nv-fcaceb3ccb Ref: NV-FCACEB3CCB",validation
+NVJI-0021364,scam,investment,I04,fr,FR,telegram,dernier avertissement — opportunité d'investissement. sans risque. https://investment-i04-51.invalid/nv-8f245d30b1. Ref: NV-8F245D30B1,train
+NVJI-0020132,scam,investment,I04,bn,BD,social_media_dm,শেষ সতর্কতা — ক্রিপ্টো বিনিয়োগ. নিশ্চিত লাভ. https://investment-i04-80.invalid/nv-17c6c0f795. Ref: NV-17C6C0F795,test
+NVJI-0014068,scam,investment,I04,fr,FR,chat_group,dans une heure — opportunité d'investissement. sans risque. https://investment-i04-30.invalid/nv-30cd1e8373. Ref: NV-30CD1E8373,validation
+NVJI-0054884,scam,investment,I04,ur,AE,email,"[unknown_sender] آخری انتباہ — سرمایہ کاری کا موقع. بغیر خطرہ. https://investment-i04-70.invalid/nv-552c9c39b0.
+[recipient] ادارے کے سرکاری ذریعے سے تصدیق کریں۔
+[unknown_sender] فوری کارروائی کریں. یقینی منافع.
+[recipient] کسی فیس، جمع، پاس ورڈ، او ٹی پی یا رقم کی منتقلی کی ضرورت نہیں ہے۔
+[unknown_sender] ابھی رقم بھیجیں 120. https://case-70.invalid/nv-552c9c39b0 Ref: NV-552C9C39B0",train
+NVJI-0015076,scam,investment,I04,de,AT,chat_group,innerhalb einer stunde — investitionsmöglichkeit. risikofrei. https://investment-i04-68.invalid/nv-39b90baa0a. Ref: NV-39B90BAA0A,validation
+NVJI-0053092,scam,investment,I04,es,AR,whatsapp,"[unknown_sender] actúa​ inmediatamente​ — plataforma de trading. rentabilidad diaria. https://investment-i04-24.invalid/nv-0fb5655a60.
+[recipient] Verifique por el canal oficial de la organización.
+[unknown_sender] dentro de una hora. rentabilidad diaria.
+[recipient] No se requiere tarifa, depósito, contraseña, OTP ni transferencia de dinero.
+[unknown_sender] envíame dinero 5000. https://case-24.invalid/nv-0fb5655a60 Ref: NV-0FB5655A60",train
+NVJI-0054932,scam,investment,I04,ms,BN,job_board,"[unknown_sender] dalam masa satu jam — peluang pelaburan. keuntungan tanpa risiko. https://investment-i04-21.invalid/nv-048477d6c7.
+[recipient] Sahkan melalui saluran rasmi organisasi.
+[unknown_sender] bertindak segera. pulangan dijamin.
+[recipient] Tiada yuran, deposit, kata laluan, OTP atau pindahan wang diperlukan.
+[unknown_sender] pindahkan wang sekarang 120. https://case-21.invalid/nv-048477d6c7 Ref: NV-048477D6C7",train
+NVJI-0015396,scam,investment,I04,es,MX,whatsapp,actúa​ inmediatamente​ — plataforma de trading. rentabilidad diaria. https://investment-i04-0.invalid/nv-6fa23c8ae2. Ref: NV-6FA23C8AE2,train
+NVJI-0017477,scam,investment,I05,th,TH,whatsapp,คำเตือนครั้งสุดท้าย. ลงทุนคริปโต. ผลตอบแทนรายวัน. โอนเงินตอนนี้ 250. hxxps://investment-i05-44[.]invalid/nv-8b751ae46e Ref: NV-8B751AE46E,train
+NVJI-0015093,scam,investment,I05,pt,PT,job_board,aviso final... plataforma de negociação. sem risco. transfira o dinheiro agora 1000. https://investment-i05-85.invalid/nv-d50dcf4098 Ref: NV-D50DCF4098,train
+NVJI-0013957,scam,investment,I05,bn,IN,social_media_dm,শেষ সতর্কতা. বিনিয়োগের সুযোগ. নিশ্চিত লাভ. পেমেন্ট করুন 49. https：//investment-i05-16.invalid/nv-a471114364 Ref： NV-A471114364,test
+NVJI-0052837,scam,investment,I05,vi,VN,sms,"[unknown_sender] trong vòng một giờ... nền tảng giao dịch. không rủi ro. gửi tiền cho tôi 1000. https://investment-i05-60.invalid/nv-9efe654410
+[recipient] Hãy xác minh qua kênh chính thức của tổ chức.
+[unknown_sender] trong vòng một giờ. lợi nhuận hàng ngày.
+[recipient] Không yêu cầu phí, tiền đặt cọc, mật khẩu, OTP hoặc chuyển tiền.
+[unknown_sender] gửi tiền cho tôi 1000. https://case-60.invalid/nv-9efe654410 Ref: NV-9EFE654410",train
+NVJI-0014885,scam,investment,I05,fr,CA,job_board,dernier avertissement. investissement en cryptomonnaie. rendement quotidien. transférez l'argent maintenant 250. hxxps://investment-i05-71[.]invalid/nv-f34737e783 Ref: NV-F34737E783,train
+NVJI-0016229,scam,investment,I05,ms,BN,job_board,dalam masa satu jam. pelaburan mata wang kripto. keuntungan harian. hantar wang kepada saya 250. hxxps://investment-i05-57[.]invalid/nv-e5e4273a34 Ref: NV-E5E4273A34,train
+NVJI-0053621,scam,investment,I05,ms,BN,telegram,"[unknown_sender] bertindak segera. peluang pelaburan. pulangan dijamin. pindahkan wang sekarang 49. https：//investment-i05-68.invalid/nv-915f78e429 Ref： NV-915F78E429
+[recipient] Sahkan melalui saluran rasmi organisasi.
+[unknown_sender] bertindak segera. pulangan dijamin.
+[recipient] Tiada yuran, deposit, kata laluan, OTP atau pindahan wang diperlukan.
+[unknown_sender] pindahkan wang sekarang 49. https://case-68.invalid/nv-915f78e429 Ref: NV-915F78E429",train
+NVJI-0020117,scam,investment,I05,ko,KR,chat_group,한 시간 이내. 암호화폐 투자. 매일 수익. 지금 송금하세요 250. hxxps://investment-i05-65[.]invalid/nv-8f28e6eedf Ref: NV-8F28E6EEDF,train
+NVJI-0022213,scam,investment,I05,zh,TW,job_board,最后通知. 投资机会. 保证收益. 支付这笔款项 49. https：//investment-i05-27.invalid/nv-bcf5e8cf14 Ref： NV-BCF5E8CF14,train
+NVJI-0019749,scam,investment,I05,fr,CA,email,dans une heure... plateforme de trading. sans risque. effectuez le paiement 1000. https://investment-i05-85.invalid/nv-859a617ccb Ref: NV-859A617CCB,train
+NVJI-0052742,scam,investment,I06,vi,VN,email,"[unknown_sender] cơ hội đầu tư... không rủi ro; cảnh báo cuối cùng. https://investment-i06-62.invalid/nv-8c609482da
+[recipient] Hãy xác minh qua kênh chính thức của tổ chức.
+[unknown_sender] hành động ngay lập tức. lợi nhuận đảm bảo.
+[recipient] Không yêu cầu phí, tiền đặt cọc, mật khẩu, OTP hoặc chuyển tiền.
+[unknown_sender] chuyển tiền ngay 1500. https://case-62.invalid/nv-8c609482da Ref: NV-8C609482DA",train
+NVJI-0055830,scam,investment,I06,fr,BE,social_media_dm,"[unknown_sender] investissement en cryptomonnaie. profit garanti; dernier avertissement. https：//investment-i06-46.invalid/nv-92f6f1825c Ref： NV-92F6F1825C
+[recipient] Vérifiez par le canal officiel de l’organisation.
+[unknown_sender] dernier avertissement. sans risque.
+[recipient] Aucun frais, dépôt, mot de passe, OTP ou transfert d’argent n’est requis.
+[unknown_sender] effectuez le paiement 75. https://case-46.invalid/nv-92f6f1825c Ref: NV-92F6F1825C",validation
+NVJI-0014550,scam,investment,I06,ko,KR,chat_group,거래 플랫폼. 매일 수익; 즉시 조치하세요. hxxps://investment-i06-27[.]invalid/nv-c4568235a7 Ref: NV-C4568235A7,train
+NVJI-0053238,scam,investment,I06,ru,RU,whatsapp,"[unknown_sender] инвестиции в криптовалюту. гарантированная прибыль; последнее предупреждение. https：//investment-i06-73.invalid/nv-4daf77d58d Ref： NV-4DAF77D58D
+[recipient] Проверьте информацию через официальный канал организации.
+[unknown_sender] последнее предупреждение. без риска.
+[recipient] Не требуются комиссия, депозит, пароль, OTP или перевод денег.
+[unknown_sender] произведите оплату 75. https://case-73.invalid/nv-4daf77d58d Ref: NV-4DAF77D58D",test
+NVJI-0013862,scam,investment,I06,bn,BD,sms,ক্রিপ্টো বিনিয়োগ. নিশ্চিত লাভ; এক ঘণ্টার মধ্যে. https：//investment-i06-18.invalid/nv-b464fda864 Ref： NV-B464FDA864,test
+NVJI-0012502,scam,investment,I06,ru,RU,telegram,инвестиционная возможность... без риска; в течение часа. https://investment-i06-16.invalid/nv-e21368b8ef Ref: NV-E21368B8EF,train
+NVJI-0023878,scam,investment,I06,ja,JP,sms,投資の機会... リスクなし; 1時間以内. https://investment-i06-43.invalid/nv-fb9cf63c91 Ref: NV-FB9CF63C91,validation
+NVJI-0017670,scam,investment,I06,ru,RU,email,торговая платформа. ежедневный доход; в течение часа. hxxps://investment-i06-43[.]invalid/nv-7b73636bda Ref: NV-7B73636BDA,validation
+NVJI-0016886,scam,investment,I06,ja,JP,sms,暗号資産投資. 利益保証; 1時間以内. https：//investment-i06-35.invalid/nv-c3f21b274d Ref： NV-C3F21B274D,train
+NVJI-0052038,scam,investment,I06,th,TH,sms,"[unknown_sender] ลงทุนคริปโต. รับประกันกำไร; ดำเนินการทันที. https：//investment-i06-37.invalid/nv-11a3d0c292 Ref： NV-11A3D0C292
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] คำเตือนครั้งสุดท้าย. ไม่มีความเสี่ยง.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] ชำระเงิน 75. https://case-37.invalid/nv-11a3d0c292 Ref: NV-11A3D0C292",test
+NVJI-0012023,scam,investment,I07,ko,KR,email,암호화폐 투자... 매일 수익. 결제하세요 2500. Ref: NV-915F129966,train
+NVJI-0015271,scam,investment,I07,ja,JP,whatsapp,投資の機会. 利益保証. 今すぐ送金してください 500. Ref: NV-4E1E5CE4A5,validation
+NVJI-0054567,scam,investment,I07,tl,SG,email,"[unknown_sender] crypto investment... araw-araw na balik. magpadala ng pera ngayon 2500.
+[recipient] Mag-verify sa opisyal na channel ng organisasyon.
+[unknown_sender] huling babala. walang panganib.
+[recipient] Walang bayad, deposito, password, OTP, o pagpapadala ng pera na kailangan.
+[unknown_sender] magbayad ngayon 2500. https://case-44.invalid/nv-d8bbe24bb9 Ref: NV-D8BBE24BB9",train
+NVJI-0021271,scam,investment,I07,hi,SG,chat_group,निवेश का अवसर. गारंटीड मुनाफा. अभी पैसे भेजें 500. Ref: NV-F84C4B69F1,validation
+NVJI-0013783,scam,investment,I07,fr,CH,telegram,opportunité d'investissement. profit garanti. envoyez-moi de l'argent 500. Ref: NV-239F898BF3,test
+NVJI-0054887,scam,investment,I07,ko,KR,social_media_dm,"[unknown_sender] 투자 기회. 수익 보장. 결제하세요 500.
+[recipient] 기관의 공식 채널을 통해 독립적으로 확인하세요.
+[unknown_sender] 즉시 조치하세요. 수익 보장.
+[recipient] 수수료, 보증금, 비밀번호, OTP 또는 송금이 필요하지 않습니다.
+[unknown_sender] 지금 송금하세요 500. https://case-73.invalid/nv-6934068c58 Ref: NV-6934068C58",train
+NVJI-0020631,scam,investment,I07,th,TH,email,แพลตฟอร์มซื้อขาย. ไม่มีความเสี่ยง. ชำระเงิน 99. Ref： NV-253CC77841,validation
+NVJI-0013271,scam,investment,I07,de,CH,chat_group,krypto-investition... tägliche rendite. schicken sie mir geld 2500. Ref: NV-70DF382DAF,train
+NVJI-0020023,scam,investment,I07,th,TH,email,โอกาสการลงทุน. รับประกันกำไร. ส่งเงินให้ฉัน 500. Ref: NV-E790CAAD52,validation
+NVJI-0054183,scam,investment,I07,ja,JP,whatsapp,"[unknown_sender] 暗号資産投資... 毎日の収益. 支払いをしてください 2500.
+[recipient] 組織の公式窓口から独自に確認してください。
+[unknown_sender] 最終警告. リスクなし.
+[recipient] 手数料、保証金、パスワード、OTP、送金は必要ありません。
+[unknown_sender] 支払いをしてください 2500. https://case-48.invalid/nv-ad7ad4f948 Ref: NV-AD7AD4F948",train
+NVJI-0054504,scam,investment,I08,ur,PK,email,"[unknown_sender] فوری کارروائی کریں — کرپٹو سرمایہ کاری. یقینی منافع. hxxps://investment-i08-78[.]invalid/nv-90f61081eb.
+[recipient] ادارے کے سرکاری ذریعے سے تصدیق کریں۔
+[unknown_sender] آخری انتباہ. بغیر خطرہ.
+[recipient] کسی فیس، جمع، پاس ورڈ، او ٹی پی یا رقم کی منتقلی کی ضرورت نہیں ہے۔
+[unknown_sender] ادائیگی کریں 750. https://case-78.invalid/nv-90f61081eb Ref: NV-90F61081EB",train
+NVJI-0053464,scam,investment,I08,vi,VN,chat_group,"[unknown_sender] cảnh báo cuối cùng !!! nền tảng giao dịch... lợi nhuận hàng ngày. https://investment-i08-8.invalid/nv-f618a8e7df.
+[recipient] Hãy xác minh qua kênh chính thức của tổ chức.
+[unknown_sender] trong vòng một giờ. lợi nhuận hàng ngày.
+[recipient] Không yêu cầu phí, tiền đặt cọc, mật khẩu, OTP hoặc chuyển tiền.
+[unknown_sender] gửi tiền cho tôi 5000. https://case-8.invalid/nv-f618a8e7df Ref: NV-F618A8E7DF",train
+NVJI-0021448,scam,investment,I08,th,TH,telegram,ภายในหนึ่งชั่วโมง — โอกาสการลงทุน. ไม่มีความเสี่ยง. https：//investment-i08-38.invalid/nv-918e023e49. Ref： NV-918E023E49,train
+NVJI-0055064,scam,investment,I08,zh,MY,sms,"[unknown_sender] 马上行动 — 投资机会. 稳赚不赔. https：//investment-i08-56.invalid/nv-6f94ff7a01. Ref： NV-6F94FF7A01
+[recipient] 请通过机构的官方渠道独立核实。
+[unknown_sender] 立即处理. 保证收益.
+[recipient] 无需支付费用、押金或转账，也不要提供密码或验证码。
+[unknown_sender] 立即转账 120. https://case-56.invalid/nv-6f94ff7a01 Ref: NV-6F94FF7A01",train
+NVJI-0021256,scam,investment,I08,ja,JP,whatsapp,最終警告 — 投資の機会. リスクなし. https：//investment-i08-40.invalid/nv-f26fe20b63. Ref： NV-F26FE20B63,train
+NVJI-0015864,scam,investment,I08,tl,PH,email,kumilos agad !!! trading platform... araw-araw na balik. https://investment-i08-80.invalid/nv-c553cad6da. Ref: NV-C553CAD6DA,train
+NVJI-0052152,scam,investment,I08,th,TH,email,"[unknown_sender] ภายในหนึ่งชั่วโมง — ลงทุนคริปโต. รับประกันกำไร. hxxps://investment-i08-54[.]invalid/nv-759b365ee5.
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] คำเตือนครั้งสุดท้าย. ไม่มีความเสี่ยง.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] ชำระเงิน 750. https://case-54.invalid/nv-759b365ee5 Ref: NV-759B365EE5",train
+NVJI-0052328,scam,investment,I08,zh,TW,job_board,"[unknown_sender] 马上行动 — 投资机会. 稳赚不赔. https：//investment-i08-36.invalid/nv-61d43d6b4f. Ref： NV-61D43D6B4F
+[recipient] 请通过机构的官方渠道独立核实。
+[unknown_sender] 立即处理. 保证收益.
+[recipient] 无需支付费用、押金或转账，也不要提供密码或验证码。
+[unknown_sender] 立即转账 120. https://case-36.invalid/nv-61d43d6b4f Ref: NV-61D43D6B4F",train
+NVJI-0020856,scam,investment,I08,ar,AE,whatsapp,خلال ساعة !!! منصة تداول... عائد يومي. https://investment-i08-28.invalid/nv-6ea6f387ae. Ref: NV-6EA6F387AE,train
+NVJI-0016408,scam,investment,I08,bn,BD,telegram,এক ঘণ্টার মধ্যে — বিনিয়োগের সুযোগ. ঝুঁকিমুক্ত. https：//investment-i08-42.invalid/nv-75d6e77af6. Ref： NV-75D6E77AF6,validation
+NVJI-0052249,scam,investment,I09,tl,SG,sms,"[unknown_sender] huling​ babala.​ trading platform. refundable deposit. magbayad ngayon 1000. https://investment-i09-54.invalid/nv-7b3dd93bc2
+[recipient] Mag-verify sa opisyal na channel ng organisasyon.
+[unknown_sender] sa loob ng isang oras. release fee.
+[recipient] Walang bayad, deposito, password, OTP, o pagpapadala ng pera na kailangan.
+[unknown_sender] ipadala sa akin ang pera 1000. https://case-54.invalid/nv-7b3dd93bc2 Ref: NV-7B3DD93BC2",train
+NVJI-0055017,scam,investment,I09,ur,PK,chat_group,"[unknown_sender] فوری کارروائی کریں. کرپٹو سرمایہ کاری. ریلیز فیس. ابھی رقم بھیجیں 250. https://investment-i09-9.invalid/nv-8e7d8dfca5
+[recipient] ادارے کے سرکاری ذریعے سے تصدیق کریں۔
+[unknown_sender] آخری انتباہ. قابل واپسی جمع.
+[recipient] کسی فیس، جمع، پاس ورڈ، او ٹی پی یا رقم کی منتقلی کی ضرورت نہیں ہے۔
+[unknown_sender] ادائیگی کریں 250. https://case-9.invalid/nv-8e7d8dfca5 Ref: NV-8E7D8DFCA5",train
+NVJI-0054185,scam,investment,I09,th,TH,whatsapp,"[unknown_sender] ภายในหนึ่งชั่วโมง. โอกาสการลงทุน. ค่าดำเนินการ. ชำระเงิน 49. https://investment-i09-50.invalid/nv-f7f901d4c7
+[recipient] ตรวจสอบผ่านช่องทางทางการขององค์กร
+[unknown_sender] ดำเนินการทันที. ค่าดำเนินการ.
+[recipient] ไม่ต้องชำระค่าธรรมเนียม เงินมัดจำ รหัสผ่าน OTP หรือโอนเงิน
+[unknown_sender] โอนเงินตอนนี้ 49. https://case-50.invalid/nv-f7f901d4c7 Ref: NV-F7F901D4C7",train
+NVJI-0019737,scam,investment,I09,ko,KR,chat_group,최종​ 경고.​ 거래 플랫폼. 환불 가능한 보증금. 저에게 돈을 보내세요 1000. https://investment-i09-73.invalid/nv-8ac753bf5d Ref: NV-8AC753BF5D,train
+NVJI-0054809,scam,investment,I09,ar,SA,chat_group,"[unknown_sender] تصرف فوراً. فرصة استثمار. رسوم المعالجة. حوّل المال الآن 49. https://investment-i09-92.invalid/nv-437710bc35
+[recipient] تحقق بشكل مستقل عبر القناة الرسمية للمؤسسة.
+[unknown_sender] تصرف فوراً. رسوم المعالجة.
+[recipient] لا يلزم دفع رسوم أو وديعة أو تقديم كلمة مرور أو رمز تحقق أو تحويل أموال.
+[unknown_sender] حوّل المال الآن 49. https://case-92.invalid/nv-437710bc35 Ref: NV-437710BC35",train
+NVJI-0020665,scam,investment,I09,ur,IN,sms,ایک گھنٹے کے اندر. سرمایہ کاری کا موقع. پروسیسنگ فیس. ادائیگی کریں 49. https://investment-i09-31.invalid/nv-b6e3ce7f95 Ref: NV-B6E3CE7F95,train
+NVJI-0015161,scam,investment,I09,tl,SG,chat_group,kumilos agad. crypto investment. release fee. ipadala sa akin ang pera 250. https://investment-i09-56.invalid/nv-00ec0ab95b Ref: NV-00EC0AB95B,train
+NVJI-0021929,scam,investment,I09,ms,BN,whatsapp,bertindak segera. pelaburan mata wang kripto. yuran pelepasan. hantar wang kepada saya 250. https://investment-i09-34.invalid/nv-e339e3f969 Ref: NV-E339E3F969,train
+NVJI-0020633,scam,investment,I09,tl,SG,email,kumilos agad. crypto investment. release fee. magbayad ngayon 250. https://investment-i09-96.invalid/nv-ba7711d28c Ref: NV-BA7711D28C,train
+NVJI-0017369,scam,investment,I09,ms,BN,sms,notis terakhir. pelaburan mata wang kripto. yuran pelepasan. hantar wang kepada saya 250. https://investment-i09-33.invalid/nv-842136192f Ref: NV-842136192F,train
+NVJI-0015658,scam,investment,I10,zh,TW,social_media_dm,投资机会.​ 马上行动;​ 马上行动. https://investment-i10-68.invalid/nv-3815c00661 Ref: NV-3815C00661,train
+NVJI-0014778,scam,investment,I10,ko,KR,job_board,거래 플랫폼. 한 시간 이내; 최종 경고. https://investment-i10-61.invalid/nv-169f1025e6 Ref: NV-169F1025E6,validation
+NVJI-0020858,scam,investment,I10,ko,KR,whatsapp,암호화폐 투자. 즉시 조치하세요; 즉시 조치하세요. https://investment-i10-30.invalid/nv-8df9dd5f5d Ref: NV-8DF9DD5F5D,train
+NVJI-0016362,scam,investment,I10,ms,SG,whatsapp,platform dagangan. dalam masa satu jam; notis terakhir. https://investment-i10-93.invalid/nv-44c248a97c Ref: NV-44C248A97C,validation
+NVJI-0015674,scam,investment,I10,tl,PH,telegram,crypto investment. kumilos agad; kumilos agad. https://investment-i10-84.invalid/nv-02f381f72c Ref: NV-02F381F72C,train
+NVJI-0013530,scam,investment,I10,zh,SG,telegram,外汇交易平台. 最后通知; 最后通知. https://investment-i10-74.invalid/nv-3b27f2334a Ref: NV-3B27F2334A,train
+NVJI-0020410,scam,investment,I10,ta,LK,chat_group,முதலீட்டு​ வாய்ப்பு.​ இறுதி அறிவிப்பு; இறுதி அறிவிப்பு. https://investment-i10-67.invalid/nv-f15e2da023 Ref: NV-F15E2DA023,validation
+NVJI-0019802,scam,investment,I10,ta,LK,chat_group,கிரிப்டோ முதலீடு. உடனடியாக செயல்படவும்; ஒரு மணி நேரத்திற்குள். https://investment-i10-41.invalid/nv-d2b369c55f Ref: NV-D2B369C55F,validation
+NVJI-0016378,scam,investment,I10,ru,RU,chat_group,инвестиционная​ возможность.​ последнее предупреждение; последнее предупреждение. https://investment-i10-12.invalid/nv-a66addd001 Ref: NV-A66ADDD001,train
+NVJI-0012426,scam,investment,I10,ru,RU,job_board,торговая платформа. в течение часа; действуйте немедленно. https://investment-i10-37.invalid/nv-ea35823268 Ref: NV-EA35823268,train
+NVJI-0053835,scam,investment,I11,fr,CH,social_media_dm,"[unknown_sender] investissement​ en​ cryptomonnaie. dans une heure. transférez l'argent maintenant 2500.
+[recipient] Vérifiez par le canal officiel de l’organisation.
+[unknown_sender] dernier avertissement. dernier avertissement.
+[recipient] Aucun frais, dépôt, mot de passe, OTP ou transfert d’argent n’est requis.
+[unknown_sender] effectuez le paiement 2500. https://case-88.invalid/nv-a86bf43239 Ref: NV-A86BF43239",train
+NVJI-0022203,scam,investment,I11,bn,IN,telegram,ট্রেডিং প্ল্যাটফর্ম. শেষ সতর্কতা. এখনই টাকা পাঠান 99. Ref: NV-3587B25DF5,train
+NVJI-0013323,scam,investment,I11,ta,MY,email,வர்த்தக தளம். இறுதி அறிவிப்பு. உடனே பணம் அனுப்பவும் 99. Ref: NV-C1416EA639,train
+NVJI-0021291,scam,investment,I11,bn,IN,chat_group,ট্রেডিং প্ল্যাটফর্ম. শেষ সতর্কতা. পেমেন্ট করুন 99. Ref: NV-FC0122AA1E,train
+NVJI-0017451,scam,investment,I11,de,DE,sms,handelsplattform. letzte warnung. leisten sie die zahlung 99. Ref: NV-B39D2D2E99,test
+NVJI-0020603,scam,investment,I11,pt,PT,sms,investimento​ em​ criptomoedas. dentro de uma hora. faça o pagamento 2500. Ref: NV-F9CF1163B3,train
+NVJI-0019755,scam,investment,I11,ja,JP,job_board,取引プラットフォーム. 最終警告. 私にお金を送って 99. Ref: NV-2496F9EF42,train
+NVJI-0022923,scam,investment,I11,de,DE,social_media_dm,handelsplattform. letzte warnung. überweisen sie das geld sofort 99. Ref: NV-6655DE218E,train
+NVJI-0014251,scam,investment,I11,en,AU,social_media_dm,investment opportunity: pre-IPO shares. limited pre-IPO allocation closes before the public listing. act immediately. transfer the money now 500. Contact us off-platform. Ref: NV-6F375556D3,train
+NVJI-0021947,scam,investment,I11,zh,HK,sms,加密货币投资.​ 最后通知.​ 立即转账 2500. Ref: NV-F6693C3619,train
+NVJI-0021324,scam,investment,I12,es,US,email,dentro​ de​ una hora — tareas sencillas con comisión. dentro de una hora. https://investment-i12-11.invalid/nv-765260a289. Ref: NV-765260A289,train
+NVJI-0017548,scam,investment,I12,bn,BD,social_media_dm,শেষ সতর্কতা — খণ্ডকালীন চাকরি. শেষ সতর্কতা. https://investment-i12-18.invalid/nv-1eaaa4bbca. Ref: NV-1EAAA4BBCA,train
+NVJI-0015276,scam,investment,I12,ru,RU,email,в​ течение​ часа — простые задания за комиссию. в течение часа. https://investment-i12-74.invalid/nv-5f9729c7a3. Ref: NV-5F9729C7A3,train
+NVJI-0016508,scam,investment,I12,th,TH,sms,ภายในหนึ่งชั่วโมง — ทำงานจากที่บ้าน. ดำเนินการทันที. https://investment-i12-45.invalid/nv-46da1b1023. Ref: NV-46DA1B1023,train
+NVJI-0019500,scam,investment,I12,es,ES,social_media_dm,actúa​ inmediatamente​ — tareas sencillas con comisión. dentro de una hora. https://investment-i12-30.invalid/nv-9a4e9b5ed4. Ref: NV-9A4E9B5ED4,train
+NVJI-0023260,scam,investment,I12,ta,SG,social_media_dm,உடனடியாக செயல்படவும் — பகுதி நேர வேலை. இறுதி அறிவிப்பு. https://investment-i12-7.invalid/nv-281cdb6b0f. Ref: NV-281CDB6B0F,train
+NVJI-0022140,scam,investment,I12,id,ID,telegram,pemberitahuan​ terakhir​ — tugas mudah dapat komisi. dalam satu jam. https://investment-i12-51.invalid/nv-329fd59ffe. Ref: NV-329FD59FFE,train
+NVJI-0021180,scam,investment,I12,ja,JP,social_media_dm,1時間以内​ —​ 高収入アルバイト. 1時間以内. https://investment-i12-61.invalid/nv-6fcd995a04. Ref: NV-6FCD995A04,train
+NVJI-0055580,scam,investment,I12,id,MY,social_media_dm,"[unknown_sender] dalam satu jam — pekerjaan paruh waktu. pemberitahuan terakhir. https://investment-i12-87.invalid/nv-83389ccfe7.
+[recipient] Verifikasi melalui saluran resmi organisasi.
+[unknown_sender] bertindak segera. bertindak segera.
+[recipient] Tidak diperlukan biaya, deposit, kata sandi, OTP, atau transfer uang.
+[unknown_sender] transfer uang sekarang 120. https://case-87.invalid/nv-83389ccfe7 Ref: NV-83389CCFE7",train
+NVJI-0055548,scam,investment,I12,bn,BD,whatsapp,"[unknown_sender] অবিলম্বে ব্যবস্থা নিন — বাড়ি থেকে কাজ. অবিলম্বে ব্যবস্থা নিন. https://investment-i12-55.invalid/nv-51b6221376.
+[recipient] প্রতিষ্ঠানের সরকারি চ্যানেলে যাচাই করুন।
+[unknown_sender] শেষ সতর্কতা. শেষ সতর্কতা.
+[recipient] কোনো ফি, জমা, পাসওয়ার্ড, ওটিপি বা টাকা পাঠানো প্রয়োজন নেই।
+[unknown_sender] পেমেন্ট করুন 750. https://case-55.invalid/nv-51b6221376 Ref: NV-51B6221376",train
+NVJI-0054045,scam,investment,I13,de,DE,social_media_dm,"[unknown_sender] handeln sie sofort. krypto-investition. tägliche rendite. überweisen sie das geld sofort 250. hxxps://investment-i13-7[.]invalid/nv-bdbdac20ca
+[recipient] Prüfen Sie dies über den offiziellen Kanal der Organisation.
+[unknown_sender] letzte warnung. risikofrei.
+[recipient] Es sind keine Gebühr, Kaution, Passwort, OTP oder Geldüberweisung erforderlich.
+[unknown_sender] leisten sie die zahlung 250. https://case-7.invalid/nv-bdbdac20ca Ref: NV-BDBDAC20CA",train
+NVJI-0019869,scam,investment,I13,ja,JP,whatsapp,直ちに対応してください... 取引プラットフォーム. リスクなし. 支払いをしてください 1000. https://investment-i13-11.invalid/nv-9af74c0241 Ref: NV-9AF74C0241,train
+NVJI-0014221,scam,investment,I13,de,AT,whatsapp,innerhalb einer stunde. investitionsmöglichkeit. garantierter gewinn. überweisen sie das geld sofort 49. https：//investment-i13-86.invalid/nv-b98d982954 Ref： NV-B98D982954,train
+NVJI-0015789,scam,investment,I13,ru,KZ,chat_group,в течение часа... торговая платформа. без риска. произведите оплату 1000. https://investment-i13-5.invalid/nv-9cd9c6c39b Ref: NV-9CD9C6C39B,validation
+NVJI-0015341,scam,investment,I13,fr,CA,email,agissez immédiatement. investissement en cryptomonnaie. rendement quotidien. envoyez-moi de l'argent 250. hxxps://investment-i13-42[.]invalid/nv-6be7c2c895 Ref: NV-6BE7C2C895,train
+NVJI-0016285,scam,investment,I13,zh,SG,email,立即处理. 投资机会. 保证收益. 汇款给我 49. https：//investment-i13-16.invalid/nv-8fb8136534 Ref： NV-8FB8136534,train
+NVJI-0015949,scam,investment,I13,fr,CA,email,dans une heure. opportunité d'investissement. profit garanti. transférez l'argent maintenant 49. https：//investment-i13-68.invalid/nv-19b21cd277 Ref： NV-19B21CD277,train
+NVJI-0017293,scam,investment,I13,ms,MY,email,bertindak segera. peluang pelaburan. pulangan dijamin. hantar wang kepada saya 49. https：//investment-i13-54.invalid/nv-a26838642c Ref： NV-A26838642C,train
+NVJI-0022477,scam,investment,I13,ru,KZ,telegram,действуйте немедленно. инвестиционная возможность. гарантированная прибыль. произведите оплату 49. https：//investment-i13-0.invalid/nv-63bdf17ce6 Ref： NV-63BDF17CE6,train
+NVJI-0023085,scam,investment,I13,ru,KZ,telegram,последнее предупреждение... торговая платформа. без риска. отправьте мне деньги 1000. https://investment-i13-26.invalid/nv-92f7197030 Ref: NV-92F7197030,validation
+NVJI-0018766,scam,investment,I14,ar,EG,social_media_dm,فرصة استثمار... بدون مخاطر; خلال ساعة. https://investment-i14-72.invalid/nv-620bba5db4 Ref: NV-620BBA5DB4,train
+NVJI-0055326,scam,investment,I14,vi,VN,social_media_dm,"[unknown_sender] đầu tư tiền điện tử. lợi nhuận đảm bảo; cảnh báo cuối cùng. https：//investment-i14-27.invalid/nv-eb0b6c7d15 Ref： NV-EB0B6C7D15
+[recipient] Hãy xác minh qua kênh chính thức của tổ chức.
+[unknown_sender] cảnh báo cuối cùng. không rủi ro.
+[recipient] Không yêu cầu phí, tiền đặt cọc, mật khẩu, OTP hoặc chuyển tiền.
+[unknown_sender] thực hiện thanh toán 75. https://case-27.invalid/nv-eb0b6c7d15 Ref: NV-EB0B6C7D15",test
+NVJI-0013598,scam,investment,I14,ar,EG,email,استثمار العملات المشفرة. ربح مضمون; تحذير أخير. https：//investment-i14-45.invalid/nv-a95759e41e Ref： NV-A95759E41E,train
+NVJI-0053342,scam,investment,I14,de,CH,sms,"[unknown_sender] investitionsmöglichkeit... risikofrei; handeln sie sofort. https://investment-i14-80.invalid/nv-2b26f09146
+[recipient] Prüfen Sie dies über den offiziellen Kanal der Organisation.
+[unknown_sender] handeln sie sofort. garantierter gewinn.
+[recipient] Es sind keine Gebühr, Kaution, Passwort, OTP oder Geldüberweisung erforderlich.
+[unknown_sender] überweisen sie das geld sofort 1500. https://case-80.invalid/nv-2b26f09146 Ref: NV-2B26F09146",train
+NVJI-0014798,scam,investment,I14,th,TH,social_media_dm,ลงทุนคริปโต. รับประกันกำไร; ภายในหนึ่งชั่วโมง. https：//investment-i14-81.invalid/nv-3bcf22d672 Ref： NV-3BCF22D672,train
+NVJI-0053662,scam,investment,I14,es,AR,telegram,"[unknown_sender] plataforma de trading. rentabilidad diaria; aviso final. hxxps://investment-i14-12[.]invalid/nv-4eb2f56d1c
+[recipient] Verifique por el canal oficial de la organización.
+[unknown_sender] dentro de una hora. rentabilidad diaria.
+[recipient] No se requiere tarifa, depósito, contraseña, OTP ni transferencia de dinero.
+[unknown_sender] envíame dinero 399. https://case-12.invalid/nv-4eb2f56d1c Ref: NV-4EB2F56D1C",train
+NVJI-0012318,scam,investment,I14,es,CO,social_media_dm,plataforma de trading. rentabilidad diaria; actúa inmediatamente. hxxps://investment-i14-26[.]invalid/nv-77727203cf Ref: NV-77727203CF,train
+NVJI-0023742,scam,investment,I14,bn,BD,social_media_dm,ট্রেডিং প্ল্যাটফর্ম. দৈনিক রিটার্ন; শেষ সতর্কতা. hxxps://investment-i14-4[.]invalid/nv-3fa08b0b27 Ref: NV-3FA08B0B27,train
+NVJI-0017774,scam,investment,I14,de,CH,telegram,krypto-investition. garantierter gewinn; letzte warnung. https：//investment-i14-50.invalid/nv-7e8e4d7b33 Ref： NV-7E8E4D7B33,train
+NVJI-0022734,scam,investment,I14,hi,IN,social_media_dm,ट्रेडिंग प्लेटफॉर्म. रोजाना रिटर्न; अंतिम चेतावनी. hxxps://investment-i14-63[.]invalid/nv-c140df97b4 Ref: NV-C140DF97B4,validation
+NVJI-0020319,scam,investment,I15,fr,CH,social_media_dm,plateforme de trading. dépôt remboursable. effectuez le paiement 99. Ref： NV-C4FFAB273B,train
+NVJI-0055455,scam,investment,I15,ar,JO,job_board,"[unknown_sender] استثمار العملات المشفرة... رسوم الإفراج. حوّل المال الآن 2500.
+[recipient] تحقق بشكل مستقل عبر القناة الرسمية للمؤسسة.
+[unknown_sender] تحذير أخير. وديعة قابلة للاسترداد.
+[recipient] لا يلزم دفع رسوم أو وديعة أو تقديم كلمة مرور أو رمز تحقق أو تحويل أموال.
+[unknown_sender] قم بالدفع 2500. https://case-59.invalid/nv-4caa5f69d5 Ref: NV-4CAA5F69D5",test
+NVJI-0054255,scam,investment,I15,hi,IN,social_media_dm,"[unknown_sender] क्रिप्टो निवेश... रिलीज शुल्क. अभी पैसे भेजें 2500.
+[recipient] संगठन के आधिकारिक माध्यम से स्वतंत्र पुष्टि करें।
+[unknown_sender] अंतिम चेतावनी. वापसी योग्य जमा.
+[recipient] कोई शुल्क, जमा, पासवर्ड, ओटीपी या धन हस्तांतरण आवश्यक नहीं है।
+[unknown_sender] भुगतान करें 2500. https://case-23.invalid/nv-f20db91fa8 Ref: NV-F20DB91FA8",test
+NVJI-0014495,scam,investment,I15,vi,VN,whatsapp,đầu tư tiền điện tử... phí giải ngân. chuyển tiền ngay 2500. Ref: NV-D7B906ACA6,train
+NVJI-0052335,scam,investment,I15,de,DE,whatsapp,"[unknown_sender] krypto-investition... freigabegebühr. überweisen sie das geld sofort 2500.
+[recipient] Prüfen Sie dies über den offiziellen Kanal der Organisation.
+[unknown_sender] letzte warnung. rückzahlbare kaution.
+[recipient] Es sind keine Gebühr, Kaution, Passwort, OTP oder Geldüberweisung erforderlich.
+[unknown_sender] leisten sie die zahlung 2500. https://case-43.invalid/nv-90cb57789a Ref: NV-90CB57789A",test
+NVJI-0022527,scam,investment,I15,ur,PK,job_board,ٹریڈنگ پلیٹ فارم. قابل واپسی جمع. مجھے پیسے بھیجیں 99. Ref： NV-2965395011,train
+NVJI-0019263,scam,investment,I15,th,TH,telegram,แพลตฟอร์มซื้อขาย. เงินมัดจำคืนได้. โอนเงินตอนนี้ 99. Ref： NV-61676A5448,train
+NVJI-0016143,scam,investment,I15,ur,PK,job_board,ٹریڈنگ پلیٹ فارم. قابل واپسی جمع. ابھی رقم بھیجیں 99. Ref： NV-7CF9E2FD88,validation
+NVJI-0015279,scam,investment,I15,ms,SG,social_media_dm,platform dagangan. deposit boleh dikembalikan. buat bayaran 99. Ref： NV-B21DBAD04C,train
+NVJI-0055839,scam,investment,I15,vi,VN,sms,"[unknown_sender] đầu tư tiền điện tử... phí giải ngân. gửi tiền cho tôi 2500.
+[recipient] Hãy xác minh qua kênh chính thức của tổ chức.
+[unknown_sender] cảnh báo cuối cùng. tiền đặt cọc được hoàn lại.
+[recipient] Không yêu cầu phí, tiền đặt cọc, mật khẩu, OTP hoặc chuyển tiền.
+[unknown_sender] thực hiện thanh toán 2500. https://case-55.invalid/nv-191fda711f Ref: NV-191FDA711F",train
+NVJI-0019424,scam,investment,I16,es,US,chat_group,dentro de una hora — paga para recuperar los fondos. tarifa de procesamiento. hxxps://investment-i16-51[.]invalid/nv-19f777b188. Ref: NV-19F777B188,train
+NVJI-0014800,scam,investment,I16,tl,PH,job_board,kumilos agad — mababalik namin ang pera mo. refundable deposit. https：//investment-i16-83.invalid/nv-a5eacefdd8. Ref： NV-A5EACEFDD8,train
+NVJI-0053232,scam,investment,I16,ar,AE,chat_group,"[unknown_sender] خلال ساعة — يمكننا استرداد أموالك. رسوم المعالجة. hxxps://investment-i16-67[.]invalid/nv-6e5087f370.
+[recipient] تحقق بشكل مستقل عبر القناة الرسمية للمؤسسة.
+[unknown_sender] تحذير أخير. وديعة قابلة للاسترداد.
+[recipient] لا يلزم دفع رسوم أو وديعة أو تقديم كلمة مرور أو رمز تحقق أو تحويل أموال.
+[unknown_sender] قم بالدفع 750. https://case-67.invalid/nv-6e5087f370 Ref: NV-6E5087F370",train
+NVJI-0013360,scam,investment,I16,ms,MY,whatsapp,bertindak segera — bayar untuk pemulihan dana. deposit boleh dikembalikan. https：//investment-i16-1.invalid/nv-901c9040c1. Ref： NV-901C9040C1,train
+NVJI-0022512,scam,investment,I16,th,TH,sms,ภายในหนึ่งชั่วโมง !!! เราสามารถกู้เงินของคุณคืนได้... ค่าปลดล็อก. https://investment-i16-35.invalid/nv-d1f776b0bb. Ref: NV-D1F776B0BB,train
+NVJI-0055296,scam,investment,I16,es,MX,whatsapp,"[unknown_sender] actúa inmediatamente — paga para recuperar los fondos. tarifa de procesamiento. hxxps://investment-i16-94[.]invalid/nv-bbc233b8d4.
+[recipient] Verifique por el canal oficial de la organización.
+[unknown_sender] aviso final. depósito reembolsable.
+[recipient] No se requiere tarifa, depósito, contraseña, OTP ni transferencia de dinero.
+[unknown_sender] realiza el pago 750. https://case-94.invalid/nv-bbc233b8d4 Ref: NV-BBC233B8D4",train
+NVJI-0015024,scam,investment,I16,ja,JP,email,1時間以内 !!! 被害金を取り戻せます... 解除手数料. https://investment-i16-16.invalid/nv-4a075c26b8. Ref: NV-4A075C26B8,train
+NVJI-0054576,scam,investment,I16,fr,FR,chat_group,"[unknown_sender] agissez immédiatement — nous pouvons récupérer votre argent. frais de traitement. hxxps://investment-i16-53[.]invalid/nv-13cde4e795.
+[recipient] Vérifiez par le canal officiel de l’organisation.
+[unknown_sender] dernier avertissement. dépôt remboursable.
+[recipient] Aucun frais, dépôt, mot de passe, OTP ou transfert d’argent n’est requis.
+[unknown_sender] effectuez le paiement 750. https://case-53.invalid/nv-13cde4e795 Ref: NV-13CDE4E795",validation
+NVJI-0021024,scam,investment,I16,hi,IN,whatsapp,अंतिम चेतावनी !!! हम आपका पैसा वापस दिला सकते हैं... रिलीज शुल्क. https://investment-i16-2.invalid/nv-29be303ae6. Ref: NV-29BE303AE6,train
+NVJI-0012880,scam,investment,I16,vi,VN,telegram,trong vòng một giờ — chúng tôi có thể lấy lại tiền cho bạn. tiền đặt cọc được hoàn lại. https：//investment-i16-6.invalid/nv-3c7f606de1. Ref： NV-3C7F606DE1,train

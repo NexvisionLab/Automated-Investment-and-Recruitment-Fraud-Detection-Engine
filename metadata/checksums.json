@@ -1,0 +1,10 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "data/records.jsonl": "1386ec2824f2707ae3932cff16497a442b556dac74b2e8c75147c2c3019840a5",
+    "metadata/split_index.csv": "9d84837439d0378dfade197a123c5cfdc5b08439d2dd03af124eeac64561ecfa",
+    "samples/curated_eval_512.jsonl": "a9a0ade2045d404e00ad7733f6f02a8a6be9a8d54aace67e082f5fc4fc535c5c",
+    "samples/taxonomy_sample_320.jsonl": "763e62f65dfedb81546ec96623c29b90ac949833176dedf8747281f16e7de21f",
+    "taxonomy/taxonomy.json": "ab2d31594b8a010808e1acd26a7ade81a9c9755cfd4e730698acde1f54c6f69b"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "by_domain": {
+    "investment": 32000,
+    "job": 32000
+  },
+  "by_label": {
+    "ambiguous_ood": 4000,
+    "awareness": 6000,
+    "legitimate": 22000,
+    "scam": 32000
+  },
+  "by_language": {
+    "ar": 3368,
+    "bn": 3368,
+    "de": 3368,
+    "en": 3369,
+    "es": 3369,
+    "fr": 3369,
+    "hi": 3368,
+    "id": 3369,
+    "ja": 3368,
+    "ko": 3368,
+    "ms": 3369,
+    "pt": 3369,
+    "ru": 3368,
+    "ta": 3369,
+    "th": 3368,
+    "tl": 3368,
+    "ur": 3368,
+    "vi": 3368,
+    "zh": 3369
+  },
+  "by_requested_action": {
+    "buy_asset": 1000,
+    "deposit_or_pay_withdrawal_fee": 1000,
+    "forward_funds": 1000,
+    "install_software": 1000,
+    "invest_funds": 9000,
+    "move_off_platform": 3000,
+    "none": 32000,
+    "pay_and_recruit": 1000,
+    "pay_deposit": 2000,
+    "pay_fee": 4000,
+    "pay_recovery_fee": 1000,
+    "reserve_allocation": 1000,
+    "reship_goods": 1000,
+    "return_funds": 2000,
+    "share_sensitive_data": 1000,
+    "submit_application": 2000,
+    "travel_or_surrender_documents": 1000
+  },
+  "by_severity": {
+    "high": 4000,
+    "medium": 28000,
+    "none": 32000
+  },
+  "by_split": {
+    "test": 6557,
+    "train": 51056,
+    "validation": 6387
+  },
+  "by_type": {
+    "conversation": 12000,
+    "single_message": 52000
+  },
+  "by_variant": {
+    "clean": 37336,
+    "defanged_url": 5336,
+    "fullwidth_punctuation": 5336,
+    "mixed_punctuation": 5328,
+    "spaced_tokens": 5328,
+    "zero_width": 5336
+  },
+  "scam_by_taxonomy": {
+    "I01": 1000,
+    "I02": 1000,
+    "I03": 1000,
+    "I04": 1000,
+    "I05": 1000,
+    "I06": 1000,
+    "I07": 1000,
+    "I08": 1000,
+    "I09": 1000,
+    "I10": 1000,
+    "I11": 1000,
+    "I12": 1000,
+    "I13": 1000,
+    "I14": 1000,
+    "I15": 1000,
+    "I16": 1000,
+    "J01": 1000,
+    "J02": 1000,
+    "J03": 1000,
+    "J04": 1000,
+    "J05": 1000,
+    "J06": 1000,
+    "J07": 1000,
+    "J08": 1000,
+    "J09": 1000,
+    "J10": 1000,
+    "J11": 1000,
+    "J12": 1000,
+    "J13": 1000,
+    "J14": 1000,
+    "J15": 1000,
+    "J16": 1000
+  },
+  "total": 64000
+}

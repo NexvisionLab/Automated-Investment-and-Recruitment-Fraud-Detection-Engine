@@ -1,0 +1,100 @@
+{
+  "count": 19,
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "native_review_status": "internal_template_review"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese",
+      "native_review_status": "required"
+    },
+    {
+      "code": "ms",
+      "name": "Malay",
+      "native_review_status": "required"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil",
+      "native_review_status": "required"
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "native_review_status": "required"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "native_review_status": "required"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "native_review_status": "required"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "native_review_status": "required"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "native_review_status": "required"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "native_review_status": "required"
+    },
+    {
+      "code": "bn",
+      "name": "Bengali",
+      "native_review_status": "required"
+    },
+    {
+      "code": "ur",
+      "name": "Urdu",
+      "native_review_status": "required"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native_review_status": "required"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "native_review_status": "required"
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "native_review_status": "required"
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "native_review_status": "required"
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "native_review_status": "required"
+    },
+    {
+      "code": "tl",
+      "name": "Filipino/Tagalog",
+      "native_review_status": "required"
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "native_review_status": "required"
+    }
+  ]
+}

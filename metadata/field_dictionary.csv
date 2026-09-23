@@ -1,0 +1,24 @@
+field,type,description
+id,string,Stable synthetic record identifier
+version,string,Dataset schema version
+record_type,enum,Single message or multi-turn conversation
+label,enum,Scam legitimate awareness or ambiguous OOD
+domain,enum,Job or investment
+taxonomy_id,string,Leaf or control taxonomy identifier
+text,string,Primary target-language classifier input
+text_en,string,English audit paraphrase or rendering
+scenario_cue_en,string,English leaf-level rationale for scam records
+language,string,BCP-47-style base language code
+country,string,Synthetic scenario country not sender geolocation
+signals,array,Ground-truth observable indicators
+requested_action,string,Action sought from the recipient
+harm_vector,string,Primary potential harm category
+severity,enum,None medium or high
+annotation_confidence,number,Generator-label confidence from zero to one
+variant_type,enum,Robustness or obfuscation form
+variant_family_id,string,Group that must remain within one split
+campaign_group_id,string,Synthetic campaign group for leakage control
+review_status,string,Human-review requirement
+ood_reason,string,Reason an ambiguous record should trigger abstention
+split,enum,Train validation or test
+content_sha256,string,Integrity hash of label text and turns

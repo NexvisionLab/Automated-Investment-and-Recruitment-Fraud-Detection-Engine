@@ -1,0 +1,78 @@
+{
+  "checks": {
+    "all_required_fields": true,
+    "campaign_split_isolation": true,
+    "content_hashes_valid": true,
+    "curated_eval_integrity": true,
+    "domain_balance": true,
+    "label_counts": true,
+    "language_balance": true,
+    "language_count": true,
+    "leaf_balance": true,
+    "multilingual_english_cue_removed": true,
+    "no_transient_release_files": true,
+    "ood_abstention_metadata": true,
+    "record_count": true,
+    "record_type_counts": true,
+    "reserved_urls_only": true,
+    "robustness_variants_present": true,
+    "safe_provenance_flags": true,
+    "taxonomy_leaf_count": true,
+    "unique_content": true,
+    "unique_ids": true,
+    "variant_family_split_isolation": true
+  },
+  "counts": {
+    "domains": {
+      "investment": 32000,
+      "job": 32000
+    },
+    "labels": {
+      "ambiguous_ood": 4000,
+      "awareness": 6000,
+      "legitimate": 22000,
+      "scam": 32000
+    },
+    "languages": {
+      "ar": 3368,
+      "bn": 3368,
+      "de": 3368,
+      "en": 3369,
+      "es": 3369,
+      "fr": 3369,
+      "hi": 3368,
+      "id": 3369,
+      "ja": 3368,
+      "ko": 3368,
+      "ms": 3369,
+      "pt": 3369,
+      "ru": 3368,
+      "ta": 3369,
+      "th": 3368,
+      "tl": 3368,
+      "ur": 3368,
+      "vi": 3368,
+      "zh": 3369
+    },
+    "record_types": {
+      "conversation": 12000,
+      "single_message": 52000
+    },
+    "records": 64000,
+    "splits": {
+      "test": 6557,
+      "train": 51056,
+      "validation": 6387
+    }
+  },
+  "dataset_version": "1.2.0",
+  "failures": [],
+  "limitations": [
+    "All included records are synthetic and require external validation before performance claims.",
+    "Non-English leaf labels require native-speaker review.",
+    "External source records are not redistributed in this package.",
+    "Campaign isolation prevents generator-family leakage only; it is not a substitute for independent real-world testing."
+  ],
+  "status": "PASS",
+  "validated_at": "2026-09-23"
+}
