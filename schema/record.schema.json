@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nexvisionlab.example/schema/job-investment-scam-record-v1.json",
+  "title": "NexVision Job and Investment Scam Dataset Record",
+  "type": "object",
+  "required": [
+    "id", "version", "record_type", "label", "domain", "taxonomy_id", "taxonomy_name",
+    "language", "language_name", "language_variant", "translation_status", "country", "currency", "channel",
+    "text", "text_en", "turns", "signals", "scenario_cue_en", "leaf_text_specificity",
+    "synthetic", "contains_live_indicator", "pii_status", "source_id", "source_type", "generator_seed",
+    "campaign_group_id", "variant_family_id", "variant_type", "requested_action", "harm_vector",
+    "severity", "annotation_confidence", "label_basis", "review_status", "ood_reason",
+    "lifecycle_stage", "payment_method", "code_switch_status", "created_at", "split", "content_sha256"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^NVJI-[0-9]{7}$"},
+    "version": {"const": "1.2.0"},
+    "record_type": {"enum": ["single_message", "conversation"]},
+    "label": {"enum": ["scam", "legitimate", "awareness", "ambiguous_ood"]},
+    "domain": {"enum": ["job", "investment"]},
+    "taxonomy_id": {"type": "string"},
+    "taxonomy_name": {"type": "string", "minLength": 3},
+    "language": {"type": "string", "minLength": 2, "maxLength": 3},
+    "language_name": {"type": "string", "minLength": 2},
+    "language_variant": {"enum": ["english", "native_script_template"]},
+    "translation_status": {"enum": ["source_english", "auditable_template_not_human_verified"]},
+    "country": {"type": "string", "pattern": "^[A-Z]{2}$"},
+    "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
+    "channel": {"enum": ["sms", "whatsapp", "telegram", "email", "social_media_dm", "job_board", "chat_group"]},
+    "text": {"type": "string", "minLength": 10},
+    "text_en": {"type": "string", "minLength": 10},
+    "turns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "text"],
+        "properties": {
+          "role": {"enum": ["unknown_sender", "recipient", "organisation"]},
+          "text": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "signals": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "scenario_cue_en": {"type": ["string", "null"]},
+    "leaf_text_specificity": {"enum": ["leaf_level", "mechanism_level", "not_applicable"]},
+    "variant_type": {"enum": ["clean", "defanged_url", "zero_width", "fullwidth_punctuation", "spaced_tokens", "mixed_punctuation"]},
+    "variant_family_id": {"type": "string"},
+    "requested_action": {"type": "string"},
+    "harm_vector": {"type": "string"},
+    "severity": {"enum": ["none", "medium", "high"]},
+    "annotation_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "label_basis": {"enum": ["generator_ground_truth", "designed_abstention_case"]},
+    "review_status": {"enum": ["internal_template_review", "native_speaker_review_required"]},
+    "ood_reason": {"type": ["string", "null"]},
+    "lifecycle_stage": {"type": "string", "minLength": 2},
+    "payment_method": {"enum": ["bank_transfer", "crypto", "gift_card", "cash_deposit", "e_wallet", "none"]},
+    "synthetic": {"const": true},
+    "contains_live_indicator": {"const": false},
+    "pii_status": {"const": "safe_placeholders_only"},
+    "code_switch_status": {"const": "none"},
+    "source_id": {"const": "NEXVISION-SYNTH-2026-02"},
+    "source_type": {"const": "deterministic_synthetic_template"},
+    "generator_seed": {"const": 20260923},
+    "campaign_group_id": {"type": "string", "pattern": "^NVG-"},
+    "created_at": {"type": "string", "format": "date"},
+    "split": {"enum": ["train", "validation", "test"]},
+    "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "additionalProperties": true
+}

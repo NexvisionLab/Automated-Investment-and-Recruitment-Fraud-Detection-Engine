@@ -91,7 +91,7 @@ Non-English `text` is generated from auditable target-language phrase templates 
 ## Files
 
 - `data/records.jsonl` — generated locally; contains all 64,000 records and is intentionally not committed.
-- `metadata/split_index.csv` — deterministic split membership and leakage-control groups.
+- `metadata/split_index.csv` — generated locally with the corpus; deterministic split membership and leakage-control groups. It is included in the full release archive but omitted from the GitHub source tree because it is reproducible.
 - `scripts/materialize_splits.py` — recreates `data/train.jsonl`, `validation.jsonl` and `test.jsonl` from the canonical file. The release archive omits these duplicate full-text files to avoid shipping every record twice.
 - `taxonomy/taxonomy.json` — 32 leaf definitions, mechanisms, signals and lifecycle stages.
 - `samples/taxonomy_sample_320.jsonl` and `.csv` — ten examples from each leaf type.

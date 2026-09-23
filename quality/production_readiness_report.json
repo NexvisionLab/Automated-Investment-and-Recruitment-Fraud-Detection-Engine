@@ -1,0 +1,89 @@
+{
+  "blocked_gate_count": 7,
+  "dataset_version": "1.2.0",
+  "evaluated_at": "2026-09-23",
+  "governance_gates": [
+    {
+      "evidence": "quality/native_review_matrix.csv",
+      "id": "G01",
+      "name": "Native-language review",
+      "owner": "Language review lead",
+      "status": "BLOCKED"
+    },
+    {
+      "evidence": "campaign- and time-separated evaluation report",
+      "id": "G02",
+      "name": "Independent real-world validation",
+      "owner": "Validation lead",
+      "status": "BLOCKED"
+    },
+    {
+      "evidence": "per-language/subtype/channel metrics",
+      "id": "G03",
+      "name": "Bias, calibration and abstention review",
+      "owner": "ML governance",
+      "status": "BLOCKED"
+    },
+    {
+      "evidence": "approved lawful-basis, privacy and data-use record",
+      "id": "G04",
+      "name": "Legal and privacy review",
+      "owner": "Legal/privacy",
+      "status": "BLOCKED"
+    },
+    {
+      "evidence": "signed security review and threat assessment",
+      "id": "G05",
+      "name": "Security release review",
+      "owner": "Security",
+      "status": "BLOCKED"
+    },
+    {
+      "evidence": "protected branch, review and immutable release evidence",
+      "id": "G06",
+      "name": "Git repository governance",
+      "owner": "Repository owner",
+      "status": "BLOCKED"
+    },
+    {
+      "evidence": "written NexVision Lab approval",
+      "id": "G07",
+      "name": "Production owner approval",
+      "owner": "Product owner",
+      "status": "BLOCKED"
+    }
+  ],
+  "interpretation": "Technical PASS permits research release packaging only. Production use requires every governance gate to be independently approved with evidence.",
+  "overall_status": "NOT_READY_FOR_PRODUCTION",
+  "technical_gates": [
+    {
+      "evidence": "quality/validation_report.json",
+      "id": "T01",
+      "name": "Dataset validation",
+      "owner": "Engineering",
+      "status": "PASS"
+    },
+    {
+      "evidence": "metadata/release_manifest.json",
+      "id": "T02",
+      "name": "Complete release manifest",
+      "owner": "Engineering",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation checks: safe_provenance_flags, reserved_urls_only",
+      "id": "T03",
+      "name": "Synthetic provenance and safe indicators",
+      "owner": "Data governance",
+      "status": "PASS"
+    },
+    {
+      "evidence": "metadata/external_sources_manifest.csv",
+      "id": "T04",
+      "name": "External records excluded",
+      "owner": "Data governance",
+      "status": "PASS"
+    }
+  ],
+  "technical_release_status": "PASS"
+}

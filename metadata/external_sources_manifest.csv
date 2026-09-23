@@ -1,0 +1,16 @@
+name,modality,published_count,access,licence_or_requirement,source_url,included_in_records
+EMSCAD,job_posting,17880,public,licence review required,https://emscad.samos.aegean.gr/,No
+Anansi,job_message,29209,paper; corpus access unconfirmed,author permission required,https://arxiv.org/abs/2602.24223,No
+Investment deceptive content,investment_social,16202,public,CC BY 4.0,https://data.mendeley.com/datasets/6wnd7jrt6z/2,No
+Taiwan investment chatrooms,investment_conversation,29438,release unconfirmed,author permission required,https://www.researchgate.net/publication/372953766_Constructing_an_Investment_Scam_Detection_Model_Based_on_Emotional_Fluctuations_Throughout_the_Investment_Scam_Life_Cycle,No
+SCAMBENCH,mixed_message,3670,gated,CC BY-NC 4.0,https://huggingface.co/datasets/Shouninger/ScamBench,No
+MultiAgentFraudBench,synthetic_social,11900,public,CC BY-NC-SA 4.0,https://huggingface.co/datasets/ninty-seven/MultiAgentFraudBench,No
+PreScam,mixed_conversation,11573,release unconfirmed,author permission required,https://arxiv.org/abs/2605.12243,No
+BanglaPhish-2026,synthetic_message,6000,public,CC BY-NC 4.0,https://github.com/Xrenes/BanglaPhish-2026,No
+Bangla-English financial scams,mixed_message,not published,public,CC BY 4.0,https://data.mendeley.com/datasets/znsk27yk3h/2,No
+COVA-X,synthetic_conversation,10985,paper,licence review required,https://arxiv.org/abs/2606.06879,No
+TeleAntiFraud-28k,audio_text,28511,public sanitized,dataset terms review required,https://github.com/JimmyMa99/TeleAntiFraud,No
+IMC25 smishing,multilingual_message,27718,public,CC BY 4.0,https://github.com/reportsmishing/Smishing-Dataset-IMC25,No
+Smishtank,smishing_message,1090,public,source terms review required,https://arxiv.org/abs/2402.18430,No
+UCI SMS Spam Collection,sms_contrast,5574,public,CC BY 4.0,https://archive.ics.uci.edu/dataset/228/sms+spam+collection,No
+ScamFerret,website,4780,public artifact,repository and captured-content rights review,https://github.com/ScamFerret/artifact,No

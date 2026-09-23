@@ -1,0 +1,20 @@
+language,language_name,status,minimum_records_to_review,priority,notes
+en,English,internal_template_review,0,reference,English source templates
+zh,Chinese,native_speaker_review_required,160,high,Review Simplified and regional register
+ms,Malay,native_speaker_review_required,160,high,Review Malaysia and Singapore register
+ta,Tamil,native_speaker_review_required,160,high,Review formal and conversational register
+id,Indonesian,native_speaker_review_required,160,high,Review colloquial digital messaging
+es,Spanish,native_speaker_review_required,160,medium,Review regional neutrality
+pt,Portuguese,native_speaker_review_required,160,medium,Review Brazil and Portugal variants
+fr,French,native_speaker_review_required,160,medium,Review regional neutrality
+de,German,native_speaker_review_required,160,medium,Review natural compounding and register
+hi,Hindi,native_speaker_review_required,160,high,Review code-switch expectations separately
+bn,Bengali,native_speaker_review_required,160,high,Review Bangladesh and India register
+ur,Urdu,native_speaker_review_required,160,high,Review script and right-to-left rendering
+ar,Arabic,native_speaker_review_required,160,high,Review Modern Standard and dialect limitations
+ja,Japanese,native_speaker_review_required,160,medium,Review politeness and platform register
+ko,Korean,native_speaker_review_required,160,medium,Review honorific and platform register
+th,Thai,native_speaker_review_required,160,high,Review segmentation and colloquial form
+vi,Vietnamese,native_speaker_review_required,160,high,Review diacritics and regional neutrality
+tl,Filipino/Tagalog,native_speaker_review_required,160,high,Review natural Taglish separately
+ru,Russian,native_speaker_review_required,160,medium,Review idiom and regional neutrality

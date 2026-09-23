@@ -1,0 +1,526 @@
+{
+  "items": [
+    {
+      "definition": "Impersonates a recruiter or employer to obtain money, data, or access.",
+      "domain": "job",
+      "id": "J01",
+      "lifecycle_stages": [
+        "contact",
+        "trust_building"
+      ],
+      "mechanism": "impersonation",
+      "name": "Recruiter impersonation",
+      "signals": [
+        "unsolicited_contact",
+        "brand_impersonation",
+        "off_platform"
+      ]
+    },
+    {
+      "definition": "Advertises a role that does not exist or materially misrepresents the employer.",
+      "domain": "job",
+      "id": "J02",
+      "lifecycle_stages": [
+        "contact",
+        "offer"
+      ],
+      "mechanism": "fake_offer",
+      "name": "Fake job advertisement",
+      "signals": [
+        "unrealistic_pay",
+        "minimal_screening",
+        "urgency"
+      ]
+    },
+    {
+      "definition": "Offers paid rating or optimisation tasks before demanding deposits to continue or withdraw.",
+      "domain": "job",
+      "id": "J03",
+      "lifecycle_stages": [
+        "offer",
+        "payment",
+        "withdrawal_block"
+      ],
+      "mechanism": "task_deposit",
+      "name": "Task or optimisation scam",
+      "signals": [
+        "simple_tasks",
+        "commission",
+        "unlock_payment"
+      ]
+    },
+    {
+      "definition": "Uses an easy remote-work promise to collect fees or personal information.",
+      "domain": "job",
+      "id": "J04",
+      "lifecycle_stages": [
+        "contact",
+        "offer"
+      ],
+      "mechanism": "fake_offer",
+      "name": "Work-from-home data-entry scam",
+      "signals": [
+        "remote_work",
+        "high_pay",
+        "no_interview"
+      ]
+    },
+    {
+      "definition": "Requires payment before an application, interview, or job can proceed.",
+      "domain": "job",
+      "id": "J05",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "upfront_fee",
+      "name": "Registration or processing-fee scam",
+      "signals": [
+        "upfront_fee",
+        "refundable_claim",
+        "urgency"
+      ]
+    },
+    {
+      "definition": "Requires payment for mandatory training, licensing, or certification controlled by the scammer.",
+      "domain": "job",
+      "id": "J06",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "upfront_fee",
+      "name": "Training or certification-fee scam",
+      "signals": [
+        "mandatory_training",
+        "fee",
+        "scarcity"
+      ]
+    },
+    {
+      "definition": "Directs the applicant to buy equipment from a fake supplier or send money for reimbursement.",
+      "domain": "job",
+      "id": "J07",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "upfront_fee",
+      "name": "Equipment-purchase scam",
+      "signals": [
+        "equipment_purchase",
+        "approved_vendor",
+        "reimbursement_claim"
+      ]
+    },
+    {
+      "definition": "Sends a false payment and instructs the applicant to return or forward real funds.",
+      "domain": "job",
+      "id": "J08",
+      "lifecycle_stages": [
+        "payment",
+        "escalation"
+      ],
+      "mechanism": "fake_check",
+      "name": "Fake-cheque or overpayment scam",
+      "signals": [
+        "overpayment",
+        "refund_request",
+        "money_transfer"
+      ]
+    },
+    {
+      "definition": "Recruits a person to receive and forward goods acquired through fraud.",
+      "domain": "job",
+      "id": "J09",
+      "lifecycle_stages": [
+        "offer",
+        "execution"
+      ],
+      "mechanism": "reshipping",
+      "name": "Reshipping or parcel-mule job",
+      "signals": [
+        "receive_packages",
+        "remove_labels",
+        "reship"
+      ]
+    },
+    {
+      "definition": "Recruits a person to receive, convert, or forward criminal proceeds.",
+      "domain": "job",
+      "id": "J10",
+      "lifecycle_stages": [
+        "offer",
+        "execution"
+      ],
+      "mechanism": "money_mule",
+      "name": "Money-mule or payment-agent recruitment",
+      "signals": [
+        "use_bank_account",
+        "retain_commission",
+        "forward_funds"
+      ]
+    },
+    {
+      "definition": "Uses shopping assignments, fake cheques, or gift-card purchases to steal funds.",
+      "domain": "job",
+      "id": "J11",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "fake_check",
+      "name": "Mystery-shopper scam",
+      "signals": [
+        "mystery_shopper",
+        "gift_cards",
+        "fake_check"
+      ]
+    },
+    {
+      "definition": "Impersonates a public body and charges for placement, forms, or clearance.",
+      "domain": "job",
+      "id": "J12",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "impersonation",
+      "name": "Government-job placement scam",
+      "signals": [
+        "government_impersonation",
+        "processing_fee",
+        "authority"
+      ]
+    },
+    {
+      "definition": "Promises overseas employment while charging for visas, travel, or placement.",
+      "domain": "job",
+      "id": "J13",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "upfront_fee",
+      "name": "Visa or overseas-placement scam",
+      "signals": [
+        "overseas_job",
+        "visa_fee",
+        "travel_payment"
+      ]
+    },
+    {
+      "definition": "Uses recruitment as a pretext to obtain identity, banking, or authentication data.",
+      "domain": "job",
+      "id": "J14",
+      "lifecycle_stages": [
+        "application",
+        "credential_request"
+      ],
+      "mechanism": "credential",
+      "name": "Employment identity harvesting",
+      "signals": [
+        "identity_documents",
+        "bank_details",
+        "otp_request"
+      ]
+    },
+    {
+      "definition": "Directs the applicant to install unsafe software or open a malicious interview file.",
+      "domain": "job",
+      "id": "J15",
+      "lifecycle_stages": [
+        "interview",
+        "installation"
+      ],
+      "mechanism": "malware",
+      "name": "Interview malware or fake meeting application",
+      "signals": [
+        "install_application",
+        "apk",
+        "remote_access"
+      ]
+    },
+    {
+      "definition": "Uses deceptive overseas employment to facilitate coercion, confinement, or forced criminal activity.",
+      "domain": "job",
+      "id": "J16",
+      "lifecycle_stages": [
+        "offer",
+        "travel",
+        "control"
+      ],
+      "mechanism": "trafficking",
+      "name": "Labour-trafficking recruitment",
+      "signals": [
+        "travel_pressure",
+        "passport_request",
+        "remote_location"
+      ]
+    },
+    {
+      "definition": "Builds friendship or romance before directing the victim to a controlled investment platform.",
+      "domain": "investment",
+      "id": "I01",
+      "lifecycle_stages": [
+        "contact",
+        "trust_building",
+        "investment"
+      ],
+      "mechanism": "grooming",
+      "name": "Relationship-investment scam",
+      "signals": [
+        "relationship_grooming",
+        "private_tip",
+        "controlled_platform"
+      ]
+    },
+    {
+      "definition": "Uses a coordinated group, fake experts, and fabricated testimonials to induce deposits.",
+      "domain": "investment",
+      "id": "I02",
+      "lifecycle_stages": [
+        "contact",
+        "trust_building",
+        "payment"
+      ],
+      "mechanism": "social_proof",
+      "name": "Fake investment chat group",
+      "signals": [
+        "chat_group",
+        "fake_expert",
+        "testimonials"
+      ]
+    },
+    {
+      "definition": "Displays fabricated balances and profits on a platform controlled by the scammer.",
+      "domain": "investment",
+      "id": "I03",
+      "lifecycle_stages": [
+        "investment",
+        "payment",
+        "withdrawal_block"
+      ],
+      "mechanism": "fake_platform",
+      "name": "Fake trading website or application",
+      "signals": [
+        "platform_link",
+        "fabricated_profit",
+        "withdrawal_block"
+      ]
+    },
+    {
+      "definition": "Promotes a false crypto, token, mining, staking, or liquidity opportunity.",
+      "domain": "investment",
+      "id": "I04",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "guaranteed_return",
+      "name": "Cryptocurrency or token investment scam",
+      "signals": [
+        "crypto",
+        "wallet_payment",
+        "guaranteed_return"
+      ]
+    },
+    {
+      "definition": "Promotes unauthorised or fictitious leveraged trading with unrealistic returns.",
+      "domain": "investment",
+      "id": "I05",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "guaranteed_return",
+      "name": "Forex or CFD trading scam",
+      "signals": [
+        "forex",
+        "leverage",
+        "account_manager"
+      ]
+    },
+    {
+      "definition": "Claims an automated or AI system produces consistent low-risk profits.",
+      "domain": "investment",
+      "id": "I06",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "guaranteed_return",
+      "name": "AI or automated trading-bot scam",
+      "signals": [
+        "ai_claim",
+        "automated_trading",
+        "risk_free"
+      ]
+    },
+    {
+      "definition": "Promises implausible fixed daily, weekly, or monthly investment returns.",
+      "domain": "investment",
+      "id": "I07",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "guaranteed_return",
+      "name": "High-yield guaranteed-return programme",
+      "signals": [
+        "high_yield",
+        "guaranteed_return",
+        "urgency"
+      ]
+    },
+    {
+      "definition": "Uses new participants' money to pay apparent returns to earlier participants.",
+      "domain": "investment",
+      "id": "I08",
+      "lifecycle_stages": [
+        "trust_building",
+        "payment",
+        "escalation"
+      ],
+      "mechanism": "social_proof",
+      "name": "Ponzi scheme",
+      "signals": [
+        "consistent_returns",
+        "referrals",
+        "opaque_strategy"
+      ]
+    },
+    {
+      "definition": "Rewards recruitment and entry fees rather than genuine investment activity.",
+      "domain": "investment",
+      "id": "I09",
+      "lifecycle_stages": [
+        "offer",
+        "recruitment",
+        "payment"
+      ],
+      "mechanism": "recruitment",
+      "name": "Pyramid or investment-MLM scheme",
+      "signals": [
+        "recruit_members",
+        "entry_fee",
+        "tiered_rewards"
+      ]
+    },
+    {
+      "definition": "Promotes a security using false claims before insiders sell at an inflated price.",
+      "domain": "investment",
+      "id": "I10",
+      "lifecycle_stages": [
+        "promotion",
+        "purchase"
+      ],
+      "mechanism": "market_manipulation",
+      "name": "Pump-and-dump or stock-tip manipulation",
+      "signals": [
+        "secret_tip",
+        "buy_now",
+        "price_target"
+      ]
+    },
+    {
+      "definition": "Offers fictitious or unauthorised shares before an alleged public listing.",
+      "domain": "investment",
+      "id": "I11",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "scarcity",
+      "name": "Pre-IPO or private-placement scam",
+      "signals": [
+        "pre_ipo",
+        "exclusive_allocation",
+        "deadline"
+      ]
+    },
+    {
+      "definition": "Misuses the identity of a regulated firm or professional to solicit investments.",
+      "domain": "investment",
+      "id": "I12",
+      "lifecycle_stages": [
+        "contact",
+        "verification",
+        "payment"
+      ],
+      "mechanism": "impersonation",
+      "name": "Clone-firm or adviser impersonation",
+      "signals": [
+        "clone_firm",
+        "fake_adviser",
+        "lookalike_domain"
+      ]
+    },
+    {
+      "definition": "Exploits a shared community, religion, occupation, or nationality to build trust.",
+      "domain": "investment",
+      "id": "I13",
+      "lifecycle_stages": [
+        "trust_building",
+        "offer"
+      ],
+      "mechanism": "affinity",
+      "name": "Affinity investment fraud",
+      "signals": [
+        "shared_identity",
+        "community_endorsement",
+        "social_proof"
+      ]
+    },
+    {
+      "definition": "Promotes fictitious or misrepresented gold, commodity, or futures investments.",
+      "domain": "investment",
+      "id": "I14",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "guaranteed_return",
+      "name": "Commodity or precious-metal fraud",
+      "signals": [
+        "commodity",
+        "storage_claim",
+        "guaranteed_return"
+      ]
+    },
+    {
+      "definition": "Offers non-existent, unauthorised, or materially misrepresented property investments.",
+      "domain": "investment",
+      "id": "I15",
+      "lifecycle_stages": [
+        "offer",
+        "payment"
+      ],
+      "mechanism": "fake_asset",
+      "name": "Real-estate or land investment fraud",
+      "signals": [
+        "property_units",
+        "exclusive_deal",
+        "deposit"
+      ]
+    },
+    {
+      "definition": "Targets prior victims with a promise to recover losses after another advance payment.",
+      "domain": "investment",
+      "id": "I16",
+      "lifecycle_stages": [
+        "recontact",
+        "payment"
+      ],
+      "mechanism": "recovery",
+      "name": "Recovery or reload scam",
+      "signals": [
+        "prior_victim",
+        "recovery_fee",
+        "guarantee"
+      ]
+    }
+  ],
+  "leaf_count": 32,
+  "version": "1.2.0"
+}

@@ -1,0 +1,9 @@
+{
+  "bias_calibration_review": {"status": "not_provided", "reviewer": null, "reviewed_at": null, "evidence": null},
+  "external_real_world_validation": {"status": "not_provided", "reviewer": null, "reviewed_at": null, "evidence": null},
+  "git_repository_governance": {"status": "not_provided", "reviewer": null, "reviewed_at": null, "evidence": null},
+  "legal_privacy_review": {"status": "not_provided", "reviewer": null, "reviewed_at": null, "evidence": null},
+  "native_language_review": {"status": "not_provided", "reviewer": null, "reviewed_at": null, "evidence": null},
+  "production_owner_approval": {"status": "not_provided", "reviewer": null, "reviewed_at": null, "evidence": null},
+  "security_release_review": {"status": "not_provided", "reviewer": null, "reviewed_at": null, "evidence": null}
+}
