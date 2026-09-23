@@ -29,7 +29,7 @@ The checker provides:
 - JSON, color-coded HTML and PDF reports that preserve the submitted message and source link;
 - abstention for sparse or unsupported input.
 
-The application code, UI, methodology and 271-case regression suite are in [`app/`](app/README.md).
+The application code, UI, methodology and 270-case regression suite are in [`app/`](app/README.md).
 
 ## Research dataset
 
