@@ -65,7 +65,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "d64fc48ab4ebc44ab714ac9c04adb150f1398e0ff1d12012b84d938696ef8959",
+      "sha256": "bf5dfe04141cfa48de05f1fa8cc1f6dca7d90f9655975cc4d5d34563b3f2b3a9",
       "size_bytes": 9880
     },
     {
@@ -385,6 +385,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "d1f6832e94cd84739cc1d9b50f6231fb77ef1a40132c15bbdcb964b7908f6b61",
+  "release_digest": "88235d84651759ef2d5d2165ede690252b446e5e923d75babc1465e316b2a384",
   "total_size_bytes": 130092697
 }
