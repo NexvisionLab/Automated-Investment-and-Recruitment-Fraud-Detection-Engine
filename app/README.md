@@ -73,6 +73,21 @@ print(result["risk_band"], result["risk_score"])
 
 The v1 `verdict`, `recommendations` and `warnings` aliases remain in the JSON response for compatibility.
 
+## HTTP API
+
+`POST /api/analyze` and `POST /api/report/{html,pdf}` accept only `Content-Type: application/json`, and reject a
+request whose `Origin` header is not this server. The built-in page satisfies both; from a script:
+
+```bash
+curl -s http://127.0.0.1:8787/api/analyze -H "Content-Type: application/json" -d '{"text": "Top up USDT to unlock your tasks"}'
+```
+
+## DNS resolver
+
+Optional live DNS checks query your machine's configured resolver (`/etc/resolv.conf`, or the Windows network
+settings). Set `NEXVISION_DNS_RESOLVER=<IPv4 address>` to choose one explicitly. Only if no resolver can be found
+does the checker fall back to the public resolver `1.1.1.1`.
+
 ## Test
 
 ```bash
