@@ -15,8 +15,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "985c63c699735bfbb559c20dc0b9a08a55a4963fc94d6f19075381f010adfe6e",
-      "size_bytes": 4034
+      "sha256": "2459902f74aa2e314086a04ffd4de03c3231251ae69017af9d3ef4e941279edb",
+      "size_bytes": 4370
     },
     {
       "path": "CITATION.cff",
@@ -65,8 +65,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "2010d90ad056196b58257a645efb069a62a9525aedbfff0cd20946f4ad8ad776",
-      "size_bytes": 9958
+      "sha256": "7fbf671e432e417319be8075e02278af4d681cebf786fbc2a60eba7365832a1c",
+      "size_bytes": 17020
     },
     {
       "path": "RESEARCH_SOURCES.md",
@@ -390,6 +390,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "f7e4abaafb0a49b3a398e1aea19d4e7c835012885c93cb744689490dc6708ddc",
-  "total_size_bytes": 130044473
+  "release_digest": "91a6e61b300059a66bba127f4ee5e49d9605f3fecc6c5ab69d3a08e2f25c19f2",
+  "total_size_bytes": 130051871
 }
