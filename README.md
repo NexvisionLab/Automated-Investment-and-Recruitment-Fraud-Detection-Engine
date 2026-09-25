@@ -31,6 +31,82 @@ The checker provides:
 
 The application code, UI, methodology and 270-case regression suite are in [`app/`](app/README.md).
 
+## How the checker decides
+
+The checker never returns a bare verdict. Every score is the sum of named components, and each component points back to the evidence that produced it.
+
+```mermaid
+flowchart TD
+    IN["Message text<br/>optional: source link, recruiter email,<br/>claimed company, chat turns"] --> NORM["1. Normalize<br/>NFKC, strip invisible characters, restore defanged<br/>links, map look-alike letters, collapse spaced letters"]
+    NORM --> RULES["2. Rules<br/>35 patterns, each with a weight<br/>negated or educational wording is skipped"]
+    NORM --> ENT["3. Entities<br/>links, emails, phones, handles, wallet addresses"]
+    NORM --> CONV["4. Conversation stages<br/>contact, easy task, first payout,<br/>deposit, problem, blocked withdrawal"]
+    NORM --> ML["5. Local classifier<br/>character n-gram Naive Bayes<br/>abstains on unsupported scripts or thin text"]
+    ENT --> URL["Link checks<br/>scheme, IP host, shortener, risky ending,<br/>punycode, brand look-alike"]
+    ENT --> ID["Email checks<br/>domain vs claimed company, free mail,<br/>brand look-alike"]
+    RULES --> FUSE
+    URL --> FUSE
+    ID --> FUSE
+    CONV --> FUSE
+    ML --> FUSE
+    FUSE["6. Fuse<br/>bounded sum, capped at 100"] --> BAND{"7. Band"}
+    BAND -->|"75 or more"| CRIT["Critical"]
+    BAND -->|"50 to 74"| HIGH["High"]
+    BAND -->|"25 to 49"| ELEV["Elevated"]
+    BAND -->|"below 25"| LOW["Low"]
+    BAND -->|"model abstained and no critical rule"| REV["Needs review"]
+```
+
+### The steps
+
+1. **Normalize.** Scammers hide wording so pattern matching misses it. The checker undoes the common tricks before anything else: Unicode compatibility forms, zero-width and control characters, `hxxps://` and `[.]` link notation, look-alike letters (Cyrillic or Greek characters standing in for Latin ones), letters separated by spaces, and common leetspeak. The original text is kept and shown in the report; only the matching copy is changed.
+2. **Rules.** [`app/rules.py`](app/rules.py) holds 35 rules, 21 of them critical. Each one is a regular expression with a category, a weight, a plain-language explanation and a recommended action. Examples: a fee required before work starts, a deposit tied to tasks, a "negative balance" that must be topped up, a personal account used to receive funds, guaranteed returns, a payment demanded to release a withdrawal. Five rules are multilingual anchors for Singlish, Chinese, Malay/Indonesian and Tamil. A rule is skipped when the wording around the match negates it, for example "returns are not guaranteed" or "never pay a fee to a recruiter".
+3. **Entities and links.** Links, emails, phone numbers, handles and wallet addresses (Bitcoin, Ethereum, TRON) are extracted. Each link is scored on missing HTTPS, credentials in the address, an IP address instead of a name, a URL shortener, a higher-abuse ending such as `.top` or `.xyz`, punycode, many hostname levels, and a domain that resembles a known brand without being one of its official domains. Each email is compared with the company the sender claims to represent.
+4. **Conversation stages.** For a multi-message chat, the checker looks for the order that paid-task and investment scams follow: unsolicited contact, an easy task, a small first payout that builds trust, a deposit, a problem that needs more money, and finally a blocked withdrawal. Each stage found adds points, and stages appearing in that order add more.
+5. **Local classifier.** A character n-gram Naive Bayes model gives a second opinion. It **abstains** when the writing is mostly outside the scripts it knows (Latin, Chinese, Tamil), when the text is too short, or when its score is uncertain and the evidence is thin. An abstention contributes nothing to the score.
+6. **Fuse.** The components are added with a cap on each, so no single signal can decide the result alone, and the total is capped at 100.
+7. **Band.** The total maps to a band. If the classifier abstained and no critical rule fired, the answer is "Needs review" rather than "Low", so unsupported input is never reported as safe.
+
+### How the score is built
+
+| Component | Contribution | Cap |
+|---|---|---:|
+| Rules | `72 × (1 − e^(−points / 70))`, where points is the sum of the matched rule weights | 68 |
+| Links | sum of link risk points | 28 |
+| Identity | sum of email and sender risk points | 25 |
+| Conversation | 4 per stage found, plus 2 for each pair of stages in order | 30 |
+| Classifier | calibrated score × 28, or 0 if it abstained | 28 |
+| Suspicious Unicode | flat 7 when look-alike or hidden characters were present | 7 |
+
+The rule term flattens as points grow, so piling on more matches gives diminishing returns. If no rule matched and the classifier scores below 0.5, the total is held to 20 or less.
+
+**Worked example.** The message *"Earn 500 USDT daily! Top up 300 USDT to unlock your tasks. Guaranteed 30% daily profit. Act now."* matches five rules: `job_upfront_fee` (38), `task_deposit` (40), `guaranteed_returns` (39), `unrealistic_return` (34) and `pressure` (13). That is 164 raw points, which the diminishing-returns formula turns into 65. The conversation stages add 10 and the classifier adds 28. The sum is 103, capped at **100, Critical**. A plain job advertisement that says "No payment is required" matches no rule, scores 0 and lands in **Low**.
+
+### What this does not tell you
+
+- A low score is not proof that an offer is real. The rules only recognise wording they were written for.
+- The classifier is trained on a small built-in seed of 34 example sentences (16 legitimate, 18 scam). It is **not** trained on the 64,000-record dataset below. Its calibration is internal and is not a fraud probability.
+- The rule weights and score caps are hand-set, not fitted to real-world data. Treat the bands as triage, not as measured accuracy.
+- Live checks (DNS and certificate lookups) run only when you switch them on. Message content is never sent anywhere.
+
+## How the dataset is built
+
+The dataset and the checker are separate. The dataset is a deterministic generator with its own validation and release gates.
+
+```mermaid
+flowchart LR
+    SEED["Language phrase families<br/>19 languages"] --> GEN["generate_dataset.py<br/>fixed seed"]
+    TAX["Taxonomy<br/>32 scam types"] --> GEN
+    GEN --> REC["64,000 records<br/>plus samples and statistics"]
+    REC --> VAL{"validate_dataset.py<br/>counts, leakage, safe domains"}
+    VAL -->|"pass"| MAN["release_manifest.py<br/>SHA-256 of every file"]
+    VAL -->|"fail"| STOP["Stop"]
+    MAN --> GATE["production_readiness.py<br/>technical gates and human sign-offs"]
+    GATE --> BUILD["build_release.py<br/>deterministic archive"]
+```
+
+Running the generator twice with the same version and seed produces identical bytes. The validator rejects live domains, so generated links use only reserved `.invalid` and `.example` names. Human governance gates, such as native-speaker review, cannot be approved by the build itself, which is why the readiness report currently reads not ready for production.
+
 ## Research dataset
 
 **Current dataset release:** 1.2.0
@@ -85,7 +161,7 @@ Non-English `text` is generated from auditable target-language phrase templates 
 
 - Added a complete SHA-256 release manifest and archive verification.
 - Added fail-closed technical and human-owned production-readiness gates.
-- Added CI across Python 3.10 and 3.12, dependency update configuration and a security policy.
+- Added CI on Linux, Windows and macOS across Python 3.10 and 3.12, dependency update configuration and a security policy.
 - Added regression tests for attestations, manifest tampering and release hygiene.
 
 ## Files

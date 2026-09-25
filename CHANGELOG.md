@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- README: added "How the checker decides" (pipeline diagram, the seven steps, the score components and their caps, a worked
+  example and the limits of the scoring) and "How the dataset is built" (generator and release-gate diagram). Corrected the
+  CI description to Linux, Windows and macOS. Documentation only; no behaviour change.
+
 Cross-platform and security fixes found by auditing the release on Windows. Generated data is unchanged.
 
 - Every generated CSV, Markdown and JSON file is now written with LF line endings on every operating system
