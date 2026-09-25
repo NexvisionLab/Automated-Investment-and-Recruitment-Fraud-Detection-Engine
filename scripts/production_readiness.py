@@ -78,7 +78,7 @@ def evaluate(root: Path = ROOT) -> dict[str, Any]:
 def write_reports(report: dict[str, Any], root: Path = ROOT) -> None:
     json_path = root / "quality/production_readiness_report.json"
     md_path = root / "quality/PRODUCTION_READINESS_REPORT.md"
-    json_path.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    json_path.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
     lines = [
         "# Production readiness report", "",
         f"**Overall status: {report['overall_status']}**", "",
@@ -94,7 +94,7 @@ def write_reports(report: dict[str, Any], root: Path = ROOT) -> None:
         "Do not use this synthetic dataset as the sole basis for a production scam decision system while any governance gate is blocked.",
         "Populate `metadata/production_attestations.json` only after the named reviewer has approved linked evidence. Self-attestation by the generator or build process is not sufficient.", "",
     ])
-    md_path.write_text("\n".join(lines), encoding="utf-8")
+    md_path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def main() -> None:

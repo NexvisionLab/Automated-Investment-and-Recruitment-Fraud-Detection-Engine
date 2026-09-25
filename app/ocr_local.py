@@ -4,12 +4,15 @@
 from __future__ import annotations
 
 import base64
+import re
 import shutil
 import subprocess
 import tempfile
 from pathlib import Path
 
 MAX_IMAGE_BYTES = 8_000_000
+# Tesseract language codes such as "eng", "chi_sim", or "eng+chi_sim" - nothing that could be a path or an option.
+LANGUAGES = re.compile(r"[A-Za-z][A-Za-z_]{1,15}(?:\+[A-Za-z][A-Za-z_]{1,15}){0,3}")
 
 
 def _decode(data_url: str) -> tuple[bytes, str]:
@@ -26,6 +29,8 @@ def _decode(data_url: str) -> tuple[bytes, str]:
 
 
 def ocr_data_url(data_url: str, languages: str = "eng") -> dict:
+    if not LANGUAGES.fullmatch(languages):
+        raise ValueError("Invalid OCR language code")
     binary = shutil.which("tesseract")
     if not binary: return {"available": False, "text": "", "error": "Local Tesseract is not installed"}
     raw, ext = _decode(data_url)

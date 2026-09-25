@@ -513,7 +513,7 @@ def generate() -> list[dict[str, Any]]:
 
 
 def write_json(path: Path, value: Any) -> None:
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
 
 
 def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
@@ -528,7 +528,7 @@ def main() -> None:
     records = generate()
     write_jsonl(ROOT / "data" / "records.jsonl", records)
     with (ROOT / "metadata" / "split_index.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.writer(handle)
+        writer = csv.writer(handle, lineterminator="\n")
         writer.writerow(("id", "split", "campaign_group_id", "variant_family_id"))
         writer.writerows((x["id"], x["split"], x["campaign_group_id"], x["variant_family_id"]) for x in records)
     sample = []
@@ -536,7 +536,7 @@ def main() -> None:
         sample.extend([x for x in records if x["taxonomy_id"] == taxonomy_id][:10])
     write_jsonl(ROOT / "samples" / "taxonomy_sample_320.jsonl", sample)
     with (ROOT / "samples" / "taxonomy_sample_320.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=("id", "label", "domain", "taxonomy_id", "language", "country", "channel", "text", "split"))
+        writer = csv.DictWriter(handle, lineterminator="\n", fieldnames=("id", "label", "domain", "taxonomy_id", "language", "country", "channel", "text", "split"))
         writer.writeheader()
         writer.writerows({key: row[key] for key in writer.fieldnames} for row in sample)
     # Stable, compact evaluation set: subtype coverage plus hard-negative,
@@ -552,7 +552,7 @@ def main() -> None:
         raise RuntimeError(f"evaluation slice invariant failed: expected 512 records, got {len(curated)}")
     write_jsonl(ROOT / "samples" / "curated_eval_512.jsonl", curated)
     with (ROOT / "samples" / "curated_eval_512_index.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.writer(handle)
+        writer = csv.writer(handle, lineterminator="\n")
         writer.writerow(("id", "label", "domain", "taxonomy_id", "language", "variant_type", "severity", "slice"))
         for row in curated:
             slice_name = f"leaf:{row['taxonomy_id']}" if row["label"] == "scam" else f"label:{row['label']}"
@@ -563,12 +563,12 @@ def main() -> None:
         taxonomy_md.extend([f"## {domain.title()} scams", "", "| ID | Type | Mechanism | Definition |", "|---|---|---|---|"])
         taxonomy_md.extend(f"| {item['id']} | {item['name']} | {item['mechanism']} | {item['definition']} |" for item in TAX_BY_DOMAIN[domain])
         taxonomy_md.append("")
-    (ROOT / "taxonomy" / "TAXONOMY.md").write_text("\n".join(taxonomy_md) + "\n", encoding="utf-8")
+    (ROOT / "taxonomy" / "TAXONOMY.md").write_text("\n".join(taxonomy_md) + "\n", encoding="utf-8", newline="\n")
     write_json(ROOT / "metadata" / "languages.json", {
         "count": len(LANGUAGES), "languages": [{"code": code, "name": LANGUAGE_NAMES[code], "native_review_status": "required" if code != "en" else "internal_template_review"} for code in LANGUAGES]
     })
     with (ROOT / "metadata" / "external_sources_manifest.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.writer(handle)
+        writer = csv.writer(handle, lineterminator="\n")
         writer.writerow(("name", "modality", "published_count", "access", "licence_or_requirement", "source_url", "included_in_records"))
         writer.writerows(EXTERNAL_SOURCES)
     counts = {

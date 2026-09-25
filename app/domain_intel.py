@@ -10,7 +10,9 @@ from __future__ import annotations
 
 import ipaddress
 import json
+import os
 import re
+import secrets
 import socket
 import struct
 import urllib.parse
@@ -136,16 +138,64 @@ def email_domain_analysis(email: str, claimed_domain: str = "") -> dict:
             "signals": signals, "risk_points": min(points, 35)}
 
 
-def _resolver() -> str:
+def _first_ipv4(text: str) -> str | None:
+    for token in re.split(r"[\s,;]+", text):
+        try:
+            if ipaddress.ip_address(token).version == 4:
+                return token
+        except ValueError:
+            continue
+    return None
+
+
+def _windows_resolvers() -> list[str]:
+    """IPv4 DNS servers from the Windows TCP/IP interface settings (standard library only).
+
+    The registry lists every interface, including inactive ones, so callers try them in order.
+    """
+    try:
+        import winreg
+    except ImportError:
+        return []
+    base = r"SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces"
+    found: list[str] = []
+    try:
+        with winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, base) as interfaces:
+            for index in range(winreg.QueryInfoKey(interfaces)[0]):
+                with winreg.OpenKey(interfaces, winreg.EnumKey(interfaces, index)) as interface:
+                    for value_name in ("NameServer", "DhcpNameServer"):
+                        try:
+                            value = str(winreg.QueryValueEx(interface, value_name)[0])
+                        except OSError:
+                            continue
+                        found.extend(token for token in re.split(r"[\s,;]+", value) if _first_ipv4(token) == token)
+    except OSError:
+        pass
+    return found
+
+
+def _resolvers() -> list[str]:
+    """The machine's configured resolvers, as the module documentation promises.
+
+    Order: NEXVISION_DNS_RESOLVER override, /etc/resolv.conf, the Windows registry.
+    Only if none can be read does it fall back to a public resolver (1.1.1.1),
+    which is then the one place a queried domain name leaves the local network path.
+    """
+    override = os.environ.get("NEXVISION_DNS_RESOLVER", "").strip()
+    if override and _first_ipv4(override) == override:
+        return [override]
+    found: list[str] = []
     try:
         for line in Path("/etc/resolv.conf").read_text().splitlines():
             if line.startswith("nameserver "):
-                value = line.split()[1]
-                if ipaddress.ip_address(value).version == 4:
-                    return value
-    except (OSError, ValueError):
+                value = _first_ipv4(line.split(None, 1)[1])
+                if value:
+                    found.append(value)
+    except OSError:
         pass
-    return "1.1.1.1"
+    found.extend(_windows_resolvers())
+    unique = list(dict.fromkeys(found))
+    return unique or ["1.1.1.1"]
 
 
 def _dns_name(name: str) -> bytes:
@@ -165,14 +215,25 @@ def _skip_name(data: bytes, offset: int) -> int:
 
 
 def dns_query(name: str, qtype: int, timeout: float = 2.0) -> dict:
-    """Minimal UDP DNS query for MX(15), TXT(16), NS(2), A(1)."""
-    ident = 0x4E58
+    """Minimal UDP DNS query for MX(15), TXT(16), NS(2), A(1), trying up to three configured resolvers."""
+    result: dict = {"ok": False, "answers": [], "error": "NoResolver"}
+    for resolver in _resolvers()[:3]:
+        result = _dns_query_once(resolver, name, qtype, timeout)
+        if result["ok"]:
+            break
+    return result
+
+
+def _dns_query_once(resolver: str, name: str, qtype: int, timeout: float) -> dict:
+    ident = secrets.randbits(16)
     packet = struct.pack("!HHHHHH", ident, 0x0100, 1, 0, 0, 0) + _dns_name(name) + struct.pack("!HH", qtype, 1)
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.settimeout(timeout)
     try:
-        sock.sendto(packet, (_resolver(), 53))
-        data, _ = sock.recvfrom(65535)
+        sock.sendto(packet, (resolver, 53))
+        data, sender = sock.recvfrom(65535)
+        if sender[0] != resolver:
+            raise ValueError("DNS response from an unexpected address")
         rid, flags, qd, an, _, _ = struct.unpack("!HHHHHH", data[:12])
         if rid != ident:
             raise ValueError("DNS response mismatch")

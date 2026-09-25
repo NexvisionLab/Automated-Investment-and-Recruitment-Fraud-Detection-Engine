@@ -10,10 +10,11 @@ permissions:
 
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: ["3.10", "3.12"]
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
@@ -44,5 +45,5 @@ jobs:
       - name: Verify generated artifacts are committed
         run: git diff --exit-code
       - name: Build and verify release
-        if: matrix.python-version == '3.12'
+        if: matrix.python-version == '3.12' && runner.os == 'Linux'
         run: python scripts/build_release.py

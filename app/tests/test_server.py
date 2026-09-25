@@ -73,6 +73,28 @@ class ServerTests(unittest.TestCase):
             urllib.request.urlopen(request, timeout=3)
         self.assertEqual(caught.exception.code, 421)
 
+    def _raw_post(self, content_type, headers=None):
+        request = urllib.request.Request(
+            self.base + "/api/analyze", data=json.dumps({"text": "Pay a deposit to unlock your tasks"}).encode(),
+            headers={"Content-Type": content_type, **(headers or {})}, method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=3) as response:
+                return response.status
+        except urllib.error.HTTPError as error:
+            return error.code
+
+    def test_cross_site_simple_request_is_rejected(self):
+        # Regression: a page on another site can POST text/plain to 127.0.0.1 without a
+        # CORS preflight; the server used to accept any Content-Type and any Origin.
+        self.assertEqual(self._raw_post("text/plain"), 415)
+        self.assertEqual(self._raw_post("application/x-www-form-urlencoded"), 415)
+
+    def test_foreign_origin_is_rejected_and_same_origin_allowed(self):
+        self.assertEqual(self._raw_post("application/json", {"Origin": "https://evil.example"}), 403)
+        self.assertEqual(self._raw_post("application/json", {"Origin": self.base}), 200)
+        self.assertEqual(self._raw_post("application/json"), 200)  # no Origin: curl / scripts
+
     def test_url_only_analysis(self):
         status, _, payload = self.post({"text": "", "source_url": "hxxps://bonus[.]xyz/login"})
         self.assertEqual(status, 200)

@@ -160,7 +160,7 @@ def analyze(text: str, source_url: str = "", online_checks: bool = False, messag
     email_analysis = [email_domain_analysis(x, claimed_domain) for x in entities["emails"][:10]]
     if recruiter_email and recruiter_email not in entities["emails"]: email_analysis.insert(0, email_domain_analysis(recruiter_email, claimed_domain))
     url_points = min(28, sum(x.get("risk_points", 0) for x in url_analysis)); identity_points = min(25, sum(x.get("risk_points", 0) for x in email_analysis)); unicode_points = 7 if norm.suspicious_unicode else 0
-    ml = predict(value); model_points = 0 if ml["abstained"] else round(ml["calibrated_score"] * 28); strong_rule = any(x["severity"] == "critical" for x in findings)
+    ml = predict(value, original_text); model_points = 0 if ml["abstained"] else round(ml["calibrated_score"] * 28); strong_rule = any(x["severity"] == "critical" for x in findings)
     rule_component = min(68, round(72 * (1 - pow(2.718281828, -raw_rule_points / 70))))
     total = min(100, rule_component + url_points + identity_points + unicode_points + conversation["escalation_score"] + model_points)
     if not findings and ml["calibrated_score"] < .5: total = min(total, 20)

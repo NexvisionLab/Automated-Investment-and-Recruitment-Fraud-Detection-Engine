@@ -62,6 +62,33 @@ class AnalyzerTests(unittest.TestCase):
         result = analyze("The portfolio includes fixed income securities whose value may fall.")
         self.assertNotIn("guaranteed_returns", {x["id"] for x in result["findings"]})
 
+    def test_unsupported_scripts_abstain_instead_of_reporting_low_risk(self):
+        # Regression: normalization maps Cyrillic/Greek look-alikes to Latin, so genuine Russian
+        # text looked "Latin", skipped abstention, and a clear scam was banded "Low".
+        for text in (
+            "Здравствуйте! Работа на дому, оплатите взнос 5000 рублей для начала работы.",
+            "Καλημέρα, πληρώστε μια αμοιβή για να ξεκινήσετε την εργασία.",
+            "ادفع رسوم التسجيل الآن لبدء العمل",
+        ):
+            result = analyze(text)
+            self.assertEqual(result["risk_band"], "Needs review", text)
+            self.assertTrue(result["local_classifier"]["abstained"], text)
+
+    def test_lookalike_letter_evasion_in_english_is_still_analyzed(self):
+        # The counterpart: an English scam using a few Cyrillic look-alikes must NOT abstain.
+        result = analyze("Earn $500 daily! Pаy a 300 USDT dеposit to unlоck your tаsks.")
+        self.assertFalse(result["local_classifier"]["abstained"])
+        self.assertEqual(result["risk_band"], "Critical")
+
+    def test_html_inspector_survives_valueless_attributes(self):
+        # Regression: <input type> gives the attribute the value None, and the
+        # inspector called .lower() on it, so a hostile page could crash its own inspection.
+        from safehtml import inspect_html
+        page = '<form><input type><input type="PASSWORD"><a href>x</a><img src></form>'
+        result = inspect_html(page, "http://login.example.test/")
+        self.assertEqual(result["password_fields"], 1)
+        self.assertIn("Password form without HTTPS source", result["signals"])
+
     def test_private_address_online_check_is_blocked(self):
         result = online_domain_check("127.0.0.1")
         self.assertTrue(any("non-public" in warning for warning in result["warnings"]))

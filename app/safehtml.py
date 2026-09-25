@@ -26,7 +26,7 @@ class Inspector(HTMLParser):
         if tag == "title": self._in_title = True
         if tag == "form": self.forms += 1
         if tag == "script": self.scripts += 1
-        if tag == "input" and values.get("type", "").lower() == "password": self.passwords += 1
+        if tag == "input" and (values.get("type") or "").lower() == "password": self.passwords += 1
         if tag in {"a", "link", "script", "img"}:
             value = values.get("href") or values.get("src")
             if value: self.links.append(value[:500])
