@@ -19,9 +19,16 @@ from validate_dataset import content_hash_payload, is_reserved_url, is_transient
 
 class ReleaseHygieneTests(unittest.TestCase):
     def test_no_transient_project_files(self):
+        # Hidden directories (.git, .venv, .pytest_cache, ...) are never part of the release, so a
+        # developer's virtual environment inside the repo must not fail this test. A stray top-level
+        # dotfile such as .env is still flagged, as is anything in a normal directory.
+        def in_hidden_directory(path):
+            return any(part.startswith(".") for part in path.relative_to(ROOT).parts[:-1])
+
         transient = [
             path for path in ROOT.rglob("*")
             if path.is_file() and "__pycache__" not in path.parts
+            and not in_hidden_directory(path)
             and is_transient_project_file(path)
         ]
         self.assertEqual(transient, [])

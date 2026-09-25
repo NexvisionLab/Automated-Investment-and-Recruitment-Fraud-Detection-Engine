@@ -31,6 +31,13 @@ class Handler(BaseHTTPRequestHandler):
         except ValueError:
             return False
 
+    def _same_origin(self):
+        """A browser page on another site can send a "simple" cross-origin POST to
+        127.0.0.1 without a preflight. Reject any request whose Origin is not this server."""
+        origin = self.headers.get("Origin")
+        if origin is None: return True  # not a browser cross-origin request (curl, tests, same-origin without Origin)
+        return urlsplit(origin).netloc == self.headers.get("Host", "").strip()
+
     def _headers(self, status=200, content_type="application/json; charset=utf-8", length=None, disposition=None):
         self.send_response(status); self.send_header("Content-Type", content_type)
         self.send_header("X-Content-Type-Options", "nosniff"); self.send_header("X-Frame-Options", "DENY")
@@ -52,6 +59,8 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         if not self._trusted_host(): return self._json({"error": "Untrusted Host header"}, 421)
+        if not self._same_origin(): return self._json({"error": "Cross-origin requests are not allowed"}, 403)
+        if self.headers.get_content_type() != "application/json": return self._json({"error": "Content-Type must be application/json"}, 415)
         path = urlsplit(self.path).path
         try:
             payload = self._payload()

@@ -59,6 +59,20 @@ def content_hash_payload(row: dict) -> dict:
     }
 
 
+def _release_candidate_files(root: Path = ROOT):
+    """Files that could be shipped. Hidden directories (.git, .venv, .pytest_cache, editor folders)
+    are never part of a release - the manifest builder excludes them too - so a developer's virtual
+    environment inside the repository must not fail validation. A stray dotfile such as .env is
+    still caught, at the top level or inside any normal directory."""
+    for path in root.rglob("*"):
+        if not path.is_file() or "__pycache__" in path.parts:
+            continue
+        relative = path.relative_to(root)
+        if any(part.startswith(".") and part != ".github" for part in relative.parts[:-1]):
+            continue
+        yield path
+
+
 def is_transient_project_file(path: Path, root: Path = ROOT) -> bool:
     relative = path.relative_to(root)
     if ".git" in relative.parts or ".github" in relative.parts:
@@ -104,8 +118,7 @@ def main() -> None:
         "content_hashes_valid": not any("hash mismatch" in item for item in failures),
         "safe_provenance_flags": not any("unsafe provenance" in item for item in failures),
         "no_transient_release_files": not any(
-            is_transient_project_file(path)
-            for path in ROOT.rglob("*") if path.is_file() and "__pycache__" not in path.parts
+            is_transient_project_file(path) for path in _release_candidate_files()
         ),
     }
     language_counts = Counter(row["language"] for row in rows)
@@ -149,11 +162,11 @@ def main() -> None:
             "Campaign isolation prevents generator-family leakage only; it is not a substitute for independent real-world testing.",
         ],
     }
-    (ROOT / "quality" / "validation_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    (ROOT / "quality" / "validation_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
     summary = ["# Dataset QA report", "", f"**Status: {status}**", "", f"Records: {len(rows):,}", "", "## Checks", ""]
     summary.extend(f"- {'PASS' if value else 'FAIL'} — {name.replace('_', ' ')}" for name, value in checks.items())
     summary.extend(["", "## Important limitations", ""] + [f"- {item}" for item in report["limitations"]])
-    (ROOT / "quality" / "QA_REPORT.md").write_text("\n".join(summary) + "\n", encoding="utf-8")
+    (ROOT / "quality" / "QA_REPORT.md").write_text("\n".join(summary) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps({"status": status, "records": len(rows), "checks_passed": sum(checks.values()), "checks_total": len(checks)}, indent=2))
     if status != "PASS":
         raise SystemExit(1)

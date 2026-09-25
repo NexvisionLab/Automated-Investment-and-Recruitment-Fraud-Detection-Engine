@@ -1,6 +1,6 @@
 # NexVision ScamIntel
 
-[![CI](https://github.com/NexvisionLab/NexVision-Scam-Intel/actions/workflows/ci.yml/badge.svg)](https://github.com/NexvisionLab/NexVision-Scam-Intel/actions/workflows/ci.yml)
+[![CI](https://github.com/NexvisionLab/Automated-Investment-and-Recruitment-Fraud-Detection-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/NexvisionLab/Automated-Investment-and-Recruitment-Fraud-Detection-Engine/actions/workflows/ci.yml)
 
 **Job & Investment Scam Checker · research release**
 

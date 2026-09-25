@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import math
 import re
+import unicodedata
 from collections import Counter
 from functools import lru_cache
 
@@ -80,7 +81,26 @@ def _model():
     return counts, totals, docs, len(vocab)
 
 
-def predict(text: str) -> dict:
+SUPPORTED_SCRIPTS = ("LATIN", "CJK", "TAMIL")
+
+
+def supported_share(text: str) -> float:
+    """Fraction of the letters that are in a script the local model was trained on."""
+    letters = supported = 0
+    for char in text:
+        if not char.isalpha():
+            continue
+        letters += 1
+        name = unicodedata.name(char, "")
+        if any(script in name for script in SUPPORTED_SCRIPTS):
+            supported += 1
+    return supported / letters if letters else 0.0
+
+
+def predict(text: str, script_text: str | None = None) -> dict:
+    """`script_text` is the message as submitted. The scripts must be judged from it, not from `text`:
+    the analyzer normalizes Cyrillic/Greek look-alikes into Latin letters to catch obfuscation, which
+    turns genuine Russian into Latin-looking text and would otherwise hide that it is unsupported."""
     feats = _ngrams(text)
     counts, totals, docs, vocab = _model()
     scores = {}
@@ -94,8 +114,8 @@ def predict(text: str) -> dict:
     raw = 1 / (1 + math.exp(-delta))
     # Conservative temperature scaling fitted to the bundled development seed.
     calibrated = 1 / (1 + math.exp(-delta / 2.4))
-    profile = script_profile(text)
-    supported = bool(set(profile["scripts"]) & {"LATIN", "CJK", "TAMIL"})
+    profile = script_profile(script_text if script_text is not None else text)
+    supported = supported_share(script_text if script_text is not None else text) >= 0.5
     very_short = len(re.sub(r"\W", "", text, flags=re.UNICODE)) < 12
     uncertain = 0.35 <= calibrated <= 0.65
     abstain = not supported or very_short or (uncertain and len(feats) < 80)

@@ -1,5 +1,29 @@
 # Changelog
 
+## Unreleased
+
+Cross-platform and security fixes found by auditing the release on Windows. Generated data is unchanged.
+
+- Every generated CSV, Markdown and JSON file is now written with LF line endings on every operating system
+  (the `csv` module defaults to CRLF, and Windows text mode translated the rest). Previously the on-disk bytes,
+  and therefore the SHA-256 manifest, depended on the platform, contradicting the deterministic-bytes guarantee.
+  `.gitattributes` now forces LF for all text files (CRLF for `.bat`).
+- Dataset validation and the hygiene test no longer fail because of a virtual environment or other hidden directory
+  inside the repository; a stray dotfile in a normal directory is still flagged.
+- Checker API: `POST` requests must now use `Content-Type: application/json` and, if an `Origin` header is sent,
+  it must match the server. Previously a web page on another site could send a cross-origin `text/plain` request to
+  `127.0.0.1` with no CORS preflight and drive the local checker.
+- Checker: the HTML inspector no longer crashes on a valueless attribute such as `<input type>`.
+- Checker: text in an unsupported writing system (for example Russian, Greek or Arabic) now abstains with
+  "Needs review". The script check used the look-alike-normalized text, in which Cyrillic letters had become Latin,
+  so unsupported text was treated as supported and a clear scam was banded "Low".
+- Checker: optional DNS checks use the machine's configured resolver, read from `/etc/resolv.conf` or the Windows
+  registry, and can be overridden with `NEXVISION_DNS_RESOLVER`. On Windows the app previously ignored the
+  configured resolver and queried 1.1.1.1. DNS transaction IDs are now random and replies must come from the
+  resolver.
+- Checker: the OCR language argument is validated before it is passed to `tesseract`.
+- CI now runs on Linux, Windows and macOS; the README badge and `CITATION.cff` point at this repository.
+
 ## 1.2.0 — 2026-09-23
 
 - Added full-file SHA-256 release manifests with packaged-archive verification.
