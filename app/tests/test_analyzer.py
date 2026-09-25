@@ -115,6 +115,36 @@ class AnalyzerTests(unittest.TestCase):
         self.assertGreater(result["fusion"]["model_component"], 10)
         self.assertFalse(result["fusion"]["model_uncorroborated"])
 
+    def test_ordinary_employee_referral_bonus_is_not_a_pyramid_scheme(self):
+        # Regression: "refer a friend who joins our team ... bonus after 3 months" matched referral_income (Elevated).
+        result = analyze("Referral programme: refer a friend who joins our team and receive a $500 bonus after they complete 3 months.")
+        self.assertNotIn("referral_income", {x["id"] for x in result["findings"]})
+        self.assertEqual(result["risk_band"], "Low")
+
+    def test_recruiting_referrals_with_profit_or_tiers_is_still_flagged(self):
+        for text in ("Refer 3 friends and your daily profit doubles. Pay the activation fee to begin.",
+                     "Invite people to join our team, earn commission from your downline every week."):
+            self.assertIn("referral_income", {x["id"] for x in analyze(text)["findings"]}, text)
+
+    def test_sensitive_data_rule_needs_the_object_in_the_same_sentence(self):
+        # Regression: "Uniform provided free. Walk in with your NRIC." matched provide ... nric across a full stop.
+        result = analyze("Warehouse operative wanted, immediate start, shifts from 7am. Uniform provided free. Walk in with your NRIC.")
+        self.assertNotIn("sensitive_data", {x["id"] for x in result["findings"]})
+        for text in ("Please send your NRIC and a photo of your passport to start.", "Share your OTP with our agent to verify."):
+            self.assertIn("sensitive_data", {x["id"] for x in analyze(text)["findings"]}, text)
+
+    def test_scam_wordings_that_used_to_slip_through_are_caught(self):
+        # Each of these was rated Low or missed the rule that describes it.
+        cases = {
+            "account_upgrade": "You have been selected as a mystery shopper. Deposit $200 to activate your account and get a bonus.",
+            "unrealistic_return": "Forex signal group: our mentor turned $1,000 into $50,000 in one month. Join before midnight.",
+            "reshipping": "Package handler wanted from home. Receive parcels at your address, re-label them and post to our overseas address. $25 per parcel.",
+        }
+        for rule, text in cases.items():
+            result = analyze(text)
+            self.assertIn(rule, {x["id"] for x in result["findings"]}, text)
+            self.assertNotEqual(result["risk_band"], "Low", text)
+
     def test_private_address_online_check_is_blocked(self):
         result = online_domain_check("127.0.0.1")
         self.assertTrue(any("non-public" in warning for warning in result["warnings"]))
