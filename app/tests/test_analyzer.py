@@ -89,6 +89,32 @@ class AnalyzerTests(unittest.TestCase):
         self.assertEqual(result["password_fields"], 1)
         self.assertIn("Password form without HTTPS source", result["signals"])
 
+    def test_model_alone_cannot_raise_an_ordinary_message_above_low(self):
+        # Regression: the small classifier rates plain delivery and invoice wording as a near-certain scam
+        # (calibrated score above 0.99), and with no rule matched that alone put the message at "Elevated".
+        for text in (
+            "Your parcel from Amazon will arrive tomorrow between 2pm and 6pm. Track at amazon.com/orders.",
+            "Please pay the invoice of $450 by bank transfer to the account on the invoice before Friday.",
+        ):
+            result = analyze(text)
+            self.assertEqual(result["findings"], [], text)
+            self.assertLessEqual(result["fusion"]["model_component"], 10, text)
+            self.assertEqual(result["risk_band"], "Low", text)
+
+    def test_link_evidence_is_not_discarded_when_no_rule_matched(self):
+        # Regression: a blanket "no rule matched, cap at 20" threw away a brand look-alike link, so a
+        # "verify now" text pointing at dbs-secure-login.xyz was rated Low.
+        result = analyze("DBS ALERT: Your account is suspended. Verify now at http://dbs-secure-login.xyz to avoid closure.")
+        self.assertEqual(result["findings"], [])
+        self.assertGreaterEqual(result["fusion"]["url_component"], 25)
+        self.assertGreaterEqual(result["risk_score"], 25)
+        self.assertNotEqual(result["risk_band"], "Low")
+
+    def test_rule_matches_still_get_the_full_model_contribution(self):
+        result = analyze("Top up 500 USDT to unlock tasks. Guaranteed 30% daily profit. Pay a fee to release your withdrawal.")
+        self.assertGreater(result["fusion"]["model_component"], 10)
+        self.assertFalse(result["fusion"]["model_uncorroborated"])
+
     def test_private_address_online_check_is_blocked(self):
         result = online_domain_check("127.0.0.1")
         self.assertTrue(any("non-public" in warning for warning in result["warnings"]))

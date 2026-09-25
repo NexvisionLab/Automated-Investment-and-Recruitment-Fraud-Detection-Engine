@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Scoring: with no rule matched, the classifier can now add at most 10 points, so it cannot lift a message out of Low
+  by itself. It was trained on a few dozen sentences and rated a plain delivery notice and an invoice reminder as
+  near-certain scams (0.997 and 0.999), which put both at Elevated. The blanket "no rule matched, cap at 20" is removed,
+  because it also threw away real link evidence: a "verify now" text pointing at a brand look-alike domain was rated Low
+  and is now Elevated. Messages with rule matches score exactly as before.
+
 - README: added "How the checker decides" (pipeline diagram, the seven steps, the score components and their caps, a worked
   example and the limits of the scoring) and "How the dataset is built" (generator and release-gate diagram). Corrected the
   CI description to Linux, Windows and macOS. Documentation only; no behaviour change.

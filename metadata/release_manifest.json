@@ -15,8 +15,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "2459902f74aa2e314086a04ffd4de03c3231251ae69017af9d3ef4e941279edb",
-      "size_bytes": 4370
+      "sha256": "99b4ef9f5f66835dc9a8fd0d48be2963fc2aeda1ab047ccb8c3623c6f635e9fb",
+      "size_bytes": 4920
     },
     {
       "path": "CITATION.cff",
@@ -65,8 +65,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "7fbf671e432e417319be8075e02278af4d681cebf786fbc2a60eba7365832a1c",
-      "size_bytes": 17020
+      "sha256": "3e3baa4dad5586b4e659852bb37eff40087da56d513f51208fdeddc7b976f6a9",
+      "size_bytes": 17161
     },
     {
       "path": "RESEARCH_SOURCES.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "app/analyzer.py",
-      "sha256": "2b628a6eb7b2b7088b2bd98262cab0f507e2e457089133abcee9808288ae12ca",
-      "size_bytes": 14171
+      "sha256": "dc615deed65ba4c9c9c029919ec66fe4299f0fa41bf8251d453c49278a7f520a",
+      "size_bytes": 14719
     },
     {
       "path": "app/classifier.py",
@@ -185,8 +185,8 @@
     },
     {
       "path": "app/tests/test_analyzer.py",
-      "sha256": "d810374093f6b34f9bfb9107051f6b95bbc33a5dc454d050087b3ca0ab5e2214",
-      "size_bytes": 5363
+      "sha256": "49bdd3d62f056ad8c0355ecc2e7fe54a510891638ea387c8670dc8b8ec0559a6",
+      "size_bytes": 7087
     },
     {
       "path": "app/tests/test_hardening.py",
@@ -390,6 +390,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "91a6e61b300059a66bba127f4ee5e49d9605f3fecc6c5ab69d3a08e2f25c19f2",
-  "total_size_bytes": 130051871
+  "release_digest": "7e748a27c938a7dd851857bc7b36c9960238e688ae924b497ec7c2486c5618ee",
+  "total_size_bytes": 130054834
 }
