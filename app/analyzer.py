@@ -21,6 +21,7 @@ PHONE_RE = re.compile(r"(?<!\w)(?:\+?\d[\d ()-]{7,}\d)(?!\w)")
 HANDLE_RE = re.compile(r"(?<!\w)@[A-Za-z0-9_]{3,32}\b")
 CRYPTO_PATTERNS = (("Bitcoin", re.compile(r"\b(?:bc1[a-zA-HJ-NP-Z0-9]{25,90}|[13][a-km-zA-HJ-NP-Z1-9]{25,34})\b")), ("Ethereum/EVM", re.compile(r"\b0x[a-fA-F0-9]{40}\b")), ("TRON", re.compile(r"\bT[1-9A-HJ-NP-Za-km-z]{33}\b")))
 SHORTENERS = {"bit.ly", "tinyurl.com", "t.co", "goo.gl", "is.gd", "cutt.ly", "rb.gy", "rebrand.ly"}
+UNCORROBORATED_MODEL_CAP = 10  # max points the classifier alone can add when no rule matched; Elevated starts at 25
 SUSPICIOUS_TLDS = {"top", "xyz", "click", "work", "vip", "live", "buzz", "cyou", "quest", "cam"}
 
 
@@ -161,9 +162,13 @@ def analyze(text: str, source_url: str = "", online_checks: bool = False, messag
     if recruiter_email and recruiter_email not in entities["emails"]: email_analysis.insert(0, email_domain_analysis(recruiter_email, claimed_domain))
     url_points = min(28, sum(x.get("risk_points", 0) for x in url_analysis)); identity_points = min(25, sum(x.get("risk_points", 0) for x in email_analysis)); unicode_points = 7 if norm.suspicious_unicode else 0
     ml = predict(value, original_text); model_points = 0 if ml["abstained"] else round(ml["calibrated_score"] * 28); strong_rule = any(x["severity"] == "critical" for x in findings)
+    # The classifier is trained on a few dozen sentences and is badly over-confident off that narrow style: it rates a plain
+    # delivery notice or invoice reminder as a near-certain scam. With no rule matched it is the only evidence, so it may not
+    # lift a message out of "Low" on its own.
+    model_uncorroborated = not findings and model_points > UNCORROBORATED_MODEL_CAP
+    if not findings: model_points = min(model_points, UNCORROBORATED_MODEL_CAP)
     rule_component = min(68, round(72 * (1 - pow(2.718281828, -raw_rule_points / 70))))
     total = min(100, rule_component + url_points + identity_points + unicode_points + conversation["escalation_score"] + model_points)
-    if not findings and ml["calibrated_score"] < .5: total = min(total, 20)
     band, summary = _risk_band(total, ml["abstained"], strong_rule)
     live = [online_domain_check(x["host"]) for x in url_analysis if online_checks and x.get("host")][:3]
     verification = verification_workflow(claimed_company, claimed_domain, recruiter_email, claimed_license)
@@ -171,7 +176,7 @@ def analyze(text: str, source_url: str = "", online_checks: bool = False, messag
     primary = findings[0]["category"] if findings else "No decisive pattern"
     level = {"Critical": "critical", "High": "high", "Elevated": "caution", "Low": "low", "Needs review": "review"}[band]
     warnings = [x.get("resolution_error") for x in live if x.get("resolution_error")]
-    result = {"product": "NexVision OSINT Job & Investment Scam Checker", "version": "2.0.0", "generated_at": datetime.now(timezone.utc).isoformat(), "risk_score": total, "risk_band": band, "summary": summary, "findings": findings, "recommended_actions": actions, "evidence_input": {"message": original_text, "source_url": original_url}, "normalization": norm.to_dict(), "conversation": conversation, "entities": entities, "url_analysis": url_analysis, "email_analysis": email_analysis, "verification": verification, "local_classifier": ml, "fusion": {"rule_points_raw": raw_rule_points, "rule_component": rule_component, "url_component": url_points, "identity_component": identity_points, "unicode_component": unicode_points, "conversation_component": conversation["escalation_score"], "model_component": model_points, "method": "Conservative bounded additive fusion with diminishing rule returns"}, "online_checks": live, "online_checks_enabled": bool(online_checks), "privacy": "Core analysis is local. Optional live mode uses direct DNS/TLS only; it does not use paid/professional APIs or upload message content.", "limitations": ["A low score is not proof of legitimacy.", "Risk bands are decision-support labels, not real-world fraud probabilities.", "Human verification with official registries and the claimed organization remains necessary."], "rules_version": RULES_VERSION, "input_sha256": hashlib.sha256(original_text.encode("utf-8", "replace")).hexdigest()}
+    result = {"product": "NexVision OSINT Job & Investment Scam Checker", "version": "2.0.0", "generated_at": datetime.now(timezone.utc).isoformat(), "risk_score": total, "risk_band": band, "summary": summary, "findings": findings, "recommended_actions": actions, "evidence_input": {"message": original_text, "source_url": original_url}, "normalization": norm.to_dict(), "conversation": conversation, "entities": entities, "url_analysis": url_analysis, "email_analysis": email_analysis, "verification": verification, "local_classifier": ml, "fusion": {"rule_points_raw": raw_rule_points, "rule_component": rule_component, "url_component": url_points, "identity_component": identity_points, "unicode_component": unicode_points, "conversation_component": conversation["escalation_score"], "model_component": model_points, "model_uncorroborated": model_uncorroborated, "method": "Conservative bounded additive fusion with diminishing rule returns"}, "online_checks": live, "online_checks_enabled": bool(online_checks), "privacy": "Core analysis is local. Optional live mode uses direct DNS/TLS only; it does not use paid/professional APIs or upload message content.", "limitations": ["A low score is not proof of legitimacy.", "Risk bands are decision-support labels, not real-world fraud probabilities.", "Human verification with official registries and the claimed organization remains necessary."], "rules_version": RULES_VERSION, "input_sha256": hashlib.sha256(original_text.encode("utf-8", "replace")).hexdigest()}
     # Stable v1 aliases for integrations while v2 clients migrate.
     result["verdict"] = {"score": total, "label": band, "level": level, "primary_pattern": primary}
     result["recommendations"] = actions
