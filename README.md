@@ -75,10 +75,10 @@ flowchart TD
 | Links | sum of link risk points | 28 |
 | Identity | sum of email and sender risk points | 25 |
 | Conversation | 4 per stage found, plus 2 for each pair of stages in order | 30 |
-| Classifier | calibrated score × 28, or 0 if it abstained | 28 |
+| Classifier | calibrated score × 28, or 0 if it abstained; at most 10 when no rule matched | 28 |
 | Suspicious Unicode | flat 7 when look-alike or hidden characters were present | 7 |
 
-The rule term flattens as points grow, so piling on more matches gives diminishing returns. If no rule matched and the classifier scores below 0.5, the total is held to 20 or less.
+The rule term flattens as points grow, so piling on more matches gives diminishing returns. If no rule matched, the classifier is the only evidence, so it can add at most 10 points and cannot lift a message out of Low by itself. Links, sender identity and chat stages still count in full.
 
 **Worked example.** The message *"Earn 500 USDT daily! Top up 300 USDT to unlock your tasks. Guaranteed 30% daily profit. Act now."* matches five rules: `job_upfront_fee` (38), `task_deposit` (40), `guaranteed_returns` (39), `unrealistic_return` (34) and `pressure` (13). That is 164 raw points, which the diminishing-returns formula turns into 65. The conversation stages add 10 and the classifier adds 28. The sum is 103, capped at **100, Critical**. A plain job advertisement that says "No payment is required" matches no rule, scores 0 and lands in **Low**.
 
