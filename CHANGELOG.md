@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- Rule fixes found by testing job and investment wording. False alarms: an ordinary employee-referral bonus ("refer a
+  friend who joins our team ... after 3 months") was scored Elevated as a pyramid indicator, and a warehouse job advert
+  ("Uniform provided free. Walk in with your NRIC.") was scored High because `sensitive_data` matched "provide ... nric"
+  across a full stop. Misses: "Deposit $200 to activate your account", "turned $1,000 into $50,000 in one month" and
+  "re-label them and post to our overseas address" matched no rule. `sensitive_data` now needs whole words and the
+  object in the same sentence, `referral_income` skips employment referrals unless profit, tiers, deposits or similar
+  appear with it, and `account_upgrade`, `unrealistic_return` and `reshipping` gained the missing wordings.
+
 - Scoring: with no rule matched, the classifier can now add at most 10 points, so it cannot lift a message out of Low
   by itself. It was trained on a few dozen sentences and rated a plain delivery notice and an invoice reminder as
   near-certain scams (0.997 and 0.999), which put both at Elevated. The blanket "no rule matched, cap at 20" is removed,

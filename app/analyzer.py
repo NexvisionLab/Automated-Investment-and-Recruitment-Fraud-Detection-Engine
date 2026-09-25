@@ -39,6 +39,10 @@ def _negated_or_educational(rule_id: str, text: str, match: re.Match[str]) -> bo
         return True
     if rule_id == "no_risk" and re.search(r"not risk[ -]?free|no (?:investment|product|trade|strategy) (?:is|can be) risk[ -]?free|(?:all|every) investments? (?:carry|have|involve) risk", window):
         return True
+    # An ordinary employee-referral bonus ("refer a friend who joins our team ... after 3 months") is not a pyramid scheme.
+    # It only counts as one when profit, tiers, deposits or the like appear alongside it.
+    if rule_id == "referral_income" and re.search(r"join(?:s|ed)? (?:our|the) (?:team|company|firm)|employee referral|complete[sd]? (?:their )?(?:\d+|three|six) months?|probation", window) and not re.search(r"daily|weekly|profit|commission|tier|downline|invest|deposit|activation|usdt|crypto|recharge|level", window):
+        return True
     if rule_id in {"job_upfront_fee", "task_deposit", "sensitive_data", "unusual_payment", "sideload_app"} and re.search(r"(?:never|do not|don't|avoid|won't|will not).{0,60}(?:pay|transfer|deposit|share|send|install|download|top[ -]?up)", window):
         return True
     return False
