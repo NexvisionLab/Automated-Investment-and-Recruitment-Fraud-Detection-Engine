@@ -2,6 +2,20 @@
 
 ## Unreleased
 
+- Malay, Indonesian and Tamil coverage, and a fee wording the English rule missed. Found by running 23 job and investment
+  scams in 16 languages through the checker. The engine claims Malay/Indonesian and Tamil but had one rule for each, so a
+  Malay guaranteed-profit pitch ("Untung pasti 20% setiap minggu tanpa risiko") scored Low 13 and a Tamil "pay a fee first to
+  confirm the job" scored Low 4. New rules: `ms_guarantee`, `ms_unrealistic_return`, `ms_fee_job`, `ms_easy_income`,
+  `ms_regulator_claim`, `ms_pressure`, `ta_fee_job`, `ta_easy_income`, `ta_guarantee`. They need the return or job context, so
+  "Diskon hingga 30% setiap hari", "tiada yuran pendaftaran" and "prestasi lalu bukan jaminan" stay Low. In English,
+  `job_upfront_fee` now also matches a named fee ("To process your work permit and uniform please pay a refundable fee"),
+  which was only Elevated 32; it no longer matches across a full stop, it stands down on "no registration fee", "we never
+  charge any fee" and "the company will pay for your visa" when that is said in the same sentence as the fee (a "no interview
+  fee" in one sentence does not hide a registration-fee demand in the next), and it requires the text to be about a job, so a
+  course registration fee no longer scores Critical. `app/tests/test_multilingual_rules.py` covers the scams and 12 genuine
+  messages. Not added: Spanish, French, Portuguese, German, Vietnamese, Tagalog, Hindi, Arabic and Thai still have no rules (the
+  last three abstain); the DarkNyx checker now says so.
+
 - Word boundaries on three rules that started with a short word. `pressure` matched "act" inside "action" ("No action is
   needed today" scored Elevated), "pay" inside "payment" ("Your payment is due today") and "join" inside "joined" ("She
   joined the company now"); `no_risk` matched "no" inside "know" ("I know the risks of this project" scored Elevated 49);
