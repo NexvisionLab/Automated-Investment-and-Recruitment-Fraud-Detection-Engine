@@ -45,6 +45,17 @@ def _negated_or_educational(rule_id: str, text: str, match: re.Match[str]) -> bo
         return True
     if rule_id in {"job_upfront_fee", "task_deposit", "sensitive_data", "unusual_payment", "sideload_app"} and re.search(r"(?:never|do not|don't|avoid|won't|will not).{0,60}(?:pay|transfer|deposit|share|send|install|download|top[ -]?up)", window):
         return True
+    if rule_id == "job_upfront_fee":
+        # "There is no registration fee", "we never charge any fee" and "the company pays for your visa" promise the opposite of
+        # a fee demand, and a fee that is not about a job (a course, a subscription) is not a job scam.
+        # Only the sentence the fee is in counts: "There is no interview fee. But you must pay a registration fee" is still a demand.
+        start = max(text.rfind(c, 0, match.start()) for c in ".!?\n") + 1
+        ends = [i for i in (text.find(c, match.end()) for c in ".!?\n") if i != -1]
+        sentence = text[start: min(ends) if ends else len(text)].lower()
+        if re.search(r"\bno\s+(?:\w+\s+){0,2}fees?\b|\bwithout\s+(?:\w+\s+){0,2}fees?\b|(?:never|not|don't|do not|won't|will not)\s+(?:charge|ask|require)[^.!?]{0,40}\b(?:fees?|payments?|money)\b|free of (?:charge|cost)|at no (?:cost|charge)|(?:company|employer|we|firm)\s+(?:will\s+)?(?:pay|pays|cover|covers|bear|bears|reimburse\w*|sponsor\w*)\b[^.!?]{0,40}\b(?:fees?|permit|visa)\b", sentence):
+            return True
+        if not re.search(r"\b(?:job|role|position|hired?|hiring|employ\w*|recruit\w*|salary|shortlist\w*|vacanc\w*|candidates?|applicants?|interview|tasks?|commission|work|working|start|remote|assistant|staff|earn\w*|income|part[- ]time|full[- ]time)\b", text.lower()):
+            return True
     return False
 
 
