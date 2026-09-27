@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Word boundaries on three rules that started with a short word. `pressure` matched "act" inside "action" ("No action is
+  needed today" scored Elevated), "pay" inside "payment" ("Your payment is due today") and "join" inside "joined" ("She
+  joined the company now"); `no_risk` matched "no" inside "know" ("I know the risks of this project" scored Elevated 49);
+  `fake_regulation` matched "sec" inside "second" and "section" and "mas" inside "mass" ("The second draft was approved and
+  licensed"). All three now need whole words. Real wordings ("Act now, offer ends today", "Invest today", "zero risk",
+  "MAS approved", "SEC regulated") are tested to still match, and `tests/test_word_boundaries.py` fails without the fix.
+
 - Rule fixes found by testing job and investment wording. False alarms: an ordinary employee-referral bonus ("refer a
   friend who joins our team ... after 3 months") was scored Elevated as a pyramid indicator, and a warehouse job advert
   ("Uniform provided free. Walk in with your NRIC.") was scored High because `sensitive_data` matched "provide ... nric"
