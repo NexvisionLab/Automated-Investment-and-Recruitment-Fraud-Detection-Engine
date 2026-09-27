@@ -1,7 +1,7 @@
 {
   "algorithm": "SHA-256",
   "dataset_version": "1.2.0",
-  "file_count": 77,
+  "file_count": 78,
   "files": [
     {
       "path": ".github/dependabot.yml",
@@ -15,8 +15,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "399c9a74b2b10cc1c3b1280f6fe5b3bfd1faa8ccb1892f4fb1e97e04cf86c781",
-      "size_bytes": 5738
+      "sha256": "9bc497958a22d2d305b2337712beea7326e285172afb648b3a8a57b05b15e759",
+      "size_bytes": 6466
     },
     {
       "path": "CITATION.cff",
@@ -140,8 +140,8 @@
     },
     {
       "path": "app/rules.py",
-      "sha256": "1806fbbe497808ebb59dce08e7abb13ca67f7b5c016f05715442e0963399ff8a",
-      "size_bytes": 15335
+      "sha256": "2bd219bd1a9f644f2c4c82085d7449283f88163e77320b10efc5386e512f64c5",
+      "size_bytes": 15365
     },
     {
       "path": "app/safehtml.py",
@@ -387,9 +387,14 @@
       "path": "tests/test_release_hygiene.py",
       "sha256": "dd4a589beb0d2f5de3f13059a91e2e7a7917167099c57ffbdbbb0790f513fc30",
       "size_bytes": 5159
+    },
+    {
+      "path": "tests/test_word_boundaries.py",
+      "sha256": "ee22aa61dc1f148377dceb159fcb6cb6cced02e36659606358444ec9b2bb617c",
+      "size_bytes": 3422
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "484380e76971cfa2e1b557a587e79bb527250d47244d0f0aee5c3c4d2f5afc89",
-  "total_size_bytes": 130058942
+  "release_digest": "cbee921fcd008fde33ec7d81b3a400a8d8dcbc70e19d2ebc49ec158e07fcc555",
+  "total_size_bytes": 130063122
 }
