@@ -1,7 +1,7 @@
 {
   "algorithm": "SHA-256",
   "dataset_version": "1.2.0",
-  "file_count": 78,
+  "file_count": 79,
   "files": [
     {
       "path": ".github/dependabot.yml",
@@ -15,8 +15,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "9bc497958a22d2d305b2337712beea7326e285172afb648b3a8a57b05b15e759",
-      "size_bytes": 6466
+      "sha256": "fbf085d251377c2a7bf91ad1b3e090afb3ce7085d5a5e8adb5dcf9ef52826eb6",
+      "size_bytes": 8003
     },
     {
       "path": "CITATION.cff",
@@ -95,8 +95,8 @@
     },
     {
       "path": "app/analyzer.py",
-      "sha256": "f78da3ff9864c63c4fb540da94c05e92ea5a821a613b178293b169646808c8eb",
-      "size_bytes": 15271
+      "sha256": "8a0f37d79768124b4f9b59048b13d57546df9ca9ee0804929269ad001c684256",
+      "size_bytes": 16622
     },
     {
       "path": "app/classifier.py",
@@ -140,8 +140,8 @@
     },
     {
       "path": "app/rules.py",
-      "sha256": "2bd219bd1a9f644f2c4c82085d7449283f88163e77320b10efc5386e512f64c5",
-      "size_bytes": 15365
+      "sha256": "3ecfc387c78b40fb3ee91635f3904376610ebe2373e61974996db48479e4e703",
+      "size_bytes": 20923
     },
     {
       "path": "app/safehtml.py",
@@ -192,6 +192,11 @@
       "path": "app/tests/test_hardening.py",
       "sha256": "bae3623af9868f817074fbd595f1f8a0aff0b14910b74e811500040033b5e572",
       "size_bytes": 5105
+    },
+    {
+      "path": "app/tests/test_multilingual_rules.py",
+      "sha256": "5938f4a8dcd1352c289a7a28f47bc650afc59d8a41f5e6e939f8354bea42d023",
+      "size_bytes": 6856
     },
     {
       "path": "app/tests/test_server.py",
@@ -395,6 +400,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "cbee921fcd008fde33ec7d81b3a400a8d8dcbc70e19d2ebc49ec158e07fcc555",
-  "total_size_bytes": 130063122
+  "release_digest": "fa8c94a338c005a2646c507d61e59b49dec13a60dc10c0d7d380afae1e08c9ef",
+  "total_size_bytes": 130078424
 }
