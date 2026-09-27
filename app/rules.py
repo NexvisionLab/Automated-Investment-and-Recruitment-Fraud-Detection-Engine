@@ -23,7 +23,7 @@ A_INV = "Pause and verify the exact entity and representative in the regulator's
 
 RULES: tuple[Rule, ...] = (
     Rule("job_upfront_fee", "Advance-fee job scam", "Payment required to obtain or start work", "critical", 38,
-         r"(?:pay|transfer|deposit|top[ -]?up|fee|purchase).{0,55}(?:before (?:you )?(?:start|work)|to (?:start|join|secure).{0,16}(?:job|role|position|work)|to (?:unlock|activate).{0,18}(?:job|task|account)|registration|training|onboarding|starter kit|background check)|(?:registration|training|onboarding|activation|processing) fee", "Genuine employers should not require a candidate to fund access to a job.", A_JOB),
+         r"(?:pay|transfer|deposit|top[ -]?up|fee|purchase)(?:[^.!?]|\d\.\d){0,55}(?:before (?:you )?(?:start|work)|to (?:start|join|secure)(?:[^.!?]|\d\.\d){0,16}(?:job|role|position|work)|to (?:unlock|activate)(?:[^.!?]|\d\.\d){0,18}(?:job|task|account)|registration|training|onboarding|starter kit|background check)|(?:registration|training|onboarding|activation|processing) fee|\b(?:work[- ]permit|visa|uniform|equipment|insurance|admin(?:istration|istrative)?)\b.{0,60}\b(?:pay|send|transfer)\b.{0,25}\b(?:refundable|fee|fees|charge|deposit)\b|\b(?:pay|send|transfer)\b.{0,25}\b(?:refundable )?(?:work[- ]permit|visa|uniform|equipment|insurance|admin(?:istration|istrative)?) (?:fee|fees|charge|deposit)\b", "Genuine employers should not require a candidate to fund access to a job.", A_JOB),
     Rule("task_deposit", "Paid-task scam", "Deposit or top-up tied to tasks or commissions", "critical", 40,
          r"(?:deposit|top[ -]?up|recharge|prepay|advance|fund).{0,60}(?:task|order|mission|commission|withdraw|negative balance|merchant)|(?:task|order|mission|merchant).{0,60}(?:deposit|top[ -]?up|recharge|prepay|advance|fund)", "Task scams show fictitious earnings and demand escalating deposits.", A_PAY),
     Rule("social_boosting", "Paid-task scam", "Social-media or ecommerce boosting task", "high", 22,
@@ -93,6 +93,28 @@ RULES: tuple[Rule, ...] = (
          r"(?:bayar|deposit|top ?up|pindah wang).{0,40}(?:dulu|sebelum).{0,25}(?:kerja|tugas|komisen|pengeluaran)|(?:tugas|kerja).{0,35}(?:deposit|bayar dahulu)", "The message requires funding before work or withdrawal.", A_PAY),
     Rule("ta_payment", "Advance-fee scam", "Tamil-language deposit or guaranteed-return demand", "critical", 38,
          r"(?:முன்பணம்|டெபாசிட்|பணம் செலுத்த).{0,30}(?:வேலை|பணி|கமிஷன்|திரும்பப் பெற)|(?:உத்தரவாத|ஆபத்து இல்லை).{0,20}(?:லாபம்|வருமானம்)", "The message contains an advance payment or guaranteed-profit formulation.", A_PAY),
+    # Malay/Indonesian. The rules above only covered "pay before work"; a guaranteed-profit pitch, a fee for a job and an
+    # unrealistic daily return in Malay or Indonesian matched nothing and scored Low.
+    Rule("ms_guarantee", "Investment scam", "Malay/Indonesian guaranteed-profit or no-risk claim", "critical", 38,
+         r"(?:untung|keuntungan|laba|profit|pulangan|hasil)\s+(?:yang\s+)?(?:pasti|dijamin|terjamin)|(?:pasti|dijamin|terjamin)\s+(?:untung|keuntungan|laba|profit|pulangan)|\b(?:tanpa|tiada|bebas|zero)\s+(?:sebarang\s+|ada\s+)?risiko|\bbebas\s+risiko|\bmodal\s+(?:aman|selamat|dijamin)", "Guaranteeing profit or promising no risk is a major warning in any language.", A_INV),
+    Rule("ms_unrealistic_return", "Investment scam", "Malay/Indonesian extreme short-term return claimed", "critical", 34,
+         r"(?:untung|keuntungan|laba|profit|pulangan|hasil|return|roi)\D{0,25}\d{2,4}\s*%.{0,25}(?:setiap\s+(?:hari|minggu)|sehari|seminggu|sebulan|per\s+(?:hari|minggu)|tiap\s+(?:hari|minggu)|mingguan|harian)|\d{1,4}(?:[.,]\d+)?\s*%\s*(?:untung|keuntungan|laba|profit|pulangan|hasil|return|roi)\s*(?:setiap|sehari|seminggu|sebulan|per|tiap)|(?:untung|profit|keuntungan|laba).{0,30}(?:rm|rp)\s?\d[\d.,]{3,}.{0,25}(?:sehari|setiap\s+hari|seminggu|sebulan|per\s+hari)", "Extreme short-term returns conflict with ordinary risk-return relationships.", A_INV),
+    Rule("ms_fee_job", "Advance-fee job scam", "Malay/Indonesian fee demanded to get or start a job", "critical", 38,
+         r"(?<!tiada )(?<!tanpa )(?<!bebas )(?<!tiada sebarang )(?<!tanpa sebarang )(?<!tidak ada )(?<!tidak ada biaya )(?<!tidak ada sebarang )(?:bayar|membayar|bayaran|yuran|caj|biaya|fi)\s+(?:pendaftaran|pemprosesan|permit|seragam|latihan|pengurusan|administrasi)(?!\s+(?:percuma|gratis|ditiadakan))", "Real employers do not charge to hire you; a registration, permit or uniform fee is the usual advance-fee pattern.", A_JOB),
+    Rule("ms_easy_income", "Paid-task scam", "Malay/Indonesian easy daily income for liking or rating", "high", 22,
+         r"(?:gaji|pendapatan|upah|bayaran|penghasilan)\s+(?:rm|rp)?\s?\d[\d.,]{2,}\s*(?:sehari|per\s+hari|setiap\s+hari)|(?:menyukai|like|suka|menilai)\s+video.{0,60}(?:gaji|komisen|komisi|bayaran|upah)", "Large daily pay for trivial tasks is the usual bait for a paid-task scam.", A_JOB),
+    Rule("ms_regulator_claim", "Regulatory impersonation", "Malay/Indonesian regulator approval asserted in a pitch", "high", 18,
+         r"(?=.*(?:\bpasti\b|dijamin|terjamin|deposit|tanpa\s+risiko|bebas\s+risiko|tempat\s+terhad|tempat\s+terbatas|hubungi|whatsapp|telegram)).*?(?:diluluskan|dilesenkan|berlesen|diawasi|terdaftar|disahkan|berizin|diatur)\s+(?:oleh\s+)?(?:bank negara|bnm|suruhanjaya sekuriti|sc malaysia|ojk|bappebti)\b", "Licence claims must be checked against the regulator's own exact listing.", A_INV),
+    Rule("ms_pressure", "High-pressure solicitation", "Malay/Indonesian urgency or secrecy", "medium", 13,
+         r"(?:tempat|slot|kuota)\s+(?:terhad|terbatas).{0,60}(?:hubungi|whatsapp|telegram|deposit|segera|sekarang)|(?:hubungi|whatsapp|telegram|deposit).{0,60}(?:tempat|slot|kuota)\s+(?:terhad|terbatas)|\bjangan\s+(?:beritahu|bagitahu|kasih\s+tahu)\s+(?:sesiapa|orang|siapa)", "Urgency and secrecy can suppress independent checking.", "Pause and verify every claim through a source not supplied by the sender."),
+    # Tamil. The rule above needed the exact word for "advance payment"; "pay a fee first to confirm the job", a work-from-home
+    # daily-earnings pitch and "certain profit" matched nothing.
+    Rule("ta_fee_job", "Advance-fee job scam", "Tamil-language fee demanded for a job", "critical", 38,
+         r"(?=.*(?:வேலை|பணி|சம்பாதி|சம்பளம்)).*?(?:கட்டணம்|முன்பணம்|டெபாசிட்)\s*(?:முதலில்\s*)?(?:செலுத்த|கட்ட)", "Real employers do not charge to hire you; a fee before the job is the usual advance-fee pattern.", A_JOB),
+    Rule("ta_easy_income", "Paid-task scam", "Tamil-language work-from-home daily-earnings pitch", "high", 22,
+         r"(?:தினமும்|தினசரி|ஒரு நாளைக்கு|நாளொன்றுக்கு).{0,25}(?:\$|₹|ரூ|rs\.?|rm|s\$)\s?\d{2,}.{0,25}(?:சம்பாதி|வருமானம்)|(?:வீட்டிலிருந்தே|வீட்டில் இருந்தே).{0,30}(?:சம்பாதி|வருமானம்|வேலை)", "Large daily pay for easy work from home is the usual bait for a paid-task or advance-fee scam.", A_JOB),
+    Rule("ta_guarantee", "Investment scam", "Tamil-language certain-profit or no-risk claim", "critical", 38,
+         r"(?:உறுதியான|உத்தரவாதமான|நிச்சயமான)\s*(?:லாபம்|வருமானம்|வருவாய்)|ஆபத்தில்லாத|ஆபத்து இல்லாமல்|(?:லாபம்|வருமானம்)\s*(?:உத்தரவாதம்|உறுதி)", "Guaranteeing profit or promising no risk is a major warning in any language.", A_INV),
 )
 
 RULES_VERSION = "2026.09-SPF-FTC-MAS"
