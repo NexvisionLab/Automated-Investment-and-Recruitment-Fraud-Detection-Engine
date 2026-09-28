@@ -14,7 +14,7 @@ from classifier import predict
 from domain_intel import brand_impersonation, dns_email_domain_analysis, email_domain_analysis, registrable_domain, verification_workflow
 from normalization import fold_for_matching, normalize, normalize_detailed
 from rules import RULES as _ENGLISH_AND_ASIAN_RULES, RULES_VERSION
-from rules_multilingual import LANGUAGE_RULES, LANGUAGE_RULE_IDS, fold_german, language_applies, language_warning, sentence_warns_in_any_language
+from rules_multilingual import LANGUAGE_RULES, LANGUAGE_RULE_IDS, awareness_near, fold_german, language_applies, language_warning, sentence_warns_in_any_language
 
 RULES = _ENGLISH_AND_ASIAN_RULES + LANGUAGE_RULES
 
@@ -80,10 +80,10 @@ def _negated_or_educational(rule_id: str, text: str, match: re.Match[str]) -> bo
         return True
     # The older rules read English, Chinese, Malay and Tamil; a warning about the same scam in another language still quotes it
     # (an English rule firing on a Tagalog fraud warning that mentions "guaranteed returns").
-    if rule_id in _WARNING_GUARDED_RULES | {"guaranteed_returns", "no_risk"} and sentence_warns_in_any_language(_sentence_of(text, match)):
+    if rule_id in _WARNING_GUARDED_RULES | {"guaranteed_returns", "no_risk"} and (sentence_warns_in_any_language(_sentence_of(text, match)) or awareness_near(window)):
         return True
     # A genuine payroll or bank notice about a negative balance says why ("due to bank charges", "overdraft"); a task scam invents one.
-    if rule_id == "negative_balance" and re.search(r"overdraft|bank charges?|bank fees?|due to (?:bank )?(?:charges|fees|interest)|interest (?:charged|accrued)|payroll notice|final pay|dahil sa bank", window):
+    if rule_id == "negative_balance" and re.search(r"overdraft|bank charges?|bank fees?|due to (?:bank )?(?:charges|fees|interest)|interest (?:charged|accrued)|payroll notice|final pay|dahil sa (?:bank|maintaining|fee|charge)|maintaining balance|insufficient funds|(?:returned|bounced) (?:cheque|check)|na-?return|service fee|monthly fee", window):
         return True
     # "A 25% annualised historical return" on a statement is a past figure with a disclaimer, not a promise of a fast one.
     if rule_id == "unrealistic_return" and re.search(r"annuali[sz]ed|per annum|p\.a\.|historical|past performance|year[- ]to[- ]date|since inception|last (?:year|quarter)", window) and not re.search(r"daily|weekly|per (?:day|week)|overnight|guarantee|risk[- ]free", window):

@@ -39,6 +39,8 @@ AMT = rf"(?:\d[\d.,]*\s?{_CURR}|{_CURR}\s?\d)"
 PCT = r"\d[\d.,]*\s?%"
 # A minus sign in front of an amount: the "-142 €" a task scam shows as your "balance".
 NEGAMT = rf"(?<!\w)-\s?\d[\d.,]*\s?{_CURR}"
+# A crypto asset, or a wallet, named in the message.
+CRYPTO = r"usdt|usdc|btc|\beth\b|bitcoin|crypto|cripto|wallet|billetera|carteira|portefeuille|binance|กระเป๋า|محفظ|वॉलेट|\bvi\s+(?:dien\s+tu|crypto|tien\s+ao)"
 # "+300%", "x10", "10x": the gain a pump group promises.
 GAIN = r"\+\s?\d{2,4}\s?%|\bx\s?\d{1,3}\b|\b\d{1,3}\s?x\b"
 
@@ -142,7 +144,8 @@ LEX: dict[str, dict[str, str]] = {
         warn=r"\b(?:nunca|jamais)\b|\bnao\s+(?:cobr\w*|pedi\w*|solicit\w*|exig\w*)|\bnenhum\w*\s+(?:taxa|cobranca|deposito|custo)|\bsem\s+(?:custo|taxa|cobranca)|\bgratuit\w*|\bgolpistas\b|\balerta\b|\bcuidado|\bse\s+alguem|\bdesconf\w*|\bnao\s+e\s+garantia|\bnao\s+garant\w*|\brentabilidade\s+(?:passada|historica)|\bnao\s+conta\s+com\s+garantia|\bnao\s+ha\s+(?:cobranca|garantia)|\bperda\s+do\s+capital|\bpossibilidade\s+de\s+perda|\bpode\s+gerar\s+perdas|\be\s+golpe\b|\bse\s+(?:te|lhe)\s+prometerem",
     ),
     "de": dict(
-        pay=r"uberweis\w*|zahl\w*|einzahl\w*|bezahl\w*|aufladen|senden|uberweisung|hinterleg\w*|paysafecard",
+        # "\bzahl": "Auszahlung" (a payout) contains "zahl", so a genuine loan disbursed "in Raten" read as a demand to pay.
+        pay=r"uberweis\w*|\bzahl\w*|einzahl\w*|bezahl\w*|aufladen|senden|uberweisung|hinterleg\w*|paysafecard|entricht\w*|begleich\w*",
         fee=r"gebuhr\w*|kosten|kaution|vorauszahlung|steuer\w*|provision|abgabe|versicherung|anzahlung",
         job=r"arbeitserlaubnis|arbeitsvertrag|\bstelle\b|\bjob\b|nebenjob|schulung\w*|arbeitsplatz|bewerbung|einstellung|uniform|vertragsbeginn",
         neg_bal=r"im\s+minus|negativ\w*", topup=r"aufladen|einzahlen|nachladen|zahl\w*", unlock=r"freischalt\w*|aufgaben?",
@@ -191,7 +194,8 @@ LEX: dict[str, dict[str, str]] = {
     "tl": dict(
         pay=r"magbayad|bayad|mag-?send|i-?gcash|i-?send|ideposito|deposit|transfer|i-?transfer|ipadala|magpadala|padala|bayaran|\bpay\b",
         fee=r"\bfee\b|bayad|\btax\b|deposit|processing|\bbond\b|charge",
-        job=r"visa|medical|trabaho|natanggap|hired|\bjob\b|position|deployment|contract|slot|worker",
+        # "natanggap" alone is "received" (a receipt); "natanggap ka" is "you were accepted". "slot" and "contract" are also a venue booking.
+        job=r"visa|medical|trabaho|natanggap\s+ka|na-?hire|hired|\bjob\b|position|deployment|work\s+visa|worker",
         neg_bal=r"negative\s+balance|nag-?negative|negative\s+ka", topup=r"top\s*-?up|recharge|deposit|magbayad", unlock=r"unlock|\btask\b|withdraw",
         withdraw=r"withdraw", wd_fee=r"\btax\b|\bfee\b|anti-?money",
         task=r"\btask\b|order", activate=r"unlock|activate", unlockfunds=r"release|i-?release|unlock",
@@ -253,10 +257,11 @@ LEX: dict[str, dict[str, str]] = {
     "th": dict(
         pay=r"โอน|ชำระ|จ่าย|เติมเงิน|วางเงิน|ส่งเงิน|ฝากเงิน",
         fee=r"ค่า(?:ดำเนินการ|ธรรมเนียม|สมัคร|มัดจำ|ชุด|อบรม|ประกัน)|เงินมัดจำ|ภาษี",
-        job=r"ตำแหน่ง|จดหมายเสนองาน|สัญญาจ้าง|ใบอนุญาตทำงาน|เงินเดือน|สมัครงาน|งาน",
+        # A bare "งาน" is any event or job ("จัดงานแต่ง" is a wedding), so it is not job vocabulary.
+        job=r"ตำแหน่ง|จดหมายเสนองาน|สัญญาจ้าง|ใบอนุญาตทำงาน|เงินเดือน|สมัครงาน|ทำงาน|รับสมัคร",
         neg_bal=r"ติดลบ", topup=r"เติมเงิน|ฝากเงิน|เติมยอด|top\s?up", unlock=r"ปลดล็อก|งานถัดไป",
         withdraw=r"ถอน", wd_fee=r"ภาษี|ค่าธรรมเนียม",
-        task=r"ภารกิจ|งานถัดไป|ออเดอร์", activate=r"ปลดล็อก|เปิดใช้งาน|ยืนยัน", unlockfunds=r"ปลดล็อก|ปล่อย",
+        task=r"ภารกิจ|งานถัดไป|ออเดอร์", activate=r"ปลดล็อก|เปิดใช้งาน", unlockfunds=r"ปลดล็อก|ปล่อย",
         perday=r"ต่อวัน|วันละ|ต่อสัปดาห์|สัปดาห์ละ|ต่อชั่วโมง",
         refund=r"คืน|รีฟันด์", verify=r"ยืนยัน|ตรวจสอบ",
         mailpass=r"รหัสผ่าน(?:ของ)?อีเมล|อีเมล(?:และ|กับ)รหัสผ่าน",
@@ -271,8 +276,54 @@ LEX: dict[str, dict[str, str]] = {
         warn=r"ไม่เคย(?:ขอ|เก็บ|เรียกเก็บ)|ไม่เก็บ|ไม่มีค่า(?:ใช้จ่าย|สมัคร|ธรรมเนียม)|ไม่ต้อง(?:วางเงิน|จ่าย|ชำระ)|ประกาศเตือน|เตือน|อย่า(?:บอก|โอน|ให้|เปิดเผย)|ไม่รับประกัน|ไม่ได้รับประกัน|ผลการดำเนินงานในอดีต|ผลตอบแทนในอดีต|ไม่มีค่าใช้จ่าย",
     ),
 }
+# More negations and warnings, found by scoring the engine on 216 genuine messages (bank and regulator warnings, fund disclosures, loan and
+# grant notices, HR notices, school and employer scam-awareness talks): the wording a genuine message uses to say "no fee", "never share",
+# "is not guaranteed", "without guarantor". Safe for every rule, so they are added to each language's `warn`.
+WARN_EXTRA = {
+    "es": r"\bno\s+(?:le\s+|te\s+)?(?:comparta|comparte|entregue|entregues|revele|reveles|facilite|envie|envies)\b|\bsi\s+(?:le|te|nos)\s+ofrecen|\bsi\s+alguien\s+le\b|\bsin\s+intereses|\bsin\s+(?:aval|garantia\s+personal)|\bno\s+se\s+(?:aplica|exige|cobra)",
+    "fr": r"\bsans\s+(?:\w+\s+){0,3}garantie|\baucune\s+garantie|\bne\s+(?:communiquez|partagez|virez|versez|payez|donnez|repondez)\b|\bn'(?:est|a)\s+(?:pas\s+)?garanti|\bgarantie\s+personnelle|\bjamais\s+de\s+frais",
+    "pt": r"\bnao\s+(?:compartilhe|informe|faca|pague|transfira|responda|clique)\b|\bsem\s+(?:juros|garantia\s+pessoal)|\bnao\s+ha\s+(?:taxa|custo)|\bisento\s+de\s+taxa|\bfique\s+atento|\bnao\s+(?:precisa|exige)",
+    "de": r"\bkostenfrei|\bgebuhrenfrei|\bohne\s+(?:vorauszahlung|zinsen)|\bes\s+besteht\s+keine|\bwird\s+nicht\s+(?:gegeben|verlangt|erhoben)|\bkeine\s+(?:zusatzlichen\s+)?(?:kosten|gebuhren)",
+    "vi": r"khong\s+(?:chia\s+se|cung\s+cap|chuyen\s+tien|nop\s+tien)|khong\s+thu\s+bat\s+ky|mien\s+le\s+phi|khong\s+can\s+dat\s+coc|luu\s+y",
+    "tl": r"walang\s+(?:\w+\s+){0,2}(?:fee|bayad|deposit|singil)|hindi\s+namin\s+hihingi\w*|huwag\s+(?:mag-?(?!alala)\w+|i-?\w+|sagutin|maniwala|pumayag)|mag-?ingat|hindi\s+kailangan\s+(?:ng\s+)?(?:deposit|bayad)",
+    "hi": r"(?:कोई|किसी)\s+(?:भी\s+)?(?:शुल्क|फीस)\s+नहीं|जवाब\s+न\s+दें|न\s+बताएं|कभी\s+नहीं|सतर्क|शुल्क\s+नहीं|मुफ़्त|निःशुल्क",
+    "ar": r"لا\s+يضمن|غير\s+مضمون\w*|لا\s+تصدق|لا\s+ترد|لا\s+نطلب|بدون\s+اي\s+رسوم|دون\s+رسوم|لا\s+توجد\s+رسوم",
+    "th": r"อย่าเชื่อ|รู้ทัน|ระวัง|ไม่มีค่า|ไม่คิดค่า|ไม่ต้องชำระ|ห้ามให้|ห้ามโอน",  # not "ฟรี" (free): scams advertise free tokens
+}
+# Fraud NOUNS and "run away" phrases. A sentence-level rule (guaranteed returns, a fee to withdraw, a job fee...) that sits in a sentence
+# which also says "scam", "arnaque", "golpe" or "Betrug" is a warning about that scam. They are NOT used for the rules that read the whole
+# message (recovery, loan fee, new account, cheque, pump): a recovery scam says "you were the victim of fraud" and must not hide behind it.
+WARN_LOOSE = {
+    "es": r"\bestaf\w*|\bfraude\w*|\btimo\b|\bhuya\b|\bno\s+crea\w*|\bsenal\s+de\s+alerta|\bengan\w*",
+    "fr": r"\barnaque\w*|\bfraude\w*|\bescroquerie\w*|\bfuyez\b|\bsignal\s+d'alerte|\bprevenez",
+    "pt": r"\bgolpe\w*|\bfraude\w*|\bsinal\s+de\s+alerta|\bdesconfie",
+    "de": r"\bbetrug\w*|\babzocke\w*|\bwarnsignal\w*|\bfinger\s+weg|\bbetruger",
+    "vi": r"lua\s+dao|canh\s+giac|dau\s+hieu\s+lua|dung\s+tin",
+    "tl": r"\bscam\w*|panloloko|\bmaniwala",
+    "hi": r"ठगी|फ्रॉड|स्कैम|खतरे\s+की\s+घंटी|\bscam\b",
+    "ar": r"النصب|نصب|احتيال|لا\s+تصدق|تحذير",
+    "th": r"หลอกลวง|โกง",
+}
+for _lang, _extra in WARN_EXTRA.items():
+    LEX[_lang]["warn"] += "|" + _extra
+# Phrases from scam-AWARENESS talks and warnings ("how to recognise scams", "run", "don't believe it"). A school talk often poses the scam as
+# a question and puts the warning in the next sentence, so these count when they are NEARBY, not just in the same sentence. They are
+# narrower than WARN_LOOSE on purpose: a scam says "this is not a scam" right beside its offer, so a fraud noun nearby proves nothing.
+AWARE = {
+    "es": r"\bhuya\b|\bno\s+crea\w*|reconoc\w*\s+(?:\w+\s+){0,2}estafas?|como\s+(?:reconocer|identificar)",
+    "fr": r"\bfuyez\b|\bprevenez\b|reconna\w*\s+(?:\w+\s+){0,2}arnaques?|comment\s+(?:reconnaitre|eviter)",
+    "pt": r"\bdesconfie\b|como\s+(?:identificar|reconhecer)\s+golpes?",
+    "de": r"\bfinger\s+weg\b|wie\s+erkenne\s+ich|erkennen\s+(?:sie\s+)?(?:\w+\s+){0,2}betrug|\bschul-?infoabend",
+    "vi": r"canh\s+giac|dung\s+tin|nhan\s+biet\s+lua\s+dao",
+    "tl": r"paano\s+makilala|\bwag\s+maniwala|huwag\s+maniwala",
+    "hi": r"कैसे\s+पहचान|पहचानें|सतर्क\s+रहें|सावधान",
+    "ar": r"كيف\s+تكتشف|لا\s+تصدق|كيف\s+تتجنب",
+    "th": r"รู้ทัน|อย่าเชื่อ|ระวัง",
+}
 # Scripts written without sentence marks (Thai) are matched over the whole message.
 _MESSAGE_SCOPE = {"th"}
+# The shapes that read the whole message, whatever the language; every Thai shape does.
+_WHOLE_MESSAGE_SHAPES = frozenset({"recovery", "loan_fee", "new_account", "cheque", "pump"})
 _NAMES = {"es": "Spanish", "fr": "French", "pt": "Portuguese", "de": "German", "vi": "Vietnamese", "tl": "Tagalog", "hi": "Hindi", "ar": "Arabic", "th": "Thai"}
 
 
@@ -314,9 +365,14 @@ def _build(lang: str, L: dict[str, str]) -> list[Rule]:
         "Do not enter it. Reach the company through its own website, and change your email password if you already did.")
     # A deposit that will supposedly be returned, in a message about tasks, commissions, withdrawing or verifying: the lure in both the
     # part-time task scam ("deposit 200 and we return it with the profit") and the fake exchange-support 'verification deposit'.
+    # (Not "verify" or "confirm" here: a genuine venue or rental booking has a refundable deposit and a confirmation too.)
     add("refund_lure", "Advance-fee scam", "A deposit that will be returned, to unlock tasks, earnings or an account", "high", 25,
-        lambda: C(g["pay"], amt, g["refund"], f"{g['withdraw']}|{g['task']}|{g['unlockfunds']}|{g['activate']}|{g['verify']}"),
+        lambda: C(g["pay"], amt, g["refund"], f"{g['withdraw']}|{g['task']}|{g['unlockfunds']}|{g['activate']}"),
         "Promising that the deposit comes straight back, with profit, is how a scam gets the first payment.", A_PAY)
+    # The fake exchange-support 'verification deposit': a crypto deposit to 'verify' the account, refunded in minutes.
+    add("verify_deposit", "Advance-fee scam", "A crypto 'verification deposit' that will be refunded", "high", 25,
+        lambda: C(g["pay"], amt, g["refund"], g["verify"], _f(CRYPTO, lang)),
+        "Support staff never ask for a deposit to verify an account; the 'refund' never comes.", A_PAY)
     add("guaranteed", "Investment scam", "Guaranteed returns or no risk", "critical", 39, lambda: C(g["guar"], g["ctx"]),
         "All investments carry risk; guaranteed or risk-free returns are a classic warning.", A_INV)
     add("extreme_return", "Investment scam", "An extreme return per day or week", "critical", 34, lambda: C(pct, g["perday"], g["ctx"]),
@@ -354,7 +410,18 @@ LANGUAGE_RULE_IDS: frozenset[str] = frozenset(r.id for r in LANGUAGE_RULES)
 _LATIN = ("es", "fr", "pt", "de", "vi", "tl")
 _WARN_LATIN = re.compile("|".join(f"(?:{_f(LEX[lang]['warn'], lang)})" for lang in _LATIN), re.I)
 _WARN = {lang: (_WARN_LATIN if lang in _LATIN else re.compile(_f(lex["warn"], lang), re.I)) for lang, lex in LEX.items()}
-_WARN_ANY = re.compile("|".join(f"(?:{_f(lex['warn'], lang)})" for lang, lex in LEX.items()), re.I)
+# The strict cues plus the fraud nouns, for the rules that read one sentence (see WARN_LOOSE).
+_WARN_LOOSE_LATIN = re.compile("|".join(f"(?:{_f(LEX[lang]['warn'], lang)})|(?:{_f(WARN_LOOSE[lang], lang)})" for lang in _LATIN), re.I)
+_WARN_LOOSE = {lang: (_WARN_LOOSE_LATIN if lang in _LATIN else re.compile(f"(?:{_f(lex['warn'], lang)})|(?:{_f(WARN_LOOSE[lang], lang)})", re.I)) for lang, lex in LEX.items()}
+_WARN_ANY = re.compile("|".join(f"(?:{_f(lex['warn'], lang)})|(?:{_f(WARN_LOOSE[lang], lang)})" for lang, lex in LEX.items()), re.I)
+
+
+_AWARE_ANY = re.compile("|".join(f"(?:{_f(rx, lang)})" for lang, rx in AWARE.items()), re.I)
+
+
+def awareness_near(text: str) -> bool:
+    """Is there a scam-awareness phrase ("how to recognise scams", "fuyez", "finger weg") in this stretch of text, in any of the nine languages?"""
+    return bool(_AWARE_ANY.search(fold_german(fold_for_matching(unicodedata.normalize("NFKC", text)))))
 
 
 def sentence_warns_in_any_language(sentence: str) -> bool:
@@ -387,5 +454,12 @@ def language_applies(rule_id: str, text: str) -> bool:
 
 
 def language_warning(rule_id: str, text: str, match: re.Match[str]) -> bool:
-    """True when the sentence (or, for message-wide rules, the message) the rule matched in negates or reports the scam."""
-    return bool(_WARN[rule_id.split("_", 1)[0]].search(match.group(0)))
+    """True when the sentence (or, for message-wide rules, the message) the rule matched in negates or reports the scam.
+    A rule that reads one sentence also counts a fraud noun in that sentence ("scam", "arnaque") as a warning; a rule that reads the
+    whole message, or any Thai rule, uses only negations and warning phrases."""
+    lang, shape = rule_id.split("_", 1)
+    whole = lang in _MESSAGE_SCOPE or shape in _WHOLE_MESSAGE_SHAPES
+    if (_WARN if whole else _WARN_LOOSE)[lang].search(match.group(0)):
+        return True
+    # An awareness talk poses the scam as a question and puts the warning in the next sentence, so look a little around the match too.
+    return not whole and awareness_near(text[max(0, match.start() - 160): match.end() + 160])
