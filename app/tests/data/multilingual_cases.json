@@ -1,0 +1,3566 @@
+[
+ {
+  "id": "es_dev_scam_1",
+  "lang": "es",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "Felicidades, Laura. Has sido seleccionada como asistente administrativa en Grupo Logístico Iberia (sueldo 1.850 EUR/mes, teletrabajo). Para emitir tu contrato y el permiso de trabajo debes abonar 180 EUR de tasas de tramitación por Bizum antes del viernes. Se reembolsan con tu primera nómina.",
+  "gloss_en": "Job offer requiring 180 EUR processing fee for contract and work permit."
+ },
+ {
+  "id": "es_dev_scam_2",
+  "lang": "es",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "Hola! Trabajo desde casa, solo das like y valoras hoteles en Google Maps, ganas 60 USD al día 💰 Ya llevas 3 tareas de 5 estrellas pero tu cuenta está en saldo negativo -420 MXN, recarga para desbloquear y retirar tus comisiones.",
+  "gloss_en": "Paid-task scam: rate hotels, then top up negative balance to unlock."
+ },
+ {
+  "id": "es_dev_scam_3",
+  "lang": "es",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "Bienvenido a Talento Andino. Para completar tu alta de RRHH envíanos por este chat una foto de tu DNI por ambas caras, tu número de cuenta y el código de 6 dígitos que te llegará por SMS del banco para verificar tu nómina.",
+  "gloss_en": "Onboarding asks for ID photos, account number and SMS OTP."
+ },
+ {
+  "id": "es_dev_scam_4",
+  "lang": "es",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "7 fee to withdraw profits",
+  "text": "Su inversión ya generó 14.300 USD en la plataforma. Para retirar sus ganancias debe pagar primero el 15% de impuesto de retiro (2.145 USD) a nuestra cuenta de la tesorería. Sin este pago los fondos permanecerán bloqueados.",
+  "gloss_en": "Must pay 15% withdrawal tax before profits can be withdrawn."
+ },
+ {
+  "id": "es_dev_scam_5",
+  "lang": "es",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "10 grant/loan needing fee",
+  "text": "Banco Fomento Pyme: su préstamo de 25.000 EUR está aprobado sin buró. Solo falta un depósito de garantía de 350 EUR por transferencia para liberar el desembolso. Responda hoy, la oferta caduca.",
+  "gloss_en": "Loan approved but needs 350 EUR deposit before release."
+ },
+ {
+  "id": "es_dev_benign_1",
+  "lang": "es",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Hola Marta, soy Elena de Selección en Mercadona Tech. Tu perfil encaja con la vacante de analista de datos. Recuerda que el proceso es totalmente gratuito: la empresa asume el coste de la verificación de antecedentes y nunca pedimos dinero a los candidatos. ¿Te va bien una llamada el jueves?",
+  "gloss_en": "Recruiter says process is free and employer pays background check."
+ },
+ {
+  "id": "es_dev_benign_2",
+  "lang": "es",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Aviso de seguridad de tu banco: los estafadores se hacen pasar por empleados y dicen «pague una comisión para desbloquear su retiro». Nunca pagues tasas para liberar fondos, y jamás compartas tu contraseña ni códigos por WhatsApp. Ante la duda, llama al número de la tarjeta.",
+  "gloss_en": "Bank warning quoting scam wording, telling users not to pay fees or share codes."
+ },
+ {
+  "id": "es_dev_benign_3",
+  "lang": "es",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Extracto trimestral del fondo Renta Global: la rentabilidad anualizada histórica ha sido del 4,2%, pero las rentabilidades pasadas no garantizan resultados futuros. Este producto no ofrece rentabilidad garantizada y puede perder parte del capital invertido. Consulte el folleto en su área de cliente.",
+  "gloss_en": "Fund statement with historical return and no-guarantee disclosure."
+ },
+ {
+  "id": "es_dev_benign_4",
+  "lang": "es",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "Programa Digitaliza Pyme: la ayuda de 12.000 EUR exige una aportación propia del 20% y se abona por hitos tras justificar cada fase. No se cobra ninguna cuota ni depósito por solicitar la subvención. Plazo de solicitud hasta el 30 de octubre en la sede electrónica oficial.",
+  "gloss_en": "Real grant with matching contribution, milestone payment, no upfront fee."
+ },
+ {
+  "id": "es_dev_benign_5",
+  "lang": "es",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Recursos Humanos informa: la nómina de septiembre se transferirá a su cuenta bancaria el día 28. Si ha cambiado de cuenta, actualícelo en el portal del empleado antes del día 20. RRHH nunca solicitará su contraseña ni códigos de verificación por correo o mensaje.",
+  "gloss_en": "HR notice about payroll transfer and never asking for passwords."
+ },
+ {
+  "id": "es_holdout_scam_1",
+  "lang": "es",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "Buen día, su puesto de coordinador de compras remoto está confirmado. Le enviaremos un cheque de 3.200 USD; deposítelo y compre el equipo (laptop y monitor) a nuestro proveedor asignado por Zelle. Le reembolsamos todo con el primer pago.",
+  "gloss_en": "Deposit cheque then pay assigned supplier for equipment, to be reimbursed."
+ },
+ {
+  "id": "es_holdout_scam_2",
+  "lang": "es",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "🚀 Grupo VIP de inversión: duplica tu capital en 7 días, ganancia garantizada y CERO riesgo. Ya somos 3.400 miembros y nuestro trader nunca pierde. Deposita desde 50 USD y mira crecer tu dinero, cupos limitados!!",
+  "gloss_en": "Guaranteed doubling of capital in 7 days with zero risk."
+ },
+ {
+  "id": "es_holdout_scam_3",
+  "lang": "es",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "8 crypto wallet approve",
+  "text": "Reclama tu airdrop de 5.000 tokens NOVA. Conecta tu wallet en nova-claim.xyz y aprueba el contrato para recibir los tokens. Solo hoy, después el reparto se cierra.",
+  "gloss_en": "Airdrop requiring wallet connect and contract approval."
+ },
+ {
+  "id": "es_holdout_scam_4",
+  "lang": "es",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "Somos la Unidad de Recuperación de Activos Digitales. Localizamos su dinero perdido en el fraude de criptomonedas (12.400 EUR). Para iniciar el proceso solo debe abonar 600 EUR de gastos legales; se devuelve el 100% garantizado.",
+  "gloss_en": "Recovery service demanding fee to recover lost crypto."
+ },
+ {
+  "id": "es_holdout_scam_5",
+  "lang": "es",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "11 new bank account",
+  "text": "Estimado cliente, le escribe su asesora de inversiones Carmen. Por una auditoría hemos cambiado nuestra cuenta: la próxima aportación transfiérala al nuevo IBAN ES44 0182 XXXX que le adjunto. No use la cuenta anterior.",
+  "gloss_en": "Fake adviser redirecting payment to a new IBAN."
+ },
+ {
+  "id": "es_holdout_benign_1",
+  "lang": "es",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Oferta: Auxiliar de almacén en Valencia, jornada completa, 1.400 EUR brutos al mes. Selección sin coste alguno para el candidato; la empresa paga el certificado de antecedentes y la formación. Envía tu CV a empleo@almacenesdelsur.example. Ninguna tasa en ninguna fase.",
+  "gloss_en": "Genuine job ad with no fees; employer pays."
+ },
+ {
+  "id": "es_holdout_benign_2",
+  "lang": "es",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Consejo antifraude: si alguien te promete rentabilidad garantizada o ganancias sin riesgo, es una estafa. Desconfía de quienes piden un depósito para desbloquear tu inversión o te dan una cuenta bancaria nueva por WhatsApp. Denuncia en la web de la Policía Nacional.",
+  "gloss_en": "Anti-fraud advice quoting guaranteed returns and deposit scams."
+ },
+ {
+  "id": "es_holdout_benign_3",
+  "lang": "es",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Aviso de riesgo: invertir en criptoactivos es de alto riesgo. El valor puede variar bruscamente y usted podría perder todo su depósito. No existen rendimientos garantizados. Esta información no constituye asesoramiento personalizado. Lea las condiciones antes de operar.",
+  "gloss_en": "Crypto risk warning stating no guaranteed returns."
+ },
+ {
+  "id": "es_holdout_benign_4",
+  "lang": "es",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "Hola Javier, te confirmamos la entrevista con Telefónica el martes a las 10:00 por Teams. Ten a mano tu DNI para el acceso al edificio. Por seguridad, nadie de la empresa te pedirá contraseñas ni códigos por mensaje, y no hay que pagar nada.",
+  "gloss_en": "Interview confirmation saying never share passwords or pay anything."
+ },
+ {
+  "id": "es_holdout_benign_5",
+  "lang": "es",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Notificación de RRHH: hemos detectado un error en la transferencia de su nómina de agosto y se regularizará en la próxima. No es necesario que realice ningún pago ni facilite datos bancarios; la diferencia se ingresará en la cuenta que ya consta en su ficha.",
+  "gloss_en": "HR notice about payroll correction, no payment needed."
+ },
+ {
+  "id": "fr_dev_scam_1",
+  "lang": "fr",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "Bonjour ! Gagnez 150 € par jour en boostant des vidéos et en notant des produits sur Amazon, aucune expérience requise. Attention votre compte affiche un solde négatif de -89 €, il faut recharger 100 € pour débloquer la tâche suivante et retirer vos gains.",
+  "gloss_en": "Boost/rating tasks, negative balance needing top-up."
+ },
+ {
+  "id": "fr_dev_scam_2",
+  "lang": "fr",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "4 money mule / reshipping",
+  "text": "Société d'import cherche gestionnaire de colis à domicile. Vous recevez des paquets, vous les reconditionnez et les renvoyez à l'étranger avec l'étiquette fournie. 500 € par semaine + commission. Vous pouvez aussi recevoir des virements sur votre compte et les transférer.",
+  "gloss_en": "Parcel reshipping and transferring received funds."
+ },
+ {
+  "id": "fr_dev_scam_3",
+  "lang": "fr",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "Investissez dès 250 € dans notre programme de trading IA : rendement garanti de 8 % par semaine, capital 100 % sécurisé, zéro risque. Des centaines de Français ont déjà quitté leur emploi grâce à nous. Places limitées, répondez OUI.",
+  "gloss_en": "Guaranteed 8 percent weekly returns and zero risk."
+ },
+ {
+  "id": "fr_dev_scam_4",
+  "lang": "fr",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "Bonjour, cabinet Duval & Associés, spécialiste de la récupération de fonds. Nous avons retrouvé les 9 800 € perdus sur votre plateforme de crypto. Réglez d'abord 450 € de frais de dossier par Paysafecard et nous lançons le virement.",
+  "gloss_en": "Recovery firm demanding case fee by prepaid voucher."
+ },
+ {
+  "id": "fr_dev_scam_5",
+  "lang": "fr",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "11 new bank account",
+  "text": "Madame, ici votre conseillère Sophie de la banque. Suite à un changement interne, veuillez effectuer votre virement du placement sur notre nouveau compte (RIB en pièce jointe). L'ancien RIB est désactivé. Merci de confirmer rapidement.",
+  "gloss_en": "Fake adviser instructing transfer to new account."
+ },
+ {
+  "id": "fr_dev_benign_1",
+  "lang": "fr",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Bonjour Thomas, je suis recruteuse chez Decathlon Logistique. Votre candidature nous intéresse pour le poste de préparateur de commandes. Le recrutement est entièrement gratuit : l'entreprise prend en charge la vérification des antécédents et aucun frais ne vous sera demandé.",
+  "gloss_en": "Recruiter message: recruitment free, employer pays checks."
+ },
+ {
+  "id": "fr_dev_benign_2",
+  "lang": "fr",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Alerte de votre banque : méfiez-vous des faux conseillers qui vous demandent de « virer sur un compte sécurisé ». Nous ne vous demanderons jamais votre mot de passe, ni un code reçu par SMS, ni de payer des frais pour débloquer un retrait. En cas de doute, raccrochez et rappelez-nous.",
+  "gloss_en": "Bank fraud alert quoting scam phrases."
+ },
+ {
+  "id": "fr_dev_benign_3",
+  "lang": "fr",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Relevé du fonds Épargne Monde : la performance annualisée sur 5 ans s'établit à 3,6 %. Les performances passées ne préjugent pas des performances futures. Le capital n'est pas garanti et vous pouvez perdre une partie de votre dépôt. Consultez le DICI avant tout versement.",
+  "gloss_en": "Fund statement with past-performance and no capital guarantee."
+ },
+ {
+  "id": "fr_dev_benign_4",
+  "lang": "fr",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "Bpifrance – Bourse French Tech : l'aide de 30 000 € requiert un apport personnel de 30 % et est versée par tranches, sur justificatifs d'avancement du projet. Le dépôt du dossier est gratuit, aucun frais de dossier n'est exigé. Date limite : 15 novembre.",
+  "gloss_en": "Grant with self-funding share and tranche payments, no fee."
+ },
+ {
+  "id": "fr_dev_benign_5",
+  "lang": "fr",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Service RH : le virement de votre salaire de septembre sera effectué le 30 sur le compte bancaire enregistré. Pour modifier votre RIB, passez par l'espace salarié avant le 22. Le service RH ne demande jamais de mot de passe par e-mail.",
+  "gloss_en": "HR payroll notice about salary transfer and RIB update."
+ },
+ {
+  "id": "fr_holdout_scam_1",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "Votre candidature est retenue chez Nova Services (CDI, 2 100 €/mois, télétravail). Avant l'envoi du contrat, réglez 95 € de frais de formation obligatoire et de dossier via Western Union. Remboursé au 1er salaire.",
+  "gloss_en": "Job needing training/dossier fee before contract."
+ },
+ {
+  "id": "fr_holdout_scam_2",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "Bonjour, vous êtes embauché comme assistant personnel. Vous recevrez un chèque de 2 800 € à encaisser ; achetez le matériel de bureau chez notre fournisseur désigné et virez-lui le montant. Le surplus sera votre avance de salaire.",
+  "gloss_en": "Cheque deposit and equipment purchase from assigned supplier."
+ },
+ {
+  "id": "fr_holdout_scam_3",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "Pour finaliser votre embauche, connectez-vous à votre espace bancaire via le lien ci-dessous et envoyez-nous vos identifiants, plus la photo recto-verso de votre carte d'identité. C'est nécessaire pour le paramétrage de votre paie.",
+  "gloss_en": "Onboarding asks for bank login and ID photos."
+ },
+ {
+  "id": "fr_holdout_scam_4",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "7 fee to withdraw profits",
+  "text": "Félicitations, votre portefeuille affiche 21 400 €. Pour retirer, la plateforme exige d'abord des frais de conformité anti-blanchiment de 1 900 €. Une fois payés, le retrait sera crédité sous 24 h. 😊",
+  "gloss_en": "Compliance fee needed before withdrawal."
+ },
+ {
+  "id": "fr_holdout_scam_5",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "8 crypto wallet approve",
+  "text": "Rejoins notre groupe Telegram, on pompe le token MOONX ce soir à 21h. Tout le monde achète en même temps, on revend x10 en 1h. Connecte ton wallet sur le site et approuve la transaction pour participer.",
+  "gloss_en": "Pump-and-dump group with wallet approval."
+ },
+ {
+  "id": "fr_holdout_benign_1",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Offre d'emploi : agent d'accueil, CDD 6 mois, Lyon, 1 850 € brut. Aucun frais à la charge du candidat : l'employeur règle la vérification du casier judiciaire. Postulez avec CV et lettre sur notre site officiel. Nous ne demandons jamais d'argent lors du recrutement.",
+  "gloss_en": "Genuine job ad, no fees for candidate."
+ },
+ {
+  "id": "fr_holdout_benign_2",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Conseil de prévention : si on vous promet un rendement garanti ou des gains sans risque, c'est une arnaque. Ne versez jamais de frais pour récupérer vos fonds et ne changez pas de compte bancaire sur simple message. Signalez sur signal-arnaques.com.",
+  "gloss_en": "Prevention advice quoting guaranteed returns and fee scams."
+ },
+ {
+  "id": "fr_holdout_benign_3",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Information réglementaire : les investissements en crypto-actifs comportent un risque élevé de perte en capital. Aucun rendement n'est garanti et la valeur de votre dépôt peut fortement baisser. Ne investissez que des sommes que vous pouvez perdre.",
+  "gloss_en": "Crypto risk warning."
+ },
+ {
+  "id": "fr_holdout_benign_4",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "Bonjour Inès, bienvenue chez Capgemini ! Votre premier jour est lundi à 9h. Apportez une pièce d'identité et votre RIB pour la paie, remis en main propre aux RH. Personne ne vous demandera votre mot de passe ni un code par message, et l'intégration est gratuite.",
+  "gloss_en": "Onboarding message with never share password note."
+ },
+ {
+  "id": "fr_holdout_benign_5",
+  "lang": "fr",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Notification RH : une régularisation de 120 € sera virée avec votre paie d'octobre suite à la correction de vos heures supplémentaires. Aucune démarche ni aucun paiement de votre part. Détails sur votre bulletin de salaire dans le coffre-fort numérique.",
+  "gloss_en": "HR payroll regularisation notice."
+ },
+ {
+  "id": "pt_dev_scam_1",
+  "lang": "pt",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "Oi! Vaga home office: você só curte e avalia produtos da Shopee e ganha R$ 300 por dia 🤑 Sua conta ficou com saldo negativo de R$ 260, faz um Pix de recarga pra liberar as próximas tarefas e sacar a comissão.",
+  "gloss_en": "Rating tasks, negative balance requiring Pix top-up."
+ },
+ {
+  "id": "pt_dev_scam_2",
+  "lang": "pt",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "Parabéns! Você foi aprovado para atendente na Grupo Brasil Log, salário R$ 3.200. Para gerar sua carta de oferta e o exame admissional é necessário pagar uma taxa de R$ 149 via Pix ainda hoje, senão a vaga passa para o próximo candidato.",
+  "gloss_en": "Job approval with fee for offer letter and medical exam."
+ },
+ {
+  "id": "pt_dev_scam_3",
+  "lang": "pt",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "4 money mule / reshipping",
+  "text": "Precisamos de colaboradores para receber pagamentos de clientes na sua conta e repassar por transferência, ficando com 10% de comissão. Também recebe encomendas em casa e reenvia para o exterior. Sem experiência, ganhe até R$ 4.000 por mês.",
+  "gloss_en": "Receive and forward payments and parcels for commission."
+ },
+ {
+  "id": "pt_dev_scam_4",
+  "lang": "pt",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "7 fee to withdraw profits",
+  "text": "Seu saldo na plataforma é de R$ 48.900. Para liberar o saque é preciso pagar o imposto de renda de 20% (R$ 9.780) primeiro, depositando na conta da corretora. Sem o pagamento o saque não é liberado.",
+  "gloss_en": "Tax payment required before withdrawal."
+ },
+ {
+  "id": "pt_dev_scam_5",
+  "lang": "pt",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "8 crypto wallet approve",
+  "text": "Grupo VIP de sinais cripto: entra e aproveita o pump da moeda SOLARX hoje às 20h. Conecte sua carteira no site e aprove o contrato pra participar da pré-venda, lucro de 10x garantido.",
+  "gloss_en": "Pump group and wallet approval for presale."
+ },
+ {
+  "id": "pt_dev_benign_1",
+  "lang": "pt",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Olá Bruno, aqui é a Camila do RH da Magazine Luiza. Seu currículo foi selecionado para a vaga de analista de suporte. Reforçamos que nosso processo seletivo é totalmente gratuito e a empresa arca com a consulta de antecedentes. Nunca cobramos taxa de candidatos.",
+  "gloss_en": "Recruiter: process free, employer pays background check."
+ },
+ {
+  "id": "pt_dev_benign_2",
+  "lang": "pt",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Alerta de segurança do seu banco: golpistas dizem «pague uma taxa para liberar seu saque» ou pedem o código que chegou por SMS. Nunca faça Pix para liberar dinheiro e jamais informe sua senha ou token a ninguém, nem a funcionários do banco.",
+  "gloss_en": "Bank alert quoting scam wording."
+ },
+ {
+  "id": "pt_dev_benign_3",
+  "lang": "pt",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Informe do fundo Renda Fixa Plus: rentabilidade acumulada nos últimos 12 meses de 10,8%. Rentabilidade passada não é garantia de resultados futuros. O fundo não conta com garantia do FGC e o investimento pode gerar perdas. Leia o regulamento antes de aplicar.",
+  "gloss_en": "Fund report with past-performance disclaimer."
+ },
+ {
+  "id": "pt_dev_benign_4",
+  "lang": "pt",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "Edital Finep Startups: o apoio de R$ 200 mil exige contrapartida de 15% e os recursos são liberados em parcelas conforme as metas cumpridas. Não há cobrança de taxa de inscrição nem depósito antecipado. Inscrições no site oficial até 12/11.",
+  "gloss_en": "Funding programme with matching share, milestone releases, no fee."
+ },
+ {
+  "id": "pt_dev_benign_5",
+  "lang": "pt",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Comunicado do RH: o pagamento do salário de setembro será depositado na conta bancária cadastrada no dia 5. Para atualizar dados bancários use o portal do colaborador. O RH nunca solicita senha ou códigos por WhatsApp ou e-mail.",
+  "gloss_en": "HR payroll notice."
+ },
+ {
+  "id": "pt_holdout_scam_1",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "Boa tarde, contratamos você como assistente de compras remoto. Vamos depositar um cheque de R$ 8.500 na sua conta; compre o notebook e os equipamentos do nosso fornecedor indicado por transferência e fique com o restante como adiantamento.",
+  "gloss_en": "Cheque deposit, buy equipment from assigned supplier."
+ },
+ {
+  "id": "pt_holdout_scam_2",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "Bem-vindo à equipe! Pra cadastrar seu salário mande por aqui foto do RG e CPF, os dados de acesso do internet banking e o código de verificação que vai chegar no seu celular. É só formalidade do departamento pessoal 😉",
+  "gloss_en": "Onboarding asks for ID, banking login and OTP."
+ },
+ {
+  "id": "pt_holdout_scam_3",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "Investimento exclusivo: retorno garantido de 5% ao dia, sem risco nenhum, com sua reserva de emergência rendendo mais que a poupança. Comece com R$ 100 e saque quando quiser. Milhares de brasileiros já lucram, chama no privado!",
+  "gloss_en": "Guaranteed 5 percent daily return."
+ },
+ {
+  "id": "pt_holdout_scam_4",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "Somos advogados especializados em recuperar dinheiro perdido em golpes de investimento. Localizamos seus R$ 32 mil. Para dar entrada, deposite R$ 1.200 de honorários antecipados; devolução 100% garantida em até 10 dias.",
+  "gloss_en": "Recovery lawyers demanding upfront fee."
+ },
+ {
+  "id": "pt_holdout_scam_5",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "10 grant/loan needing fee",
+  "text": "Você foi contemplado com auxílio emergencial de R$ 5.000 do programa Brasil Solidário. Para liberar o valor pague a taxa de processamento de R$ 89 por Pix. O crédito cai na sua conta em minutos após a confirmação.",
+  "gloss_en": "Grant release requiring processing fee."
+ },
+ {
+  "id": "pt_holdout_benign_1",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Vaga: auxiliar administrativo, Curitiba, CLT, R$ 2.300 + benefícios. O processo é gratuito, sem qualquer taxa ao candidato, e a empresa paga o exame admissional e a consulta de antecedentes. Envie seu currículo pelo portal oficial da empresa.",
+  "gloss_en": "Genuine job ad, employer covers costs."
+ },
+ {
+  "id": "pt_holdout_benign_2",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Fique atento: se alguém prometer lucro garantido ou retorno sem risco, é golpe. Desconfie de quem pede depósito para liberar seu investimento ou manda uma nova conta bancária por mensagem. Denuncie ao Banco Central ou à polícia.",
+  "gloss_en": "Warning quoting guaranteed profit scams."
+ },
+ {
+  "id": "pt_holdout_benign_3",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Aviso sobre risco: investir em renda variável envolve possibilidade de perda do capital aplicado. A rentabilidade histórica anualizada da carteira foi de 12%, mas não há garantia de retorno. Este material não constitui recomendação personalizada.",
+  "gloss_en": "Investment risk disclosure."
+ },
+ {
+  "id": "pt_holdout_benign_4",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "Olá Renata, sua entrevista na Ambev está marcada para quarta às 14h por Google Meet. Lembre-se: ninguém da empresa vai pedir sua senha, códigos ou dados bancários por mensagem, e não existe cobrança em nenhuma etapa. Boa sorte!",
+  "gloss_en": "Interview invite with never share passwords note."
+ },
+ {
+  "id": "pt_holdout_benign_5",
+  "lang": "pt",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "RH informa: houve um ajuste no seu holerite de outubro e a diferença será depositada na sua conta no próximo pagamento. Você não precisa fazer nenhum pagamento nem informar sua senha. Dúvidas: fale com o Departamento Pessoal pelo ramal 220.",
+  "gloss_en": "HR payroll adjustment notice."
+ },
+ {
+  "id": "de_dev_scam_1",
+  "lang": "de",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "Herzlichen Glückwunsch! Wir bieten Ihnen eine Stelle als Kundenbetreuer im Homeoffice (2.400 EUR netto). Für die Arbeitserlaubnis und Ihre Schulungsunterlagen überweisen Sie bitte vorab 220 EUR Bearbeitungsgebühr. Nach Zahlungseingang senden wir den Vertrag.",
+  "gloss_en": "Job offer needing 220 EUR fee for work permit and training materials."
+ },
+ {
+  "id": "de_dev_scam_2",
+  "lang": "de",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "Hi, Nebenjob per WhatsApp: Videos liken und Hotels bewerten, 80–200 EUR am Tag 💶 Dein Konto steht aktuell im Minus (-150 EUR), du musst erst aufladen, dann schalten wir die nächsten Aufgaben frei und du kannst auszahlen.",
+  "gloss_en": "Like tasks, negative balance requiring top-up."
+ },
+ {
+  "id": "de_dev_scam_3",
+  "lang": "de",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "4 money mule",
+  "text": "Wir suchen Finanzagenten. Sie erhalten Zahlungen von unseren Kunden auf Ihr Konto und leiten diese abzüglich 8 % Provision per Überweisung weiter. Zusätzlich nehmen Sie Pakete an und versenden sie nach Osteuropa. Kein Vorwissen nötig.",
+  "gloss_en": "Money mule and reshipping job."
+ },
+ {
+  "id": "de_dev_scam_4",
+  "lang": "de",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "Exklusive Krypto-Chance: garantierte 3 % Rendite pro Tag, absolut risikofrei, Kapital jederzeit sicher. Steigen Sie mit 500 EUR ein, unser KI-Bot erledigt alles. Nur noch heute freie Plätze, melden Sie sich per Telegram.",
+  "gloss_en": "Guaranteed daily returns risk-free."
+ },
+ {
+  "id": "de_dev_scam_5",
+  "lang": "de",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "11 new bank account",
+  "text": "Sehr geehrter Herr Krüger, Ihr Anlageberater Herr Vogt hier. Wegen einer Systemumstellung bitten wir Sie, die nächste Einzahlung auf unser neues Konto DE89 3704 XXXX zu überweisen. Das alte Konto ist gesperrt. Bitte kurz bestätigen.",
+  "gloss_en": "Fake adviser new account for deposit."
+ },
+ {
+  "id": "de_dev_benign_1",
+  "lang": "de",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Guten Tag Frau Becker, ich bin Recruiterin bei der Stadtwerke München GmbH. Ihre Bewerbung als Sachbearbeiterin hat uns überzeugt. Unser Bewerbungsverfahren ist für Sie komplett kostenlos, das Führungszeugnis bezahlt der Arbeitgeber. Wir verlangen niemals Gebühren.",
+  "gloss_en": "Recruiter: process free, employer pays police certificate."
+ },
+ {
+  "id": "de_dev_benign_2",
+  "lang": "de",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Sicherheitshinweis Ihrer Bank: Betrüger schreiben «zahlen Sie eine Gebühr, um Ihre Auszahlung freizuschalten». Zahlen Sie niemals Gebühren für Auszahlungen und geben Sie Passwort, TAN oder Push-Freigaben nie weiter, auch nicht an angebliche Bankmitarbeiter.",
+  "gloss_en": "Bank security notice quoting scam phrase."
+ },
+ {
+  "id": "de_dev_benign_3",
+  "lang": "de",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Fondsinformation: Die durchschnittliche jährliche Wertentwicklung der letzten 10 Jahre betrug 5,9 %. Die Wertentwicklung in der Vergangenheit ist kein verlässlicher Indikator für die Zukunft. Es besteht keine Kapitalgarantie, Verluste bis zum Totalverlust sind möglich.",
+  "gloss_en": "Fund info with past performance and no guarantee."
+ },
+ {
+  "id": "de_dev_benign_4",
+  "lang": "de",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "Förderprogramm Digital Jetzt: Der Zuschuss von bis zu 16.500 EUR setzt einen Eigenanteil von 50 % voraus und wird nach Erreichen der Meilensteine ausgezahlt. Für die Antragstellung fällt keine Gebühr an, eine Vorauszahlung ist nicht nötig. Frist: 15. Dezember.",
+  "gloss_en": "Grant with own contribution and milestone payment, no fee."
+ },
+ {
+  "id": "de_dev_benign_5",
+  "lang": "de",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "HR-Info: Die Gehaltsabrechnung für September ist im Portal verfügbar, die Überweisung auf Ihr Bankkonto erfolgt am 29. Bitte prüfen Sie Ihre IBAN im Mitarbeiterportal. Wir fragen niemals per E-Mail nach Ihrem Passwort.",
+  "gloss_en": "HR payroll notice."
+ },
+ {
+  "id": "de_holdout_scam_1",
+  "lang": "de",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "Willkommen im Team! Als Testkäufer-Assistent erhalten Sie einen Scheck über 2.950 EUR. Bitte einlösen und davon das Arbeitsequipment bei unserem Partnerlieferanten per Überweisung bezahlen. Ihr Gehalt zahlen wir zusätzlich.",
+  "gloss_en": "Cheque and equipment purchase from partner supplier."
+ },
+ {
+  "id": "de_holdout_scam_2",
+  "lang": "de",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "Für Ihre Einstellung benötigen wir noch Ihr Online-Banking-Login, ein Foto Ihres Personalausweises (Vorder- und Rückseite) sowie den SMS-Code, der gleich bei Ihnen eintrifft. Damit richten wir Ihre Lohnzahlung ein.",
+  "gloss_en": "Onboarding asking banking login, ID, SMS code."
+ },
+ {
+  "id": "de_holdout_scam_3",
+  "lang": "de",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "7 fee to withdraw profits",
+  "text": "Ihr Guthaben beträgt 17.850 EUR. Bevor wir auszahlen können, ist eine Steuer von 12 % (2.142 EUR) an unser Treuhandkonto zu entrichten. Ohne diese Zahlung bleibt Ihr Konto eingefroren. Ihr Kundenservice",
+  "gloss_en": "Tax paid before withdrawal."
+ },
+ {
+  "id": "de_holdout_scam_4",
+  "lang": "de",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "Wir helfen Betrugsopfern: Ihre verlorenen 15.000 EUR aus dem Krypto-Handel wurden von uns aufgespürt. Zahlen Sie 700 EUR Vorschuss für die Anwaltskosten, dann holen wir Ihr Geld zu 100 % zurück. Erfolg garantiert.",
+  "gloss_en": "Recovery for upfront fee."
+ },
+ {
+  "id": "de_holdout_scam_5",
+  "lang": "de",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "10 inheritance needing fee",
+  "text": "Mein Name ist Rechtsanwalt Dr. Klaus Hartmann. Ein Verwandter von Ihnen hinterließ 4,2 Mio. EUR ohne Erben. Um die Freigabe des Erbes zu beantragen, benötige ich Notargebühren von 950 EUR, bitte per Überweisung.",
+  "gloss_en": "Inheritance requiring notary fee."
+ },
+ {
+  "id": "de_holdout_benign_1",
+  "lang": "de",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Stellenanzeige: Lagermitarbeiter (m/w/d) in Hamburg, Vollzeit, 15,50 EUR/Std. Für Bewerber entstehen keinerlei Kosten; wir übernehmen die Kosten der Hintergrundprüfung und der Arbeitsschutzunterweisung. Bewerbung bitte über unser Karriereportal.",
+  "gloss_en": "Genuine job ad with no costs."
+ },
+ {
+  "id": "de_holdout_benign_2",
+  "lang": "de",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Verbraucherwarnung: Wer garantierte Gewinne ohne Risiko verspricht, ist unseriös. Überweisen Sie keine Gebühr, um angebliche Gewinne freizuschalten, und ändern Sie keine Kontodaten aufgrund einer Nachricht. Melden Sie Betrugsfälle bei der Polizei.",
+  "gloss_en": "Consumer warning quoting scam claims."
+ },
+ {
+  "id": "de_holdout_benign_3",
+  "lang": "de",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Risikohinweis: Der Wert Ihrer Anlage kann sowohl steigen als auch fallen, und Sie erhalten möglicherweise weniger zurück, als Sie eingezahlt haben. Renditen sind nicht garantiert. Die historische Rendite von 6,1 % p.a. stellt keine Prognose dar.",
+  "gloss_en": "Investment risk disclosure."
+ },
+ {
+  "id": "de_holdout_benign_4",
+  "lang": "de",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "Hallo Herr Yilmaz, wir bestätigen Ihr Vorstellungsgespräch am Dienstag um 10 Uhr bei Siemens in Nürnberg. Bitte bringen Sie Ihren Ausweis mit. Beachten Sie: Niemand von uns fragt per Nachricht nach Passwörtern oder Codes, und es fallen keine Kosten an.",
+  "gloss_en": "Interview confirmation with never share codes."
+ },
+ {
+  "id": "de_holdout_benign_5",
+  "lang": "de",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Personalabteilung: Aufgrund einer Tarifanpassung erhalten Sie im Oktober eine Nachzahlung von 240 EUR brutto, die mit dem Gehalt auf Ihr Konto überwiesen wird. Sie müssen nichts unternehmen und keine Daten angeben.",
+  "gloss_en": "HR back-pay notice."
+ },
+ {
+  "id": "vi_dev_scam_1",
+  "lang": "vi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "Chào bạn, tuyển CTV làm việc online tại nhà, chỉ cần thả tim và đánh giá sản phẩm Shopee, thu nhập 500k-1tr mỗi ngày 💰 Tài khoản bạn đang âm 2.000.000đ, cần nạp thêm để mở khóa nhiệm vụ tiếp theo rồi mới rút được hoa hồng nhé.",
+  "gloss_en": "Rating tasks and negative balance top-up."
+ },
+ {
+  "id": "vi_dev_scam_2",
+  "lang": "vi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "Chúc mừng anh đã trúng tuyển vị trí nhân viên kho tại công ty Nam Việt Logistics, lương 15 triệu/tháng. Anh vui lòng chuyển khoản 1.500.000đ phí hồ sơ và đồng phục để nhận thư mời làm việc. Phí sẽ hoàn lại sau tháng đầu.",
+  "gloss_en": "Job requires fee for file and uniform."
+ },
+ {
+  "id": "vi_dev_scam_3",
+  "lang": "vi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "Đầu tư sàn quốc tế, cam kết lãi 5%/ngày, không rủi ro, bảo đảm vốn 100%. Chỉ từ 2 triệu đã có thể tham gia, đã có hơn 3.000 nhà đầu tư rút lãi thành công. Inbox mình để được hướng dẫn nhé!",
+  "gloss_en": "Guaranteed 5 percent daily returns."
+ },
+ {
+  "id": "vi_dev_scam_4",
+  "lang": "vi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "7 fee to withdraw profits",
+  "text": "Số dư trên tài khoản của quý khách là 185.000.000đ. Để rút tiền, quý khách cần đóng 20% thuế thu nhập cá nhân (37.000.000đ) vào tài khoản công ty. Nếu không hoàn tất trong 24h tài khoản sẽ bị khóa.",
+  "gloss_en": "20 percent tax before withdrawal."
+ },
+ {
+  "id": "vi_dev_scam_5",
+  "lang": "vi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "Bạn đã được nhận vào vị trí chăm sóc khách hàng. Để tạo hồ sơ nhận lương, gửi giúp mình ảnh CCCD hai mặt, số tài khoản ngân hàng và mã OTP vừa gửi về điện thoại nha, mình xác minh ngay.",
+  "gloss_en": "Onboarding asks ID, bank account, OTP."
+ },
+ {
+  "id": "vi_dev_benign_1",
+  "lang": "vi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Chào bạn Lan, mình là Hương, HR Công ty FPT Software. Hồ sơ của bạn phù hợp vị trí kiểm thử phần mềm. Xin lưu ý quy trình tuyển dụng hoàn toàn miễn phí, công ty chi trả phí xác minh lý lịch, không thu bất kỳ khoản nào từ ứng viên.",
+  "gloss_en": "Recruiter says process free."
+ },
+ {
+  "id": "vi_dev_benign_2",
+  "lang": "vi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Cảnh báo từ ngân hàng: kẻ lừa đảo thường nói «hãy nộp phí để mở khóa rút tiền» hoặc hứa lãi suất cam kết cao. Ngân hàng không bao giờ yêu cầu bạn cung cấp mật khẩu, mã OTP hay chuyển tiền vào tài khoản lạ. Nghi ngờ hãy gọi hotline.",
+  "gloss_en": "Bank warning quoting scam wording."
+ },
+ {
+  "id": "vi_dev_benign_3",
+  "lang": "vi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Thông báo quỹ mở VN Growth: lợi nhuận bình quân hằng năm 3 năm qua là 9,4%. Kết quả trong quá khứ không bảo đảm cho tương lai. Quỹ không cam kết lợi nhuận và nhà đầu tư có thể mất một phần vốn. Vui lòng đọc bản cáo bạch.",
+  "gloss_en": "Fund notice with past performance disclaimer."
+ },
+ {
+  "id": "vi_dev_benign_4",
+  "lang": "vi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "Chương trình hỗ trợ khởi nghiệp sáng tạo: khoản tài trợ 300 triệu đồng yêu cầu doanh nghiệp đối ứng 30% và được giải ngân theo từng giai đoạn khi đạt mốc dự án. Không thu phí đăng ký hay tiền đặt cọc. Hạn nộp hồ sơ 30/11.",
+  "gloss_en": "Funding with matching contribution, milestone disbursement."
+ },
+ {
+  "id": "vi_dev_benign_5",
+  "lang": "vi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Phòng Nhân sự thông báo: lương tháng 9 sẽ được chuyển khoản vào tài khoản ngân hàng đã đăng ký vào ngày 5/10. Nếu thay đổi số tài khoản, vui lòng cập nhật trên cổng nhân viên. Phòng Nhân sự không bao giờ hỏi mật khẩu qua tin nhắn.",
+  "gloss_en": "HR payroll notice."
+ },
+ {
+  "id": "vi_holdout_scam_1",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "4 parcel reshipping",
+  "text": "Cần người nhận hàng hộ tại nhà, sau đó đóng gói lại gửi đi nước ngoài theo nhãn mình cung cấp. Hoa hồng 300k/kiện, làm ở nhà, không cần kinh nghiệm. Có thể nhận tiền khách chuyển vào tài khoản bạn rồi chuyển tiếp lại 😊",
+  "gloss_en": "Parcel reshipping and forwarding funds."
+ },
+ {
+  "id": "vi_holdout_scam_2",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "8 crypto wallet approve",
+  "text": "Nhận airdrop 1.000 USDT miễn phí! Kết nối ví MetaMask của bạn vào trang claim-usdt.top và bấm Approve để nhận thưởng. Chỉ còn hôm nay, sau đó đóng.",
+  "gloss_en": "Airdrop needing wallet connect and approve."
+ },
+ {
+  "id": "vi_holdout_scam_3",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "Bên mình là trung tâm hỗ trợ lấy lại tiền bị lừa đầu tư. Đã xác định được 250 triệu của anh. Anh đóng trước 8 triệu phí hồ sơ pháp lý, chúng tôi cam kết hoàn tiền 100%.",
+  "gloss_en": "Recovery for advance fee."
+ },
+ {
+  "id": "vi_holdout_scam_4",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "10 loan needing fee",
+  "text": "Ngân hàng tín dụng Đại Phát: hồ sơ vay 100 triệu của anh đã được duyệt, không cần thế chấp. Để giải ngân anh vui lòng chuyển 3 triệu phí bảo hiểm khoản vay trước. Tiền vào tài khoản trong 15 phút.",
+  "gloss_en": "Loan approved but needs insurance fee first."
+ },
+ {
+  "id": "vi_holdout_scam_5",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "Hợp đồng làm trợ lý mua hàng đã sẵn sàng. Công ty sẽ gửi séc 60.000 USD, bạn nộp vào ngân hàng rồi mua thiết bị từ nhà cung cấp chỉ định bằng chuyển khoản, phần còn lại là tiền ứng lương.",
+  "gloss_en": "Cheque and supplier equipment purchase."
+ },
+ {
+  "id": "vi_holdout_benign_1",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Tuyển nhân viên kế toán tại TP.HCM, lương 12-15 triệu, làm việc giờ hành chính. Ứng viên không phải trả bất kỳ chi phí nào, công ty chịu phí kiểm tra lý lịch và khám sức khỏe. Gửi CV qua email tuyendung chính thức của công ty.",
+  "gloss_en": "Genuine job ad with no fees."
+ },
+ {
+  "id": "vi_holdout_benign_2",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Khuyến cáo: nếu ai đó hứa hẹn lợi nhuận đảm bảo, không rủi ro thì đó là lừa đảo. Không chuyển tiền phí để lấy lại tiền đã mất và không đổi tài khoản nhận tiền theo tin nhắn lạ. Báo ngay cho công an khi nghi ngờ.",
+  "gloss_en": "Warning about guaranteed profit scams."
+ },
+ {
+  "id": "vi_holdout_benign_3",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Cảnh báo rủi ro: đầu tư chứng khoán có thể dẫn đến thua lỗ vốn. Lợi nhuận bình quân hằng năm trong quá khứ là 11% nhưng không phải là cam kết cho tương lai. Bạn nên cân nhắc mục tiêu tài chính trước khi nộp tiền vào tài khoản.",
+  "gloss_en": "Investment risk warning."
+ },
+ {
+  "id": "vi_holdout_benign_4",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "Chào Minh, công ty Vinamilk xác nhận lịch phỏng vấn thứ Tư 9h tại văn phòng quận 7. Bạn mang theo CCCD bản gốc. Lưu ý: không ai của công ty sẽ hỏi mật khẩu hay mã OTP của bạn, và bạn không phải đóng khoản phí nào.",
+  "gloss_en": "Interview confirmation with security note."
+ },
+ {
+  "id": "vi_holdout_benign_5",
+  "lang": "vi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Thông báo nhân sự: khoản điều chỉnh lương 1.200.000đ do tăng ca tháng 8 sẽ được chuyển vào tài khoản của bạn cùng kỳ lương tháng 10. Bạn không cần thực hiện thanh toán hay cung cấp thêm thông tin nào.",
+  "gloss_en": "HR pay adjustment notice."
+ },
+ {
+  "id": "tl_dev_scam_1",
+  "lang": "tl",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "Hi po! Hiring kami ng online workers, mag-like at mag-rate lang ng products sa Lazada, kikita ng ₱3,000 kada araw 💸 Negative balance ka na po ng ₱1,500, mag-top up muna para ma-unlock ang next task at makapag-withdraw.",
+  "gloss_en": "Rating tasks, negative balance top-up."
+ },
+ {
+  "id": "tl_dev_scam_2",
+  "lang": "tl",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "Congrats! Natanggap ka bilang household worker sa Dubai, sahod 1,800 AED. Magbayad lang po ng ₱12,000 para sa processing ng visa at medical, i-GCash mo na ngayon para ma-reserve ang slot mo bago mag-Biyernes.",
+  "gloss_en": "Overseas job requiring visa and medical fee."
+ },
+ {
+  "id": "tl_dev_scam_3",
+  "lang": "tl",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "Invest ka na sa amin! Guaranteed 20% kita kada linggo, walang risk, sure win ang puhunan mo. ₱1,000 lang para magsimula, marami na kaming na-payout. Message mo lang ako sa Telegram.",
+  "gloss_en": "Guaranteed weekly profit no risk."
+ },
+ {
+  "id": "tl_dev_scam_4",
+  "lang": "tl",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "7 fee to withdraw",
+  "text": "Sir/Ma'am, ₱250,000 na po ang balance ninyo sa platform. Para ma-withdraw kailangan muna magbayad ng 10% tax at anti-money laundering fee na ₱25,000 sa aming account. Kapag hindi bayad, mafe-freeze ang account.",
+  "gloss_en": "Tax and AML fee to withdraw."
+ },
+ {
+  "id": "tl_dev_scam_5",
+  "lang": "tl",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "Welcome sa team! Para sa payroll setup, ipadala mo dito yung picture ng UMID/passport mo, bank account number at yung 6-digit OTP na dadating sa phone mo para ma-verify. Salamat po!",
+  "gloss_en": "Onboarding asks ID, bank number, OTP."
+ },
+ {
+  "id": "tl_dev_benign_1",
+  "lang": "tl",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Hello Ana, si Rico ito ng HR ng Jollibee Foods Corp. Pasok ang profile mo sa customer service role. Paalala po: libre ang buong hiring process at kami ang sasagot sa NBI clearance at background check. Hindi kami kailanman naniningil ng fee sa applicants.",
+  "gloss_en": "Recruiter: free process, employer pays."
+ },
+ {
+  "id": "tl_dev_benign_2",
+  "lang": "tl",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Babala mula sa iyong bangko: may mga scammer na nagsasabing «magbayad ng fee para ma-release ang withdrawal» o nangangako ng guaranteed returns. Huwag ibigay ang password, OTP, o PIN kahit kanino, kahit sa nagpapakilalang empleyado ng bangko.",
+  "gloss_en": "Bank warning quoting scam wording."
+ },
+ {
+  "id": "tl_dev_benign_3",
+  "lang": "tl",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Fund report: ang annualized return ng Peso Bond Fund ay 5.2% sa nakalipas na taon. Ang nakaraang performance ay hindi garantiya ng kita sa hinaharap. Walang guarantee ang principal at maaaring bumaba ang halaga ng iyong investment. Basahin ang prospectus.",
+  "gloss_en": "Fund report with disclaimer."
+ },
+ {
+  "id": "tl_dev_benign_4",
+  "lang": "tl",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "DOST Startup Grant: ang ₱500,000 na pondo ay may counterpart contribution na 20% mula sa aplikante at ibibigay nang paunti-unti kapag natapos ang bawat milestone. Walang application fee o deposit na kailangan. Deadline ng aplikasyon: Nobyembre 20.",
+  "gloss_en": "Grant with counterpart share and milestones, no fee."
+ },
+ {
+  "id": "tl_dev_benign_5",
+  "lang": "tl",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "HR Notice: ang sahod para sa Setyembre ay ika-credit sa inyong bank account sa Oktubre 5. Para i-update ang account number, gamitin ang employee portal. Hindi kailanman hihingin ng HR ang inyong password o OTP sa text o chat.",
+  "gloss_en": "HR payroll notice."
+ },
+ {
+  "id": "tl_holdout_scam_1",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "Hired ka na bilang remote purchasing assistant. Magpapadala kami ng check na $3,500, i-deposit mo tapos bilhin ang laptop at gamit sa supplier na ibibigay namin via bank transfer. Reimbursed lahat plus sahod mo.",
+  "gloss_en": "Cheque and supplier equipment."
+ },
+ {
+  "id": "tl_holdout_scam_2",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "4 money mule",
+  "text": "Need ng mga tao na tatanggap ng pera sa GCash/bank nila tapos ipapasa sa iba, may 5% commission ka sa bawat transfer! Pwede rin tumanggap ng parcels at i-ship abroad. Easy money, walang experience needed 😉",
+  "gloss_en": "Receive and forward money and parcels for commission."
+ },
+ {
+  "id": "tl_holdout_scam_3",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "8 crypto wallet approve",
+  "text": "Sumali sa VIP crypto group namin, pump ng coin na MOONPH mamayang 8PM. I-connect ang wallet mo sa site at i-approve ang contract para makasali sa presale, 10x agad!",
+  "gloss_en": "Pump group with wallet approval."
+ },
+ {
+  "id": "tl_holdout_scam_4",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "Kami ang Fund Recovery Unit. Nahanap namin ang ₱180,000 na nawala sa iyo sa investment scam. Magpadala ng ₱7,500 na legal fee muna, at ibabalik namin ang buong halaga, guaranteed.",
+  "gloss_en": "Recovery for legal fee."
+ },
+ {
+  "id": "tl_holdout_scam_5",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "10 grant/loan needing fee",
+  "text": "Napili ka po para sa ₱50,000 na ayuda ng DSWD Cash Aid. Kailangan lang mag-send ng ₱500 processing fee via GCash para ma-release ang pera sa account mo.",
+  "gloss_en": "Aid release needing processing fee."
+ },
+ {
+  "id": "tl_holdout_benign_1",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "Hiring: Admin Assistant sa Makati, ₱22,000 kada buwan. Walang babayaran ang applicant; ang kumpanya ang sasagot sa background check at medical exam. Mag-apply sa opisyal naming careers page. Hindi kami humihingi ng pera sa anumang stage.",
+  "gloss_en": "Genuine job ad, no fees."
+ },
+ {
+  "id": "tl_holdout_benign_2",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "Paalala ng SEC: kapag may nangako ng guaranteed na tubo o walang risk na investment, scam iyon. Huwag magdeposito ng pera para ma-unlock ang iyong kita, at huwag magpalit ng bank account batay lang sa text message.",
+  "gloss_en": "Regulator warning about guaranteed profit scams."
+ },
+ {
+  "id": "tl_holdout_benign_3",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "Risk disclosure: ang pag-invest sa stocks ay may kaakibat na panganib at maaaring mawala ang bahagi ng iyong deposit. Ang historical annualized return na 8% ay hindi garantiya ng magiging kita. Walang guaranteed returns ang produktong ito.",
+  "gloss_en": "Stock investing risk disclosure."
+ },
+ {
+  "id": "tl_holdout_benign_4",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "Hi Mark, kumpirmado na ang interview mo sa Globe Telecom sa Huwebes 2PM via Zoom. Dalhin ang valid ID sa onsite. Tandaan: walang staff ng kumpanya ang hihingi ng password o OTP, at walang bayad sa alinmang bahagi ng hiring.",
+  "gloss_en": "Interview confirmation with security note."
+ },
+ {
+  "id": "tl_holdout_benign_5",
+  "lang": "tl",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "Abiso mula sa HR: may adjustment na ₱2,400 sa inyong sahod para sa overtime noong Agosto, ita-transfer ito sa inyong bank account kasabay ng payroll sa Oktubre 20. Hindi kailangan ng anumang bayad o dagdag na impormasyon mula sa inyo.",
+  "gloss_en": "HR overtime adjustment notice."
+ },
+ {
+  "id": "hi_dev_scam_1",
+  "lang": "hi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "बधाई हो! आपका चयन अमेज़न वेयरहाउस में डाटा एंट्री ऑपरेटर के पद पर हो गया है, सैलरी 32,000 रुपये महीना। ऑफर लेटर पाने के लिए 2,500 रुपये रजिस्ट्रेशन फीस अभी UPI से भेजें, वरना सीट किसी और को दे दी जाएगी।",
+  "gloss_en": "Job selection needing 2,500 rupee registration fee."
+ },
+ {
+  "id": "hi_dev_scam_2",
+  "lang": "hi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "घर बैठे कमाएं 5000 रोज़ 🤑 बस यूट्यूब वीडियो लाइक करें और होटल रेटिंग दें। आपका खाता -3,000 रुपये नेगेटिव में चला गया है, अगला टास्क खोलने के लिए रिचार्ज करें, तभी कमीशन निकाल पाएंगे।",
+  "gloss_en": "Like/rating tasks and negative balance recharge."
+ },
+ {
+  "id": "hi_dev_scam_3",
+  "lang": "hi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "शेयर मार्केट VIP ग्रुप में जुड़ें! हमारी टीम की गारंटीड कमाई, हर हफ्ते 40% मुनाफ़ा, ज़ीरो रिस्क। सिर्फ़ 10,000 रुपये लगाएं और महीने भर में दोगुना करें। सीमित सीटें, अभी WhatsApp करें।",
+  "gloss_en": "Guaranteed 40 percent weekly profit zero risk."
+ },
+ {
+  "id": "hi_dev_scam_4",
+  "lang": "hi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "7 fee to withdraw",
+  "text": "आपके ट्रेडिंग खाते में 4,80,000 रुपये का मुनाफ़ा दिख रहा है। इसे निकालने के लिए पहले 18% GST और टैक्स के 86,400 रुपये कंपनी के खाते में जमा करें। भुगतान के बिना विड्रॉल संभव नहीं।",
+  "gloss_en": "GST and tax needed before withdrawing."
+ },
+ {
+  "id": "hi_dev_scam_5",
+  "lang": "hi",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "जॉइनिंग की प्रक्रिया पूरी करने के लिए अपने आधार और पैन कार्ड की फोटो, बैंक खाता नंबर और मोबाइल पर आया OTP हमें भेजिए। इसी से आपकी सैलरी अकाउंट वेरिफ़ाई होगा, जल्दी करें।",
+  "gloss_en": "Joining asks Aadhaar, PAN, account and OTP."
+ },
+ {
+  "id": "hi_dev_benign_1",
+  "lang": "hi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "नमस्ते प्रिया जी, मैं टीसीएस की एचआर टीम से नेहा बोल रही हूँ। आपकी प्रोफ़ाइल सपोर्ट एनालिस्ट पद के लिए चुनी गई है। हमारी भर्ती प्रक्रिया पूरी तरह निःशुल्क है, बैकग्राउंड वेरिफ़िकेशन का खर्च कंपनी उठाती है। हम उम्मीदवारों से कोई शुल्क नहीं लेते।",
+  "gloss_en": "Recruiter says hiring is free."
+ },
+ {
+  "id": "hi_dev_benign_2",
+  "lang": "hi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "बैंक की चेतावनी: ठग अक्सर कहते हैं «विड्रॉल अनलॉक करने के लिए फ़ीस जमा करें» या गारंटीड रिटर्न का लालच देते हैं। कभी भी अपना पासवर्ड, OTP या पिन किसी को न बताएं और अनजान खाते में पैसे ट्रांसफ़र न करें। बैंक कभी यह नहीं मांगता।",
+  "gloss_en": "Bank warning quoting scam wording."
+ },
+ {
+  "id": "hi_dev_benign_3",
+  "lang": "hi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "म्यूचुअल फंड सूचना: पिछले 5 वर्षों में इस योजना का वार्षिक रिटर्न 12.4% रहा है। पिछला प्रदर्शन भविष्य के रिटर्न की गारंटी नहीं है। म्यूचुअल फंड निवेश बाज़ार जोखिमों के अधीन हैं, निवेश से पहले सभी दस्तावेज़ ध्यान से पढ़ें।",
+  "gloss_en": "Mutual fund disclosure."
+ },
+ {
+  "id": "hi_dev_benign_4",
+  "lang": "hi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "स्टार्टअप इंडिया सीड फंड: 20 लाख रुपये का अनुदान आवेदक के 25% अंशदान के साथ मिलता है और राशि परियोजना के चरण पूरे होने पर किश्तों में जारी की जाती है। आवेदन के लिए कोई शुल्क या जमा राशि नहीं ली जाती। अंतिम तिथि 30 नवंबर।",
+  "gloss_en": "Grant with contribution, milestones, no fee."
+ },
+ {
+  "id": "hi_dev_benign_5",
+  "lang": "hi",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "एचआर सूचना: सितंबर माह की सैलरी 1 अक्टूबर को आपके पंजीकृत बैंक खाते में ट्रांसफ़र कर दी जाएगी। खाता बदलना हो तो कर्मचारी पोर्टल पर अपडेट करें। एचआर कभी फ़ोन या मैसेज पर आपका पासवर्ड या OTP नहीं मांगता।",
+  "gloss_en": "HR payroll notice."
+ },
+ {
+  "id": "hi_holdout_scam_1",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "4 money mule",
+  "text": "पार्ट टाइम काम: आपके बैंक खाते में ग्राहकों का पैसा आएगा, आपको उसे हमारे बताए खातों में भेजना है, हर ट्रांसफ़र पर 5% कमीशन आपका। पार्सल रिसीव करके विदेश भेजने का काम भी है। रोज़ 2000 तक कमाएं।",
+  "gloss_en": "Receive and forward money and parcels."
+ },
+ {
+  "id": "hi_holdout_scam_2",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "8 crypto",
+  "text": "फ्री एयरडॉप! 2000 USDT पाने के लिए अपना वॉलेट कनेक्ट करें और लिंक पर Approve दबाएं। ऑफ़र सिर्फ़ आज तक। टेलीग्राम ग्रुप में पंप की जानकारी भी मिलेगी, 10 गुना कमाई पक्की!",
+  "gloss_en": "Airdrop wallet connect and pump group."
+ },
+ {
+  "id": "hi_holdout_scam_3",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "हम साइबर रिकवरी टीम हैं। ऑनलाइन ठगी में गया आपका 3,20,000 रुपये हमने ट्रेस कर लिया है। रिकवरी शुरू करने के लिए 15,000 रुपये केस फ़ीस पहले जमा करें, पूरी रकम वापस मिलने की गारंटी।",
+  "gloss_en": "Recovery for case fee."
+ },
+ {
+  "id": "hi_holdout_scam_4",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "10 loan needing fee",
+  "text": "बधाई! आपका 5 लाख का पर्सनल लोन बिना CIBIL मंज़ूर हो गया है। लोन राशि रिलीज़ करने के लिए 4,999 रुपये प्रोसेसिंग और इंश्योरेंस चार्ज अभी PhonePe से भेजें। पैसा 10 मिनट में खाते में।",
+  "gloss_en": "Loan needing processing charge."
+ },
+ {
+  "id": "hi_holdout_scam_5",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "आपकी नियुक्ति खरीद सहायक के पद पर हुई है। हम आपको 4,00,000 रुपये का चेक भेजेंगे, इसे जमा करके हमारे बताए सप्लायर से लैपटॉप व उपकरण बैंक ट्रांसफ़र से खरीदें। बाकी रकम आपकी एडवांस सैलरी।",
+  "gloss_en": "Cheque and supplier purchase."
+ },
+ {
+  "id": "hi_holdout_benign_1",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "रिक्ति: बेंगलुरु में ग्राहक सेवा अधिकारी, वेतन 28,000 रुपये मासिक। उम्मीदवार को किसी भी चरण में कोई शुल्क नहीं देना है; पुलिस वेरिफ़िकेशन और मेडिकल का खर्च कंपनी वहन करेगी। कृपया केवल हमारी आधिकारिक वेबसाइट पर आवेदन करें।",
+  "gloss_en": "Genuine job ad no fees."
+ },
+ {
+  "id": "hi_holdout_benign_2",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "सावधान रहें: अगर कोई निश्चित मुनाफ़े या बिना जोखिम के रिटर्न का वादा करे तो यह धोखाधड़ी है। पैसे वापस दिलाने के नाम पर फ़ीस न दें और बिना जांचे किसी नए बैंक खाते में ट्रांसफ़र न करें। शिकायत के लिए 1930 डायल करें।",
+  "gloss_en": "Cyber-fraud warning."
+ },
+ {
+  "id": "hi_holdout_benign_3",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "जोखिम सूचना: शेयर बाज़ार में निवेश करने पर आपकी जमा पूंजी घट सकती है। पिछले तीन वर्षों का ऐतिहासिक वार्षिक रिटर्न 14% रहा है, लेकिन इसकी कोई गारंटी नहीं है कि भविष्य में भी ऐसा होगा। यह जानकारी निजी सलाह नहीं है।",
+  "gloss_en": "Equity risk disclosure."
+ },
+ {
+  "id": "hi_holdout_benign_4",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "नमस्ते रोहित जी, इन्फोसिस में आपका इंटरव्यू बुधवार सुबह 11 बजे टीम्स पर तय है। कृपया अपना फ़ोटो आईडी साथ रखें। ध्यान रहे, कंपनी का कोई भी व्यक्ति आपसे पासवर्ड या OTP नहीं मांगेगा और किसी भी चरण में कोई पैसा नहीं लगता।",
+  "gloss_en": "Interview confirmation with security note."
+ },
+ {
+  "id": "hi_holdout_benign_5",
+  "lang": "hi",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "एचआर विभाग: अगस्त के ओवरटाइम का 3,200 रुपये का एरियर अक्टूबर की सैलरी के साथ आपके बैंक खाते में जमा होगा। आपको कोई भुगतान या अतिरिक्त जानकारी देने की ज़रूरत नहीं है। विवरण पे-स्लिप में देखें।",
+  "gloss_en": "HR arrears notice."
+ },
+ {
+  "id": "ar_dev_scam_1",
+  "lang": "ar",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "مبروك! تم قبولك في وظيفة موظف استقبال بشركة الخليج للخدمات في دبي، براتب 6,000 درهم. لإصدار عقد العمل وتصريح الإقامة يرجى تحويل 1,200 درهم رسوم معاملات اليوم، وتُسترد مع أول راتب.",
+  "gloss_en": "Job requires fee for contract and residence permit."
+ },
+ {
+  "id": "ar_dev_scam_2",
+  "lang": "ar",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "مرحبا، فرصة عمل من البيت: ضغط لايك وتقييم منتجات أمازون وتربح 300 ريال يوميا 💰 حسابك حاليا بالسالب -500 ريال، اشحن الرصيد عشان نفتح لك المهمة الجاية وتقدر تسحب العمولة.",
+  "gloss_en": "Rating tasks and negative balance top-up."
+ },
+ {
+  "id": "ar_dev_scam_3",
+  "lang": "ar",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "استثمر معنا في تداول الأسهم بأرباح مضمونة 100% وبدون أي مخاطرة. ضاعف رأس مالك خلال 10 أيام، الحد الأدنى 1,000 ريال فقط. مئات المستثمرين سحبوا أرباحهم. تواصل معي على واتساب الآن.",
+  "gloss_en": "Guaranteed returns, no risk."
+ },
+ {
+  "id": "ar_dev_scam_4",
+  "lang": "ar",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "7 fee to withdraw",
+  "text": "عزيزي العميل، رصيدك في المنصة 95,000 دولار. لإتمام السحب يجب دفع ضريبة أرباح بنسبة 15% (14,250 دولار) إلى الحساب المرفق، وإلا سيتم تجميد حسابك خلال 48 ساعة.",
+  "gloss_en": "Profit tax before withdrawal."
+ },
+ {
+  "id": "ar_dev_scam_5",
+  "lang": "ar",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "أهلا بك في فريق العمل. لاستكمال التوظيف أرسل صورة الهوية الوطنية من الوجهين ورقم حسابك البنكي ورمز التحقق الذي وصلك برسالة نصية، لأجل تفعيل الراتب.",
+  "gloss_en": "Onboarding asks ID, account number, OTP."
+ },
+ {
+  "id": "ar_dev_benign_1",
+  "lang": "ar",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "مرحبا أحمد، معك سارة من الموارد البشرية في شركة أرامكو للخدمات. تم ترشيحك لوظيفة محلل بيانات. نؤكد أن إجراءات التوظيف مجانية بالكامل وتتحمل الشركة تكلفة الفحص الأمني والتحقق من الخلفية، ولا نطلب أي رسوم من المرشحين.",
+  "gloss_en": "Recruiter: free process."
+ },
+ {
+  "id": "ar_dev_benign_2",
+  "lang": "ar",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "تنبيه من البنك: يدّعي المحتالون قولهم «ادفع رسوما لفك حجز أرباحك» أو يعدونك بعوائد مضمونة. لا تشارك كلمة المرور أو رمز التحقق أو الرقم السري مع أي شخص، ولا تحول أموالا إلى حساب جديد بناء على رسالة.",
+  "gloss_en": "Bank alert quoting scam wording."
+ },
+ {
+  "id": "ar_dev_benign_3",
+  "lang": "ar",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "إفصاح الصندوق: بلغ العائد السنوي التاريخي للصندوق 7.3% خلال السنوات الخمس الماضية. الأداء السابق ليس مؤشرا على النتائج المستقبلية، ولا توجد أي ضمانات للعوائد وقد تخسر جزءا من رأس مالك. يرجى قراءة الشروط والأحكام.",
+  "gloss_en": "Fund disclosure."
+ },
+ {
+  "id": "ar_dev_benign_4",
+  "lang": "ar",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "برنامج دعم المشاريع الناشئة: يقدم تمويلا بقيمة 200,000 ريال مع مساهمة ذاتية من صاحب المشروع بنسبة 20%، ويُصرف على دفعات عند تحقيق كل مرحلة. لا توجد أي رسوم تسجيل أو ودائع مسبقة. آخر موعد للتقديم 15 نوفمبر.",
+  "gloss_en": "Grant with contribution and milestone payment."
+ },
+ {
+  "id": "ar_dev_benign_5",
+  "lang": "ar",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "إشعار من الموارد البشرية: سيتم تحويل راتب شهر سبتمبر إلى حسابكم البنكي المسجل يوم 27. لتحديث رقم الآيبان استخدموا بوابة الموظفين. لن تطلب الموارد البشرية كلمة المرور أو رموز التحقق عبر الرسائل أبدا.",
+  "gloss_en": "HR payroll notice."
+ },
+ {
+  "id": "ar_holdout_scam_1",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "تم تعيينك كمساعد مشتريات عن بعد. سنرسل لك شيكا بقيمة 15,000 دولار، أودعه واشترِ المعدات من المورد الذي نحدده لك عبر حوالة بنكية، والباقي سلفة على راتبك.",
+  "gloss_en": "Cheque and supplier purchase."
+ },
+ {
+  "id": "ar_holdout_scam_2",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "4 money mule",
+  "text": "مطلوب أشخاص لاستلام حوالات في حسابهم البنكي وإعادة تحويلها لحسابات نحددها مقابل عمولة 7%. كذلك استلام طرود وإعادة شحنها للخارج. بدون خبرة، شغل من البيت 👍",
+  "gloss_en": "Receive and forward funds and parcels."
+ },
+ {
+  "id": "ar_holdout_scam_3",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "8 crypto wallet approve",
+  "text": "انضم لمجموعتنا الحصرية على تيليجرام، سنضخ عملة MOONAR اليوم الساعة 9 مساء. اربط محفظتك بالموقع ووافق على العقد للمشاركة في البيع المسبق، أرباح 10 أضعاف!",
+  "gloss_en": "Pump group and wallet approval."
+ },
+ {
+  "id": "ar_holdout_scam_4",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "نحن مكتب استرداد الأموال المخدوعة. تمكنّا من تتبع مبلغك المفقود 40,000 ريال في عملية النصب الاستثماري. ادفع 3,000 ريال أتعاب مسبقة لنبدأ، ونضمن لك الاسترداد الكامل.",
+  "gloss_en": "Recovery for advance fees."
+ },
+ {
+  "id": "ar_holdout_scam_5",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "10 grant/loan needing fee",
+  "text": "يسعدنا إبلاغك بأنك فزت بمنحة قدرها 50,000 دولار من الصندوق الدولي للتنمية. لتحرير المبلغ يرجى تحويل 400 دولار رسوم إدارية إلى حساب الصندوق أولا.",
+  "gloss_en": "Grant requiring admin fee."
+ },
+ {
+  "id": "ar_holdout_benign_1",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "وظيفة شاغرة: محاسب في الرياض براتب 9,000 ريال مع بدلات. لا يتحمل المتقدم أي رسوم في أي مرحلة، وتتكفل الشركة بتكاليف الفحص الطبي والتحقق من الخلفية. قدّم سيرتك الذاتية عبر موقعنا الرسمي فقط.",
+  "gloss_en": "Genuine job ad, no fees."
+ },
+ {
+  "id": "ar_holdout_benign_2",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "تحذير: أي جهة تعدك بأرباح مضمونة أو استثمار خالٍ من المخاطر هي عملية احتيال. لا تدفع أي مبلغ لاسترداد أموالك المسروقة ولا تغيّر الحساب البنكي للتحويل بناء على رسالة. بلّغ الجهات المختصة فورا.",
+  "gloss_en": "Fraud warning about guaranteed profit."
+ },
+ {
+  "id": "ar_holdout_benign_3",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "إشعار مخاطر: الاستثمار في الأسهم ينطوي على مخاطر وقد تخسر جزءا من وديعتك. العائد السنوي التاريخي 9% لا يمثل ضمانا للأرباح المستقبلية، ولا نقدم أي عوائد مضمونة. هذه المعلومات ليست نصيحة استثمارية.",
+  "gloss_en": "Equity risk notice."
+ },
+ {
+  "id": "ar_holdout_benign_4",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "مرحبا خالد، نؤكد موعد مقابلتك في شركة الاتصالات السعودية يوم الأربعاء الساعة 10 صباحا عبر زووم. أحضر هويتك. للتنبيه: لن يطلب منك أحد كلمة المرور أو رمز التحقق، ولا توجد أي رسوم في التوظيف.",
+  "gloss_en": "Interview confirmation with security note."
+ },
+ {
+  "id": "ar_holdout_benign_5",
+  "lang": "ar",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "الموارد البشرية: سيتم إيداع فرق العمل الإضافي لشهر أغسطس (850 ريال) في حسابكم البنكي مع راتب أكتوبر. لا يلزمكم دفع أي مبلغ أو تزويدنا بأي بيانات إضافية. التفاصيل متاحة في قسيمة الراتب.",
+  "gloss_en": "HR overtime difference notice."
+ },
+ {
+  "id": "th_dev_scam_1",
+  "lang": "th",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "2 paid-task",
+  "text": "สวัสดีค่ะ รับสมัครงานออนไลน์ทำที่บ้าน แค่กดไลก์และรีวิวสินค้า Shopee รายได้วันละ 1,500-3,000 บาท 💰 ตอนนี้บัญชีคุณติดลบ 2,000 บาท ต้องเติมเงินก่อนถึงจะปลดล็อกงานถัดไปและถอนค่าคอมได้ค่ะ",
+  "gloss_en": "Rating tasks and negative balance top-up."
+ },
+ {
+  "id": "th_dev_scam_2",
+  "lang": "th",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "1 advance-fee job",
+  "text": "ยินดีด้วยครับ คุณผ่านการคัดเลือกตำแหน่งพนักงานคลังสินค้าที่บริษัท สยามโลจิสติกส์ เงินเดือน 18,000 บาท กรุณาโอนค่าดำเนินการและค่าชุดฟอร์ม 2,500 บาท เพื่อออกจดหมายเสนองาน ภายในวันนี้ครับ",
+  "gloss_en": "Job requires fee for processing and uniform."
+ },
+ {
+  "id": "th_dev_scam_3",
+  "lang": "th",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "6 guaranteed returns",
+  "text": "ลงทุนกับเราสิ ผลตอบแทนการันตี 10% ต่อวัน ไม่มีความเสี่ยง เงินต้นปลอดภัย 100% เริ่มต้นเพียง 1,000 บาท มีคนถอนกำไรได้จริงแล้วหลายพันคน ทักไลน์มาได้เลยค่ะ",
+  "gloss_en": "Guaranteed 10 percent daily returns."
+ },
+ {
+  "id": "th_dev_scam_4",
+  "lang": "th",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "7 fee to withdraw",
+  "text": "ยอดเงินในบัญชีของคุณตอนนี้ 320,000 บาท หากต้องการถอน ต้องชำระภาษีกำไร 20% (64,000 บาท) เข้าบัญชีบริษัทก่อน มิฉะนั้นบัญชีจะถูกระงับภายใน 24 ชั่วโมง",
+  "gloss_en": "Profit tax before withdrawal."
+ },
+ {
+  "id": "th_dev_scam_5",
+  "lang": "th",
+  "split": "dev",
+  "label": "SCAM",
+  "class": "5 credential harvesting",
+  "text": "ยินดีต้อนรับสู่ทีมค่ะ เพื่อทำเรื่องรับเงินเดือน กรุณาส่งรูปบัตรประชาชนหน้าหลัง เลขบัญชีธนาคาร และรหัส OTP ที่เพิ่งส่งเข้ามือถือคุณ เพื่อให้ฝ่ายบุคคลยืนยันตัวตนค่ะ",
+  "gloss_en": "Onboarding asks ID, account number, OTP."
+ },
+ {
+  "id": "th_dev_benign_1",
+  "lang": "th",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "สวัสดีค่ะ คุณนัท ดิฉันมลจากฝ่ายบุคคล บริษัท เซ็นทรัล รีเทล โปรไฟล์ของคุณเหมาะกับตำแหน่งเจ้าหน้าที่บริการลูกค้า กระบวนการสมัครงานไม่มีค่าใช้จ่ายใดๆ บริษัทเป็นผู้จ่ายค่าตรวจสอบประวัติเอง และเราไม่เก็บเงินจากผู้สมัคร",
+  "gloss_en": "Recruiter: no fees."
+ },
+ {
+  "id": "th_dev_benign_2",
+  "lang": "th",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "ประกาศเตือนจากธนาคาร: มิจฉาชีพมักอ้างว่า «โอนค่าธรรมเนียมเพื่อปลดล็อกการถอนเงิน» หรือสัญญาผลตอบแทนที่การันตี โปรดอย่าบอกรหัสผ่าน รหัส OTP หรือ PIN แก่ใคร และอย่าโอนเงินเข้าบัญชีแปลกหน้า ธนาคารไม่เคยขอข้อมูลเหล่านี้",
+  "gloss_en": "Bank warning quoting scam wording."
+ },
+ {
+  "id": "th_dev_benign_3",
+  "lang": "th",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "ข้อมูลกองทุนรวม: ผลตอบแทนเฉลี่ยต่อปีย้อนหลัง 5 ปีอยู่ที่ 6.8% ผลการดำเนินงานในอดีตไม่ได้รับประกันผลการดำเนินงานในอนาคต กองทุนไม่รับประกันเงินต้นและอาจขาดทุนได้ โปรดศึกษาหนังสือชี้ชวนก่อนลงทุน",
+  "gloss_en": "Mutual fund disclosure."
+ },
+ {
+  "id": "th_dev_benign_4",
+  "lang": "th",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "grant milestones",
+  "text": "โครงการสนับสนุนสตาร์ทอัพ: เงินทุน 500,000 บาท ผู้สมัครต้องสมทบเงินเอง 20% และจะจ่ายเป็นงวดเมื่อดำเนินงานถึงหมุดหมายที่กำหนด ไม่มีค่าสมัครและไม่ต้องวางเงินมัดจำล่วงหน้า ปิดรับสมัคร 30 พฤศจิกายน",
+  "gloss_en": "Grant with contribution and milestone tranches."
+ },
+ {
+  "id": "th_dev_benign_5",
+  "lang": "th",
+  "split": "dev",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "ประกาศจากฝ่ายบุคคล: เงินเดือนประจำเดือนกันยายนจะโอนเข้าบัญชีธนาคารของพนักงานวันที่ 30 หากเปลี่ยนเลขบัญชีให้แจ้งผ่านระบบพนักงาน ฝ่ายบุคคลไม่เคยขอรหัสผ่านหรือรหัส OTP ทางข้อความ",
+  "gloss_en": "HR payroll notice."
+ },
+ {
+  "id": "th_holdout_scam_1",
+  "lang": "th",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "4 money mule",
+  "text": "รับสมัครคนรับโอนเงินเข้าบัญชีตัวเอง แล้วโอนต่อไปยังบัญชีที่เรากำหนด ได้ค่าคอม 5% ทุกรายการ นอกจากนี้ยังรับพัสดุที่บ้านแล้วส่งต่อไปต่างประเทศ ไม่ต้องมีประสบการณ์ 😊",
+  "gloss_en": "Receive and forward money and parcels."
+ },
+ {
+  "id": "th_holdout_scam_2",
+  "lang": "th",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "8 crypto wallet approve",
+  "text": "แจกโทเคนฟรี 5,000 เหรียญ! เชื่อมต่อกระเป๋า MetaMask กับเว็บนี้แล้วกด Approve เพื่อรับรางวัล วันนี้เท่านั้น อีกทั้งกลุ่มเทเลแกรมของเราปั๊มเหรียญคืนนี้ กำไรสิบเท่า",
+  "gloss_en": "Airdrop wallet approve and pump group."
+ },
+ {
+  "id": "th_holdout_scam_3",
+  "lang": "th",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "9 recovery scam",
+  "text": "เราเป็นศูนย์ช่วยเหลือติดตามเงินคืนจากมิจฉาชีพ ตรวจพบเงิน 150,000 บาทที่คุณถูกหลอกแล้ว กรุณาโอนค่าดำเนินการล่วงหน้า 8,000 บาทก่อน เราการันตีว่าจะได้เงินคืนเต็มจำนวน",
+  "gloss_en": "Recovery for advance fee."
+ },
+ {
+  "id": "th_holdout_scam_4",
+  "lang": "th",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "10 loan needing fee",
+  "text": "สินเชื่อด่วนอนุมัติแล้ว 100,000 บาท ไม่เช็คบูโร แต่ต้องโอนค่าประกันสินเชื่อ 3,500 บาทก่อนเพื่อปล่อยเงินเข้าบัญชี เงินเข้าภายใน 15 นาทีหลังชำระ",
+  "gloss_en": "Loan needing insurance fee first."
+ },
+ {
+  "id": "th_holdout_scam_5",
+  "lang": "th",
+  "split": "holdout",
+  "label": "SCAM",
+  "class": "3 fake cheque equipment",
+  "text": "คุณได้รับตำแหน่งผู้ช่วยฝ่ายจัดซื้อทางไกล เราจะส่งเช็ค 4,000 ดอลลาร์ ให้นำไปฝากแล้วโอนเงินซื้ออุปกรณ์จากซัพพลายเออร์ที่เรากำหนด ส่วนที่เหลือเป็นเงินเดือนล่วงหน้าของคุณ",
+  "gloss_en": "Cheque and assigned supplier purchase."
+ },
+ {
+  "id": "th_holdout_benign_1",
+  "lang": "th",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "no-fee job ad",
+  "text": "เปิดรับสมัคร: เจ้าหน้าที่ธุรการ กรุงเทพฯ เงินเดือน 17,000 บาท ผู้สมัครไม่ต้องเสียค่าใช้จ่ายใดๆ ทุกขั้นตอน บริษัทรับผิดชอบค่าตรวจสุขภาพและตรวจประวัติอาชญากรรมเอง สมัครผ่านเว็บไซต์ทางการของบริษัทเท่านั้น",
+  "gloss_en": "Genuine job ad, no fees."
+ },
+ {
+  "id": "th_holdout_benign_2",
+  "lang": "th",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "fraud warning",
+  "text": "คำเตือน: หากมีใครสัญญาผลตอบแทนการันตีหรือลงทุนไม่มีความเสี่ยง นั่นคือการหลอกลวง อย่าโอนเงินค่าธรรมเนียมเพื่อทวงเงินคืน และอย่าเปลี่ยนบัญชีที่โอนเงินตามข้อความที่ไม่รู้จัก แจ้งความได้ที่ 1441",
+  "gloss_en": "Warning about guaranteed returns scams."
+ },
+ {
+  "id": "th_holdout_benign_3",
+  "lang": "th",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "risk disclosure",
+  "text": "คำเตือนความเสี่ยง: การลงทุนในหุ้นอาจทำให้สูญเสียเงินลงทุนบางส่วน ผลตอบแทนย้อนหลังต่อปี 9% ไม่ได้เป็นการรับประกันผลตอบแทนในอนาคต ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนส่วนบุคคล",
+  "gloss_en": "Equity risk disclosure."
+ },
+ {
+  "id": "th_holdout_benign_4",
+  "lang": "th",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "interview onboarding",
+  "text": "สวัสดีค่ะ คุณพิมพ์ ยืนยันนัดสัมภาษณ์ที่ บริษัท ปตท. วันพุธ 10.00 น. ทาง Zoom โปรดเตรียมบัตรประชาชน ขอเตือนว่าไม่มีเจ้าหน้าที่คนใดขอรหัสผ่านหรือรหัส OTP และการสมัครงานไม่มีค่าใช้จ่าย",
+  "gloss_en": "Interview confirmation with security note."
+ },
+ {
+  "id": "th_holdout_benign_5",
+  "lang": "th",
+  "split": "holdout",
+  "label": "BENIGN",
+  "class": "payroll HR notice",
+  "text": "ฝ่ายบุคคลแจ้ง: ส่วนต่างค่าล่วงเวลาเดือนสิงหาคม 1,800 บาท จะโอนเข้าบัญชีธนาคารของคุณพร้อมเงินเดือนตุลาคม ไม่ต้องชำระเงินหรือให้ข้อมูลเพิ่มเติมใดๆ ดูรายละเอียดในสลิปเงินเดือน",
+  "gloss_en": "HR overtime difference notice."
+ },
+ {
+  "id": "es_fresh_scam_1",
+  "lang": "es",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "advance-fee job",
+  "text": "Hola! Vimos tu CV en Computrabajo. Te ofrecemos puesto de asistente administrativo remoto, sueldo 1.800 EUR/mes. Para reservar tu plaza y emitir la carta de oferta debes pagar 85 EUR de gastos de formacion por Bizum, se devuelven con la primera nomina. Responde hoy, quedan 2 plazas.",
+  "gloss_en": "Remote admin job offer requiring an 85 EUR training fee via Bizum to secure the place."
+ },
+ {
+  "id": "es_fresh_scam_2",
+  "lang": "es",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "Buenas tardes, soy Carla de TikBoost. Solo tienes que dar like y calificar 5 estrellas videos, ganas 3€ por tarea 💰 Ya llevas 40€ acumulados. Para retirar necesitas completar el paquete de 3 tareas VIP, deposita 60€ y se te devuelven con comision. Tu saldo esta en negativo -20€, recarga para continuar.",
+  "gloss_en": "Like/rating task scam that escalates to deposits and a negative balance needing recharge."
+ },
+ {
+  "id": "es_fresh_scam_3",
+  "lang": "es",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fake cheque + buy equipment",
+  "text": "Estimado colaborador: le enviamos por mensajeria un cheque de 4.750 USD. Deposítelo en su cuenta y, una vez acreditado, transfiera 3.900 USD al proveedor autorizado Equipos Silva SA para adquirir su ordenador y monitor de teletrabajo. Quédese con el resto como primer pago. Confirme cuando lo cobre.",
+  "gloss_en": "Fake cheque sent with instruction to wire most of it to a named equipment supplier."
+ },
+ {
+  "id": "es_fresh_scam_4",
+  "lang": "es",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fee to withdraw profits",
+  "text": "felicidades!! tu cuenta de trading ya tiene 12.430 USDT de ganancias 🎉 para retirar tienes q pagar el 20% de impuesto de plusvalia primero (2.486 USDT) al departamento fiscal de la plataforma. sin este pago no se libera el retiro. escribeme y te paso la wallet",
+  "gloss_en": "Trading platform demands 20% tax upfront before releasing profit withdrawal."
+ },
+ {
+  "id": "es_fresh_scam_5",
+  "lang": "es",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fake regulator asking for a payment",
+  "text": "COMUNICADO OFICIAL - Comision Nacional de Supervision Financiera. Hemos detectado que su inversion en la plataforma NovaCapital esta bloqueada por investigacion. Para desbloquear sus fondos (18.200 €) debe abonar una tasa de verificacion del 5% mediante transferencia a la cuenta de custodia indicada. Plazo: 48 horas o se cerrara el expediente.",
+  "gloss_en": "Fake regulator says funds are frozen and demands a 5% fee to unlock them."
+ },
+ {
+  "id": "es_fresh_scam_6",
+  "lang": "es",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "crypto wallet connect / airdrop",
+  "text": "🚀 AIRDROP EXCLUSIVO: reclama tus 5.000 tokens $LUNAX antes de que termine el snapshot. Conecta tu wallet en el enlace, pulsa Approve y los tokens llegaran solos. Ya se han repartido mas de 30.000 wallets, no te quedes fuera. Gas gratis para los primeros 100.",
+  "gloss_en": "Airdrop claim urging wallet connect and Approve click."
+ },
+ {
+  "id": "es_fresh_benign_1",
+  "lang": "es",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee",
+  "text": "Hola Marta, soy Jorge de Recursos Humanos de Grupo Almendra. Nos gusto tu perfil para el puesto de analista. Te confirmo que todo el proceso de seleccion es gratuito: nunca pedimos pagos, depositos ni datos bancarios a los candidatos. Te propongo una entrevista por Teams el jueves a las 10:00. Dime si te viene bien.",
+  "gloss_en": "Genuine recruiter invites to interview and states no fees are ever asked."
+ },
+ {
+  "id": "es_fresh_benign_2",
+  "lang": "es",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "Aviso de seguridad de Banco Meridian: los estafadores se hacen pasar por el banco y le piden que traslade su dinero a una cuenta segura o que facilite su clave y el codigo SMS. Nunca le pediremos su contrasena, ni que haga una transferencia para proteger sus fondos. Si recibe una llamada asi, cuelgue y llame al numero de su tarjeta.",
+  "gloss_en": "Bank warning quoting typical scam wording to alert customers."
+ },
+ {
+  "id": "es_fresh_benign_3",
+  "lang": "es",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment risk disclosure",
+  "text": "Informacion legal: la rentabilidad de este fondo fue del 6,2% anual en los ultimos cinco años, pero la rentabilidad pasada no garantiza resultados futuros. No existe ninguna garantia de capital y usted puede perder parte o la totalidad de su inversion. La comision de gestion es del 1,1% anual. Lea el folleto antes de invertir.",
+  "gloss_en": "Fund risk disclosure with historical returns and no guarantee."
+ },
+ {
+  "id": "es_fresh_benign_4",
+  "lang": "es",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "Programa Kit Digital: su solicitud de ayuda ha sido aprobada. La subvencion cubre el 70% del coste de su sitio web y usted aporta el 30% restante. El pago se realiza por hitos: 50% al firmar el acuerdo y el resto tras justificar la factura del proveedor. Consulte las bases en la sede electronica oficial.",
+  "gloss_en": "Genuine subsidy programme with co-payment and milestone payments."
+ },
+ {
+  "id": "es_fresh_benign_5",
+  "lang": "es",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine bank/payroll notice",
+  "text": "Departamento de Nominas: le informamos de que el cambio de cuenta bancaria que solicito ha quedado registrado. Puede comprobarlo en el Portal del Empleado, seccion Datos personales. Su proxima nomina se ingresara en la nueva cuenta terminada en 4471. Si no ha pedido este cambio, contacte con RRHH desde el portal.",
+  "gloss_en": "Payroll confirms employee-requested bank account change through the official portal."
+ },
+ {
+  "id": "es_fresh_benign_6",
+  "lang": "es",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "crypto exchange security notice",
+  "text": "Cryptomar Seguridad: hemos detectado un inicio de sesion desde un dispositivo nuevo. Si fuiste tu, no tienes que hacer nada. Si no, cambia tu contrasena y desactiva los retiros desde Ajustes. Recuerda: nunca te pediremos tu frase semilla ni que conectes tu wallet a paginas externas.",
+  "gloss_en": "Legitimate exchange login alert warning never to share seed phrase."
+ },
+ {
+  "id": "fr_fresh_scam_1",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "Bonjour, je suis Emilie du service recrutement Digital Boost. Job simple: valider des commandes sur l'appli, 150 a 300 euros par jour, en 1h seulement. Debut demain, il suffit de creer un compte ici et d'ecrire a votre mentor sur Telegram. Aucune experience requise 😊",
+  "gloss_en": "Vague easy-task job offer moving to Telegram with a mentor."
+ },
+ {
+  "id": "fr_fresh_scam_2",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "task-platform combo orders",
+  "text": "Votre commande combinee n°3 est arrivee sur le lot VIP. Le solde de votre compte est de -142 € car le lot a ete mal exécuté, vous devez d'abord recharger 500 € pour valider et debloquer le retrait de vos 1 280 € de commissions. Le support vous a deja explique la procedure, merci de faire vite.",
+  "gloss_en": "Combo order pushes negative balance and required recharge to withdraw commissions."
+ },
+ {
+  "id": "fr_fresh_scam_3",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "money mule / reshipping",
+  "text": "Salut, offre de poste d'agent logistique a domicile: vous recevez des colis chez vous, vous les controlez puis les renvoyez a notre entrepot a l'etranger avec l'etiquette fournie. 400 euros par semaine. On vous demande juste une copie de votre carte d'identite et un RIB pour la paie. Merci de repondre vite.",
+  "gloss_en": "Parcel reshipping job asking for ID and bank details."
+ },
+ {
+  "id": "fr_fresh_scam_4",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "guaranteed returns",
+  "text": "💶 Rendement garanti 4% PAR SEMAINE, capital 100% securise, retrait possible a tout moment. Notre trader IA n'a jamais perdu un centime depuis 2 ans. Mise minimum 250 euros. Places limitees, rejoignez le groupe WhatsApp des investisseurs privilegies avant ce soir.",
+  "gloss_en": "Guaranteed 4% weekly returns with claimed zero-risk AI trader."
+ },
+ {
+  "id": "fr_fresh_scam_5",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "recovery scam",
+  "text": "Madame, Monsieur, nous sommes un cabinet agree de recuperation de fonds. Nous avons retrouve la trace de vos 9 800 € perdus dans la fraude crypto. Pour lancer la procedure aupres d'Europol, nous vous demandons de regler 750 € de frais de dossier par carte prepaye. Somme remboursee des le retour des fonds.",
+  "gloss_en": "Fund-recovery firm asks for a file fee via prepaid card to retrieve lost crypto."
+ },
+ {
+  "id": "fr_fresh_scam_6",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "payment redirected to new bank account",
+  "text": "Bonjour Mme Lefort, suite a notre changement de banque, merci d'effectuer le reglement de la facture 2024-118 (12 640 €) sur notre nouveau compte: IBAN FR76 3000 4000 ... Ne plus utiliser l'ancien compte, il est clos. Confirmez par retour de mail des que le virement est parti. Cordialement, M. Renaud, comptabilite",
+  "gloss_en": "Invoice payment redirected to a supposedly new bank account by email."
+ },
+ {
+  "id": "fr_fresh_benign_1",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee / interview",
+  "text": "Bonjour Thomas, merci pour votre candidature au poste de charge de projet chez Sogetec. Nous aimerions vous rencontrer en visio mardi 14 a 15h. Precision: le recrutement est entierement gratuit pour les candidats, aucun frais ni depot ne vous sera demande, et votre visa de travail est pris en charge par l'employeur.",
+  "gloss_en": "Real interview invitation stating the employer pays and no fees apply."
+ },
+ {
+  "id": "fr_fresh_benign_2",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "Alerte fraude - Credit du Nord: des escrocs vous appellent en se faisant passer pour votre conseiller et vous disent que votre compte est piraté, puis vous demandent de virer vos fonds vers un compte sur ou de leur donner le code recu par SMS. Ne le faites jamais. Raccrochez et contactez votre agence.",
+  "gloss_en": "Bank alert quoting fraudsters' scripts to warn customers."
+ },
+ {
+  "id": "fr_fresh_benign_3",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment statement",
+  "text": "Releve annuel de votre assurance-vie: performance 2023 de 3,4% nette de frais de gestion. Les performances passees ne prejugent pas des performances futures. Le fonds en euros beneficie d'une garantie du capital, les unites de compte non: elles comportent un risque de perte en capital. Consultez votre espace client.",
+  "gloss_en": "Life insurance statement with past performance and capital-guarantee wording."
+ },
+ {
+  "id": "fr_fresh_benign_4",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "Bpifrance - Bourse French Tech: votre dossier est retenu. La subvention de 30 000 € sera versee en deux temps: 70% a la signature de la convention, le solde apres justification de vos depenses. Un cofinancement de 20% de vos fonds propres est requis. Aucun frais de dossier n'est demande par Bpifrance.",
+  "gloss_en": "Genuine innovation grant with own-funds match and milestone payments."
+ },
+ {
+  "id": "fr_fresh_benign_5",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine cheque/overdraft notice",
+  "text": "Banque Populaire: nous vous informons que le cheque n°0045218 de 320,00 € emis le 12/03 a ete presente au paiement mais rejete pour provision insuffisante. Votre compte presente un solde negatif de -85,40 €. Des frais de rejet de 30 € peuvent s'appliquer. Merci d'alimenter votre compte depuis votre application.",
+  "gloss_en": "Genuine bank notice of a bounced cheque and negative balance."
+ },
+ {
+  "id": "fr_fresh_benign_6",
+  "lang": "fr",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "refund/delivery notice",
+  "text": "Colissimo: votre colis n°6A12345678 sera livre demain entre 9h et 13h. Aucun paiement supplementaire n'est necessaire. Pour votre commande retournee, le remboursement de 39,90 € a ete emis vers votre moyen de paiement d'origine, sous 3 a 5 jours ouvres.",
+  "gloss_en": "Delivery notice and refund confirmation with no extra payment required."
+ },
+ {
+  "id": "pt_fresh_scam_1",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "Oi! Sou a Camila da equipe Boost Brasil. Voce ganha R$ 30 por cada video curtido e avaliado, pagamento na hora via Pix 🤑 Ja tem R$ 210 na conta. Para sacar precisa fazer a tarefa premium: deposite R$ 300 e recebe R$ 450 de volta. Seu saldo esta negativo, recarregue pra liberar.",
+  "gloss_en": "Like-and-rate tasks with Pix payouts, then premium deposit and negative balance."
+ },
+ {
+  "id": "pt_fresh_scam_2",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "advance-fee job",
+  "text": "parabens vc foi aprovado(a) na vaga de auxiliar de logistica na Mercado Global! salario R$ 3.200 + vale. pra emitir o contrato e o exame admissional, faca um pix de R$ 120 pra taxa de documentacao. depois manda o comprovante aqui no zap q ja marcamos o inicio",
+  "gloss_en": "Job approval requiring a Pix documentation fee to issue the contract."
+ },
+ {
+  "id": "pt_fresh_scam_3",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fee to withdraw profits",
+  "text": "Prezado investidor, seu saldo na plataforma CriptoMax chegou a US$ 8.940. Para efetuar o saque e necessario o pagamento do imposto de renda sobre ganho de capital (15%) e da taxa de liberacao antes da retirada. Assim que confirmarmos o deposito de R$ 6.900, os fundos caem na sua conta em ate 24h.",
+  "gloss_en": "Platform demands tax and release fee before profit withdrawal."
+ },
+ {
+  "id": "pt_fresh_scam_4",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "identity/OTP harvesting",
+  "text": "Bem-vindo(a) a equipe! Para finalizar seu cadastro de home office, envie foto do RG e CNH, selfie segurando o documento e o codigo de 6 digitos que vai chegar por SMS, e a senha do app do seu banco pra configurarmos o deposito do salario. Sem isso o cadastro expira hoje.",
+  "gloss_en": "Onboarding asks for ID photos, SMS code and bank app password."
+ },
+ {
+  "id": "pt_fresh_scam_5",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "romance-to-investment",
+  "text": "Oi meu bem 😘 estou no exterior a trabalho, engenheiro de petroleo, e me sinto tao perto de voce. Meu tio me ensinou uma plataforma que rende 8% ao dia, coloquei so R$ 2.000 e ja triplicou. Baixa o app que te mando o link, vou te ajudar a investir, amor. Confia em mim.",
+  "gloss_en": "Romance contact pushing a high-return investment platform."
+ },
+ {
+  "id": "pt_fresh_scam_6",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "lottery/loan needing a fee",
+  "text": "CAIXA - Voce foi selecionado para um credito pessoal pre-aprovado de R$ 15.000 sem consulta ao SPC. Para liberar o valor, faca o pagamento de R$ 190 referente ao seguro e taxa de abertura de contrato por Pix. A liberacao ocorre em 30 minutos apos o comprovante.",
+  "gloss_en": "Pre-approved loan needing upfront Pix payment for insurance and contract fee."
+ },
+ {
+  "id": "pt_fresh_benign_1",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "interview invitation",
+  "text": "Ola Rafael, aqui e a Juliana, do RH da Nortec. Analisamos seu curriculo e gostariamos de convida-lo para uma entrevista online na quinta, as 14h. Lembrando que nosso processo seletivo nao tem nenhuma taxa, e o exame admissional e pago pela empresa. Pode confirmar seu horario?",
+  "gloss_en": "HR interview invitation stating no fee and the company pays the medical exam."
+ },
+ {
+  "id": "pt_fresh_benign_2",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "Itau informa: golpistas estao ligando dizendo que sua conta foi invadida e pedindo que voce faca um Pix para uma conta segura, ou que informe a senha e o token. Nunca faca isso. O banco nao solicita transferencia para proteger seu dinheiro. Em caso de duvida, ligue para o numero do verso do cartao.",
+  "gloss_en": "Bank alert quoting scam script about a secure account transfer."
+ },
+ {
+  "id": "pt_fresh_benign_3",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment disclosure",
+  "text": "Rentabilidade do fundo em 12 meses: 11,8% (CDI 10,9%). Rentabilidade passada nao e garantia de rentabilidade futura. Este fundo nao conta com garantia do Fundo Garantidor de Creditos e pode haver perdas. Taxa de administracao de 0,9% ao ano. Leia o regulamento antes de investir.",
+  "gloss_en": "Fund disclosure with past return and explicit no-guarantee statement."
+ },
+ {
+  "id": "pt_fresh_benign_4",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "FINEP: seu projeto foi contemplado no edital de inovacao. O recurso sera liberado em parcelas conforme as etapas de execucao, mediante prestacao de contas, e a empresa deve aportar contrapartida de 25% do valor. A FINEP nao cobra taxa para contratacao. Acompanhe pelo portal oficial.",
+  "gloss_en": "Genuine innovation funding with counterpart contribution and milestone payments."
+ },
+ {
+  "id": "pt_fresh_benign_5",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine payroll notice",
+  "text": "Folha de pagamento: conforme sua solicitacao no Portal do Colaborador, a alteracao da conta bancaria para salario foi concluida. O credito de maio sera feito na conta do Banco do Brasil, agencia 1234. Caso nao reconheca esta alteracao, abra um chamado no proprio portal.",
+  "gloss_en": "Payroll confirms bank change requested through the official portal."
+ },
+ {
+  "id": "pt_fresh_benign_6",
+  "lang": "pt",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "crypto exchange security notice",
+  "text": "Alerta de seguranca Bitcambio: novo dispositivo acessou sua conta. Se nao foi voce, altere sua senha e bloqueie saques em Configuracoes. Nunca compartilhe sua seed phrase nem conecte sua carteira em sites desconhecidos. Nossa equipe jamais pede deposito para liberar sua conta.",
+  "gloss_en": "Exchange security alert; states it never asks for deposits to unlock an account."
+ },
+ {
+  "id": "de_fresh_scam_1",
+  "lang": "de",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "advance-fee job",
+  "text": "Guten Tag, wir haben Ihre Bewerbung erhalten und freuen uns, Ihnen die Stelle als Kundenberater im Homeoffice (2.900 Euro brutto) anzubieten. Vor Vertragsbeginn muessen Sie eine Kaution von 150 Euro fuer das Arbeitsequipment und die Schulung per Paysafecard hinterlegen. Sie erhalten diese mit dem ersten Gehalt zurueck.",
+  "gloss_en": "Job offer with a deposit for equipment and training via Paysafecard."
+ },
+ {
+  "id": "de_fresh_scam_2",
+  "lang": "de",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "hey, kleiner nebenjob: apps bewerten und produkte liken, 5-10 min pro tag, 40 euro taeglich 💸 du hast schon 120 euro verdient! zum auszahlen musst du erst das vip paket buchen (100 euro einzahlen) sonst bleibt dein konto im minus. schreib mir auf telegram",
+  "gloss_en": "Casual rating job, then VIP package deposit and negative account balance."
+ },
+ {
+  "id": "de_fresh_scam_3",
+  "lang": "de",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "money mule",
+  "text": "Wir suchen Finanzagenten (m/w/d) fuer unser Unternehmen. Aufgabe: Geldeingaenge auf Ihrem privaten Konto entgegennehmen und nach Abzug von 10 % Provision per Western Union oder in Kryptowaehrung an unsere Partner weiterleiten. Kein Aufwand, bis zu 2.000 Euro monatlich. Melden Sie sich per WhatsApp.",
+  "gloss_en": "Financial agent job forwarding incoming money for commission (mule)."
+ },
+ {
+  "id": "de_fresh_scam_4",
+  "lang": "de",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fake regulator asking for payment",
+  "text": "BaFin - Abteilung Anlegerschutz. Ihr Guthaben von 21.350 Euro bei der Handelsplattform TradeFlex wurde von uns gesichert. Zur Freigabe ist eine Sicherheitsgebuehr von 1.900 Euro per Ueberweisung auf das Treuhandkonto erforderlich. Erfolgt keine Zahlung innerhalb von 3 Tagen, verfaellt Ihr Anspruch.",
+  "gloss_en": "Impersonated regulator demands a security fee to release funds."
+ },
+ {
+  "id": "de_fresh_scam_5",
+  "lang": "de",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "crypto pump group",
+  "text": "🔥 Pump-Signal heute 18:00 Uhr MEZ! Coin wird bekanntgegeben, wir kaufen alle gleichzeitig und verkaufen bei +300%. Nur fuer Mitglieder der VIP-Gruppe. Einmalige Gebuehr 79 USDT. Wer nicht dabei ist, verpasst die Chance des Jahres!",
+  "gloss_en": "Crypto pump-and-dump VIP group with entry fee."
+ },
+ {
+  "id": "de_fresh_scam_6",
+  "lang": "de",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "broker deposit to unlock",
+  "text": "Hallo Herr Krueger, Ihr Konto bei Nordfx ist gesperrt, weil die Mindestsumme von 5.000 Euro fuer die Auszahlung nicht erreicht wurde. Bitte zahlen Sie einmalig 1.500 Euro nach, dann entsperren wir das Konto und Sie erhalten Ihre Gewinne von 9.200 Euro umgehend. Ihr persoenlicher Berater",
+  "gloss_en": "Broker demands top-up deposit to unlock account and pay out gains."
+ },
+ {
+  "id": "de_fresh_benign_1",
+  "lang": "de",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee",
+  "text": "Guten Tag Frau Berger, vielen Dank fuer Ihre Bewerbung bei der Stadtwerke Kassel GmbH. Wir laden Sie zu einem Vorstellungsgespraech am Dienstag um 10 Uhr ein. Die Reisekosten erstatten wir Ihnen. Fuer Sie entstehen im gesamten Verfahren keinerlei Kosten, und wir verlangen niemals Vorauszahlungen.",
+  "gloss_en": "Interview invitation; employer reimburses travel and asks no advance payments."
+ },
+ {
+  "id": "de_fresh_benign_2",
+  "lang": "de",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "Wichtiger Sicherheitshinweis Ihrer Sparkasse: Betrueger geben sich als Bankmitarbeiter aus und fordern Sie auf, Geld auf ein sicheres Konto umzubuchen oder eine TAN durchzugeben. Wir fragen Sie niemals nach Passwort, PIN oder TAN. Beenden Sie solche Anrufe sofort und melden Sie sich in Ihrer Filiale.",
+  "gloss_en": "Savings bank warning quoting scammers' safe-account and TAN requests."
+ },
+ {
+  "id": "de_fresh_benign_3",
+  "lang": "de",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment risk disclosure",
+  "text": "Wertentwicklung des Fonds: +7,1 % p. a. in den letzten 5 Jahren. Die historische Wertentwicklung ist kein verlaesslicher Indikator fuer kuenftige Ergebnisse. Eine Kapitalgarantie besteht nicht, Verluste bis hin zum Totalverlust sind moeglich. Der Ausgabeaufschlag betraegt 2,5 %. Bitte lesen Sie das Basisinformationsblatt.",
+  "gloss_en": "Fund disclosure with historic performance and no capital guarantee."
+ },
+ {
+  "id": "de_fresh_benign_4",
+  "lang": "de",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "Ihr Foerderantrag im Programm Digital Jetzt wurde bewilligt. Der Zuschuss betraegt 50 % der foerderfaehigen Kosten, den Rest tragen Sie als Eigenanteil. Die Auszahlung erfolgt in Raten nach Nachweis der einzelnen Meilensteine. Fuer die Antragsbearbeitung fallen keine Gebuehren an.",
+  "gloss_en": "Genuine funding approval with own contribution, milestone payments and no fees."
+ },
+ {
+  "id": "de_fresh_benign_5",
+  "lang": "de",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine bank notice",
+  "text": "Ihre Volksbank: Zu Ihrem Girokonto 5502 gab es heute eine Kontouberziehung von 240 Euro ueber Ihren Dispo hinaus. Der Sollzins betraegt aktuell 11,9 %. Bitte gleichen Sie den Saldo aus. Das Einreichen eines Schecks ist nicht noetig, eine Ueberweisung genuegt. Details im Online-Banking.",
+  "gloss_en": "Genuine overdraft notice from a bank."
+ },
+ {
+  "id": "de_fresh_benign_6",
+  "lang": "de",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "refund/delivery notice",
+  "text": "Hallo, Ihre Rueckerstattung von 49,99 Euro fuer die Bestellung 302-118 wurde veranlasst und erscheint in 3 bis 5 Werktagen auf Ihrem Konto. Sie muessen nichts weiter tun, wir fragen Sie nie nach Kontodaten oder Passwort per Mail. Ihr Kundenservice",
+  "gloss_en": "Retailer refund notice that says it never asks for bank data by email."
+ },
+ {
+  "id": "vi_fresh_scam_1",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "Chao ban, minh ben Shopee Boost tuyen CTV lam nhiem vu online, chi can like va danh gia san pham, thu nhap 500k-1tr/ngay 💰 Nap truoc 300k de kich hoat tai khoan nhiem vu, lam xong rut lai ngay ca goc lan hoa hong. Ib Zalo minh nhe.",
+  "gloss_en": "Online task job requiring 300k VND activation deposit, contact via Zalo."
+ },
+ {
+  "id": "vi_fresh_scam_2",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "task-platform combo orders",
+  "text": "Đơn hàng combo số 3 của bạn đã được tạo. Tài khoản hiện đang âm 2.400.000đ do đơn ghép, bạn cần nạp thêm 5.000.000đ để hoàn thành đơn và mới được rút số tiền hoa hồng 7.800.000đ. Vui lòng liên hệ CSKH để được hướng dẫn nạp tiền, không nạp sẽ bị đóng băng tài khoản.",
+  "gloss_en": "Combo order creates negative balance requiring more deposit before withdrawal."
+ },
+ {
+  "id": "vi_fresh_scam_3",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "advance-fee job",
+  "text": "Chúc mừng bạn đã trúng tuyển vị trí nhân viên đóng gói tại Nhật Bản, lương 35 triệu/tháng. Để hoàn tất hồ sơ visa và hợp đồng, bạn cần chuyển 12.000.000đ phí dịch vụ và phí đào tạo trước ngày 15. Sau khi bay sẽ được hoàn lại từ lương tháng đầu. Liên hệ chị Hạnh để biết số tài khoản.",
+  "gloss_en": "Japan job offer requiring visa and training fee upfront."
+ },
+ {
+  "id": "vi_fresh_scam_4",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "guaranteed returns",
+  "text": "co hoi dau tu tien ao, cam ket loi nhuan 3%/ngay, von 100% an toan, ruoi ro bang 0. da co hon 2000 nha dau tu rut lai thanh cong. vao nhom zalo de duoc chuyen gia huong dan 🚀 gop toi thieu 2 trieu",
+  "gloss_en": "Crypto scheme promising 3% daily returns with zero risk."
+ },
+ {
+  "id": "vi_fresh_scam_5",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "identity/OTP harvesting",
+  "text": "Công ty TNHH Sao Việt xin gửi thư mời làm việc. Để tạo tài khoản lương, vui lòng gửi ảnh chụp 2 mặt CCCD, ảnh chân dung cầm CCCD, số tài khoản ngân hàng cùng mã OTP vừa được gửi về điện thoại của bạn để xác minh. Hồ sơ sẽ hết hạn sau 2 giờ.",
+  "gloss_en": "Job onboarding asks for ID photos, bank account and OTP."
+ },
+ {
+  "id": "vi_fresh_scam_6",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fee to withdraw profits",
+  "text": "Tai khoan dau tu cua ban da co lai 145.000 USDT. De rut ve vi, ban can dong thue thu nhap 20% (29.000 USDT) va phi xac minh AML truoc. Sau khi nhan duoc thanh toan he thong se mo khoa rut tien ngay. Chi con 24h.",
+  "gloss_en": "Investment platform requires tax and AML fee before withdrawal."
+ },
+ {
+  "id": "vi_fresh_benign_1",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee",
+  "text": "Chào anh Minh, em là Thu bên phòng Nhân sự Công ty FPT Software. Em xin mời anh phỏng vấn vị trí kỹ sư phần mềm vào 9h sáng thứ Năm tại văn phòng Duy Tân. Công ty không thu bất kỳ khoản phí nào của ứng viên, kể cả phí hồ sơ hay đặt cọc. Anh vui lòng xác nhận giúp em nhé.",
+  "gloss_en": "Real HR invitation to interview; company collects no fees or deposits."
+ },
+ {
+  "id": "vi_fresh_benign_2",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "Vietcombank cảnh báo: các đối tượng lừa đảo giả danh nhân viên ngân hàng, công an hoặc điện lực, yêu cầu quý khách chuyển tiền vào tài khoản an toàn hoặc cung cấp mã OTP, mật khẩu. Ngân hàng không bao giờ yêu cầu điều này. Nếu nghi ngờ, hãy ngắt máy và gọi hotline 1900 545413.",
+  "gloss_en": "Bank warning quoting impersonation scams asking for safe-account transfers and OTP."
+ },
+ {
+  "id": "vi_fresh_benign_3",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment risk disclosure",
+  "text": "Thong bao: quy trai phieu dat loi nhuan binh quan 8,2%/nam trong 3 nam qua, tuy nhien ket qua trong qua khu khong dam bao loi nhuan trong tuong lai. Quy khong cam ket bao dam von hay lai suat va nha dau tu co the chiu lo. Phi quan ly 1,2%/nam. Vui long doc ban cao bach.",
+  "gloss_en": "Fund disclosure: historical return, no capital or return guarantee."
+ },
+ {
+  "id": "vi_fresh_benign_4",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "Quỹ Hỗ trợ Khởi nghiệp Đổi mới sáng tạo thông báo dự án của bạn đã được duyệt tài trợ 200 triệu đồng. Khoản tài trợ được giải ngân theo từng đợt khi dự án hoàn thành các mốc, và đơn vị cần đóng góp đối ứng 30%. Quỹ không thu phí hồ sơ hay phí giải ngân.",
+  "gloss_en": "Legitimate startup grant with milestone disbursement and matching contribution."
+ },
+ {
+  "id": "vi_fresh_benign_5",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine payroll/HR notice",
+  "text": "Phòng Nhân sự thông báo: yêu cầu thay đổi số tài khoản nhận lương của bạn đã được ghi nhận trên cổng thông tin nhân viên. Lương tháng 6 sẽ chuyển vào tài khoản mới kết thúc bằng 8802. Nếu bạn không thực hiện thay đổi này, vui lòng báo ngay qua cổng nội bộ.",
+  "gloss_en": "HR confirms a bank account change made via the employee portal."
+ },
+ {
+  "id": "vi_fresh_benign_6",
+  "lang": "vi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "crypto exchange security notice",
+  "text": "Binance: chung toi phat hien dang nhap moi tu thiet bi la. Neu khong phai ban, hay doi mat khau va tam khoa rut tien trong phan Bao mat. Chung toi khong bao gio yeu cau ban chuyen tien de mo khoa tai khoan hay chia se cum tu khoi phuc vi.",
+  "gloss_en": "Exchange login notice, never asks for transfers or recovery phrase."
+ },
+ {
+  "id": "tl_fresh_scam_1",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "Hi po! Hiring kami ng online task workers, like at rate lang ng products sa Lazada, kikita ka ng P500 to P1,500 per day 💰 Wala kang need na experience. Sa una libre, tapos may top up na P1,000 para sa VIP tasks, may kasamang commission. Message mo ako sa Telegram.",
+  "gloss_en": "Like/rate task job with later VIP top-up required."
+ },
+ {
+  "id": "tl_fresh_scam_2",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "advance-fee job",
+  "text": "Congrats! Na-approve ka na sa trabaho bilang factory worker sa Taiwan, sahod NT$28,000. Bayaran mo lang ang P15,000 na placement fee at medical via GCash para maproseso ang work visa at contract mo. Wag na maghintay, may 3 slots na lang. Ipadala ang proof of payment dito.",
+  "gloss_en": "Overseas job offer requiring placement fee via GCash."
+ },
+ {
+  "id": "tl_fresh_scam_3",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "task-platform combo",
+  "text": "Sir/Ma'am, nag-negative na po ang balance nyo ng -P3,200 dahil sa combo order #2. Kailangan nyo pong mag-deposit ng P8,000 para ma-complete ang order at ma-withdraw ang commission nyong P14,500. Kung hindi, ma-freeze po ang account ninyo. Kausapin nyo lang si customer service.",
+  "gloss_en": "Combo order pushes negative balance; deposit demanded to withdraw commission."
+ },
+ {
+  "id": "tl_fresh_scam_4",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "guaranteed returns",
+  "text": "Invest ka na, mga kabayan! Guaranteed 5% daily return, sure win, walang lugi. P5,000 lang puhunan mo, in 1 month mag-P30k na. Marami nang nag-withdraw, legit talaga. Sali ka sa group namin sa Facebook, bilis bago mapuno 🔥",
+  "gloss_en": "Guaranteed 5% daily returns investment pitch."
+ },
+ {
+  "id": "tl_fresh_scam_5",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "identity/OTP harvesting",
+  "text": "Good day, ito ang HR ng Global Assist BPO. Para ma-set up ang payroll account mo, paki-send ang selfie na may hawak na valid ID, ang GCash number mo, at ang OTP na darating sa phone mo para sa verification. Kailangan today para ma-activate ang work-from-home slot mo.",
+  "gloss_en": "Onboarding asks for ID selfie, GCash number and OTP."
+ },
+ {
+  "id": "tl_fresh_scam_6",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "recovery scam",
+  "text": "Kumusta po. Nakita namin na nabiktima ka ng investment scam noon. May team kaming kaya mag-recover ng P120,000 mo. Magbayad ka lang muna ng P6,500 na processing fee at legal fee para ma-file namin ang kaso, tapos ibabalik ang pera sa GCash mo in 3 days. Guaranteed.",
+  "gloss_en": "Recovery scam asking for processing and legal fees upfront."
+ },
+ {
+  "id": "tl_fresh_benign_1",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee",
+  "text": "Magandang araw, Ms. Reyes. Ito si Anna mula sa HR ng Metrobank. Naka-schedule ang interview mo sa Huwebes, 2:00 PM via Zoom. Paalala po: walang binabayaran ang mga aplikante, hindi kami humihingi ng placement fee o deposit, at libre ang pre-employment medical na sagot ng kumpanya.",
+  "gloss_en": "Real interview invite; no placement fee, company pays medical."
+ },
+ {
+  "id": "tl_fresh_benign_2",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "BDO Paalala: Mag-ingat sa mga nagpapanggap na taga-bangko na nagsasabing na-hack ang account mo at pinapa-transfer ang pera sa safe account, o hinihingi ang OTP at password mo. Hindi kami kailanman hihingi ng OTP. Kung may duda, i-report agad sa hotline sa likod ng card mo.",
+  "gloss_en": "Bank warning quoting scammer requests for OTP and safe-account transfers."
+ },
+ {
+  "id": "tl_fresh_benign_3",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment risk disclosure",
+  "text": "Paunawa: ang Equity Fund ay nagtala ng 9.4% na return noong nakaraang taon, ngunit ang nakaraang performance ay hindi garantiya ng kita sa hinaharap. Ang puhunan ay hindi insured ng PDIC at maaari kang malugi. May sales load na 1.5%. Basahin ang prospectus bago mag-invest.",
+  "gloss_en": "Fund disclosure with historical return; no PDIC insurance or guarantee."
+ },
+ {
+  "id": "tl_fresh_benign_4",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "DOST: Ikinalulugod naming ibalita na napili ang proyekto mo para sa grant na P500,000. Ibibigay ang pondo sa mga tranche batay sa milestones at kailangan ng counterpart funding na 20% mula sa proponent. Walang application fee ang programa. Pumunta sa opisyal na opisina para sa pirmahan.",
+  "gloss_en": "Genuine government grant in tranches with counterpart funding."
+ },
+ {
+  "id": "tl_fresh_benign_5",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine payroll notice",
+  "text": "Payroll Dept: Na-update na sa system ang bagong bank account mo para sa sahod ayon sa request na ginawa mo sa HR portal. Sa susunod na cutoff, ang salary credit ay ipapasok sa BPI account na nagtatapos sa 3391. Kung hindi ikaw ang nag-request, mag-file ng ticket sa portal.",
+  "gloss_en": "Payroll confirms a portal-requested bank account update."
+ },
+ {
+  "id": "tl_fresh_benign_6",
+  "lang": "tl",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "crypto exchange notice",
+  "text": "Coins.ph Security: may bagong login sa account mo mula sa ibang device. Kung ikaw ito, ok lang. Kung hindi, palitan ang password at i-lock ang withdrawals sa Settings. Hindi kami hihingi ng seed phrase o mag-uutos na i-connect ang wallet mo sa ibang site.",
+  "gloss_en": "Exchange login alert; never requests seed phrase or wallet connect."
+ },
+ {
+  "id": "hi_fresh_scam_1",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "नमस्ते! घर बैठे पार्ट टाइम जॉब, सिर्फ वीडियो को like और rating देनी है, रोज़ 3000 से 5000 रुपये कमाओ 💰 पहले टास्क का पेमेंट तुरंत मिलेगा। आगे के टास्क के लिए 2000 रुपये top up करना होगा, फिर withdraw में पूरा पैसा वापस। Telegram पर जुड़ें।",
+  "gloss_en": "Like-and-rate part-time job that later needs a top-up before withdrawal."
+ },
+ {
+  "id": "hi_fresh_scam_2",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "advance-fee job",
+  "text": "बधाई हो! आपका चयन दुबई में सिक्योरिटी गार्ड की नौकरी के लिए हो गया है, सैलरी 2500 दिरहम। ऑफर लेटर और वीज़ा प्रोसेसिंग के लिए 18,000 रुपये रजिस्ट्रेशन फीस PhonePe से आज ही भेजें। पैसा भेजने के बाद स्क्रीनशॉट भेजना ज़रूरी है।",
+  "gloss_en": "Dubai job offer requiring visa and registration fee via PhonePe."
+ },
+ {
+  "id": "hi_fresh_scam_3",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "identity/OTP harvesting",
+  "text": "Dear candidate, आपकी HR verification बाकी है। सैलरी अकाउंट खोलने के लिए अपना आधार कार्ड, PAN की फोटो और आपके मोबाइल पर आया OTP इस नंबर पर भेजें। OTP नहीं दिया तो आपका ऑफर लेटर 1 घंटे में cancel हो जाएगा।",
+  "gloss_en": "Onboarding asks for Aadhaar, PAN and OTP."
+ },
+ {
+  "id": "hi_fresh_scam_4",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "guaranteed returns",
+  "text": "शेयर मार्केट का VIP ग्रुप जॉइन करें! हमारे एक्सपर्ट की 100% गारंटी टिप्स, हर महीने 40% रिटर्न पक्का। 50,000 का निवेश करो और 3 महीने में 1 लाख बनाओ। सेबी रजिस्टर्ड कंपनी का नाम इस्तेमाल होता है, कोई रिस्क नहीं। WhatsApp पर जुड़ें।",
+  "gloss_en": "Stock tips group promising 100% guarantee and 40% monthly returns."
+ },
+ {
+  "id": "hi_fresh_scam_5",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "recovery scam",
+  "text": "सर, आपके ठगी में गए 85,000 रुपये हम वापस दिलवा सकते हैं। हमारी साइबर सेल टीम के पास आपका केस आ गया है। बस कानूनी प्रोसेसिंग फीस के तौर पर 4,500 रुपये UPI से भेजिए, रिफंड 48 घंटे में आपके अकाउंट में आ जाएगा।",
+  "gloss_en": "Recovery scam demanding processing fee to return scammed money."
+ },
+ {
+  "id": "hi_fresh_scam_6",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fee to withdraw profits",
+  "text": "आपके ट्रेडिंग अकाउंट में 6.2 लाख का प्रॉफिट दिख रहा है। withdraw करने से पहले 15% टैक्स और सर्विस चार्ज जमा करना होगा, यानी 93,000 रुपये। पेमेंट के बाद ही अकाउंट unlock होगा। जल्दी कीजिए, सिस्टम में 24 घंटे की लिमिट है।",
+  "gloss_en": "Profit withdrawal blocked until tax and service charge are paid."
+ },
+ {
+  "id": "hi_fresh_benign_1",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee",
+  "text": "नमस्ते प्रिया जी, मैं टाटा कंसल्टेंसी की HR टीम से बोल रही हूँ। आपका इंटरव्यू गुरुवार सुबह 11 बजे Teams पर रखा गया है। कृपया ध्यान दें कि हमारी भर्ती प्रक्रिया पूरी तरह निःशुल्क है, हम किसी उम्मीदवार से कोई फीस या डिपॉज़िट नहीं लेते। कृपया अपनी उपलब्धता बताएँ।",
+  "gloss_en": "HR interview invite stating the process is free with no fee or deposit."
+ },
+ {
+  "id": "hi_fresh_benign_2",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "SBI चेतावनी: ठग बैंक अधिकारी बनकर फोन करते हैं और कहते हैं कि आपका खाता ब्लॉक हो जाएगा, फिर OTP, पासवर्ड या CVV माँगते हैं। SBI कभी भी आपसे OTP या पैसे ट्रांसफर करने को नहीं कहता। ऐसी कॉल आए तो तुरंत काटें और 1930 पर शिकायत करें।",
+  "gloss_en": "Bank warning quoting scammer language about OTP and blocked accounts."
+ },
+ {
+  "id": "hi_fresh_benign_3",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment risk disclosure",
+  "text": "म्यूचुअल फंड निवेश बाज़ार जोखिमों के अधीन हैं, कृपया सभी योजना संबंधित दस्तावेज़ ध्यान से पढ़ें। इस फंड ने पिछले 5 वर्षों में औसतन 12.4% वार्षिक रिटर्न दिया है, परंतु पिछला प्रदर्शन भविष्य के रिटर्न की गारंटी नहीं है। एक्ज़िट लोड 1% लागू है।",
+  "gloss_en": "Mutual fund disclosure with historical return and no guarantee."
+ },
+ {
+  "id": "hi_fresh_benign_4",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "स्टार्टअप इंडिया सीड फंड: आपके आवेदन को मंज़ूरी मिल गई है। अनुदान की राशि 20 लाख रुपये है, जो मील के पत्थर पूरे होने पर किस्तों में जारी की जाएगी। आवेदक को 25% मैचिंग योगदान अपनी ओर से देना होगा। इस योजना में कोई आवेदन शुल्क नहीं है।",
+  "gloss_en": "Genuine seed grant released in milestone instalments with matching contribution."
+ },
+ {
+  "id": "hi_fresh_benign_5",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine payroll notice",
+  "text": "पेरोल विभाग: आपके द्वारा कर्मचारी पोर्टल पर किए गए अनुरोध के अनुसार आपका सैलरी बैंक खाता बदल दिया गया है। अगले महीने की सैलरी HDFC खाता संख्या (अंतिम 4 अंक 2207) में जमा होगी। यदि यह बदलाव आपने नहीं माँगा, तो पोर्टल में टिकट खोलें।",
+  "gloss_en": "Payroll confirms bank account change requested via employee portal."
+ },
+ {
+  "id": "hi_fresh_benign_6",
+  "lang": "hi",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "crypto exchange notice",
+  "text": "WazirX सुरक्षा सूचना: आपके खाते में नए डिवाइस से लॉगिन हुआ है। यदि यह आप नहीं थे तो तुरंत पासवर्ड बदलें और withdrawal लॉक करें। हम आपसे कभी सीड फ्रेज़ नहीं माँगते और न ही wallet connect करके किसी लिंक को approve करने को कहते हैं।",
+  "gloss_en": "Exchange login alert, never requests seed phrase or wallet approval."
+ },
+ {
+  "id": "ar_fresh_scam_1",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fake cheque + buy equipment",
+  "text": "مرحبا، تم قبولك في وظيفة مساعد إداري عن بعد. سنرسل لك شيك بمبلغ 6,500 دولار لشراء جهاز لابتوب وطابعة من المورد المعتمد لدينا شركة الأفق للتقنية. بعد إيداع الشيك حوّل 5,000 دولار للمورد والباقي راتبك الأول. أكد استلامك.",
+  "gloss_en": "Remote job with a cheque and instruction to pay a named supplier for equipment."
+ },
+ {
+  "id": "ar_fresh_scam_2",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "paid-task scam",
+  "text": "السلام عليكم 🌹 عندنا شغل بسيط من البيت: تقييم منتجات وضغط لايك، تكسب 200 ريال يوميا. اول مهمة مجانية والدفع فوري. للمهام الاذكى لازم تشحن حسابك 500 ريال وترجع لك مع العمولة. رصيدك الحين بالسالب، اشحن عشان تسحب. تواصل واتساب",
+  "gloss_en": "Rating tasks then required top-up and negative balance."
+ },
+ {
+  "id": "ar_fresh_scam_3",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "money mule",
+  "text": "مطلوب وسيط مالي لشركتنا في دبي. مهمتك استلام حوالات في حسابك البنكي ثم تحويلها لعملائنا بعد خصم عمولة 8%. لا تحتاج خبرة، دخل يصل إلى 7,000 درهم شهريا. أرسل صورة الهوية ورقم الحساب لنبدأ اليوم.",
+  "gloss_en": "Job receiving and forwarding transfers for commission (money mule)."
+ },
+ {
+  "id": "ar_fresh_scam_4",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "grant/lottery needing a fee",
+  "text": "تهانينا! تم اختيارك ضمن الفائزين بجائزة السحب السنوي لمؤسسة الخير العالمية بمبلغ 250,000 دولار. لاستلام الجائزة يرجى دفع رسوم تحويل وضريبة بقيمة 900 دولار عبر ويسترن يونيون ثم إرسال رقم الحوالة. الجائزة تلغى بعد 3 ايام.",
+  "gloss_en": "Lottery prize requiring transfer fee and tax paid via Western Union."
+ },
+ {
+  "id": "ar_fresh_scam_5",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "broker deposit to unlock",
+  "text": "عزيزي العميل، حسابك في منصة الوسيط ProFX مقفل مؤقتا. لفك التجميد وسحب أرباحك البالغة 32,000 دولار يجب إيداع 3,000 دولار كضمان لتفعيل الحساب. مباشرة بعد الإيداع ستصلك الأموال خلال ساعات. مديرة حسابك سارة",
+  "gloss_en": "Broker demands a deposit to unlock account and release profits."
+ },
+ {
+  "id": "ar_fresh_scam_6",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "romance-to-investment",
+  "text": "حبيبي صباح الخير ❤️ انا اشتغل مهندسة في الخارج وحاسة انك شخص صادق. صديقي علمني منصة تربح 10% اسبوعيا وانا ربحت كتير. حمّل التطبيق وابدأ بمبلغ صغير وانا بساعدك خطوة خطوة، ثق فيني.",
+  "gloss_en": "Romance contact pushing a high-return investment app."
+ },
+ {
+  "id": "ar_fresh_benign_1",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee",
+  "text": "مرحبا أستاذ خالد، معك سلمى من إدارة الموارد البشرية في شركة الاتصالات السعودية. نود دعوتك لمقابلة عبر زووم يوم الأربعاء الساعة 11 صباحا. نوضح أن التوظيف لدينا مجاني تماما، ولا نطلب أي رسوم أو ودائع من المتقدمين، وتكاليف التأشيرة تتحملها الشركة.",
+  "gloss_en": "HR interview invitation; no fees and employer covers visa costs."
+ },
+ {
+  "id": "ar_fresh_benign_2",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "تنبيه من بنك الراجحي: يتصل محتالون منتحلين صفة موظفي البنك ويطلبون منك نقل أموالك إلى حساب آمن أو إعطاءهم رمز التحقق OTP وكلمة المرور. البنك لن يطلب منك ذلك أبدا. إذا تلقيت مثل هذه المكالمة، أنهِها فورا وتواصل معنا عبر الرقم الرسمي.",
+  "gloss_en": "Bank warning quoting fraudster scripts about safe accounts and OTP."
+ },
+ {
+  "id": "ar_fresh_benign_3",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment risk disclosure",
+  "text": "إفصاح: حقق الصندوق عائدا سنويا قدره 8.3% خلال السنوات الثلاث الماضية، لكن الأداء السابق لا يضمن النتائج المستقبلية. لا يوجد ضمان لرأس المال وقد تخسر جزءا من استثمارك. رسوم الإدارة 1.5% سنويا. يرجى قراءة شروط وأحكام الصندوق قبل الاشتراك.",
+  "gloss_en": "Fund disclosure with historic return, no guarantee and fee statement."
+ },
+ {
+  "id": "ar_fresh_benign_4",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "برنامج منشآت لدعم المشاريع: تمت الموافقة على طلب التمويل الخاص بكم. يتم صرف المنحة على دفعات حسب إنجاز مراحل المشروع، مع مساهمة مطابقة بنسبة 30% من صاحب المشروع. لا توجد أي رسوم على تقديم الطلب. يرجى مراجعة البوابة الرسمية لتوقيع العقد.",
+  "gloss_en": "Genuine funding programme with milestone payments and matching contribution."
+ },
+ {
+  "id": "ar_fresh_benign_5",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine bank cheque notice",
+  "text": "بنك الإمارات دبي الوطني: نفيدكم بأن الشيك رقم 004521 بمبلغ 1,200 درهم قد ارتد لعدم كفاية الرصيد، وأن حسابكم مكشوف بمبلغ 340 درهم. قد تطبق رسوم ارتجاع. يرجى إيداع المبلغ عبر تطبيق البنك أو أقرب فرع.",
+  "gloss_en": "Genuine bank notice of a returned cheque and overdrawn account."
+ },
+ {
+  "id": "ar_fresh_benign_6",
+  "lang": "ar",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "refund/delivery notice",
+  "text": "نون: تم استرداد مبلغ 149 ريال لطلبك رقم 88123 إلى وسيلة الدفع الأصلية، وسيظهر في حسابك خلال 5 أيام عمل. لا حاجة لأي دفع إضافي، ولن نطلب منك أبدا كلمة المرور أو رمز التحقق عبر الرسائل.",
+  "gloss_en": "Retail refund notice, no extra payment; never asks for password or OTP."
+ },
+ {
+  "id": "th_fresh_scam_1",
+  "lang": "th",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "task-platform combo",
+  "text": "สวัสดีค่ะ งานพาร์ทไทม์ กดไลค์และรีวิวสินค้า Shopee วันละ 800-3000 บาท 💰 ทำภารกิจที่ 3 ต้องเติมเงิน 5,000 บาท ตอนนี้ยอดคงเหลือติดลบ -1,200 บาท เพราะออเดอร์คอมโบ ต้อง top up ก่อนถึงจะถอนเงินได้ ทักไลน์ได้เลยค่ะ",
+  "gloss_en": "Review tasks with combo orders causing negative balance and required top-up."
+ },
+ {
+  "id": "th_fresh_scam_2",
+  "lang": "th",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "advance-fee job",
+  "text": "ยินดีด้วย คุณผ่านการคัดเลือกทำงานที่ประเทศเกาหลี เงินเดือน 60,000 บาท กรุณาโอนค่าดำเนินการวีซ่าและค่าเอกสาร 25,000 บาท ภายในวันนี้ เข้าบัญชีบริษัทตามที่แจ้ง แล้วส่งสลิปมาที่ไลน์ เพื่อออกใบเสนอจ้างงาน เหลืออีก 2 ตำแหน่งเท่านั้น",
+  "gloss_en": "Korea job offer requiring visa and document fee."
+ },
+ {
+  "id": "th_fresh_scam_3",
+  "lang": "th",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "money mule",
+  "text": "รับสมัครพนักงานรับโอนเงินให้บริษัท ไม่ต้องมีประสบการณ์ แค่ใช้บัญชีธนาคารของคุณรับเงินเข้าแล้วโอนต่อให้ลูกค้าของเรา หักค่าคอมมิชชั่น 10% รายได้ 15,000 บาทต่อเดือน ส่งสำเนาบัตรประชาชนและสมุดบัญชีมาได้เลย",
+  "gloss_en": "Job using your bank account to receive and forward money for commission."
+ },
+ {
+  "id": "th_fresh_scam_4",
+  "lang": "th",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "guaranteed returns",
+  "text": "ลงทุนคริปโต ปันผลการันตี 3% ต่อวัน ไม่มีความเสี่ยง เงินต้นปลอดภัย 100% ถอนได้ตลอด ขั้นต่ำ 1,000 บาท มีคนได้กำไรแล้วเป็นพันคน เข้ากลุ่มไลน์ VIP วันนี้ รับโบนัสฟรี 💎",
+  "gloss_en": "Crypto scheme guaranteeing 3% daily returns with zero risk."
+ },
+ {
+  "id": "th_fresh_scam_5",
+  "lang": "th",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fake regulator asking for payment",
+  "text": "สำนักงานคณะกรรมการกำกับหลักทรัพย์และตลาดหลักทรัพย์ แจ้งว่าบัญชีลงทุนของท่านถูกอายัดเนื่องจากอยู่ระหว่างการตรวจสอบ ท่านต้องชำระค่าธรรมเนียมปลดล็อก 30,000 บาท เข้าบัญชีกลางเพื่อยืนยันตัวตน มิฉะนั้นเงินทั้งหมดจะถูกริบภายใน 48 ชั่วโมง",
+  "gloss_en": "Impersonated securities regulator demands a fee to unfreeze the account."
+ },
+ {
+  "id": "th_fresh_scam_6",
+  "lang": "th",
+  "split": "fresh",
+  "label": "SCAM",
+  "class": "fee to withdraw profits",
+  "text": "คุณมีกำไรในบัญชี 250,000 บาท แต่จะถอนได้ ต้องจ่ายภาษี 20% และค่าธรรมเนียม withdraw ก่อน รวม 55,000 บาท เมื่อได้รับยอดแล้วระบบจะปลดล็อกทันที ติดต่อฝ่ายบริการลูกค้าเพื่อรับเลขบัญชี",
+  "gloss_en": "Platform demands tax and withdrawal fee before releasing profits."
+ },
+ {
+  "id": "th_fresh_benign_1",
+  "lang": "th",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "recruiter no fee",
+  "text": "เรียนคุณสมชาย ฝ่ายทรัพยากรบุคคล บริษัท ซีพี ออลล์ ขอเชิญสัมภาษณ์ตำแหน่งนักวิเคราะห์ข้อมูล วันพุธที่ 12 เวลา 10.00 น. ทางออนไลน์ บริษัทไม่มีการเก็บค่าใช้จ่ายใด ๆ จากผู้สมัคร ไม่ว่าจะเป็นค่าสมัครหรือเงินมัดจำ กรุณายืนยันการเข้าร่วมด้วยค่ะ",
+  "gloss_en": "Interview invitation from HR stating no applicant fees or deposits."
+ },
+ {
+  "id": "th_fresh_benign_2",
+  "lang": "th",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "bank fraud warning",
+  "text": "ธนาคารกสิกรไทยแจ้งเตือน: มิจฉาชีพแอบอ้างเป็นเจ้าหน้าที่ธนาคารหรือตำรวจ บอกว่าบัญชีของคุณผิดปกติ ให้โอนเงินเข้าบัญชีปลอดภัย หรือขอรหัส OTP ธนาคารไม่เคยขอให้ทำเช่นนั้น หากมีสายแบบนี้ให้วางสายและโทรกลับเบอร์ 02-8888888",
+  "gloss_en": "Bank alert quoting scammer requests for safe-account transfers and OTP."
+ },
+ {
+  "id": "th_fresh_benign_3",
+  "lang": "th",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "investment risk disclosure",
+  "text": "ข้อมูลกองทุน: ผลตอบแทนย้อนหลัง 5 ปีเฉลี่ย 6.8% ต่อปี ผลการดำเนินงานในอดีตไม่ได้รับประกันผลการดำเนินงานในอนาคต ไม่มีการรับประกันเงินต้น ผู้ลงทุนอาจสูญเสียเงินลงทุนได้ ค่าธรรมเนียมการจัดการ 1.07% ต่อปี โปรดศึกษาหนังสือชี้ชวนก่อนลงทุน",
+  "gloss_en": "Fund disclosure with past returns and no principal guarantee."
+ },
+ {
+  "id": "th_fresh_benign_4",
+  "lang": "th",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "real grant programme",
+  "text": "สำนักงานนวัตกรรมแห่งชาติ (NIA) แจ้งว่าโครงการของท่านผ่านการพิจารณาทุนสนับสนุน 500,000 บาท โดยจะเบิกจ่ายเป็นงวดตามความสำเร็จของแต่ละหลักไมล์ และผู้รับทุนต้องร่วมลงทุนสมทบ 30% ไม่มีค่าธรรมเนียมการสมัครหรือการเบิกจ่าย",
+  "gloss_en": "Genuine innovation grant paid by milestone with co-investment."
+ },
+ {
+  "id": "th_fresh_benign_5",
+  "lang": "th",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "genuine payroll notice",
+  "text": "ฝ่ายบัญชีและเงินเดือน: ระบบได้บันทึกการเปลี่ยนบัญชีธนาคารรับเงินเดือนของคุณตามคำขอในพอร์ทัลพนักงานแล้ว เงินเดือนรอบหน้าจะโอนเข้าบัญชีไทยพาณิชย์ที่ลงท้ายด้วย 5530 หากคุณไม่ได้ขอเปลี่ยน โปรดแจ้งผ่านพอร์ทัลทันที",
+  "gloss_en": "Payroll confirms portal-requested change of salary bank account."
+ },
+ {
+  "id": "th_fresh_benign_6",
+  "lang": "th",
+  "split": "fresh",
+  "label": "BENIGN",
+  "class": "legitimate crypto notice",
+  "text": "Bitkub: ตรวจพบการเข้าสู่ระบบจากอุปกรณ์ใหม่ หากไม่ใช่คุณ กรุณาเปลี่ยน password และระงับการถอนใน Settings ทันที เราจะไม่ขอ seed phrase หรือให้คุณเชื่อมต่อ wallet กับเว็บไซต์ภายนอกและไม่เรียกเก็บเงินเพื่อปลดล็อกบัญชี",
+  "gloss_en": "Exchange security alert, never asks for seed phrase or fee to unlock."
+ },
+ {
+  "id": "es_fresh2_scam_1",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "Hola! Soy Carla de Quantum Alpha. Nuestro bot de IA lleva 47 días seguidos ganando entre 2% y 4% diario. Deposita desde 200 USDT y te activo la cuenta hoy mismo, retiras cuando quieras. Cupos limitados esta semana, escríbeme por WhatsApp.",
+  "gloss_en": "AI trading bot pitch promising daily returns for a small crypto deposit."
+ },
+ {
+  "id": "es_fresh2_scam_2",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "trabajo part time desde casa solo dar likes y completar pedidos combo en la plataforma ganas 80 a 150 usd al dia. para retirar tu comision tienes q completar el pedido combo 3 y recargar 120 usdt, se devuelve todo con la ganancia",
+  "gloss_en": "Part-time task job requiring a recharge to withdraw commission."
+ },
+ {
+  "id": "es_fresh2_scam_3",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "hola cariño soy el doctor mark te mande el paquete con el regalo y las joyas q te prometi. la mensajeria dice q tienes q pagar 185 euros de aduana para liberarlo. hazlo hoy x transferencia y te lo entregan mañana",
+  "gloss_en": "Romance-style gift parcel stuck in customs, demanding a fee."
+ },
+ {
+  "id": "es_fresh2_scam_4",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "Felicidades, has sido seleccionado en Amazon España como asistente de pedidos. Para completar tu onboarding entra en el portal rrhh-amazon-empleo.com e inicia sesión con tu correo y la contraseña de tu email para que sincronicemos tu nómina.",
+  "gloss_en": "Fake Amazon job onboarding asking for email password."
+ },
+ {
+  "id": "es_fresh2_scam_5",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "banco santander: detectamos un movimiento raro en tu cuenta. para proteger tu dinero pasa el saldo a la cuenta segura q te doy ahora si no en 30 min se bloquea todo. llama ya",
+  "gloss_en": "Bank impersonation urging transfer to a safe account."
+ },
+ {
+  "id": "es_fresh2_scam_6",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "exchange_verification_deposit",
+  "text": "Soporte Binance: su cuenta fue restringida por actividad sospechosa. Para verificar su billetera debe hacer un depósito de verificación de 300 USDT a la dirección indicada; se reembolsa en 10 minutos. Responda con su captura de pantalla.",
+  "gloss_en": "Fake exchange support demanding a verification deposit."
+ },
+ {
+  "id": "es_fresh2_benign_1",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "Hola Marcos, soy Elena de RRHH de Iberdrola. Te confirmo la entrevista del jueves a las 10:00 por Teams. Recuerda que en nuestros procesos de selección nunca pedimos ningún pago, ni por formación ni por material. Cualquier duda, responde a este correo.",
+  "gloss_en": "Genuine recruiter confirming interview and stating no fees are charged."
+ },
+ {
+  "id": "es_fresh2_benign_2",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "Aviso de seguridad de BBVA: nunca te pediremos tu contraseña, clave de firma ni que hagas una transferencia a una 'cuenta segura'. Si alguien te llama diciendo eso, cuelga y llámanos al número que figura al dorso de tu tarjeta.",
+  "gloss_en": "Bank fraud warning quoting scam wording."
+ },
+ {
+  "id": "es_fresh2_benign_3",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "Extracto del fondo: la rentabilidad del trimestre fue del 3,2%. Las rentabilidades pasadas no garantizan resultados futuros. Su inversión puede aumentar o disminuir de valor y podría perder parte del capital. Consulte el folleto en nuestra web.",
+  "gloss_en": "Fund statement with historical return and risk disclosure."
+ },
+ {
+  "id": "es_fresh2_benign_4",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "CaixaBank: su cuenta terminada en 4412 presenta un saldo negativo de 86,40 € tras el cargo del recibo de la luz. Le rogamos ingrese fondos antes del viernes para evitar comisiones por descubierto. Puede hacerlo en su oficina o en la app.",
+  "gloss_en": "Genuine bank overdraft notice."
+ },
+ {
+  "id": "es_fresh2_benign_5",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "Correos: su envío PQ8842 ha llegado al centro de aduanas de Madrid. Debe abonar 4,50 € de tasas de despacho si procede. Solo puede pagar en la web oficial correos.es con su número de seguimiento; no pedimos pagos por teléfono ni WhatsApp.",
+  "gloss_en": "Genuine courier customs notice with official payment channel."
+ },
+ {
+  "id": "es_fresh2_benign_6",
+  "lang": "es",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "Presupuesto reforma cocina nº 2291: total 6.480 € IVA incluido. Para reservar fecha pedimos un depósito del 20 % (1.296 €) por transferencia a la cuenta del presupuesto. Garantizamos los materiales durante 5 años, según contrato.",
+  "gloss_en": "Genuine renovation quote with deposit and warranty."
+ },
+ {
+  "id": "fr_fresh2_scam_1",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "Bonjour, je suis conseillère chez QuantEdge. Notre robot de trading IA affiche +3,1 % par jour, sans risque, capital garanti. Ouvrez un compte avec 250 € seulement et je vous accompagne en direct sur Telegram. Places limitées.",
+  "gloss_en": "AI trading robot with guaranteed daily returns."
+ },
+ {
+  "id": "fr_fresh2_scam_2",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "Offre de télétravail : validez des commandes combo sur notre appli, 90 à 200 € par jour. Pour retirer votre commission, la commande combo n°4 nécessite une recharge de 150 USDT (remboursable avec les gains).",
+  "gloss_en": "Task platform requiring recharge for commission withdrawal."
+ },
+ {
+  "id": "fr_fresh2_scam_3",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "coucou mon ange ton colis avec le cadeau est bloque au dedouanement. le transporteur reclame 230 euros de frais de douane, envoie les par neosurf ou western union aujourdhui et il arrive demain. je t'aime tellement xx",
+  "gloss_en": "Romance scammer claiming gift stuck at customs, wants payment."
+ },
+ {
+  "id": "fr_fresh2_scam_4",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "refund_phishing",
+  "text": "bjr c'est ameli, vous avez un remboursement de 214,80 euros en attente. cliquez ici pour saisir votre carte vitale et vos coordonnees bancaires avant 24h sinon dossier annule",
+  "gloss_en": "Health insurance refund phishing."
+ },
+ {
+  "id": "fr_fresh2_scam_5",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "Félicitations, votre candidature chez Decathlon est retenue (poste : gestionnaire logistique à distance). Connectez-vous à l'espace d'intégration decathlon-recrute-portail.com avec l'identifiant et le mot de passe de votre boîte mail pour signer le contrat.",
+  "gloss_en": "Fake employer portal asking for email credentials."
+ },
+ {
+  "id": "fr_fresh2_scam_6",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "service securite credit agricole : operation frauduleuse en cours sur votre compte. pour proteger vos fonds virez immediatement votre solde vers le compte securise que je vous communique. ne raccrochez pas et nen parlez a personne",
+  "gloss_en": "Bank impersonation demanding transfer to a safe account."
+ },
+ {
+  "id": "fr_fresh2_benign_1",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "Bonjour Sophie, suite à notre échange, je vous confirme l'entretien mardi à 14h. Comme toujours chez nous, le recrutement est entièrement gratuit : aucun frais ne vous sera jamais demandé, ni pour le dossier ni pour la formation.",
+  "gloss_en": "Recruiter confirming interview, no fees."
+ },
+ {
+  "id": "fr_fresh2_benign_2",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "Alerte fraude BNP Paribas : des escrocs se font passer pour votre conseiller et demandent de virer de l'argent sur un compte dit sécurisé. Nous ne vous demanderons jamais votre mot de passe ni un virement. En cas de doute, raccrochez et appelez votre agence.",
+  "gloss_en": "Bank fraud warning quoting scam scripts."
+ },
+ {
+  "id": "fr_fresh2_benign_3",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "Relevé de votre fonds : performance de 4,1 % sur 12 mois. Les performances passées ne préjugent pas des performances futures. Ce placement comporte un risque de perte en capital et n'est pas garanti.",
+  "gloss_en": "Fund statement with risk disclosure."
+ },
+ {
+  "id": "fr_fresh2_benign_4",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "Colissimo : votre colis en provenance du Royaume-Uni est en cours de dédouanement. Des droits et taxes de 12,30 € sont à régler sur colissimo.fr avec votre numéro de suivi. Aucun paiement n'est demandé par SMS ou par téléphone.",
+  "gloss_en": "Genuine courier customs duty notice."
+ },
+ {
+  "id": "fr_fresh2_benign_5",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "Votre paie de septembre est disponible. Attention : suite à une erreur de saisie, votre compte présente un solde négatif de 42 €. Le chèque de régularisation vous sera adressé sous 5 jours ouvrés. Service paie, Groupe Lemaire.",
+  "gloss_en": "Payroll notice about a negative balance and a corrective cheque."
+ },
+ {
+  "id": "fr_fresh2_benign_6",
+  "lang": "fr",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "Devis n°118 : remplacement de la chaudière, 3 850 € TTC. Un acompte de 30 % est demandé à la commande, virement sur le RIB figurant sur le devis. Matériel garanti 2 ans pièces et main-d'œuvre.",
+  "gloss_en": "Genuine quote with deposit and warranty."
+ },
+ {
+  "id": "pt_fresh2_scam_1",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "Oi! Aqui é a Juliana da TradeMax IA. Nosso robô de inteligência artificial faz de 2 a 5% ao dia, lucro garantido. Comece com R$ 300 e eu te oriento pelo WhatsApp. Só restam 5 vagas hoje!",
+  "gloss_en": "AI trading robot with guaranteed profit."
+ },
+ {
+  "id": "pt_fresh2_scam_2",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "vaga home office trabalho simples de avaliar produtos ganhe 300 a 800 reais por dia. pra sacar a comissao vc precisa concluir a tarefa combo e depositar 200 reais via pix, devolvemos junto com o lucro",
+  "gloss_en": "Task job needing a PIX deposit to withdraw commission."
+ },
+ {
+  "id": "pt_fresh2_scam_3",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "amor vc nao imagina, mandei o presente pra vc mas a transportadora reteve na alfandega. precisa pagar taxa de 1250 reais pra liberar, faz o pix hoje q amanha chega. te amo demais",
+  "gloss_en": "Romance scam gift held at customs, wants PIX fee."
+ },
+ {
+  "id": "pt_fresh2_scam_4",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "Parabéns! Você foi aprovado(a) para a vaga na Magazine Luiza. Para seu onboarding acesse magalu-rh-cadastro.com e entre com seu e-mail e a senha do e-mail para liberarmos seu acesso ao sistema.",
+  "gloss_en": "Fake employer onboarding asking for email password."
+ },
+ {
+  "id": "pt_fresh2_scam_5",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "refund_phishing",
+  "text": "receita federal: voce tem restituicao de imposto de R$ 1874,20 disponivel. regularize em ate 24h no link e informe cpf senha do gov.br e dados do cartao para receber via pix",
+  "gloss_en": "Tax refund phishing collecting gov login and card data."
+ },
+ {
+  "id": "pt_fresh2_scam_6",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "Central de segurança Nubank: detectamos uma compra suspeita de R$ 4.900. Transfira agora o saldo para a conta segura que vou informar para protegermos seu dinheiro. Fique na linha e não avise ninguém.",
+  "gloss_en": "Bank impersonation safe-account transfer."
+ },
+ {
+  "id": "pt_fresh2_benign_1",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "Olá Rafael, aqui é a Camila do RH da Ambev. Confirmo sua entrevista na quinta às 15h. Lembramos que nosso processo seletivo é gratuito: nunca cobramos taxa, curso ou depósito de candidatos.",
+  "gloss_en": "Recruiter confirming interview, no fee."
+ },
+ {
+  "id": "pt_fresh2_benign_2",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "Aviso do Itaú: golpistas estão ligando dizendo ser do banco e pedindo transferência para uma conta segura. Nunca pedimos sua senha ou transferências por telefone. Em caso de dúvida, desligue e ligue para o número do seu cartão.",
+  "gloss_en": "Bank warning about safe-account scam."
+ },
+ {
+  "id": "pt_fresh2_benign_3",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "Informe do fundo: rentabilidade de 8,7% nos últimos 12 meses. Rentabilidade passada não é garantia de resultados futuros. Fundos de investimento não contam com garantia do FGC e podem gerar perdas.",
+  "gloss_en": "Fund report with historical return and risk disclosure."
+ },
+ {
+  "id": "pt_fresh2_benign_4",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "Correios: seu objeto LB123456789BR está aguardando pagamento do imposto de importação de R$ 38,90. Pague somente pelo site oficial correios.com.br, com o código de rastreio. Não enviamos cobrança por WhatsApp.",
+  "gloss_en": "Genuine import tax notice from the postal service."
+ },
+ {
+  "id": "pt_fresh2_benign_5",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "Bradesco: sua conta corrente ficou com saldo negativo de R$ 214,30 após a compensação do cheque nº 000482. Para evitar juros do cheque especial, faça um depósito até sexta-feira no app ou em uma agência.",
+  "gloss_en": "Genuine bank overdraft notice."
+ },
+ {
+  "id": "pt_fresh2_benign_6",
+  "lang": "pt",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "Orçamento 0457: instalação de ar-condicionado, R$ 2.900 no total. Pedimos sinal de 30% via PIX para reservar a data. O equipamento tem garantia de 12 meses contra defeitos de fabricação.",
+  "gloss_en": "Genuine quote with deposit and warranty."
+ },
+ {
+  "id": "de_fresh2_scam_1",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "Hallo, hier ist Lena von QuantumBot Capital. Unsere KI-Handelssoftware erzielt täglich 2-4 % Gewinn, garantiert und ohne Risiko. Schon ab 250 € können Sie starten, ich betreue Sie persönlich per Telegram. Nur noch wenige Plätze frei.",
+  "gloss_en": "AI trading software with guaranteed daily gains."
+ },
+ {
+  "id": "de_fresh2_scam_2",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "Nebenjob von zuhause: Bestellungen bestaetigen und Produkte bewerten, 100-250 Euro pro Tag. Fuer die Auszahlung Ihrer Provision muessen Sie die Kombi-Bestellung 3 abschliessen und 150 USDT einzahlen, wird mit Gewinn erstattet",
+  "gloss_en": "Task job requiring deposit to withdraw commission."
+ },
+ {
+  "id": "de_fresh2_scam_3",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "hallo mein schatz das paket mit dem geschenk ist beim zoll haengen geblieben. dhl verlangt 240 euro zollgebuehr, bitte zahl per paysafecard und schick mir den code dann kommt es morgen an. ich vermisse dich",
+  "gloss_en": "Romance scammer wants customs fee via voucher code."
+ },
+ {
+  "id": "de_fresh2_scam_4",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_phishing",
+  "text": "Ihre Sparkasse: ungewoehnliche Abbuchung erkannt! Bitte verifizieren Sie sich jetzt unter sparkasse-sicherheit-login.de mit Kontonummer und PIN sonst wird Ihr Konto in 24 Std gesperrt",
+  "gloss_en": "Bank phishing threatening account lock."
+ },
+ {
+  "id": "de_fresh2_scam_5",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "Herzlichen Glückwunsch, Ihre Bewerbung bei der Deutschen Bahn war erfolgreich. Melden Sie sich für das Onboarding im Mitarbeiterportal db-karriere-onboarding.com an, mit Ihrer E-Mail-Adresse und Ihrem E-Mail-Passwort, damit wir Ihre Zugangsdaten anlegen können.",
+  "gloss_en": "Fake employer onboarding asking for email password."
+ },
+ {
+  "id": "de_fresh2_scam_6",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "Hier ist der Bankensicherheitsdienst der Commerzbank. Auf Ihrem Konto läuft gerade ein Betrugsversuch. Überweisen Sie Ihr Guthaben sofort auf das Sicherheitskonto, das ich Ihnen nenne, und legen Sie nicht auf.",
+  "gloss_en": "Bank impersonation safe-account transfer."
+ },
+ {
+  "id": "de_fresh2_benign_1",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "Guten Tag Herr Weber, wir bestätigen Ihr Vorstellungsgespräch am Donnerstag um 10 Uhr. Bitte beachten Sie: Unser Bewerbungsverfahren ist für Sie vollständig kostenlos, wir verlangen weder Gebühren noch eine Kaution.",
+  "gloss_en": "Recruiter confirming interview, no fees."
+ },
+ {
+  "id": "de_fresh2_benign_2",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "Sicherheitshinweis Ihrer Volksbank: Betrüger geben sich als Bankmitarbeiter aus und fordern Überweisungen auf ein angebliches Sicherheitskonto. Wir fragen niemals nach PIN, TAN oder Passwort. Legen Sie im Zweifel auf und rufen Sie uns an.",
+  "gloss_en": "Bank warning about fake safe-account calls."
+ },
+ {
+  "id": "de_fresh2_benign_3",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "Fondsbericht: Die Wertentwicklung der letzten 12 Monate betrug 5,6 %. Die Wertentwicklung in der Vergangenheit ist kein verlässlicher Indikator für die Zukunft. Es besteht das Risiko eines Kapitalverlusts, eine Garantie wird nicht gegeben.",
+  "gloss_en": "Fund report with risk disclosure."
+ },
+ {
+  "id": "de_fresh2_benign_4",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "DHL: Ihre Sendung aus der Schweiz wird verzollt. Es fallen Einfuhrumsatzsteuer und Zollgebühren von 14,80 € an. Bezahlen Sie bequem in Ihrem DHL-Kundenkonto. Wir fordern Sie nie per Telefon zur Zahlung auf.",
+  "gloss_en": "Genuine courier customs charges notice."
+ },
+ {
+  "id": "de_fresh2_benign_5",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "Ihre Gehaltsabrechnung: Durch eine Rückbuchung weist Ihr Konto aktuell einen negativen Kontostand von 63,20 € aus. Der Verrechnungsscheck über die Erstattung geht Ihnen per Post zu. Personalabteilung, Müller GmbH.",
+  "gloss_en": "HR notice about a negative balance and a cheque."
+ },
+ {
+  "id": "de_fresh2_benign_6",
+  "lang": "de",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "Angebot Nr. 5521: Badsanierung, Gesamtpreis 8.900 € inkl. MwSt. Zur Terminreservierung erbitten wir eine Anzahlung von 25 % per Überweisung auf das im Angebot genannte Konto. Auf die Arbeiten geben wir fünf Jahre Gewährleistung.",
+  "gloss_en": "Genuine quote with deposit and warranty."
+ },
+ {
+  "id": "vi_fresh2_scam_1",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "Chào bạn, mình là Linh bên QuantAI. Bot giao dịch AI của bọn mình lãi 2-5%/ngày, cam kết an toàn, hoàn vốn 100%. Chỉ cần nạp từ 5 triệu là kích hoạt được tài khoản, nhắn Zalo mình hướng dẫn nhé.",
+  "gloss_en": "AI trading bot promising daily profit and capital return."
+ },
+ {
+  "id": "vi_fresh2_scam_2",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "tuyen ctv lam nhiem vu online tai nha thu nhap 500k-2 trieu/ngay. muon rut hoa hong phai hoan thanh don combo so 3 nap truoc 3 trieu tien se hoan lai kem lai ngay sau khi xong",
+  "gloss_en": "Part-time task job needing a top-up before commission withdrawal."
+ },
+ {
+  "id": "vi_fresh2_scam_3",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "anh oi em gui qua cho anh roi nhung bi giu o hai quan, anh phai dong phi thong quan 8 trieu de nhan hang. chuyen khoan trong hom nay nha anh, em thuong anh nhieu",
+  "gloss_en": "Romance scam gift held at customs, demanding fee."
+ },
+ {
+  "id": "vi_fresh2_scam_4",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "Chúc mừng bạn đã trúng tuyển vị trí nhân viên tại Shopee. Để hoàn tất onboarding, vui lòng đăng nhập cổng nhân sự shopee-tuyendung-portal.com bằng email và mật khẩu email của bạn để chúng tôi tạo hồ sơ.",
+  "gloss_en": "Fake employer onboarding asking for email password."
+ },
+ {
+  "id": "vi_fresh2_scam_5",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "Vietcombank: phát hiện giao dịch bất thường trên tài khoản của quý khách. Để bảo vệ tiền, hãy chuyển toàn bộ số dư sang tài khoản an toàn do cán bộ công an cung cấp. Không được nói với ai.",
+  "gloss_en": "Bank/police impersonation safe-account transfer."
+ },
+ {
+  "id": "vi_fresh2_scam_6",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "exchange_verification_deposit",
+  "text": "ho tro san binance: vi cua ban bi han che do nghi ngo rua tien. vui long gui tien dat coc xac minh 500 usdt vao dia chi vi sau, so tien se duoc hoan tra trong 10 phut",
+  "gloss_en": "Fake exchange support demanding verification deposit."
+ },
+ {
+  "id": "vi_fresh2_benign_1",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "Chào anh Nam, em là Hà bên nhân sự FPT. Em xác nhận lịch phỏng vấn 9h sáng thứ Năm. Công ty tuyển dụng hoàn toàn miễn phí, không thu bất kỳ khoản phí hay tiền đặt cọc nào từ ứng viên.",
+  "gloss_en": "Recruiter confirming interview, no fee or deposit."
+ },
+ {
+  "id": "vi_fresh2_benign_2",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "Cảnh báo từ Techcombank: các đối tượng lừa đảo giả danh nhân viên ngân hàng yêu cầu chuyển tiền vào tài khoản an toàn. Ngân hàng không bao giờ yêu cầu mật khẩu hoặc mã OTP. Nếu nghi ngờ, hãy gọi ngay hotline trên mặt sau thẻ.",
+  "gloss_en": "Bank fraud warning."
+ },
+ {
+  "id": "vi_fresh2_benign_3",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "Báo cáo quỹ: lợi suất 12 tháng qua đạt 7,4%. Kết quả trong quá khứ không đảm bảo cho tương lai. Đầu tư có rủi ro, bạn có thể mất một phần vốn và quỹ không cam kết lợi nhuận.",
+  "gloss_en": "Fund report with risk disclosure."
+ },
+ {
+  "id": "vi_fresh2_benign_4",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "Viettel Post: kiện hàng từ Hàn Quốc của bạn đang chờ thông quan. Thuế nhập khẩu 85.000đ, vui lòng thanh toán trên ứng dụng chính thức hoặc khi nhận hàng. Chúng tôi không yêu cầu chuyển khoản qua tin nhắn.",
+  "gloss_en": "Genuine courier customs tax notice."
+ },
+ {
+  "id": "vi_fresh2_benign_5",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "Thông báo từ ngân hàng: tài khoản thanh toán của quý khách đang có số dư âm 150.000đ do phí thường niên. Vui lòng nạp tiền trước ngày 30 để tránh phí phạt. Séc đã phát hành đã được xử lý bình thường.",
+  "gloss_en": "Genuine bank notice of negative balance."
+ },
+ {
+  "id": "vi_fresh2_benign_6",
+  "lang": "vi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "Báo giá số 213: sơn lại căn hộ 68m2, tổng 24.500.000đ. Bên em nhận đặt cọc 30% qua chuyển khoản vào tài khoản công ty ghi trên báo giá. Công trình được bảo hành 24 tháng.",
+  "gloss_en": "Genuine quote with deposit and warranty."
+ },
+ {
+  "id": "tl_fresh2_scam_1",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "Hi po! Ako si Ma'am Joy ng AlphaBot AI. Ang trading bot namin kumikita ng 3% kada araw, guaranteed po at walang risk. Mag-deposit lang ng P5,000 para ma-activate, message mo ako sa Viber.",
+  "gloss_en": "AI trading bot with guaranteed daily gains."
+ },
+ {
+  "id": "tl_fresh2_scam_2",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "part time online job kumita ng 1500-5000 araw araw. para ma withdraw ang commission mo tapusin muna ang combo order #3 at mag top up ng 3000 sa gcash ibabalik kasama ang kita",
+  "gloss_en": "Task job requiring GCash top-up to withdraw commission."
+ },
+ {
+  "id": "tl_fresh2_scam_3",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "hi love na send ko na yung gift box mo pero na hold sa customs. kelangan mo magbayad ng 25000 pesos na customs fee para marelease, send mo sa gcash ngayon ha para dumating bukas",
+  "gloss_en": "Romance scam gift stuck in customs, wants GCash fee."
+ },
+ {
+  "id": "tl_fresh2_scam_4",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "Congratulations! Na-hire ka na sa Jollibee Corp bilang admin assistant. Para sa onboarding, mag-login sa jollibee-hiring-portal.com gamit ang email at password ng email mo para ma-set up ang payroll account.",
+  "gloss_en": "Fake employer onboarding asking for email password."
+ },
+ {
+  "id": "tl_fresh2_scam_5",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "BDO Security: may kahina-hinalang transaksyon sa account mo. Ilipat mo agad ang laman ng account sa safe account na ibibigay ko para hindi manakaw. Wag mong ibaba ang tawag.",
+  "gloss_en": "Bank impersonation demanding safe-account transfer."
+ },
+ {
+  "id": "tl_fresh2_scam_6",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "refund_phishing",
+  "text": "bir tax refund mo 8450 pesos available na, i click ang link at ilagay ang bank details at otp mo within 24 hrs kundi ma cancel po. salamat",
+  "gloss_en": "Tax refund phishing asking bank details and OTP."
+ },
+ {
+  "id": "tl_fresh2_benign_1",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "Hello Mr. Reyes, kinukumpirma po namin ang interview ninyo sa Huwebes, 2PM. Paalala po: libre ang aming hiring process at hindi kami kailanman humihingi ng placement fee o deposito sa mga aplikante.",
+  "gloss_en": "Recruiter confirming interview, no fees."
+ },
+ {
+  "id": "tl_fresh2_benign_2",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "BPI Advisory: Mag-ingat sa mga scammer na nagpapanggap na bank staff at nag-uutos na mag-transfer sa 'safe account'. Hindi namin hihingin ang password o OTP mo. Kung may duda, tumawag sa hotline sa likod ng card.",
+  "gloss_en": "Bank fraud advisory."
+ },
+ {
+  "id": "tl_fresh2_benign_3",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "Fund report: 5.9% ang return ng pondo sa nakaraang 12 buwan. Ang nakaraang performance ay hindi garantiya ng kita sa hinaharap. May panganib na mawala ang bahagi ng iyong puhunan at hindi ito insured ng PDIC.",
+  "gloss_en": "Fund report with risk disclosure."
+ },
+ {
+  "id": "tl_fresh2_benign_4",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "LBC: Ang parcel mo mula sa Japan ay dumaan sa Bureau of Customs. May babayarang duties at taxes na P620. Bayaran lang sa official LBC branch o app. Hindi kami nagpapadala ng payment link sa text.",
+  "gloss_en": "Genuine courier customs duties notice."
+ },
+ {
+  "id": "tl_fresh2_benign_5",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "Payroll notice: Ang iyong account ay may negative balance na P350 dahil sa bank charges. Ang issued check para sa iyong final pay ay ide-deposit sa Biyernes. HR, Santos Logistics Inc.",
+  "gloss_en": "Payroll notice about negative balance and cheque."
+ },
+ {
+  "id": "tl_fresh2_benign_6",
+  "lang": "tl",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "Quotation #084: renovation ng kusina, P185,000 kabuuan. Humihingi kami ng 30% downpayment via bank transfer para ma-reserve ang schedule. May 1-year warranty ang lahat ng gawa.",
+  "gloss_en": "Genuine quote with downpayment and warranty."
+ },
+ {
+  "id": "hi_fresh2_scam_1",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "नमस्ते! मैं प्रिया, क्वांटएआई से बोल रही हूँ। हमारा AI ट्रेडिंग बॉट रोज़ 3-5% मुनाफ़ा देता है, पैसा 100% सुरक्षित और गारंटीड। सिर्फ़ ₹10,000 जमा करें और आज ही खाता चालू करवाएँ। टेलीग्राम पर मैसेज करें।",
+  "gloss_en": "AI trading bot with guaranteed daily profit."
+ },
+ {
+  "id": "hi_fresh2_scam_2",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "ghar baithe part time kaam, roz 2000 se 6000 kamaiye. commission nikalne ke liye combo order 3 pura karna hoga aur 5000 recharge karna hoga, poora paisa profit ke saath wapas milega",
+  "gloss_en": "Hinglish task job requiring recharge for commission."
+ },
+ {
+  "id": "hi_fresh2_scam_3",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "pyare dost maine tumhe videsh se gift bheja hai par parcel customs me ruka hai. chudane ke liye 28500 custom charge abhi upi se bhejo, kal tak ghar pahunch jayega",
+  "gloss_en": "Gift parcel held at customs, wants UPI payment."
+ },
+ {
+  "id": "hi_fresh2_scam_4",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_phishing",
+  "text": "sbi alert: aapka kyc expire ho gaya hai, account 24 ghante me block hoga. abhi link par click karke apna net banking password aur otp daale",
+  "gloss_en": "Bank KYC phishing asking password and OTP."
+ },
+ {
+  "id": "hi_fresh2_scam_5",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "बधाई हो! अमेज़न इंडिया में आपका चयन हो गया है। ऑनबोर्डिंग के लिए amazon-hr-joining.in पर अपने ईमेल और ईमेल के पासवर्ड से लॉगिन करें ताकि आपकी सैलरी प्रोफ़ाइल बन सके।",
+  "gloss_en": "Fake employer onboarding asking for email password."
+ },
+ {
+  "id": "hi_fresh2_scam_6",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "refund_phishing",
+  "text": "आयकर विभाग: आपका ₹14,320 का टैक्स रिफंड जारी हो गया है। पाने के लिए लिंक खोलकर अपना कार्ड नंबर और CVV दर्ज करें, वरना रिफंड रद्द हो जाएगा।",
+  "gloss_en": "Tax refund phishing collecting card details."
+ },
+ {
+  "id": "hi_fresh2_benign_1",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "नमस्ते रोहित जी, मैं टाटा कंसल्टेंसी की एचआर सीमा हूँ। आपका इंटरव्यू गुरुवार सुबह 11 बजे तय हुआ है। कृपया ध्यान दें, हमारी भर्ती प्रक्रिया बिल्कुल निःशुल्क है और हम उम्मीदवारों से कोई फ़ीस या डिपॉज़िट नहीं लेते।",
+  "gloss_en": "Recruiter confirming interview, no fee or deposit."
+ },
+ {
+  "id": "hi_fresh2_benign_2",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "HDFC बैंक सावधान: ठग बैंक कर्मचारी बनकर आपसे 'सुरक्षित खाते' में पैसे ट्रांसफ़र करवाने को कहते हैं। बैंक कभी आपका पासवर्ड, OTP या PIN नहीं माँगता। शक होने पर तुरंत कार्ड के पीछे दिए नंबर पर कॉल करें।",
+  "gloss_en": "Bank fraud warning."
+ },
+ {
+  "id": "hi_fresh2_benign_3",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "फ़ंड रिपोर्ट: पिछले 12 महीनों में रिटर्न 9.2% रहा। पिछला प्रदर्शन भविष्य के नतीजों की गारंटी नहीं है। म्यूचुअल फ़ंड निवेश बाज़ार जोखिमों के अधीन हैं, कृपया योजना संबंधी दस्तावेज़ ध्यान से पढ़ें।",
+  "gloss_en": "Mutual fund report with risk disclosure."
+ },
+ {
+  "id": "hi_fresh2_benign_4",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "ब्लू डार्ट: आपका पार्सल जर्मनी से आया है और कस्टम क्लियरेंस में है। ₹1,150 आयात शुल्क का भुगतान आधिकारिक वेबसाइट bluedart.com पर ट्रैकिंग नंबर से करें। हम एसएमएस पर भुगतान लिंक नहीं भेजते।",
+  "gloss_en": "Genuine courier customs duty notice."
+ },
+ {
+  "id": "hi_fresh2_benign_5",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "वेतन सूचना: आपके खाते में तकनीकी त्रुटि से ₹480 का ऋणात्मक शेष (नेगेटिव बैलेंस) दिख रहा है। बकाया राशि का चेक अगले सप्ताह जारी होगा। मानव संसाधन विभाग, वर्मा एंड संस।",
+  "gloss_en": "Payroll notice about negative balance and cheque."
+ },
+ {
+  "id": "hi_fresh2_benign_6",
+  "lang": "hi",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "कोटेशन 317: 1.5 टन एसी की इंस्टॉलेशन सहित कीमत ₹39,500। तारीख़ पक्की करने के लिए 25% एडवांस बैंक ट्रांसफ़र से देना होगा। मशीन पर 5 साल की कंप्रेसर वारंटी की गारंटी कंपनी की ओर से है।",
+  "gloss_en": "Genuine AC quote with advance and warranty."
+ },
+ {
+  "id": "ar_fresh2_scam_1",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "مرحبا، أنا سارة من منصة كوانت إيه آي. روبوت التداول بالذكاء الاصطناعي عندنا يحقق 3 إلى 5% يوميا وأرباح مضمونة. ابدأ بإيداع 1000 درهم فقط وأنا أتابع حسابك على واتساب، المقاعد محدودة.",
+  "gloss_en": "AI trading robot with guaranteed daily profits."
+ },
+ {
+  "id": "ar_fresh2_scam_2",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "وظيفة بدوام جزئي من البيت اربح 300 الى 900 ريال يوميا بإكمال مهام الطلبات لسحب عمولتك لازم تكمل طلب الكومبو رقم 3 وتودع 500 ريال ويرجع المبلغ لك مع الارباح",
+  "gloss_en": "Part-time task job requiring a deposit for commission."
+ },
+ {
+  "id": "ar_fresh2_scam_3",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "habibi ana ba3atlak hedya men barra bs el shehna wa2fa fel gomrok, lazem tdfa3 3000 gnih rasm gomrok 3ashan tewsal. haweli el flous enharda",
+  "gloss_en": "Arabizi romance scam: gift stuck at customs, wants fee."
+ },
+ {
+  "id": "ar_fresh2_scam_4",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "تهانينا! تم قبولك في شركة أرامكو كموظف إداري. لإتمام التوظيف ادخل على بوابة aramco-jobs-portal.com وسجل الدخول ببريدك الإلكتروني وكلمة مرور البريد لنفعل حسابك.",
+  "gloss_en": "Fake employer portal asking for email password."
+ },
+ {
+  "id": "ar_fresh2_scam_5",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "البنك الأهلي: تم رصد عملية مشبوهة على حسابك. لحماية أموالك حوّل الرصيد فورا إلى الحساب الآمن الذي سأرسله لك، ولا تخبر أي أحد ولا تغلق المكالمة.",
+  "gloss_en": "Bank impersonation safe-account transfer."
+ },
+ {
+  "id": "ar_fresh2_scam_6",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "exchange_verification_deposit",
+  "text": "da3m binance: mahfazatak ta2akadet mowaqafa be sabab nashat mashkook. lel tahaqoq erssel wadee3a 400 USDT 3ala el 3enwan el tali w hatetraga3 khelal 10 da2ay2",
+  "gloss_en": "Arabizi fake exchange support demanding a verification deposit."
+ },
+ {
+  "id": "ar_fresh2_benign_1",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "مرحبا أستاذ خالد، معك ريم من الموارد البشرية في شركة STC. نؤكد موعد المقابلة يوم الخميس الساعة 10 صباحا. نودّ التذكير بأن التقديم مجاني تماما ولا نطلب أي رسوم أو مبالغ مقدمة من المتقدمين.",
+  "gloss_en": "Recruiter confirming interview, no fees."
+ },
+ {
+  "id": "ar_fresh2_benign_2",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "تنبيه من بنك الراجحي: ينتحل محتالون صفة موظفي البنك ويطلبون منك تحويل أموالك إلى حساب آمن. لن نطلب منك كلمة المرور أو رمز التحقق أبدا. إذا شككت، أنهِ المكالمة واتصل بالرقم الرسمي.",
+  "gloss_en": "Bank fraud warning."
+ },
+ {
+  "id": "ar_fresh2_benign_3",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "تقرير الصندوق: بلغ العائد خلال 12 شهرا 6.3%. الأداء السابق لا يضمن النتائج المستقبلية. الاستثمار ينطوي على مخاطر وقد تخسر جزءا من رأس المال، ولا يوجد ضمان للأرباح.",
+  "gloss_en": "Fund report with risk disclosure."
+ },
+ {
+  "id": "ar_fresh2_benign_4",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "أرامكس: شحنتك القادمة من تركيا في مرحلة التخليص الجمركي. الرسوم الجمركية 45 ريالا، يرجى السداد عبر التطبيق الرسمي أو الموقع باستخدام رقم الشحنة. لا نرسل روابط دفع عبر الرسائل.",
+  "gloss_en": "Genuine courier customs fee notice."
+ },
+ {
+  "id": "ar_fresh2_benign_5",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "إشعار الرواتب: يظهر في حسابك رصيد سالب بقيمة 120 ريالا بسبب رسوم بنكية. سيتم إيداع الشيك الخاص بمستحقاتك يوم الأحد. الموارد البشرية، شركة الفهد للمقاولات.",
+  "gloss_en": "Payroll notice about negative balance and cheque."
+ },
+ {
+  "id": "ar_fresh2_benign_6",
+  "lang": "ar",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "عرض سعر رقم 88: تركيب مطبخ كامل بمبلغ 14,500 درهم. نطلب دفعة مقدمة 30% بتحويل بنكي لتثبيت الموعد. جميع التركيبات مضمونة لمدة سنتين حسب العقد.",
+  "gloss_en": "Genuine kitchen quote with deposit and warranty."
+ },
+ {
+  "id": "th_fresh2_scam_1",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "ai_trading_bot",
+  "text": "สวัสดีค่ะ ดิฉันมายด์จาก QuantAI Thailand บอทเทรดด้วย AI ของเราทำกำไร 3-5% ต่อวัน การันตีไม่มีความเสี่ยง เริ่มฝากแค่ 5,000 บาท แอดไลน์มาได้เลยค่ะ เหลือโควตาไม่กี่ที่",
+  "gloss_en": "AI trading bot with guaranteed daily profit."
+ },
+ {
+  "id": "th_fresh2_scam_2",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "part_time_task",
+  "text": "sawasdee krub phi roo suk dai pen ngan part time kong pra chum dai wan la 1500. ad line nee tam ngan combo hai kroob leaw ton kha commission dai. ton 3000 baht",
+  "gloss_en": "Romanized Thai part-time task pitch needing deposit."
+ },
+ {
+  "id": "th_fresh2_scam_3",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "customs_gift_fee",
+  "text": "ที่รักพัสดุของขวัญที่ส่งให้ติดที่ศุลกากรนะต้องจ่ายค่าภาษีศุลกากร35000บาทรีบโอนวันนี้พรุ่งนี้ของถึงเลยคิดถึงมากๆ",
+  "gloss_en": "Romance scam gift stuck at customs, demands fee."
+ },
+ {
+  "id": "th_fresh2_scam_4",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "fake_employer_onboarding",
+  "text": "ยินดีด้วย คุณผ่านการคัดเลือกเป็นพนักงานของ CP ALL กรุณาเข้าสู่ระบบ cpall-hr-onboarding.com ด้วยอีเมลและรหัสผ่านอีเมลของคุณเพื่อลงทะเบียนเข้าทำงาน",
+  "gloss_en": "Fake employer onboarding asking for email password."
+ },
+ {
+  "id": "th_fresh2_scam_5",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "bank_safe_account",
+  "text": "ธนาคารกสิกรไทย: ตรวจพบรายการผิดปกติในบัญชีของคุณ กรุณาโอนเงินทั้งหมดเข้าบัญชีปลอดภัยที่เจ้าหน้าที่แจ้ง มิฉะนั้นบัญชีจะถูกอายัด ห้ามบอกใคร",
+  "gloss_en": "Bank impersonation safe-account transfer."
+ },
+ {
+  "id": "th_fresh2_scam_6",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "SCAM",
+  "class": "exchange_verification_deposit",
+  "text": "ฝ่ายสนับสนุน Binance: กระเป๋าของคุณถูกจำกัด กรุณาวางเงินมัดจำยืนยันตัวตน 300 USDT ตามที่อยู่นี้ ระบบจะคืนภายใน 10 นาที",
+  "gloss_en": "Fake exchange support demanding verification deposit."
+ },
+ {
+  "id": "th_fresh2_benign_1",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "recruiter_no_fee",
+  "text": "สวัสดีค่ะ คุณสมชาย ทางฝ่ายบุคคล SCG ขอยืนยันนัดสัมภาษณ์วันพฤหัสบดี 10.00 น. ขอแจ้งว่าการสมัครงานกับเราไม่มีค่าใช้จ่าย เราไม่เรียกเก็บเงินหรือค่ามัดจำใดๆ จากผู้สมัคร",
+  "gloss_en": "Recruiter confirming interview, no fee or deposit."
+ },
+ {
+  "id": "th_fresh2_benign_2",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "bank_fraud_warning",
+  "text": "ธนาคารกรุงไทยแจ้งเตือน: มิจฉาชีพแอบอ้างเป็นเจ้าหน้าที่ธนาคารให้โอนเงินเข้าบัญชีปลอดภัย ธนาคารจะไม่ขอรหัสผ่านหรือ OTP จากท่านทุกกรณี หากสงสัยโปรดติดต่อเบอร์ที่ระบุหลังบัตร",
+  "gloss_en": "Bank fraud warning."
+ },
+ {
+  "id": "th_fresh2_benign_3",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "fund_risk_disclosure",
+  "text": "รายงานกองทุน: ผลตอบแทน 12 เดือนย้อนหลัง 4.8% ผลการดำเนินงานในอดีตมิได้เป็นสิ่งยืนยันผลการดำเนินงานในอนาคต การลงทุนมีความเสี่ยง ผู้ลงทุนอาจสูญเสียเงินต้นและไม่มีการรับประกันผลตอบแทน",
+  "gloss_en": "Fund report with risk disclosure."
+ },
+ {
+  "id": "th_fresh2_benign_4",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "genuine_customs_notice",
+  "text": "Flash Express: พัสดุจากญี่ปุ่นของคุณอยู่ระหว่างพิธีการศุลกากร มีค่าภาษีนำเข้า 240 บาท ชำระผ่านแอปทางการหรือเว็บไซต์เท่านั้น เราไม่ส่งลิงก์ชำระเงินทาง SMS",
+  "gloss_en": "Genuine courier customs duty notice."
+ },
+ {
+  "id": "th_fresh2_benign_5",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "negative_balance_notice",
+  "text": "แจ้งเงินเดือน: บัญชีของท่านมียอดคงเหลือติดลบ 200 บาท จากค่าธรรมเนียมธนาคาร เช็คค่าชดเชยจะนำฝากในวันศุกร์ ฝ่ายบุคคล บริษัท ไทยพัฒนา จำกัด",
+  "gloss_en": "Payroll notice about negative balance and cheque."
+ },
+ {
+  "id": "th_fresh2_benign_6",
+  "lang": "th",
+  "split": "fresh2",
+  "label": "BENIGN",
+  "class": "quote_deposit_warranty",
+  "text": "ใบเสนอราคาเลขที่ 077: ติดตั้งแอร์ 2 เครื่อง รวม 32,000 บาท ขอมัดจำ 30% โดยโอนเข้าบัญชีบริษัทตามใบเสนอราคา รับประกันงานติดตั้งและเครื่อง 5 ปี",
+  "gloss_en": "Genuine AC installation quote with deposit and warranty."
+ }
+]
