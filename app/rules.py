@@ -15,6 +15,9 @@ class Rule:
     pattern: str
     explanation: str
     action: str
+    # True: match against the accent-folded view of the text (see normalization.fold_for_matching), so "depósito" and
+    # "deposito", or Vietnamese with and without tone marks, are one spelling to the rule.
+    fold: bool = False
 
 
 A_JOB = "Stop contact and payments. Verify the role through the employer's independently located careers page and switchboard."
@@ -51,7 +54,7 @@ RULES: tuple[Rule, ...] = (
     Rule("money_mule", "Money-mule recruitment", "Personal account requested to receive or move funds", "critical", 46,
          r"(?:your|personal|own).{0,25}(?:bank|payment|crypto|wallet) account.{0,75}(?:receive|collect|transfer|forward|process)|(?:receive|collect).{0,40}(?:funds|money|payments).{0,55}(?:send|transfer|forward|keep a percentage)", "Moving third-party funds may facilitate fraud or money laundering.", A_PAY),
     Rule("fake_cheque", "Fake-cheque job scam", "Cheque supplied for equipment or onward payment", "critical", 40,
-         r"(?<!background )(?<!credit )(?<!reference )(?<!medical )(?<!security )(?<!identity )(?<!record )(?:cheque|check)s?\b.{0,60}(?:equipment|supplies|vendor|deposit|buy|purchase)|(?:buy|purchase).{0,35}(?:laptop|equipment|supplies|kit|workstation|starter pack).{0,45}(?:cheque|check|reimburse)|(?:overpayment|overpaid).{0,35}(?:refund|send back|return)", "A cheque may appear available before being reversed, leaving the recipient liable.", A_PAY),
+         r"(?<!background )(?<!credit )(?<!reference )(?<!medical )(?<!security )(?<!identity )(?<!record )(?:cheque|check)s?\b.{0,60}(?:equipment|supplies|vendor|deposit\s+(?:it|this|that|the\s+(?:cheque|check))|buy|purchase)|(?:buy|purchase).{0,35}(?:laptop|equipment|supplies|kit|workstation|starter pack).{0,45}(?:cheque|check|reimburse)|(?:overpayment|overpaid).{0,35}(?:refund|send back|return)", "A cheque may appear available before being reversed, leaving the recipient liable.", A_PAY),
     Rule("sensitive_data", "Identity harvesting", "Sensitive identity, authentication or banking data requested", "critical", 35,
          r"\b(?:send|share|provide|upload|tell|submit)\b[^.!?\n]{0,60}(?:singpass|passport|nric|identity card|id card|national id|driver'?s licen[sc]e|photo id|social security|bank login|bank statement|online banking|internet banking|recovery codes?|backup codes?|security codes?|one[ -]?time password|otp|seed phrase|private key|screen sharing|anydesk)", "Early requests for secrets or identity documents can enable takeover and identity theft.", "Do not share the data or code. Contact the organization through an independently verified channel."),
     Rule("chat_recruitment", "Recruitment impersonation", "Recruitment moved immediately to a chat app", "medium", 10,
@@ -142,4 +145,6 @@ RULES: tuple[Rule, ...] = (
          r"(?:உறுதியான|உத்தரவாதமான|நிச்சயமான)\s*(?:லாபம்|வருமானம்|வருவாய்)|ஆபத்தில்லாத|ஆபத்து இல்லாமல்|(?:லாபம்|வருமானம்)\s*(?:உத்தரவாதம்|உறுதி)", "Guaranteeing profit or promising no risk is a major warning in any language.", A_INV),
 )
 
-RULES_VERSION = "2026.09.2-SPF-FTC-MAS"
+# The Spanish, French, Portuguese, German, Vietnamese, Tagalog, Hindi, Arabic and Thai rules live in rules_multilingual.py and are
+# added to these by analyzer.py.
+RULES_VERSION = "2026.09.3-SPF-FTC-MAS"
