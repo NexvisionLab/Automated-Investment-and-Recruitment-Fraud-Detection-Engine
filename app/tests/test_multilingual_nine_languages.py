@@ -31,6 +31,10 @@ def score(text):
 
 
 KNOWN_MISSES = frozenset(['ar_fresh2_scam_2', 'ar_fresh2_scam_3', 'ar_fresh2_scam_5', 'ar_fresh2_scam_6', 'de_fresh2_scam_3', 'de_fresh2_scam_4', 'de_fresh2_scam_6', 'es_fresh2_scam_3', 'es_fresh2_scam_5', 'fr_fresh2_scam_3', 'fr_fresh2_scam_4', 'fr_fresh2_scam_6', 'fr_fresh_scam_1', 'hi_fresh2_scam_3', 'hi_fresh2_scam_4', 'hi_fresh2_scam_6', 'pt_fresh2_scam_5', 'pt_fresh2_scam_6', 'th_fresh2_scam_2', 'th_fresh2_scam_3', 'th_fresh2_scam_5', 'tl_fresh2_scam_5', 'tl_fresh2_scam_6', 'vi_fresh2_scam_2', 'vi_fresh2_scam_3', 'vi_fresh2_scam_5'])
+# 216 genuine messages (24 per language) covering the situations where a genuine message quotes or negates scam wording: fraud warnings,
+# fund disclosures, loan and grant notices, HR and payroll notices, bank notices, exchange security notices, quotes with a deposit,
+# freelance contracts and scam-awareness talks. The engine wrongly flagged 20 of them (9%) before the warning cues were widened.
+GENUINE = json.loads((Path(__file__).parent / "data" / "multilingual_genuine_cases.json").read_text(encoding="utf-8"))
 
 
 class NineLanguageCaseTests(unittest.TestCase):
@@ -42,6 +46,13 @@ class NineLanguageCaseTests(unittest.TestCase):
         self.assertEqual(sorted(missed - KNOWN_MISSES), [], "a scam that used to be caught is no longer flagged")
         # A fix should be recorded here: remove it from KNOWN_MISSES.
         self.assertEqual(sorted(KNOWN_MISSES - missed), [], "these are caught now; remove them from KNOWN_MISSES")
+
+    def test_no_genuine_message_in_the_genuine_set_is_flagged(self):
+        flagged = []
+        for case in GENUINE:
+            if analyze(case["text"], online_checks=False)["risk_score"] >= FLAGGED:
+                flagged.append((case["id"], case["class"]))
+        self.assertEqual(flagged, [])
 
     def test_no_genuine_message_is_flagged(self):
         for case in (c for c in CASES if c["label"] == "BENIGN"):
@@ -114,6 +125,45 @@ class HowTheRulesBehaveTests(unittest.TestCase):
     def test_german_typed_without_umlauts_matches(self):
         # People type "ue/ae/oe" for u-umlaut etc.: "Ueberweisung", "Gebuehr", "fuer".
         self.assertIn("de_withdraw_fee", self.ids("Zur Freigabe ist eine Sicherheitsgebuehr von 1.900 Euro per Ueberweisung auf das Treuhandkonto erforderlich."))
+
+    def test_a_scam_awareness_talk_that_poses_the_scam_as_a_question_is_not_a_scam(self):
+        # The scam is in one sentence and "Fuyez" in the next; fraud words and "how to recognise scams" count as a warning.
+        text = "Atelier lycée : reconnaître les arnaques en ligne. Un job qui demande un dépôt, ou des gains garantis pour liker des vidéos ? Fuyez, et prévenez un adulte ou le CPE."
+        self.assertLess(score(text), FLAGGED)
+
+    def test_but_saying_it_is_not_a_scam_beside_the_offer_is_no_warning(self):
+        # A scam says "this is not a scam" right next to its offer; a fraud noun in the NEXT sentence must not switch the rule off.
+        self.assertGreaterEqual(score("Ganancias garantizadas del 10% diario, invierte hoy en nuestra plataforma. ¡No es una estafa, miles ya retiraron su dinero!"), FLAGGED)
+
+    def test_fraud_words_do_not_hide_a_recovery_scam(self):
+        # The rules that read the whole message ignore fraud nouns: "you were the victim of fraud" is how a recovery scam opens.
+        self.assertGreaterEqual(score("Somos la Unidad de Recuperación de Activos Digitales. Localizamos su dinero perdido en el fraude de criptomonedas (12.400 EUR). Para iniciar el proceso solo debe abonar 600 EUR de gastos legales."), FLAGGED)
+
+    def test_a_payout_is_not_a_payment_demand(self):
+        # "Auszahlung" (a payout) contains "zahl"; a genuine loan disbursed in instalments is not a demand to pay.
+        self.assertLess(score("Bewilligungsbescheid Förderprogramm: 20.000 € Zuschuss, Auszahlung nach Meilensteinen. Es wird ein Eigenanteil von 25 % erwartet. Die Antragstellung ist kostenfrei."), FLAGGED)
+
+    def test_a_booking_receipt_is_not_a_job_fee_in_tagalog_or_thai(self):
+        for text in (
+            "Confirmed na ang venue booking sa kasal mo sa Dec 12. Natanggap na ang P10,000 reservation deposit; ang balance ay dapat bayaran 2 linggo bago. Ibabalik ang security deposit kung walang sira.",
+            "ยืนยันการจองสถานที่จัดงานแต่งวันที่ 12 ธ.ค. ได้รับเงินมัดจำ 10,000 บาทแล้ว ส่วนที่เหลือชำระก่อนงาน 15 วัน เงินประกันความเสียหายจะคืนหากไม่มีความเสียหาย",
+        ):
+            with self.subTest(text=text[:40]):
+                self.assertLess(score(text), FLAGGED, self.ids(text))
+
+    def test_free_is_not_a_no_fee_cue_because_scams_advertise_free_tokens(self):
+        self.assertGreaterEqual(score("แจกโทเคนฟรี 5,000 เหรียญ! เชื่อมต่อกระเป๋า MetaMask กับเว็บนี้แล้วกด Approve เพื่อรับรางวัล วันนี้เท่านั้น"), FLAGGED)
+
+    def test_a_genuine_overdraft_or_returned_cheque_notice_is_not_a_task_scam(self):
+        for text in (
+            "Metrobank: negative balance ang account mo ng P350 dahil sa maintaining balance fee. Mag-deposit bago Lunes para maiwasan ang karagdagang charges. Tingnan sa official app.",
+            "Na-return ang cheque na dineposito mo noong 10th dahil sa insufficient funds; nai-debit na sa account mo. Lumipat na ng address ang branch, pareho pa rin ang account number.",
+        ):
+            with self.subTest(text=text[:40]):
+                self.assertLess(score(text), FLAGGED, self.ids(text))
+
+    def test_the_fake_exchange_verification_deposit_is_caught(self):
+        self.assertIn("es_verify_deposit", self.ids("Soporte Binance: su cuenta fue restringida por actividad sospechosa. Para verificar su billetera debe hacer un depósito de verificación de 300 USDT a la dirección indicada; se reembolsa en 10 minutos."))
 
     def test_a_rule_with_no_vocabulary_is_skipped_not_matched_everywhere(self):
         from rules_multilingual import alt
