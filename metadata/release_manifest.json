@@ -1,7 +1,7 @@
 {
   "algorithm": "SHA-256",
   "dataset_version": "1.2.0",
-  "file_count": 79,
+  "file_count": 84,
   "files": [
     {
       "path": ".github/dependabot.yml",
@@ -95,8 +95,8 @@
     },
     {
       "path": "app/analyzer.py",
-      "sha256": "8a0f37d79768124b4f9b59048b13d57546df9ca9ee0804929269ad001c684256",
-      "size_bytes": 16622
+      "sha256": "0589123c14b8650e9d112e5b85d4af22555a91d77d6268f4607ba63f465ab89a",
+      "size_bytes": 21474
     },
     {
       "path": "app/classifier.py",
@@ -120,8 +120,8 @@
     },
     {
       "path": "app/normalization.py",
-      "sha256": "c648fc184f1b70cf765301fb90a6e9fd860d50113a5960f3aa29b893767cb8c2",
-      "size_bytes": 5377
+      "sha256": "1e14614f6701cf14b1078a90c0c34181944ea162758985bca708fbfd4eac4a13",
+      "size_bytes": 6562
     },
     {
       "path": "app/ocr_local.py",
@@ -140,8 +140,13 @@
     },
     {
       "path": "app/rules.py",
-      "sha256": "3ecfc387c78b40fb3ee91635f3904376610ebe2373e61974996db48479e4e703",
-      "size_bytes": 20923
+      "sha256": "4075663dd32997de3cd6bb88701ee9d6e3e2b95270afcb2a31dffc484da7aab9",
+      "size_bytes": 30731
+    },
+    {
+      "path": "app/rules_multilingual.py",
+      "sha256": "719725ba9a126504dd69634e4aac342b45037a89cab5222b6c11e30451e31c95",
+      "size_bytes": 51760
     },
     {
       "path": "app/safehtml.py",
@@ -184,14 +189,34 @@
       "size_bytes": 4515
     },
     {
+      "path": "app/tests/data/multilingual_cases.json",
+      "sha256": "2e358d7a4d47109f24e30836e35d51d071080ae18d26173cd3a5fe0e0e8b0198",
+      "size_bytes": 203335
+    },
+    {
+      "path": "app/tests/data/multilingual_genuine_cases.json",
+      "sha256": "00cce4be0c95a0eaca58e7827009c8511c19c01eed40c6e00860357804cccf30",
+      "size_bytes": 91646
+    },
+    {
       "path": "app/tests/test_analyzer.py",
       "sha256": "eb02215c133f19f5425a53ca6cbe12751af4b4d0c5b588644ecc483d60da329d",
       "size_bytes": 9402
     },
     {
+      "path": "app/tests/test_csv_benchmark_gaps.py",
+      "sha256": "3d74f905a35227a31b8445acba51765b5bf6a2d32c7659219a27ac5ee458ef7a",
+      "size_bytes": 11020
+    },
+    {
       "path": "app/tests/test_hardening.py",
       "sha256": "bae3623af9868f817074fbd595f1f8a0aff0b14910b74e811500040033b5e572",
       "size_bytes": 5105
+    },
+    {
+      "path": "app/tests/test_multilingual_nine_languages.py",
+      "sha256": "f6295ba40156764199627397e229eb1fa70e94ffb606291063bd27b501c5e9c4",
+      "size_bytes": 13675
     },
     {
       "path": "app/tests/test_multilingual_rules.py",
@@ -400,6 +425,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "fa8c94a338c005a2646c507d61e59b49dec13a60dc10c0d7d380afae1e08c9ef",
-  "total_size_bytes": 130078424
+  "release_digest": "ffc1abb5f57b02aecf4df1c38a5f0e21e04cf61a58b0ac22534f506d260f7217",
+  "total_size_bytes": 130465705
 }

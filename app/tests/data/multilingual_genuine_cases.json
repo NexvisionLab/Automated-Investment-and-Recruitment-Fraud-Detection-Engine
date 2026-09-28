@@ -1,0 +1,1946 @@
+[
+ {
+  "id": "es_gdev_1",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Aviso de BBVA: nunca le pediremos su clave, token ni el código SMS por teléfono. Si alguien le dice que debe pagar una comisión para desbloquear su retiro, cuelgue: es una estafa.",
+  "gloss_en": "Bank warns it never asks for codes and that fee-to-unlock-withdrawal calls are scams."
+ },
+ {
+  "id": "es_gdev_2",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Ojo con las inversiones con rentabilidad garantizada: es la señal de alerta número uno. La CNMV recuerda que ninguna oferta seria promete ganancias seguras ni exige un depósito previo.",
+  "gloss_en": "Regulator says guaranteed returns and upfront deposits are red flags."
+ },
+ {
+  "id": "es_gdev_3",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Extracto trimestral del plan de pensiones: rentabilidad anualizada del 4,2 %. Rentabilidades pasadas no garantizan resultados futuros. El capital no está garantizado y puede perder parte de su aportación.",
+  "gloss_en": "Pension statement with annualised return and no-guarantee disclosure."
+ },
+ {
+  "id": "es_gdev_4",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Aviso de riesgo: este fondo de renta variable no ofrece garantía de capital. Podría perder una parte de su inversión. La rentabilidad histórica no es indicativo de la futura.",
+  "gloss_en": "Equity fund risk notice: no capital guarantee."
+ },
+ {
+  "id": "es_gdev_5",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Su préstamo hipotecario ha sido aprobado. La comisión de apertura (1 %) se descuenta del importe concedido; no hay que pagar nada por adelantado. Se desembolsará ante notario el día de la firma. Consta un avalista.",
+  "gloss_en": "Mortgage approval with fee deducted from the loan and a guarantor named."
+ },
+ {
+  "id": "es_gdev_6",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Hola Lucía, te confirmamos la beca-préstamo de estudios: 6.000 € sin intereses y sin aval personal, en tres plazos. No se cobra ninguna comisión de estudio. Un saludo, Área de Becas.",
+  "gloss_en": "Study loan approved, interest-free, no personal guarantee, no fee."
+ },
+ {
+  "id": "es_gdev_7",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Resolución de la convocatoria de ayudas para pymes digitales: concedidos 12.000 €. Se abonará el 50 % al firmar y el resto por hitos justificados. Debe aportar cofinanciación del 20 %. No hay tasa por presentar la solicitud.",
+  "gloss_en": "SME grant awarded, milestone payments, matching contribution, no application fee."
+ },
+ {
+  "id": "es_gdev_8",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "La subvención para reforma de eficiencia energética es gratuita de tramitar. Ninguna gestoría puede cobrarle por la solicitud oficial. El pago se hace por transferencia tras presentar las facturas.",
+  "gloss_en": "Energy subsidy is free to apply for and paid by transfer after invoices."
+ },
+ {
+  "id": "es_gdev_9",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Hola Marcos, soy Elena de Selección en Inditex. Nos gustó tu perfil, ¿te va bien una entrevista el jueves a las 10? Recuerda: el proceso es gratuito, nunca pedimos pagos ni contraseñas al candidato.",
+  "gloss_en": "Recruiter interview invite stating no fees or passwords requested."
+ },
+ {
+  "id": "es_gdev_10",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Adjuntamos su carta de oferta. La empresa asume el coste de la verificación de antecedentes; usted no paga nada. Firme y devuélvala antes del viernes. Bienvenida al equipo.",
+  "gloss_en": "Offer letter; employer pays the background check."
+ },
+ {
+  "id": "es_gdev_11",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "RR.HH.: la nómina de octubre se transferirá el día 28. Para cambiar tu IBAN hazlo solo desde el Portal del Empleado. Recursos Humanos nunca te pedirá tu contraseña ni códigos por correo o WhatsApp.",
+  "gloss_en": "Payroll date and official way to change bank details; HR never asks for passwords."
+ },
+ {
+  "id": "es_gdev_12",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Recordatorio: el ingreso de la paga extra se hará el 15 en la cuenta que consta en tu ficha. Si has cambiado de banco, actualiza los datos en el portal interno con tu usuario habitual.",
+  "gloss_en": "Bonus payment date and how to update the bank via the internal portal."
+ },
+ {
+  "id": "es_gdev_13",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Santander: su cuenta presenta un saldo negativo de 45,20 € por un recibo. Ingrese fondos antes del lunes para evitar comisiones por descubierto. Puede consultarlo en la app oficial.",
+  "gloss_en": "Negative balance notice from the bank."
+ },
+ {
+  "id": "es_gdev_14",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Su cheque ingresado el 12/09 ha sido devuelto por falta de fondos del librador y se ha cargado en su cuenta. Su oficina se ha trasladado a Calle Mayor 8; el número de cuenta no cambia.",
+  "gloss_en": "Returned cheque and branch move, account number unchanged."
+ },
+ {
+  "id": "es_gdev_15",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Binance: detectamos un inicio de sesión desde un dispositivo nuevo y los retiros se bloquearon 24 h por seguridad. Nunca te pediremos tu frase semilla. No apruebes permisos de tokens desconocidos.",
+  "gloss_en": "Exchange locks withdrawals after new-device login; never asks for seed phrase."
+ },
+ {
+  "id": "es_gdev_16",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Aviso de seguridad de tu wallet: si alguien te pide tu frase de recuperación 'para verificar', es un fraude. Revisa las autorizaciones (allowances) de tokens y revoca las que no reconozcas.",
+  "gloss_en": "Wallet security tip about recovery phrases and token allowances."
+ },
+ {
+  "id": "es_gdev_17",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Presupuesto reforma de baño: 4.800 €. Se abona un 30 % de señal para reservar fecha y el resto al terminar. Los materiales tienen garantía de 2 años. Firmando abajo acepta las condiciones.",
+  "gloss_en": "Renovation quote with 30% deposit and a 2-year warranty."
+ },
+ {
+  "id": "es_gdev_18",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Reserva confirmada para su boda el 14/06 en Finca El Olivar. Depósito de 500 € ya recibido; el resto se paga 15 días antes. La fianza se devuelve tras el evento si no hay desperfectos.",
+  "gloss_en": "Wedding venue booking confirmation with deposit received."
+ },
+ {
+  "id": "es_gdev_19",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Agencia Tributaria: su devolución del IRPF de 312,40 € se ingresará por transferencia en la cuenta indicada en su declaración. No solicitamos datos bancarios por SMS.",
+  "gloss_en": "Tax refund paid by transfer; no bank details requested by SMS."
+ },
+ {
+  "id": "es_gdev_20",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Su paquete está en la aduana de Madrid. Los derechos de importación (8,50 €) se abonan en la web oficial de Correos o en la oficina; nunca le pediremos pagos por enlaces enviados por SMS.",
+  "gloss_en": "Courier customs duty notice with official payment channel."
+ },
+ {
+  "id": "es_gdev_21",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Contrato de proyecto freelance: 3 hitos de 400 €. El pago queda retenido en depósito en garantía (escrow) de la plataforma y se libera al aprobar cada entrega. Sin comisión para el cliente.",
+  "gloss_en": "Freelance contract with milestones and marketplace escrow."
+ },
+ {
+  "id": "es_gdev_22",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Hola, buscamos comerciales para venta de seguros: fijo más comisión por cada póliza cerrada. No tendrás que pagar ni depositar nada para empezar; la formación es gratuita.",
+  "gloss_en": "Sales job with fixed pay plus commission, no deposit needed."
+ },
+ {
+  "id": "es_gdev_23",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Comunicado de Seguridad de la empresa: no respondan a mensajes que prometan dinero fácil. Si alguien les pide recargar dinero para desbloquear tareas, es una estafa. Repórtenlo a TI.",
+  "gloss_en": "Employer awareness notice about easy-money and top-up-to-unlock-tasks scams."
+ },
+ {
+  "id": "es_gdev_24",
+  "lang": "es",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Charla para alumnos: cómo detectar estafas. Si te ofrecen un trabajo en el que debes pagar un depósito, o te prometen ganancias garantizadas por dar 'likes', desconfía y díselo a tu tutor.",
+  "gloss_en": "School talk on spotting deposit and guaranteed-profit job scams."
+ },
+ {
+  "id": "fr_gdev_1",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Alerte Crédit Agricole : on ne vous demandera jamais votre code OTP ni votre mot de passe. Si quelqu'un vous réclame des frais pour débloquer vos retraits, raccrochez, c'est une arnaque.",
+  "gloss_en": "Bank warns it never asks for OTP and that fees to unlock withdrawals are a scam."
+ },
+ {
+  "id": "fr_gdev_2",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "L'AMF le rappelle : un rendement garanti est un signal d'alerte. Méfiez-vous des offres d'emploi qui exigent un dépôt d'argent : ce sont des arnaques.",
+  "gloss_en": "Regulator warns guaranteed returns and deposit-demanding job offers are scams."
+ },
+ {
+  "id": "fr_gdev_3",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Relevé de votre PER : performance annualisée de 3,8 %. Les performances passées ne préjugent pas des performances futures. Le capital n'est pas garanti et vous pouvez perdre une partie de votre versement.",
+  "gloss_en": "Pension plan statement with risk disclosure."
+ },
+ {
+  "id": "fr_gdev_4",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Avertissement : ce fonds actions ne bénéficie d'aucune garantie en capital. Vous risquez de perdre une partie de votre épargne. Rendement historique ≠ rendement futur.",
+  "gloss_en": "Equity fund warning: no capital guarantee."
+ },
+ {
+  "id": "fr_gdev_5",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Votre prêt immobilier est accordé. Les frais de dossier (0,8 %) sont prélevés sur le montant du prêt, rien à avancer. Fonds débloqués chez le notaire. Votre caution figure au contrat.",
+  "gloss_en": "Mortgage approved, fees deducted from the loan, guarantor in contract."
+ },
+ {
+  "id": "fr_gdev_6",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Bonjour Camille, ton prêt d'honneur de 8 000 € est validé : sans intérêts et sans garantie personnelle, versé en deux fois. Aucun frais de dossier. — Initiative Rennes",
+  "gloss_en": "Honour loan validated, no interest, no personal guarantee, no fees."
+ },
+ {
+  "id": "fr_gdev_7",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Subvention Région Occitanie accordée : 15 000 €, versés en trois étapes selon l'avancement du projet. Un autofinancement de 30 % est demandé. Le dépôt du dossier est gratuit.",
+  "gloss_en": "Regional grant awarded in milestones with co-funding, free to apply."
+ },
+ {
+  "id": "fr_gdev_8",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Le dispositif d'aide à la rénovation est gratuit. Aucun frais de dossier n'est dû, et personne n'est habilité à vous facturer votre demande. Le virement intervient après réception des factures.",
+  "gloss_en": "Renovation aid is free; paid by transfer after invoices."
+ },
+ {
+  "id": "fr_gdev_9",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Bonjour Thomas, Sophie du service recrutement de Decathlon. Votre CV nous intéresse, dispo pour un entretien jeudi 14h ? Rappel : aucun frais pour les candidats, nous ne demandons jamais de paiement ni de mot de passe.",
+  "gloss_en": "Recruiter interview invitation, no fees or passwords."
+ },
+ {
+  "id": "fr_gdev_10",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Veuillez trouver votre promesse d'embauche. L'employeur prend en charge la vérification des antécédents : zéro euro à votre charge. Merci de la signer avant vendredi.",
+  "gloss_en": "Offer letter; employer covers the background check."
+ },
+ {
+  "id": "fr_gdev_11",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "RH : votre salaire de septembre sera viré le 30. Pour modifier votre RIB, passez uniquement par l'espace salarié. Les RH ne vous demandent jamais votre mot de passe ni un code reçu par SMS.",
+  "gloss_en": "Salary transfer date and official RIB change route."
+ },
+ {
+  "id": "fr_gdev_12",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Info paie : le virement du 13e mois arrivera le 5 sur le compte enregistré. Si votre banque a changé, mettez à jour votre IBAN sur le portail RH avec votre identifiant habituel.",
+  "gloss_en": "13th month payment date and IBAN update via HR portal."
+ },
+ {
+  "id": "fr_gdev_13",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "BNP Paribas : votre compte est à découvert de 62,30 €. Merci d'approvisionner votre compte avant lundi pour éviter des frais d'intervention. Détail dans l'appli officielle.",
+  "gloss_en": "Overdraft notice from the bank."
+ },
+ {
+  "id": "fr_gdev_14",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Votre chèque déposé le 10/09 a été rejeté (provision insuffisante). Le montant a été débité. Par ailleurs, votre agence déménage au 5 rue Thiers ; votre numéro de compte reste identique.",
+  "gloss_en": "Returned cheque and branch relocation."
+ },
+ {
+  "id": "fr_gdev_15",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Coinbase : connexion depuis un nouvel appareil détectée, retraits bloqués 24 h. Nous ne vous demanderons jamais votre phrase de récupération. N'approuvez pas d'autorisations de jetons inconnus.",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "fr_gdev_16",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Sécurité portefeuille : on ne vous demandera JAMAIS votre seed phrase, même pour 'vérification'. Vérifiez vos approbations de tokens et révoquez celles que vous ne reconnaissez pas.",
+  "gloss_en": "Wallet security tip about seed phrase and token approvals."
+ },
+ {
+  "id": "fr_gdev_17",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Devis cuisine n°2231 : 7 200 €. Acompte de 30 % à la commande, solde à la livraison. Les meubles sont garantis 5 ans. Signature précédée de la mention 'bon pour accord'.",
+  "gloss_en": "Kitchen quote with deposit and 5-year warranty."
+ },
+ {
+  "id": "fr_gdev_18",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Réservation confirmée pour Lisbonne du 3 au 10 mai. Acompte de 250 € reçu, solde à régler 30 jours avant le départ. Pour la location : dépôt de garantie restitué à la sortie.",
+  "gloss_en": "Travel booking with deposit received and refundable rental deposit."
+ },
+ {
+  "id": "fr_gdev_19",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Impots.gouv : votre remboursement de 187 € sera versé par virement sur le compte connu de l'administration. Nous ne demandons jamais vos coordonnées bancaires par SMS ou mail.",
+  "gloss_en": "Tax refund by transfer; no bank details requested."
+ },
+ {
+  "id": "fr_gdev_20",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Colissimo : votre colis est en douane. Des droits de douane de 12 € sont à régler sur le site officiel laposte.fr ou au bureau ; ne payez jamais via un lien reçu par SMS.",
+  "gloss_en": "Customs duty notice with official payment channel."
+ },
+ {
+  "id": "fr_gdev_21",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Contrat freelance : 3 jalons de 500 €. Les fonds sont bloqués sous séquestre par la plateforme et libérés à la validation de chaque livrable. Pas de commission côté client.",
+  "gloss_en": "Freelance milestones with platform escrow."
+ },
+ {
+  "id": "fr_gdev_22",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "On recrute des commerciaux : fixe + commission sur chaque vente. Aucun dépôt ni achat de matériel à votre charge, la formation est gratuite.",
+  "gloss_en": "Sales recruitment with fixed pay plus commission, no deposit."
+ },
+ {
+  "id": "fr_gdev_23",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Sensibilisation sécurité : ne répondez pas aux messages promettant de l'argent facile. Si on vous demande de recharger pour débloquer des tâches, c'est une arnaque. Signalez-le à la DSI.",
+  "gloss_en": "Employer awareness about easy-money and task top-up scams."
+ },
+ {
+  "id": "fr_gdev_24",
+  "lang": "fr",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Atelier lycée : reconnaître les arnaques en ligne. Un job qui demande un dépôt, ou des gains garantis pour liker des vidéos ? Fuyez, et prévenez un adulte ou le CPE.",
+  "gloss_en": "School workshop on recognising deposit and guaranteed-gain job scams."
+ },
+ {
+  "id": "pt_gdev_1",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Aviso do Itaú: nunca pedimos senha, token ou código SMS por telefone. Se alguém disser que você precisa pagar uma taxa para liberar o saque, desligue: é golpe.",
+  "gloss_en": "Bank warns it never asks for codes and that a fee to release withdrawal is a scam."
+ },
+ {
+  "id": "pt_gdev_2",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Cuidado com investimento de rentabilidade garantida: é sinal de alerta, avisa a CVM. Vaga de emprego que cobra depósito ou taxa do candidato é golpe.",
+  "gloss_en": "Regulator warns guaranteed returns and paid job vacancies are scams."
+ },
+ {
+  "id": "pt_gdev_3",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Extrato da previdência privada: rentabilidade anualizada de 9,1%. Rentabilidade passada não é garantia de resultados futuros. O capital não é garantido e você pode perder parte do valor aplicado.",
+  "gloss_en": "Pension statement with return and no-guarantee disclosure."
+ },
+ {
+  "id": "pt_gdev_4",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Aviso de risco: este fundo não conta com garantia do FGC e pode haver perda do capital investido. Leia o regulamento antes de aplicar.",
+  "gloss_en": "Fund risk notice: no FGC guarantee, capital may be lost."
+ },
+ {
+  "id": "pt_gdev_5",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Seu financiamento imobiliário foi aprovado. A tarifa de avaliação é descontada do valor liberado, sem pagamento antecipado. Liberação em parcelas conforme a obra. Fiador já consta no contrato.",
+  "gloss_en": "Mortgage approved with fee deducted, released in instalments, guarantor named."
+ },
+ {
+  "id": "pt_gdev_6",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Oi Bruna! Seu crédito educativo foi aprovado: sem juros e sem fiador no primeiro ciclo, liberado em parcelas semestrais. Não cobramos taxa de inscrição. Qualquer dúvida, é só chamar.",
+  "gloss_en": "Student loan approved, no interest, no guarantor, no fee."
+ },
+ {
+  "id": "pt_gdev_7",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Resultado do edital de fomento: sua startup foi contemplada com R$ 50.000, pagos em 3 parcelas por etapa cumprida. Exige contrapartida de 20%. Não há taxa de inscrição.",
+  "gloss_en": "Funding call result with milestone payments and matching contribution."
+ },
+ {
+  "id": "pt_gdev_8",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "O programa de subsídio para energia solar é gratuito. Ninguém está autorizado a cobrar para fazer sua inscrição. O pagamento é feito por transferência após a comprovação das notas.",
+  "gloss_en": "Solar subsidy free to apply for, paid by transfer."
+ },
+ {
+  "id": "pt_gdev_9",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Olá Rafael, aqui é a Camila do RH da Magalu. Gostamos do seu currículo, pode fazer entrevista quinta às 14h? Lembrando: o processo seletivo é gratuito, nunca pedimos pagamento nem senha.",
+  "gloss_en": "Recruiter interview invite, no payment or password requested."
+ },
+ {
+  "id": "pt_gdev_10",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Segue sua carta-oferta. A empresa paga a checagem de antecedentes, sem custo para você. Assine e devolva até sexta. Seja bem-vindo(a) ao time!",
+  "gloss_en": "Offer letter; employer pays background check."
+ },
+ {
+  "id": "pt_gdev_11",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "RH informa: o salário de setembro cai na conta dia 5. Para atualizar seus dados bancários use só o Portal do Colaborador. O RH jamais pede sua senha ou códigos por e-mail ou WhatsApp.",
+  "gloss_en": "Payroll date and official bank update route."
+ },
+ {
+  "id": "pt_gdev_12",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Lembrete: a transferência do 13º será feita dia 20 na conta cadastrada. Mudou de banco? Atualize no portal interno logando com sua matrícula, ok?",
+  "gloss_en": "13th salary transfer date and portal update."
+ },
+ {
+  "id": "pt_gdev_13",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Bradesco: sua conta está com saldo negativo de R$ 84,10. Deposite antes de segunda para evitar juros do cheque especial. Confira no app oficial.",
+  "gloss_en": "Negative balance and overdraft notice."
+ },
+ {
+  "id": "pt_gdev_14",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Seu cheque depositado dia 10 foi devolvido por insuficiência de fundos. O valor foi debitado. Aviso: sua agência mudou de endereço, mas o número da conta continua o mesmo.",
+  "gloss_en": "Returned cheque and branch address change."
+ },
+ {
+  "id": "pt_gdev_15",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Mercado Bitcoin: detectamos login em novo dispositivo e bloqueamos saques por 24h por segurança. Jamais pediremos sua frase-semente. Não aprove permissões de tokens desconhecidos.",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "pt_gdev_16",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Dica de segurança da carteira: se alguém pedir sua seed phrase para 'validar', é golpe. Revise as autorizações de tokens e revogue as que você não conhece.",
+  "gloss_en": "Wallet tip on seed phrases and token approvals."
+ },
+ {
+  "id": "pt_gdev_17",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Orçamento da reforma do banheiro: R$ 9.800. Sinal de 30% para reservar a data, restante na entrega. Materiais com garantia de 1 ano. Assinando você concorda com as condições.",
+  "gloss_en": "Renovation quote with deposit and warranty."
+ },
+ {
+  "id": "pt_gdev_18",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Reserva confirmada para o seu casamento em 20/11. Sinal de R$ 2.000 recebido; o restante até 15 dias antes. O depósito caução do salão é devolvido se não houver danos.",
+  "gloss_en": "Wedding venue booking with deposit received."
+ },
+ {
+  "id": "pt_gdev_19",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Receita Federal: sua restituição do IR de R$ 642,00 será creditada na conta informada na declaração, no 2º lote. Não pedimos dados bancários por SMS.",
+  "gloss_en": "Income tax refund credited to the declared account."
+ },
+ {
+  "id": "pt_gdev_20",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Correios: seu objeto está retido na alfândega. O imposto de importação de R$ 38,00 deve ser pago no site oficial dos Correios ou na agência; nunca pague por link enviado por mensagem.",
+  "gloss_en": "Import tax notice with official payment channel."
+ },
+ {
+  "id": "pt_gdev_21",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Contrato freelancer: 3 marcos de R$ 800. O valor fica retido em escrow pela plataforma e é liberado quando você aprova cada entrega. Sem taxa para o contratante.",
+  "gloss_en": "Freelance contract with milestone payments in escrow."
+ },
+ {
+  "id": "pt_gdev_22",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Vaga de vendedor externo: fixo + comissão por venda fechada. Você não paga nada nem faz depósito para começar, e o treinamento é gratuito.",
+  "gloss_en": "Sales job with fixed pay and commission, no deposit."
+ },
+ {
+  "id": "pt_gdev_23",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Comunicado da TI: não respondam mensagens que prometem dinheiro fácil. Se pedirem para você fazer recarga e liberar tarefas, é golpe. Avise a segurança.",
+  "gloss_en": "IT notice on easy-money and top-up-to-unlock-tasks scams."
+ },
+ {
+  "id": "pt_gdev_24",
+  "lang": "pt",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Palestra na escola: como identificar golpes. Emprego que pede depósito, ou lucro garantido só por curtir vídeos? Desconfie e conte para o professor.",
+  "gloss_en": "School talk on deposit and guaranteed-profit job scams."
+ },
+ {
+  "id": "de_gdev_1",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Warnung Sparkasse: Wir fragen Sie niemals nach TAN, PIN oder Passwort. Wenn jemand behauptet, Sie müssten eine Gebühr zahlen, um Auszahlungen freizuschalten, legen Sie auf – Betrug!",
+  "gloss_en": "Bank warns it never asks for TAN/PIN and that unlock fees are fraud."
+ },
+ {
+  "id": "de_gdev_2",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Die Verbraucherzentrale warnt: Garantierte Renditen sind ein Warnsignal. Auch Jobangebote, bei denen Sie vorab eine Kaution zahlen sollen, sind Betrug.",
+  "gloss_en": "Consumer group warns about guaranteed returns and job deposits."
+ },
+ {
+  "id": "de_gdev_3",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Ihr Depotauszug: annualisierte Wertentwicklung 5,4 %. Die Wertentwicklung in der Vergangenheit ist kein verlässlicher Indikator für die Zukunft. Das Kapital ist nicht garantiert; Sie können einen Teil Ihrer Einlage verlieren.",
+  "gloss_en": "Portfolio statement with return and no-guarantee disclosure."
+ },
+ {
+  "id": "de_gdev_4",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Risikohinweis: Bei diesem Fonds gibt es keine Kapitalgarantie. Ein Teilverlust des eingesetzten Geldes ist möglich. Bitte lesen Sie das Basisinformationsblatt.",
+  "gloss_en": "Fund risk note: no capital guarantee."
+ },
+ {
+  "id": "de_gdev_5",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Ihr Baufinanzierungsdarlehen ist bewilligt. Die Bearbeitungsgebühr wird vom Darlehensbetrag einbehalten, Sie müssen nichts vorab zahlen. Auszahlung in Raten nach Baufortschritt. Ein Bürge ist im Vertrag genannt.",
+  "gloss_en": "Mortgage loan approved, fee deducted, paid in instalments, guarantor named."
+ },
+ {
+  "id": "de_gdev_6",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Hi Lena, dein BAföG-Bescheid ist da: Die Hälfte als zinsloses Darlehen, ohne Bürgschaft, keine Antragsgebühr. Die Überweisung kommt Ende des Monats.",
+  "gloss_en": "Student aid decision with interest-free loan, no guarantee, no fee."
+ },
+ {
+  "id": "de_gdev_7",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Bewilligungsbescheid Förderprogramm: 20.000 € Zuschuss, Auszahlung nach Meilensteinen. Es wird ein Eigenanteil von 25 % erwartet. Die Antragstellung ist kostenfrei.",
+  "gloss_en": "Grant approval with milestone payments and own contribution."
+ },
+ {
+  "id": "de_gdev_8",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Die Förderung für Ihre Heizungssanierung kostet Sie bei der Antragstellung nichts. Niemand darf dafür Gebühren verlangen. Die Auszahlung erfolgt per Überweisung nach Vorlage der Rechnungen.",
+  "gloss_en": "Heating subsidy is free to apply for and paid after invoices."
+ },
+ {
+  "id": "de_gdev_9",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Hallo Herr Weber, hier Anna vom Recruiting bei Siemens. Wir laden Sie gern zum Gespräch am Donnerstag um 10 Uhr ein. Für Bewerber entstehen keine Kosten; wir verlangen nie Zahlungen oder Passwörter.",
+  "gloss_en": "Recruiter interview invite, no costs or passwords."
+ },
+ {
+  "id": "de_gdev_10",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Anbei Ihr Arbeitsvertrag. Das Führungszeugnis bzw. die Hintergrundprüfung bezahlt der Arbeitgeber. Bitte bis Freitag unterschrieben zurücksenden. Willkommen im Team!",
+  "gloss_en": "Employment contract; employer pays background check."
+ },
+ {
+  "id": "de_gdev_11",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Personalabteilung: Das Gehalt für Oktober wird am 29. überwiesen. Änderungen Ihrer Bankverbindung nur über das Mitarbeiterportal. Die HR fragt nie nach Passwörtern oder Codes.",
+  "gloss_en": "Salary transfer date and official bank change route."
+ },
+ {
+  "id": "de_gdev_12",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Kurz zur Info: Das Weihnachtsgeld wird am 1.12. auf das hinterlegte Konto überwiesen. Bank gewechselt? Bitte im Intranet mit deinem normalen Login die IBAN aktualisieren.",
+  "gloss_en": "Christmas bonus transfer date and IBAN update in the intranet."
+ },
+ {
+  "id": "de_gdev_13",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Commerzbank: Ihr Konto ist mit -38,90 € überzogen. Bitte zahlen Sie bis Montag ein, um Überziehungszinsen zu vermeiden. Details in der offiziellen App.",
+  "gloss_en": "Overdrawn account notice."
+ },
+ {
+  "id": "de_gdev_14",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Der am 10.09. eingereichte Scheck wurde mangels Deckung zurückgegeben und Ihrem Konto belastet. Ihre Filiale zieht um; die Kontonummer bleibt unverändert.",
+  "gloss_en": "Returned cheque and branch move."
+ },
+ {
+  "id": "de_gdev_15",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Kraken: Anmeldung von einem neuen Gerät erkannt, Auszahlungen für 24 Stunden gesperrt. Wir fragen nie nach Ihrer Seed-Phrase. Genehmigen Sie keine unbekannten Token-Freigaben.",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "de_gdev_16",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Sicherheitshinweis: Wer Ihre Wiederherstellungsphrase 'zur Verifizierung' verlangt, ist ein Betrüger. Prüfen Sie Ihre Token-Approvals und widerrufen Sie unbekannte.",
+  "gloss_en": "Wallet security tip on recovery phrase and approvals."
+ },
+ {
+  "id": "de_gdev_17",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Angebot Badsanierung: 8.900 €. Anzahlung von 30 % zur Terminreservierung, Rest nach Abnahme. Auf die Materialien gewähren wir 5 Jahre Garantie. Mit Unterschrift akzeptieren Sie die Bedingungen.",
+  "gloss_en": "Bathroom renovation quote with deposit and warranty."
+ },
+ {
+  "id": "de_gdev_18",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Ihre Hochzeitslocation am 12.06. ist reserviert. Die Anzahlung von 500 € ist eingegangen, der Rest ist 14 Tage vorher fällig. Die Mietkaution erstatten wir nach der Feier.",
+  "gloss_en": "Wedding venue booking with deposit received."
+ },
+ {
+  "id": "de_gdev_19",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Finanzamt: Ihre Steuererstattung von 412,00 € wird auf das im Bescheid genannte Konto überwiesen. Wir erfragen keine Bankdaten per SMS oder E-Mail.",
+  "gloss_en": "Tax refund transferred to the known account."
+ },
+ {
+  "id": "de_gdev_20",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "DHL: Ihre Sendung liegt beim Zoll. Die Einfuhrumsatzsteuer von 9,80 € zahlen Sie auf dhl.de oder bei Zustellung; bezahlen Sie nie über Links aus SMS.",
+  "gloss_en": "Customs import tax notice with official payment channel."
+ },
+ {
+  "id": "de_gdev_21",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Freelancer-Vertrag: 3 Meilensteine à 600 €. Das Geld liegt treuhänderisch (Escrow) bei der Plattform und wird nach Abnahme freigegeben. Für Auftraggeber keine Provision.",
+  "gloss_en": "Freelance contract with milestone escrow."
+ },
+ {
+  "id": "de_gdev_22",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Wir suchen Vertriebsmitarbeiter: Fixum plus Provision pro Abschluss. Sie müssen nichts einzahlen oder kaufen, die Schulung ist kostenlos.",
+  "gloss_en": "Sales job with fixed pay and commission, nothing to pay."
+ },
+ {
+  "id": "de_gdev_23",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "IT-Sicherheit: Antworten Sie nicht auf Nachrichten mit Versprechen von leicht verdientem Geld. Wenn jemand verlangt, Guthaben aufzuladen, um Aufgaben freizuschalten, ist das Betrug. Bitte melden.",
+  "gloss_en": "IT security notice on easy-money and top-up scams."
+ },
+ {
+  "id": "de_gdev_24",
+  "lang": "de",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Schul-Infoabend: Wie erkenne ich Online-Betrug? Ein Job mit Vorauszahlung oder 'garantierte Gewinne' fürs Liken? Finger weg und sofort den Lehrer informieren.",
+  "gloss_en": "School info evening on advance-payment and guaranteed-profit scams."
+ },
+ {
+  "id": "vi_gdev_1",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Vietcombank cảnh báo: ngân hàng không bao giờ yêu cầu bạn cung cấp mã OTP hay mật khẩu. Nếu ai nói phải nộp phí để mở khóa rút tiền, đó là lừa đảo, hãy ngắt máy.",
+  "gloss_en": "Bank warns it never asks for OTP and that unlock fees are a scam."
+ },
+ {
+  "id": "vi_gdev_2",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Cảnh báo từ Bộ Công an: cam kết lợi nhuận đảm bảo là dấu hiệu lừa đảo. Việc làm online yêu cầu đặt cọc hoặc nạp tiền trước đều là chiêu trò.",
+  "gloss_en": "Police warn guaranteed profit and deposit-required online jobs are scams."
+ },
+ {
+  "id": "vi_gdev_3",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Sao kê quỹ hưu trí: lợi suất quy năm 7,2%. Kết quả trong quá khứ không đảm bảo cho tương lai. Vốn không được bảo đảm và bạn có thể mất một phần tiền gửi.",
+  "gloss_en": "Pension fund statement with no-guarantee disclosure."
+ },
+ {
+  "id": "vi_gdev_4",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Cảnh báo rủi ro: quỹ này không bảo hiểm vốn, nhà đầu tư có thể thua lỗ một phần khoản đầu tư. Vui lòng đọc kỹ bản cáo bạch.",
+  "gloss_en": "Fund risk warning: capital not insured."
+ },
+ {
+  "id": "vi_gdev_5",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Khoản vay mua nhà của anh đã được duyệt. Phí thẩm định trừ trực tiếp vào số tiền giải ngân, không phải nộp trước. Giải ngân theo từng đợt. Người bảo lãnh đã có tên trong hợp đồng.",
+  "gloss_en": "Home loan approved, fee deducted, disbursed in stages, guarantor named."
+ },
+ {
+  "id": "vi_gdev_6",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Chào Linh, khoản vay sinh viên 20 triệu của em được duyệt: không lãi suất, không cần thế chấp hay bảo lãnh cá nhân. Không thu phí hồ sơ. Ngân hàng Chính sách xã hội.",
+  "gloss_en": "Student loan approved, no interest, no guarantee, no fee."
+ },
+ {
+  "id": "vi_gdev_7",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Thông báo kết quả quỹ hỗ trợ khởi nghiệp: dự án được cấp 200 triệu đồng, giải ngân theo mốc tiến độ. Cần vốn đối ứng 20%. Không thu phí nộp hồ sơ.",
+  "gloss_en": "Startup grant with milestone payments, matching funds, no fee."
+ },
+ {
+  "id": "vi_gdev_8",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Chương trình hỗ trợ lắp điện mặt trời hoàn toàn miễn phí đăng ký. Không ai được thu tiền làm hồ sơ hộ bạn. Tiền hỗ trợ chuyển khoản sau khi nộp hóa đơn.",
+  "gloss_en": "Solar support scheme free to register, paid after invoices."
+ },
+ {
+  "id": "vi_gdev_9",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Chào Nam, mình là Hà bên nhân sự FPT. Hồ sơ của bạn ổn, thứ Năm 10h phỏng vấn được không? Lưu ý: ứng viên không mất phí gì, bên mình không bao giờ xin tiền hay mật khẩu.",
+  "gloss_en": "Recruiter interview invite, no fees or passwords."
+ },
+ {
+  "id": "vi_gdev_10",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Đính kèm thư mời nhận việc. Công ty chi trả chi phí xác minh lý lịch, bạn không phải trả đồng nào. Vui lòng ký và gửi lại trước thứ Sáu.",
+  "gloss_en": "Offer letter; company pays background verification."
+ },
+ {
+  "id": "vi_gdev_11",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Phòng Nhân sự: lương tháng 9 sẽ chuyển khoản vào ngày 5. Cập nhật số tài khoản chỉ qua cổng nhân viên. HR không bao giờ hỏi mật khẩu hay mã xác thực của bạn.",
+  "gloss_en": "Salary date and official bank update route."
+ },
+ {
+  "id": "vi_gdev_12",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Nhắc nhẹ: thưởng Tết chuyển khoản ngày 20 vào tài khoản đã đăng ký. Đổi ngân hàng thì cập nhật trên hệ thống nội bộ bằng tài khoản công ty nha.",
+  "gloss_en": "Tet bonus transfer date and internal system update."
+ },
+ {
+  "id": "vi_gdev_13",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Techcombank: tài khoản của quý khách đang âm 120.000đ do phí thường niên. Vui lòng nạp tiền trước thứ Hai. Xem chi tiết trong ứng dụng chính thức.",
+  "gloss_en": "Negative balance notice from the bank."
+ },
+ {
+  "id": "vi_gdev_14",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Séc bạn nộp ngày 10/9 đã bị từ chối do không đủ số dư của người ký phát, số tiền đã được trừ lại. Chi nhánh chuyển sang địa chỉ mới, số tài khoản không đổi.",
+  "gloss_en": "Returned cheque and branch move."
+ },
+ {
+  "id": "vi_gdev_15",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Binance: phát hiện đăng nhập từ thiết bị mới, lệnh rút tiền bị khóa 24 giờ để bảo mật. Chúng tôi không bao giờ hỏi cụm từ khôi phục. Đừng phê duyệt quyền token lạ.",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "vi_gdev_16",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Lưu ý ví: ai đòi seed phrase 'để xác minh' đều là kẻ lừa đảo. Hãy kiểm tra các quyền cấp phép token và thu hồi cái nào bạn không nhận ra.",
+  "gloss_en": "Wallet tip on seed phrase and token approvals."
+ },
+ {
+  "id": "vi_gdev_17",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Báo giá sửa nhà tắm: 35 triệu. Đặt cọc 30% để giữ lịch, còn lại thanh toán khi nghiệm thu. Vật liệu bảo hành 2 năm. Ký xác nhận bên dưới nếu đồng ý.",
+  "gloss_en": "Bathroom renovation quote with deposit and warranty."
+ },
+ {
+  "id": "vi_gdev_18",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Đã xác nhận đặt tiệc cưới ngày 15/12. Nhận cọc 10 triệu, phần còn lại trả trước 15 ngày. Tiền cọc giữ chỗ hoàn lại nếu không có hư hỏng.",
+  "gloss_en": "Wedding booking confirmed with deposit received."
+ },
+ {
+  "id": "vi_gdev_19",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Cục Thuế: khoản hoàn thuế TNCN 2.150.000đ sẽ được chuyển vào tài khoản bạn đã đăng ký. Cơ quan thuế không hỏi thông tin ngân hàng qua tin nhắn.",
+  "gloss_en": "Tax refund to registered account; no bank info by message."
+ },
+ {
+  "id": "vi_gdev_20",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "Bưu điện: kiện hàng đang ở hải quan. Thuế nhập khẩu 90.000đ nộp tại bưu cục hoặc website chính thức; không bao giờ chuyển khoản qua đường link trong tin nhắn.",
+  "gloss_en": "Customs duty notice with official payment channel."
+ },
+ {
+  "id": "vi_gdev_21",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Hợp đồng freelance: 3 giai đoạn, mỗi giai đoạn 5 triệu. Tiền được sàn giữ ký quỹ (escrow) và giải phóng khi bạn duyệt bàn giao. Bên thuê không mất hoa hồng.",
+  "gloss_en": "Freelance contract with milestone escrow."
+ },
+ {
+  "id": "vi_gdev_22",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Tuyển nhân viên kinh doanh: lương cứng + hoa hồng theo đơn chốt. Không cần đặt cọc hay mua hàng để bắt đầu, đào tạo miễn phí.",
+  "gloss_en": "Sales job with base pay plus commission, no deposit."
+ },
+ {
+  "id": "vi_gdev_23",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Bộ phận An ninh thông tin: đừng trả lời tin nhắn hứa kiếm tiền dễ dàng. Ai bảo nạp tiền để mở khóa nhiệm vụ là lừa đảo, hãy báo ngay cho IT.",
+  "gloss_en": "InfoSec notice on easy-money and top-up-to-unlock-task scams."
+ },
+ {
+  "id": "vi_gdev_24",
+  "lang": "vi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Buổi tập huấn cho học sinh: nhận diện lừa đảo. Việc làm đòi đặt cọc, hoặc hứa lãi chắc chắn chỉ vì thả tim video? Đừng tin, hãy báo cho thầy cô.",
+  "gloss_en": "Student training on deposit and guaranteed-profit job scams."
+ },
+ {
+  "id": "tl_gdev_1",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "BDO advisory: hindi kami hihingi ng inyong OTP o password kahit kailan. Kung may nagsabing magbayad ka ng fee para ma-unlock ang withdrawal mo, scam yan. Ibaba ang tawag.",
+  "gloss_en": "Bank advisory: never asks for OTP; unlock-fee callers are scammers."
+ },
+ {
+  "id": "tl_gdev_2",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "Paalala ng SEC: ang guaranteed returns ay red flag. Ang mga job offer na humihingi ng deposit bago ka mag-umpisa ay panloloko.",
+  "gloss_en": "Regulator reminder that guaranteed returns and deposit-first jobs are scams."
+ },
+ {
+  "id": "tl_gdev_3",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Statement ng iyong pension fund: annualised return na 6.3%. Ang nakaraang performance ay hindi garantiya ng kita sa hinaharap. Hindi garantisado ang kapital at maaari kang malugi ng bahagi ng iyong deposito.",
+  "gloss_en": "Pension statement with no-guarantee disclosure."
+ },
+ {
+  "id": "tl_gdev_4",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "Risk disclosure: ang UITF na ito ay hindi sakop ng PDIC at walang guarantee sa principal. Maaaring mabawasan ang iyong puhunan. Basahin ang prospectus.",
+  "gloss_en": "UITF risk disclosure: no PDIC coverage or principal guarantee."
+ },
+ {
+  "id": "tl_gdev_5",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Aprubado na ang iyong home loan. Ang processing fee ay ibabawas sa loan amount, walang kailangang bayaran nang maaga. Ilalabas ang pondo sa tatlong tranche. Nakalagay ang guarantor sa kontrata.",
+  "gloss_en": "Home loan approved, fee deducted, three tranches, guarantor named."
+ },
+ {
+  "id": "tl_gdev_6",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Hi Joy, approved na ang student loan mo sa CHED: walang interes at walang personal guarantee, at libre ang application. Ilalabas per semester.",
+  "gloss_en": "Student loan approved with no interest, no guarantee, free application."
+ },
+ {
+  "id": "tl_gdev_7",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Resulta ng grant program: na-award sa inyo ang P100,000 na ibibigay sa bawat milestone. Kailangan ng 20% na counterpart contribution. Walang bayad ang pag-apply.",
+  "gloss_en": "Grant awarded by milestones with counterpart contribution, free to apply."
+ },
+ {
+  "id": "tl_gdev_8",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "Libre ang pag-apply sa DOST subsidy. Walang sinuman ang pwedeng maningil para sa aplikasyon mo. Ibabayad ito via bank transfer pagkatapos ma-verify ang resibo.",
+  "gloss_en": "Subsidy application is free and paid by bank transfer after verification."
+ },
+ {
+  "id": "tl_gdev_9",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Hello Marco, si Ana ito ng HR sa Jollibee. Gusto ka naming i-interview sa Huwebes 10am. Walang babayaran ang applicants at hindi kami kailanman hihingi ng bayad o password.",
+  "gloss_en": "HR interview invite with no fees or passwords."
+ },
+ {
+  "id": "tl_gdev_10",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "Kalakip ang job offer mo. Kami ang sasagot sa background check, wala kang gagastusin. Pakipirmahan at ibalik bago mag-Biyernes. Welcome sa team!",
+  "gloss_en": "Job offer; company pays the background check."
+ },
+ {
+  "id": "tl_gdev_11",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "HR notice: ang sweldo ngayong Setyembre ay ita-transfer sa 15. Para palitan ang bank details, sa employee portal lang. Hindi kailanman hihingi ang HR ng password o code.",
+  "gloss_en": "Salary transfer date and official bank update route."
+ },
+ {
+  "id": "tl_gdev_12",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Paalala po: sa 20 papasok ang 13th month pay sa registered account. Kung lumipat ng bank, i-update sa portal gamit ang employee ID mo.",
+  "gloss_en": "13th month pay date and bank update via portal."
+ },
+ {
+  "id": "tl_gdev_13",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Metrobank: negative balance ang account mo ng P350 dahil sa maintaining balance fee. Mag-deposit bago Lunes para maiwasan ang karagdagang charges. Tingnan sa official app.",
+  "gloss_en": "Negative balance notice from the bank."
+ },
+ {
+  "id": "tl_gdev_14",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "Na-return ang cheque na dineposito mo noong 10th dahil sa insufficient funds; nai-debit na sa account mo. Lumipat na ng address ang branch, pareho pa rin ang account number.",
+  "gloss_en": "Returned cheque and branch move, same account number."
+ },
+ {
+  "id": "tl_gdev_15",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Coins.ph: may na-detect na login sa bagong device, naka-lock ang withdrawals ng 24 oras. Hindi namin hihingiin ang seed phrase mo. Huwag mag-approve ng unknown token allowance.",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "tl_gdev_16",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Wallet tip: kung may humingi ng recovery phrase mo 'para i-verify', scammer yan. I-check ang token approvals at i-revoke ang hindi mo kilala.",
+  "gloss_en": "Wallet tip on recovery phrase and token approvals."
+ },
+ {
+  "id": "tl_gdev_17",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Quotation sa bathroom renovation: P85,000. 30% downpayment para ma-reserve ang schedule, balance pagkatapos. May 1-year warranty ang materials. Pirmahan sa baba kung sang-ayon.",
+  "gloss_en": "Renovation quote with downpayment and warranty."
+ },
+ {
+  "id": "tl_gdev_18",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "Confirmed na ang venue booking sa kasal mo sa Dec 12. Natanggap na ang P10,000 reservation deposit; ang balance ay dapat bayaran 2 linggo bago. Ibabalik ang security deposit kung walang sira.",
+  "gloss_en": "Wedding venue booking with deposit received."
+ },
+ {
+  "id": "tl_gdev_19",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "BIR: ang tax refund mo na P4,200 ay ika-credit sa account na nakalista sa filing mo. Hindi kami humihingi ng bank details sa text.",
+  "gloss_en": "Tax refund credited to the filed account; no bank details by text."
+ },
+ {
+  "id": "tl_gdev_20",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "LBC: nasa customs ang package mo. Ang customs duties na P450 ay babayaran sa official website o sa branch; huwag magbayad via link sa text.",
+  "gloss_en": "Customs duty notice with official payment channel."
+ },
+ {
+  "id": "tl_gdev_21",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Freelance contract: 3 milestones na P5,000 bawat isa. Hawak ng platform ang bayad sa escrow at ire-release kapag inaprubahan mo ang deliverable. Walang commission ang client.",
+  "gloss_en": "Freelance contract with escrow milestones."
+ },
+ {
+  "id": "tl_gdev_22",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "Naghahanap kami ng sales staff: basic pay plus commission sa bawat benta. Walang deposit o bibilhin para makapagsimula, libre ang training.",
+  "gloss_en": "Sales staff hiring with base pay and commission, no deposit."
+ },
+ {
+  "id": "tl_gdev_23",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "IT Security: huwag sagutin ang mga message na nangangako ng easy money. Kung may nagsabing mag-top up para ma-unlock ang tasks, scam yan. I-report agad sa IT.",
+  "gloss_en": "IT security notice on easy-money and top-up scams."
+ },
+ {
+  "id": "tl_gdev_24",
+  "lang": "tl",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "Seminar sa school: paano makilala ang scam. Trabahong may deposit, o guaranteed profit sa pag-like lang ng videos? Wag maniwala, sabihin sa teacher.",
+  "gloss_en": "School seminar on deposit and guaranteed-profit scams."
+ },
+ {
+  "id": "hi_gdev_1",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "SBI चेतावनी: बैंक कभी आपसे OTP या पासवर्ड नहीं मांगता। अगर कोई कहे कि निकासी अनलॉक करने के लिए फीस भरनी होगी, तो वह धोखाधड़ी है। तुरंत फोन काट दें।",
+  "gloss_en": "Bank warns it never asks for OTP and that unlock fees are fraud."
+ },
+ {
+  "id": "hi_gdev_2",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "RBI की सलाह: गारंटीड रिटर्न का वादा खतरे की घंटी है। जो नौकरी ऑफर पहले डिपॉज़िट मांगे, वह ठगी है, सावधान रहें।",
+  "gloss_en": "Regulator advice: guaranteed returns and deposit-first job offers are scams."
+ },
+ {
+  "id": "hi_gdev_3",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "आपके पेंशन फंड का स्टेटमेंट: वार्षिक रिटर्न 8.1%। पिछला प्रदर्शन भविष्य की गारंटी नहीं है। पूंजी सुरक्षित नहीं है और आप अपने जमा का कुछ हिस्सा खो सकते हैं।",
+  "gloss_en": "Pension fund statement with no-guarantee disclosure."
+ },
+ {
+  "id": "hi_gdev_4",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "जोखिम सूचना: म्यूचुअल फंड निवेश बाज़ार जोखिमों के अधीन हैं। इस स्कीम में मूलधन की कोई गारंटी नहीं है। निवेश से पहले दस्तावेज़ ध्यान से पढ़ें।",
+  "gloss_en": "Mutual fund risk notice: no principal guarantee."
+ },
+ {
+  "id": "hi_gdev_5",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "आपका होम लोन मंज़ूर हो गया है। प्रोसेसिंग फीस लोन राशि में से कटेगी, आपको पहले कुछ नहीं देना है। राशि किस्तों में जारी होगी। गारंटर का नाम अनुबंध में दर्ज है।",
+  "gloss_en": "Home loan approved, fee deducted, released in instalments, guarantor named."
+ },
+ {
+  "id": "hi_gdev_6",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "Hi Riya, तुम्हारा एजुकेशन लोन पास हो गया है: बिना ब्याज और बिना पर्सनल गारंटी के, दो किस्तों में मिलेगा। आवेदन शुल्क कुछ नहीं लगेगा।",
+  "gloss_en": "Education loan approved, interest-free, no guarantee, no fee."
+ },
+ {
+  "id": "hi_gdev_7",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "स्टार्टअप ग्रांट का नतीजा: आपको 5 लाख रुपये मंज़ूर हुए हैं, हर माइलस्टोन पर किस्त मिलेगी। 20% अपना योगदान देना होगा। आवेदन के लिए कोई शुल्क नहीं है।",
+  "gloss_en": "Startup grant with milestone instalments, own contribution, no application fee."
+ },
+ {
+  "id": "hi_gdev_8",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "सोलर सब्सिडी योजना में आवेदन बिल्कुल मुफ़्त है। कोई भी आपसे फॉर्म भरवाने के पैसे नहीं ले सकता। सब्सिडी बैंक ट्रांसफर से बिल जमा होने के बाद आएगी।",
+  "gloss_en": "Solar subsidy free to apply for and paid by transfer after bills."
+ },
+ {
+  "id": "hi_gdev_9",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "नमस्ते राहुल, मैं प्रिया, TCS की HR टीम से। आपकी प्रोफ़ाइल पसंद आई, गुरुवार 11 बजे इंटरव्यू रख लें? ध्यान रहे, कैंडिडेट से कोई फीस नहीं ली जाती, हम पैसे या पासवर्ड कभी नहीं मांगते।",
+  "gloss_en": "HR interview invite; candidates pay nothing and no passwords asked."
+ },
+ {
+  "id": "hi_gdev_10",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "आपका ऑफर लेटर संलग्न है। बैकग्राउंड वेरिफिकेशन का खर्च कंपनी उठाएगी, आपको एक पैसा नहीं देना। शुक्रवार तक साइन करके भेज दें।",
+  "gloss_en": "Offer letter; company bears background verification cost."
+ },
+ {
+  "id": "hi_gdev_11",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "HR सूचना: सितंबर की सैलरी 30 तारीख को ट्रांसफर होगी। बैंक डिटेल बदलनी हो तो सिर्फ़ एम्प्लॉई पोर्टल से करें। HR आपसे पासवर्ड या कोड कभी नहीं मांगता।",
+  "gloss_en": "Salary date and official bank update route."
+ },
+ {
+  "id": "hi_gdev_12",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "Reminder: दिवाली बोनस 25 को रजिस्टर्ड अकाउंट में आ जाएगा। बैंक बदला हो तो पोर्टल पर अपनी employee ID से update कर लें।",
+  "gloss_en": "Diwali bonus date and portal update."
+ },
+ {
+  "id": "hi_gdev_13",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "HDFC Bank: आपके खाते में बैलेंस नेगेटिव ₹450 है। सोमवार से पहले पैसे जमा करें ताकि पेनल्टी न लगे। पूरा ब्योरा आधिकारिक ऐप में देखें।",
+  "gloss_en": "Negative balance notice."
+ },
+ {
+  "id": "hi_gdev_14",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "आपका 10 तारीख को जमा किया चेक अपर्याप्त शेष के कारण लौट आया है और राशि डेबिट कर दी गई है। आपकी शाखा नए पते पर शिफ्ट हुई है, खाता संख्या वही रहेगी।",
+  "gloss_en": "Returned cheque and branch relocation."
+ },
+ {
+  "id": "hi_gdev_15",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "WazirX: नए डिवाइस से लॉगिन मिला, सुरक्षा के लिए withdrawal 24 घंटे लॉक है। हम आपसे seed phrase कभी नहीं मांगेंगे। अनजान टोकन allowance approve न करें।",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "hi_gdev_16",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Wallet सुरक्षा: कोई 'verification' के नाम पर recovery phrase मांगे तो वह scammer है। अपने token approvals चेक करें और अनजान वाले revoke कर दें।",
+  "gloss_en": "Wallet tip on recovery phrase and token approvals."
+ },
+ {
+  "id": "hi_gdev_17",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "बाथरूम रेनोवेशन का कोटेशन: ₹1,20,000। तारीख पक्की करने के लिए 30% एडवांस, बाकी काम पूरा होने पर। सामान पर 2 साल की वारंटी है। सहमत हों तो नीचे साइन करें।",
+  "gloss_en": "Renovation quote with advance and warranty."
+ },
+ {
+  "id": "hi_gdev_18",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "आपकी शादी की हॉल बुकिंग 12 दिसंबर के लिए कन्फर्म है। ₹25,000 का एडवांस मिल गया, बाकी 15 दिन पहले देना है। सिक्योरिटी डिपॉज़िट नुकसान न होने पर लौटा दिया जाएगा।",
+  "gloss_en": "Wedding hall booking with advance received."
+ },
+ {
+  "id": "hi_gdev_19",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "आयकर विभाग: आपका ₹8,400 का टैक्स रिफंड आपके पंजीकृत बैंक खाते में जमा किया जाएगा। हम SMS या ईमेल पर बैंक जानकारी कभी नहीं मांगते।",
+  "gloss_en": "Tax refund to registered account; no bank info by SMS."
+ },
+ {
+  "id": "hi_gdev_20",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "India Post: आपका पार्सल कस्टम्स में है। ₹350 कस्टम ड्यूटी आधिकारिक वेबसाइट या पोस्ट ऑफिस में भरें; SMS में आए किसी लिंक से भुगतान न करें।",
+  "gloss_en": "Customs duty notice with official payment channel."
+ },
+ {
+  "id": "hi_gdev_21",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "फ्रीलांस अनुबंध: 3 माइलस्टोन, प्रत्येक ₹10,000। भुगतान प्लेटफ़ॉर्म के एस्क्रो में रहेगा और डिलीवरी मंज़ूर होने पर जारी होगा। क्लाइंट से कोई कमीशन नहीं।",
+  "gloss_en": "Freelance contract with milestone escrow."
+ },
+ {
+  "id": "hi_gdev_22",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "सेल्स स्टाफ की भर्ती: फिक्स्ड सैलरी + हर बिक्री पर कमीशन। शुरू करने के लिए कोई डिपॉज़िट या खरीदारी नहीं करनी, ट्रेनिंग मुफ़्त है।",
+  "gloss_en": "Sales hiring with fixed pay plus commission, no deposit."
+ },
+ {
+  "id": "hi_gdev_23",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "IT सुरक्षा नोटिस: आसान कमाई का वादा करने वाले मैसेज का जवाब न दें। अगर कोई task अनलॉक करने के लिए top up करने को कहे, तो वह scam है। तुरंत रिपोर्ट करें।",
+  "gloss_en": "IT notice on easy-money and top-up-to-unlock-task scams."
+ },
+ {
+  "id": "hi_gdev_24",
+  "lang": "hi",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "स्कूल में जागरूकता सत्र: ऑनलाइन ठगी कैसे पहचानें। डिपॉज़िट मांगने वाली नौकरी या वीडियो लाइक करने पर पक्के मुनाफ़े का वादा? भरोसा न करें, टीचर को बताएं।",
+  "gloss_en": "School session on deposit and guaranteed-profit job scams."
+ },
+ {
+  "id": "ar_gdev_1",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "تنبيه من بنك مصر: لن نطلب منك أبداً رمز التحقق OTP أو كلمة المرور. وإذا قال لك أحدهم إن عليك دفع رسوم لفك حظر السحب فهذا احتيال، أغلق المكالمة.",
+  "gloss_en": "Bank warns it never asks for OTP and that unlock fees are fraud."
+ },
+ {
+  "id": "ar_gdev_2",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "تحذير من هيئة السوق المالية: الأرباح المضمونة علامة خطر. وأي وظيفة تطلب منك دفع وديعة قبل البدء هي عملية نصب.",
+  "gloss_en": "Regulator warns guaranteed profits and deposit-first jobs are scams."
+ },
+ {
+  "id": "ar_gdev_3",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "كشف صندوق التقاعد: العائد السنوي 6.5%. الأداء السابق لا يضمن النتائج المستقبلية. رأس المال غير مضمون وقد تخسر جزءاً من مبلغ الإيداع.",
+  "gloss_en": "Pension fund statement with no-guarantee disclosure."
+ },
+ {
+  "id": "ar_gdev_4",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "إفصاح عن المخاطر: هذا الصندوق لا يوفر ضمان رأس المال، وقد يتعرض المستثمر لخسارة جزء من استثماره. يرجى قراءة نشرة الإصدار.",
+  "gloss_en": "Fund risk disclosure: no capital guarantee."
+ },
+ {
+  "id": "ar_gdev_5",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "تمت الموافقة على قرضك العقاري. تُخصم رسوم الدراسة من مبلغ القرض ولا يلزمك دفع شيء مقدماً. يُصرف المبلغ على دفعات. اسم الكفيل مدون في العقد.",
+  "gloss_en": "Mortgage approved, fee deducted from loan, paid in instalments, guarantor named."
+ },
+ {
+  "id": "ar_gdev_6",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "أهلاً سارة، تمت الموافقة على قرض الطالب: بدون فوائد وبدون كفالة شخصية، ويُصرف على دفعتين. لا توجد رسوم تقديم.",
+  "gloss_en": "Student loan approved, interest-free, no personal guarantee, no fee."
+ },
+ {
+  "id": "ar_gdev_7",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "نتيجة برنامج المنح: تم منحكم 50,000 ريال تُصرف حسب مراحل الإنجاز، مع مساهمة ذاتية 20%. التقديم مجاني ولا توجد أي رسوم.",
+  "gloss_en": "Grant awarded by milestones with own contribution, free to apply."
+ },
+ {
+  "id": "ar_gdev_8",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "التقديم على دعم الطاقة الشمسية مجاني تماماً، ولا يحق لأي شخص أن يتقاضى منك مالاً مقابل الطلب. يُحوَّل الدعم إلى حسابك بعد تقديم الفواتير.",
+  "gloss_en": "Solar support free to apply for, transferred after invoices."
+ },
+ {
+  "id": "ar_gdev_9",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "مرحبا أحمد، معك نور من الموارد البشرية في أرامكو. أعجبنا ملفك، هل يناسبك موعد المقابلة الخميس 10 صباحاً؟ التقديم مجاني للمرشحين ولا نطلب أموالاً أو كلمات مرور أبداً.",
+  "gloss_en": "HR interview invite with no fees or passwords requested."
+ },
+ {
+  "id": "ar_gdev_10",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "مرفق خطاب العرض الوظيفي. تتحمل الشركة تكلفة فحص السجل الجنائي ولا يترتب عليك أي مبلغ. يرجى التوقيع وإعادته قبل الجمعة.",
+  "gloss_en": "Offer letter; company pays the background check."
+ },
+ {
+  "id": "ar_gdev_11",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "إشعار الموارد البشرية: سيتم تحويل راتب أكتوبر يوم 27. لتحديث بيانات حسابك البنكي استخدم بوابة الموظفين فقط. الموارد البشرية لا تطلب منك كلمة المرور أو الرموز أبداً.",
+  "gloss_en": "Salary date and official bank update route."
+ },
+ {
+  "id": "ar_gdev_12",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "تذكير: تحويل مكافأة العيد سيكون يوم 20 إلى الحساب المسجل. لو غيرت البنك حدّث الـIBAN من البوابة الداخلية بحسابك المعتاد.",
+  "gloss_en": "Eid bonus transfer date and IBAN update via portal."
+ },
+ {
+  "id": "ar_gdev_13",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "بنك الراجحي: حسابك مكشوف بمبلغ 120 ريال بسبب رسوم بطاقة. يرجى الإيداع قبل الاثنين لتجنب الرسوم الإضافية. التفاصيل في التطبيق الرسمي.",
+  "gloss_en": "Overdrawn account notice."
+ },
+ {
+  "id": "ar_gdev_14",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "تم إرجاع الشيك الذي أودعته بتاريخ 10/9 لعدم كفاية الرصيد وخصم قيمته من حسابك. وقد انتقل الفرع إلى عنوان جديد مع بقاء رقم الحساب نفسه.",
+  "gloss_en": "Returned cheque and branch move, same account number."
+ },
+ {
+  "id": "ar_gdev_15",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Binance: رصدنا تسجيل دخول من جهاز جديد وتم إيقاف السحب 24 ساعة لحمايتك. لن نطلب منك عبارة الاسترداد أبداً. لا توافق على صلاحيات توكن مجهولة.",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "ar_gdev_16",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "تنبيه أمان المحفظة: إذا طلب منك أحد عبارة الاسترداد 'للتحقق' فهو نصاب. راجع أذونات التوكن وألغِ ما لا تعرفه.",
+  "gloss_en": "Wallet security tip on recovery phrase and token permissions."
+ },
+ {
+  "id": "ar_gdev_17",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "عرض سعر تجديد الحمام: 9,500 درهم. دفعة مقدمة 30% لحجز الموعد والباقي عند التسليم. المواد بضمان سنتين. التوقيع أدناه يعني الموافقة على الشروط.",
+  "gloss_en": "Renovation quote with advance payment and warranty."
+ },
+ {
+  "id": "ar_gdev_18",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "تم تأكيد حجز قاعة الزفاف بتاريخ 12/12. استلمنا عربون 2,000 ريال والباقي قبل 15 يوماً. يُسترد مبلغ التأمين بعد المناسبة إن لم توجد أضرار.",
+  "gloss_en": "Wedding hall booking with deposit received."
+ },
+ {
+  "id": "ar_gdev_19",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "الهيئة الضريبية: سيتم إيداع استرداد ضريبتك 820 ريال في الحساب المسجل. لا نطلب بياناتك البنكية عبر الرسائل النصية.",
+  "gloss_en": "Tax refund to registered account; no bank data by SMS."
+ },
+ {
+  "id": "ar_gdev_20",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "البريد: شحنتك في الجمارك. الرسوم الجمركية 45 ريال تُسدد عبر الموقع الرسمي أو في الفرع، ولا تدفع أبداً عبر رابط في رسالة.",
+  "gloss_en": "Customs duty notice with official payment channel."
+ },
+ {
+  "id": "ar_gdev_21",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "عقد عمل حر: ثلاث دفعات كل منها 500 دولار. المبلغ محجوز لدى المنصة (ضمان) ويُفرج عنه عند اعتماد التسليم. لا عمولة على صاحب العمل.",
+  "gloss_en": "Freelance contract with milestone escrow."
+ },
+ {
+  "id": "ar_gdev_22",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "نبحث عن مندوبي مبيعات: راتب أساسي + عمولة على كل صفقة. لا يلزمك دفع أي وديعة أو شراء شيء للبدء، والتدريب مجاني.",
+  "gloss_en": "Sales reps hiring with salary plus commission, no deposit."
+ },
+ {
+  "id": "ar_gdev_23",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "إدارة أمن المعلومات: لا تردوا على رسائل تعد بربح سريع. إذا طلب منك أحد شحن رصيد لفتح المهام فهذا احتيال، بلّغوا الدعم فوراً.",
+  "gloss_en": "InfoSec notice on quick-profit and top-up-to-unlock-tasks scams."
+ },
+ {
+  "id": "ar_gdev_24",
+  "lang": "ar",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "محاضرة توعوية للطلاب: كيف تكتشف النصب. وظيفة تطلب عربوناً أو أرباح مضمونة مقابل الإعجاب بالفيديوهات؟ لا تصدق وأخبر معلمك.",
+  "gloss_en": "Student lecture on deposit and guaranteed-profit job scams."
+ },
+ {
+  "id": "th_gdev_1",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "ธนาคารกสิกรไทยแจ้งเตือน: เราไม่เคยขอรหัส OTP หรือรหัสผ่านจากท่านทางโทรศัพท์ หากมีคนบอกให้จ่ายค่าธรรมเนียมเพื่อปลดล็อกการถอนเงิน นั่นคือมิจฉาชีพ วางสายทันที",
+  "gloss_en": "Bank warns it never asks for OTP and that unlock fees are a scam."
+ },
+ {
+  "id": "th_gdev_2",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "1 fraud warning",
+  "text": "ก.ล.ต. เตือน: คำสัญญาผลตอบแทนที่รับประกันคือสัญญาณอันตราย งานที่ให้โอนเงินมัดจำก่อนเริ่มงานเป็นการหลอกลวงทั้งสิ้น",
+  "gloss_en": "Regulator warns guaranteed returns and deposit-first jobs are scams."
+ },
+ {
+  "id": "th_gdev_3",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "รายงานกองทุนสำรองเลี้ยงชีพ: ผลตอบแทนเฉลี่ยต่อปี 5.2% ผลการดำเนินงานในอดีตไม่ได้รับประกันผลในอนาคต เงินต้นไม่ได้รับการค้ำประกัน อาจขาดทุนบางส่วนของเงินฝากได้",
+  "gloss_en": "Provident fund report with no-guarantee disclosure."
+ },
+ {
+  "id": "th_gdev_4",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "2 investment risk",
+  "text": "คำเตือนความเสี่ยง: กองทุนนี้ไม่มีการรับประกันเงินต้น ผู้ลงทุนอาจสูญเสียเงินลงทุนบางส่วน โปรดอ่านหนังสือชี้ชวนก่อนตัดสินใจ",
+  "gloss_en": "Fund risk warning: principal not guaranteed."
+ },
+ {
+  "id": "th_gdev_5",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "สินเชื่อบ้านของคุณได้รับอนุมัติแล้ว ค่าธรรมเนียมประเมินหักจากวงเงินที่ได้รับ ไม่ต้องชำระล่วงหน้า เบิกจ่ายเป็นงวดตามความคืบหน้า มีชื่อผู้ค้ำประกันในสัญญาแล้ว",
+  "gloss_en": "Home loan approved, fee deducted, staged disbursement, guarantor named."
+ },
+ {
+  "id": "th_gdev_6",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "3 loan approval",
+  "text": "สวัสดีค่ะน้องฝ้าย กยศ. อนุมัติเงินกู้แล้วนะ ไม่มีดอกเบี้ย ไม่ต้องมีผู้ค้ำประกัน และไม่เสียค่าสมัคร โอนเข้าบัญชีเป็นรายภาคเรียน",
+  "gloss_en": "Student loan approved, no interest, no guarantor, no fee."
+ },
+ {
+  "id": "th_gdev_7",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "ประกาศผลทุนสนับสนุน: โครงการของคุณได้รับ 300,000 บาท จ่ายตามงวดงานที่ส่งมอบ ต้องมีเงินร่วมลงทุนของผู้รับทุน 20% ไม่มีค่าสมัคร",
+  "gloss_en": "Grant awarded in milestones with co-funding, no application fee."
+ },
+ {
+  "id": "th_gdev_8",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "4 grant",
+  "text": "การสมัครโครงการเงินอุดหนุนโซลาร์เซลล์ไม่มีค่าใช้จ่าย ไม่มีใครมีสิทธิ์เก็บเงินค่าทำเรื่องแทนคุณ เงินจะโอนเข้าบัญชีหลังส่งใบเสร็จ",
+  "gloss_en": "Solar subsidy free to apply for, paid after receipts."
+ },
+ {
+  "id": "th_gdev_9",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "สวัสดีครับคุณต้น ผมเก่งจากฝ่ายบุคคล CP ALL ยินดีเชิญสัมภาษณ์วันพฤหัส 10 โมง ผู้สมัครไม่ต้องเสียค่าใช้จ่าย เราไม่เคยขอเงินหรือรหัสผ่านครับ",
+  "gloss_en": "HR interview invite; no fees or passwords requested."
+ },
+ {
+  "id": "th_gdev_10",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "5 recruiter",
+  "text": "แนบจดหมายเสนองานมาให้แล้วค่ะ บริษัทออกค่าตรวจสอบประวัติให้ ไม่ต้องจ่ายเอง กรุณาเซ็นแล้วส่งกลับภายในวันศุกร์ ยินดีต้อนรับสู่ทีมค่ะ",
+  "gloss_en": "Offer letter; company pays background check."
+ },
+ {
+  "id": "th_gdev_11",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "ฝ่ายบุคคลแจ้ง: เงินเดือนเดือนกันยายนจะโอนวันที่ 30 การเปลี่ยนเลขบัญชีทำผ่านพอร์ทัลพนักงานเท่านั้น ฝ่ายบุคคลไม่เคยขอรหัสผ่านหรือโค้ดจากคุณ",
+  "gloss_en": "Salary date and official bank change route."
+ },
+ {
+  "id": "th_gdev_12",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "6 payroll",
+  "text": "เตือนนะ โบนัสจะโอนวันที่ 20 เข้าบัญชีที่ลงทะเบียนไว้ ถ้าย้ายธนาคารให้อัปเดตในระบบภายในด้วย employee ID ปกติ",
+  "gloss_en": "Bonus transfer date and internal system update."
+ },
+ {
+  "id": "th_gdev_13",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "ธนาคารไทยพาณิชย์: บัญชีของท่านติดลบ 250 บาทจากค่าธรรมเนียมรายปี กรุณาฝากเงินก่อนวันจันทร์เพื่อเลี่ยงค่าปรับ ดูรายละเอียดในแอปทางการ",
+  "gloss_en": "Negative balance notice."
+ },
+ {
+  "id": "th_gdev_14",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "7 bank notice",
+  "text": "เช็คที่ท่านนำฝากวันที่ 10 ถูกปฏิเสธการจ่ายเนื่องจากเงินในบัญชีผู้สั่งจ่ายไม่พอ และหักยอดคืนจากบัญชีแล้ว สาขาย้ายที่ตั้งใหม่ เลขบัญชียังคงเดิม",
+  "gloss_en": "Returned cheque and branch move, same account number."
+ },
+ {
+  "id": "th_gdev_15",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "Bitkub: ตรวจพบการล็อกอินจากอุปกรณ์ใหม่ ระบบล็อกการถอน 24 ชม. เพื่อความปลอดภัย เราไม่เคยขอ seed phrase ของคุณ อย่ากดอนุมัติสิทธิ์โทเคนที่ไม่รู้จัก",
+  "gloss_en": "Exchange locks withdrawals after new-device login."
+ },
+ {
+  "id": "th_gdev_16",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "8 crypto security",
+  "text": "เตือนภัยกระเป๋าเงิน: ถ้ามีใครขอ recovery phrase 'เพื่อยืนยันตัวตน' คือมิจฉาชีพ ตรวจสอบ token approval แล้วเพิกถอนอันที่ไม่รู้จัก",
+  "gloss_en": "Wallet tip on recovery phrase and token approvals."
+ },
+ {
+  "id": "th_gdev_17",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "ใบเสนอราคาต่อเติมห้องน้ำ 68,000 บาท มัดจำ 30% เพื่อจองคิว ส่วนที่เหลือชำระเมื่อส่งมอบงาน วัสดุรับประกัน 2 ปี เซ็นด้านล่างหากยอมรับเงื่อนไข",
+  "gloss_en": "Renovation quote with deposit and warranty."
+ },
+ {
+  "id": "th_gdev_18",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "9 quote deposit warranty",
+  "text": "ยืนยันการจองสถานที่จัดงานแต่งวันที่ 12 ธ.ค. ได้รับเงินมัดจำ 10,000 บาทแล้ว ส่วนที่เหลือชำระก่อนงาน 15 วัน เงินประกันความเสียหายคืนหลังงานหากไม่มีอะไรเสียหาย",
+  "gloss_en": "Wedding venue booking with deposit received."
+ },
+ {
+  "id": "th_gdev_19",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "กรมสรรพากร: เงินคืนภาษี 3,200 บาทจะโอนเข้าบัญชีที่ท่านแจ้งไว้ในการยื่นแบบ เราไม่ขอข้อมูลบัญชีธนาคารทาง SMS",
+  "gloss_en": "Tax refund to the declared account; no bank data by SMS."
+ },
+ {
+  "id": "th_gdev_20",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "10 refund customs",
+  "text": "ไปรษณีย์ไทย: พัสดุติดที่ศุลกากร ค่าอากรขาเข้า 180 บาทชำระที่เว็บไซต์ทางการหรือที่สาขา ห้ามชำระผ่านลิงก์ในข้อความ",
+  "gloss_en": "Customs duty notice with official payment channel."
+ },
+ {
+  "id": "th_gdev_21",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "สัญญาฟรีแลนซ์: 3 งวดงาน งวดละ 5,000 บาท เงินถูกพักไว้ในระบบ escrow ของแพลตฟอร์ม และปล่อยเมื่อคุณอนุมัติงาน ผู้ว่าจ้างไม่เสียค่าคอมมิชชัน",
+  "gloss_en": "Freelance contract with milestone escrow."
+ },
+ {
+  "id": "th_gdev_22",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "11 freelance",
+  "text": "รับสมัครพนักงานขาย: เงินเดือนประจำ + ค่าคอมมิชชันต่อการขาย ไม่ต้องวางมัดจำหรือซื้อสินค้าเพื่อเริ่มงาน อบรมฟรี",
+  "gloss_en": "Sales hiring with salary plus commission, no deposit."
+ },
+ {
+  "id": "th_gdev_23",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "ฝ่ายความปลอดภัยไอที: อย่าตอบข้อความที่ชวนหาเงินง่าย ถ้ามีคนให้ top up เพื่อปลดล็อกงาน นั่นคือแก๊งหลอกลวง แจ้งไอทีทันที",
+  "gloss_en": "IT security notice on easy-money and top-up-to-unlock-task scams."
+ },
+ {
+  "id": "th_gdev_24",
+  "lang": "th",
+  "split": "gdev",
+  "label": "BENIGN",
+  "class": "12 awareness",
+  "text": "อบรมนักเรียน: รู้ทันมิจฉาชีพออนไลน์ งานที่ให้โอนมัดจำ หรือรับประกันกำไรแค่กดไลก์วิดีโอ? อย่าเชื่อ แล้วบอกครูทันที",
+  "gloss_en": "Student training on deposit and guaranteed-profit job scams."
+ }
+]
