@@ -132,3 +132,28 @@ def script_profile(text: str) -> dict:
     letters = sum(1 for c in text if c.isalpha())
     recognized = sum(1 for c in text if c.isalpha() and any(s in unicodedata.name(c, "") for s in scripts))
     return {"scripts": scripts, "letter_count": letters, "recognized_ratio": recognized / max(1, letters)}
+
+
+_ARABIC_MARKS = dict.fromkeys(list(range(0x064B, 0x0660)) + [0x0670, 0x0640])
+_ARABIC_LETTERS = str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ى": "ي", "ة": "ه"})
+
+
+def fold_for_matching(text: str) -> str:
+    """The text with Latin accents and Vietnamese tone marks removed and Arabic vowel marks and alef/ya/ta-marbuta variants unified.
+
+    People write Spanish, French, Portuguese, German and Vietnamese with and without accents, so a rule written against the folded
+    spelling ("deposito", "dat coc") matches both. Each Latin letter maps to one letter, so match offsets still line up with the
+    original text; only the Arabic vowel marks are dropped, which shortens the text."""
+    out = []
+    for c in text:
+        if ord(c) < 128:
+            out.append(c)
+        elif c in "đĐ":
+            out.append("d" if c == "đ" else "D")
+        else:
+            d = unicodedata.normalize("NFD", c)
+            if len(d) > 1 and unicodedata.category(d[1]) == "Mn" and "LATIN" in unicodedata.name(d[0], ""):
+                out.append(d[0])
+            else:
+                out.append(c)
+    return "".join(out).translate(_ARABIC_MARKS).translate(_ARABIC_LETTERS)
