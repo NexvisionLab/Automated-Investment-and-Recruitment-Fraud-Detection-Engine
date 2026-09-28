@@ -33,9 +33,46 @@ def _evidence(text: str, match: re.Match[str], radius: int = 55) -> str:
     return _clip(text[max(0, match.start() - radius): min(len(text), match.end() + radius)])
 
 
+# A sentence that quotes a scam in order to warn about it ("a message promising 12% returns ... may be a scam", "this guide does
+# not ask you to pay a fee to unlock withdrawals") has the scam's wording in it and the opposite intent. The cues are tied to
+# the risky action ("do not send", "never asks you to pay"), not to a bare "do not", so a scam sentence such as "Do not delay
+# the deposit" is not mistaken for a warning.
+_WARNING_SENTENCE = re.compile(
+    r"\b(?:never|do not|don'?t|does not|doesn'?t|will not|won'?t|should not|must not|not)\s+(?:\w+\s+){0,2}"
+    r"(?:ask|asks|request|requests|require|requires|charge|charges|demand|demands|send|pay|transfer|remit|share|provide|approve|"
+    r"authori[sz]e|enter|click|install|download|deposit|top[ -]?up|forward|give|receive|handle)\b"
+    r"|\bnever\s+(?:receives?|handles?|moves?|forwards?)\b"
+    r"|\bignore\s+(?:any\s+|all\s+)?(?:messages?|emails?|calls?|requests?)\b"
+    r"|\bif\s+(?:anyone|someone|a\s+message|an\s+email|you\s+(?:receive|get|are\s+asked|are\s+contacted))\b"
+    r"|\b(?:may|might|could|can)\s+be\s+(?:a\s+)?(?:scam|fraud|phishing)\b|\b(?:is|are)\s+(?:a\s+)?(?:scam|fraud)s?\b"
+    r"|\bscam\s+(?:alert|awareness)\b|\bfraud\s+(?:alert|awareness)\b|\bscams?\s+(?:often|typically|usually|commonly)\b|\bred\s+flags?\b|\bwarning\s+signs?\b"
+    r"|\b(?:scammers?|fraudsters?|impersonators?)\b",
+    re.I,
+)
+# Rules that describe a demand for money, a credential or an approval, and so can be quoted in a warning. Rules about the
+# other side of a pitch (a claimed licence, a celebrity, a chat group) are not listed: a warning rarely contains them.
+_WARNING_GUARDED_RULES = frozenset({
+    "task_deposit", "sensitive_data", "unusual_payment", "withdrawal_fee", "unrealistic_return", "money_mule", "job_upfront_fee",
+    "job_recruiter_deposit", "job_assigned_supplier", "payment_instruction_change", "credential_request", "wallet_approval",
+    "recovery_fee", "pump_group", "insider_allocation_payment", "regulator_payment_demand", "grant_release_fee",
+    "pay_before_disclosure", "fake_cheque", "sideload_app", "social_boosting",
+})
+
+
+def _is_warning_sentence(text: str, match: re.Match[str]) -> bool:
+    start = max(text.rfind(c, 0, match.start()) for c in ".!?\n") + 1
+    ends = [i for i in (text.find(c, match.end()) for c in ".!?\n") if i != -1]
+    return bool(_WARNING_SENTENCE.search(text[start: min(ends) if ends else len(text)]))
+
+
 def _negated_or_educational(rule_id: str, text: str, match: re.Match[str]) -> bool:
     window = text[max(0, match.start() - 95): min(len(text), match.end() + 95)].lower()
-    if rule_id == "guaranteed_returns" and re.search(r"(?:returns?|profits?|yields?|roi)\s+(?:are|is|can be)?\s*not\s+(?:guaranteed|assured)|cannot guarantee|no\s+(?:returns?|profits?)?\s*(?:are\s+)?guaranteed|there are no guaranteed returns", window):
+    if rule_id in _WARNING_GUARDED_RULES and _is_warning_sentence(text, match):
+        return True
+    # "A 25% annualised historical return" on a statement is a past figure with a disclaimer, not a promise of a fast one.
+    if rule_id == "unrealistic_return" and re.search(r"annuali[sz]ed|per annum|p\.a\.|historical|past performance|year[- ]to[- ]date|since inception|last (?:year|quarter)", window) and not re.search(r"daily|weekly|per (?:day|week)|overnight|guarantee|risk[- ]free", window):
+        return True
+    if rule_id == "guaranteed_returns" and re.search(r"(?:returns?|profits?|yields?|roi)\s+(?:are|is|can be)?\s*not\s+(?:guaranteed|assured)|cannot guarantee|no\s+(?:returns?|profits?)?\s*(?:are\s+)?guaranteed|there are no guaranteed returns|(?:do not|don'?t|cannot|can'?t|never|no one can|nobody can)\s+(?:promise|guarantee|assure)", window):
         return True
     if rule_id == "no_risk" and re.search(r"not risk[ -]?free|no (?:investment|product|trade|strategy) (?:is|can be) risk[ -]?free|(?:all|every) investments? (?:carry|have|involve) risk", window):
         return True
