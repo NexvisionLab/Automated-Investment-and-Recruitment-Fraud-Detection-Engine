@@ -147,4 +147,4 @@ RULES: tuple[Rule, ...] = (
 
 # The Spanish, French, Portuguese, German, Vietnamese, Tagalog, Hindi, Arabic and Thai rules live in rules_multilingual.py and are
 # added to these by analyzer.py.
-RULES_VERSION = "2026.09.3-SPF-FTC-MAS"
+RULES_VERSION = "2026.09.4-SPF-FTC-MAS"
