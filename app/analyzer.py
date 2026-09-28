@@ -12,8 +12,11 @@ from datetime import datetime, timezone
 
 from classifier import predict
 from domain_intel import brand_impersonation, dns_email_domain_analysis, email_domain_analysis, registrable_domain, verification_workflow
-from normalization import normalize, normalize_detailed
-from rules import RULES, RULES_VERSION
+from normalization import fold_for_matching, normalize, normalize_detailed
+from rules import RULES as _ENGLISH_AND_ASIAN_RULES, RULES_VERSION
+from rules_multilingual import LANGUAGE_RULES, LANGUAGE_RULE_IDS, fold_german, language_applies, language_warning, sentence_warns_in_any_language
+
+RULES = _ENGLISH_AND_ASIAN_RULES + LANGUAGE_RULES
 
 URL_RE = re.compile(r"(?i)\b(?:https?://|www\.)[^\s<>'\"]+|\b(?:[a-z0-9-]+\.)+(?:com|net|org|io|co|sg|xyz|top|vip|app|work|click)\b")
 EMAIL_RE = re.compile(r"(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b")
@@ -59,15 +62,28 @@ _WARNING_GUARDED_RULES = frozenset({
 })
 
 
-def _is_warning_sentence(text: str, match: re.Match[str]) -> bool:
+def _sentence_of(text: str, match: re.Match[str]) -> str:
     start = max(text.rfind(c, 0, match.start()) for c in ".!?\n") + 1
     ends = [i for i in (text.find(c, match.end()) for c in ".!?\n") if i != -1]
-    return bool(_WARNING_SENTENCE.search(text[start: min(ends) if ends else len(text)]))
+    return text[start: min(ends) if ends else len(text)]
+
+
+def _is_warning_sentence(text: str, match: re.Match[str]) -> bool:
+    return bool(_WARNING_SENTENCE.search(_sentence_of(text, match)))
 
 
 def _negated_or_educational(rule_id: str, text: str, match: re.Match[str]) -> bool:
     window = text[max(0, match.start() - 95): min(len(text), match.end() + 95)].lower()
     if rule_id in _WARNING_GUARDED_RULES and _is_warning_sentence(text, match):
+        return True
+    if rule_id in LANGUAGE_RULE_IDS and (not language_applies(rule_id, text) or language_warning(rule_id, text, match)):
+        return True
+    # The older rules read English, Chinese, Malay and Tamil; a warning about the same scam in another language still quotes it
+    # (an English rule firing on a Tagalog fraud warning that mentions "guaranteed returns").
+    if rule_id in _WARNING_GUARDED_RULES | {"guaranteed_returns", "no_risk"} and sentence_warns_in_any_language(_sentence_of(text, match)):
+        return True
+    # A genuine payroll or bank notice about a negative balance says why ("due to bank charges", "overdraft"); a task scam invents one.
+    if rule_id == "negative_balance" and re.search(r"overdraft|bank charges?|bank fees?|due to (?:bank )?(?:charges|fees|interest)|interest (?:charged|accrued)|payroll notice|final pay|dahil sa bank", window):
         return True
     # "A 25% annualised historical return" on a statement is a past figure with a disclaimer, not a promise of a fast one.
     if rule_id == "unrealistic_return" and re.search(r"annuali[sz]ed|per annum|p\.a\.|historical|past performance|year[- ]to[- ]date|since inception|last (?:year|quarter)", window) and not re.search(r"daily|weekly|per (?:day|week)|overnight|guarantee|risk[- ]free", window):
@@ -203,10 +219,15 @@ def analyze(text: str, source_url: str = "", online_checks: bool = False, messag
     original_url = str(source_url or "")
     norm = normalize_detailed(original_text); value = norm.normalized
     conversation = analyze_conversation(_coerce_messages(text, messages)); findings = []; raw_rule_points = 0
+    folded = fold_for_matching(value)
+    folded_de = fold_german(folded)  # ae/oe/ue as well, for German typed without umlauts
     for rule in RULES:
-        match = re.search(rule.pattern, value, flags=re.I | re.S)
-        if not match or _negated_or_educational(rule.id, value, match): continue
-        findings.append({"id": rule.id, "category": rule.category, "title": rule.title, "severity": rule.severity, "weight": rule.weight, "evidence": _evidence(value, match), "explanation": rule.explanation, "action": rule.action}); raw_rule_points += rule.weight
+        subject = (folded_de if rule.id.startswith("de_") else folded) if rule.fold else value
+        match = re.search(rule.pattern, subject, flags=re.I | re.S)
+        if not match or _negated_or_educational(rule.id, subject, match): continue
+        # Latin folding keeps offsets, so the evidence shown is the message as it was written, accents and all.
+        shown = value if len(subject) == len(value) else subject
+        findings.append({"id": rule.id, "category": rule.category, "title": rule.title, "severity": rule.severity, "weight": rule.weight, "evidence": _evidence(shown, match), "explanation": rule.explanation, "action": rule.action}); raw_rule_points += rule.weight
     entities = extract_entities(value)
     if source_url and source_url not in entities["urls"]: entities["urls"].insert(0, source_url)
     url_analysis = [inspect_url(x) for x in entities["urls"][:10]]
