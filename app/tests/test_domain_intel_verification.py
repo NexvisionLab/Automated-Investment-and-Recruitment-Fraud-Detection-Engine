@@ -25,24 +25,35 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
         self.assertEqual(result["region_label"], "Singapore")
 
     def test_an_unlisted_country_gets_only_the_global_sources_not_another_countrys(self):
-        # UAE is deliberately not curated yet - its regulator was mid-transition (SCA -> CMA)
-        # when the rest of this round was researched, too uncertain to link confidently.
-        result = verification_workflow(country_code="AE")
-        self.assertEqual(result["region_label"], "")
-        self.assertEqual(result["official_sources"], _GLOBAL_SOURCES)
-        self.assertIn("No country-specific list", result["note"])
+        # Israel and UAE are deliberately not curated yet - no official URL could be confirmed
+        # with confidence for Israel, and UAE's regulator was mid-transition (SCA -> CMA) when
+        # this was researched. Both still fall back to the global references, never another
+        # country's links.
+        for code in ("IL", "AE"):
+            result = verification_workflow(country_code=code)
+            self.assertEqual(result["region_label"], "", code)
+            self.assertEqual(result["official_sources"], _GLOBAL_SOURCES, code)
+            self.assertIn("No country-specific list", result["note"])
 
-    def test_every_major_eu_country_and_china_japan_added_this_round_resolves(self):
+    def test_every_major_eu_country_and_china_japan_added_round_2_resolves(self):
         for code, name in (("DE", "Germany"), ("FR", "France"), ("IT", "Italy"), ("ES", "Spain"),
                            ("NL", "Netherlands"), ("CN", "China"), ("JP", "Japan")):
             result = verification_workflow(country_code=code)
             self.assertEqual(result["region_label"], name, code)
             self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
 
-    def test_every_country_added_this_round_resolves(self):
+    def test_every_country_added_round_3_resolves(self):
         for code, name in (("KR", "South Korea"), ("TH", "Thailand"), ("VN", "Vietnam"), ("NG", "Nigeria"),
                            ("ZA", "South Africa"), ("BR", "Brazil"), ("MX", "Mexico"), ("NZ", "New Zealand"),
                            ("HK", "Hong Kong")):
+            result = verification_workflow(country_code=code)
+            self.assertEqual(result["region_label"], name, code)
+            self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
+
+    def test_every_country_added_round_4_resolves(self):
+        for code, name in (("SA", "Saudi Arabia"), ("TR", "Turkey"), ("PK", "Pakistan"), ("BD", "Bangladesh"),
+                           ("CH", "Switzerland"), ("SE", "Sweden"), ("IE", "Ireland"), ("AR", "Argentina"),
+                           ("TW", "Taiwan")):
             result = verification_workflow(country_code=code)
             self.assertEqual(result["region_label"], name, code)
             self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
