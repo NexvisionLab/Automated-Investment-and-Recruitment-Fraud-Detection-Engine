@@ -339,6 +339,39 @@ _COUNTRY_SOURCES = {
     "PH": {"name": "Philippines", "sources": [
         {"name": "SEC Philippines", "url": "https://www.sec.gov.ph"},
     ]},
+    "DE": {"name": "Germany", "sources": [
+        {"name": "BaFin (Federal Financial Supervisory Authority)", "url": "https://www.bafin.de"},
+        {"name": "Handelsregister - Company Register", "url": "https://www.handelsregister.de"},
+        {"name": "Verbraucherzentrale Fakeshop-Finder", "url": "https://www.verbraucherzentrale.de/fakeshopfinder-71560"},
+    ]},
+    "FR": {"name": "France", "sources": [
+        {"name": "AMF - Listes noires et mises en garde", "url": "https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-noires-et-mises-en-garde"},
+        {"name": "ABE Infoservice - Listes noires et alertes", "url": "https://www.abe-infoservice.fr/liste-noire/listes-noires-et-alertes-des-autorites"},
+        {"name": "Infogreffe - Company Register", "url": "https://www.infogreffe.fr"},
+    ]},
+    "IT": {"name": "Italy", "sources": [
+        {"name": "CONSOB", "url": "https://www.consob.it"},
+        {"name": "Registro Imprese - Company Register", "url": "https://www.registroimprese.it"},
+        {"name": "Polizia Postale - Report Online Fraud", "url": "https://www.commissariatodips.it"},
+    ]},
+    "ES": {"name": "Spain", "sources": [
+        {"name": "CNMV", "url": "https://www.cnmv.es"},
+        {"name": "INCIBE", "url": "https://www.incibe.es"},
+        {"name": "OSI - Oficina de Seguridad del Internauta", "url": "https://www.osi.es"},
+    ]},
+    "NL": {"name": "Netherlands", "sources": [
+        {"name": "AFM (Authority for the Financial Markets)", "url": "https://www.afm.nl"},
+        {"name": "KVK Company Search", "url": "https://www.kvk.nl/zoeken"},
+        {"name": "Fraudehelpdesk", "url": "https://www.fraudehelpdesk.nl"},
+    ]},
+    "CN": {"name": "China", "sources": [
+        {"name": "National Enterprise Credit Information Publicity System", "url": "https://www.gsxt.gov.cn"},
+        {"name": "CSRC (China Securities Regulatory Commission)", "url": "https://www.csrc.gov.cn"},
+    ]},
+    "JP": {"name": "Japan", "sources": [
+        {"name": "FSA - Licensed Financial Institutions List", "url": "https://www.fsa.go.jp/en/regulated/licensed/index.html"},
+        {"name": "National Police Agency", "url": "https://www.npa.go.jp"},
+    ]},
 }
 _GLOBAL_SOURCES = [
     {"name": "ICANN Lookup (domain WHOIS)", "url": "https://lookup.icann.org"},
