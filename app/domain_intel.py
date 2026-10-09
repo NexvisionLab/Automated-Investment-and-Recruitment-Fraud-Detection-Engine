@@ -507,6 +507,59 @@ _COUNTRY_SOURCES = {
         {"name": "FATA - Cyber Police", "url": "https://cyberpolice.ir/en"},
         {"name": "NAJA (Police Command of the Islamic Republic of Iran)", "url": "https://police.ir"},
     ]},
+    "NO": {"name": "Norway", "sources": [
+        {"name": "Finanstilsynet (Financial Supervisory Authority)", "url": "https://www.finanstilsynet.no"},
+    ]},
+    "DK": {"name": "Denmark", "sources": [
+        {"name": "Finanstilsynet (Danish FSA)", "url": "https://www.dfsa.dk"},
+    ]},
+    "FI": {"name": "Finland", "sources": [
+        {"name": "Finanssivalvonta (Financial Supervisory Authority)", "url": "https://www.finanssivalvonta.fi"},
+    ]},
+    "CZ": {"name": "Czech Republic", "sources": [
+        {"name": "Czech National Bank (CNB)", "url": "https://www.cnb.cz"},
+    ]},
+    "HU": {"name": "Hungary", "sources": [
+        {"name": "MNB (Central Bank of Hungary)", "url": "https://www.mnb.hu"},
+    ]},
+    "RO": {"name": "Romania", "sources": [
+        {"name": "ASF (Financial Supervisory Authority)", "url": "https://asfromania.ro"},
+    ]},
+    "GR": {"name": "Greece", "sources": [
+        {"name": "HCMC (Hellenic Capital Market Commission)", "url": "https://www.hcmc.gr"},
+    ]},
+    "LU": {"name": "Luxembourg", "sources": [
+        {"name": "CSSF (Commission de Surveillance du Secteur Financier)", "url": "https://www.cssf.lu"},
+    ]},
+    "HR": {"name": "Croatia", "sources": [
+        {"name": "HANFA (Croatian Financial Services Supervisory Agency)", "url": "https://www.hanfa.hr"},
+    ]},
+    "PE": {"name": "Peru", "sources": [
+        {"name": "SUNARP (National Superintendency of Public Registries)", "url": "https://www.sunarp.gob.pe"},
+    ]},
+    "UY": {"name": "Uruguay", "sources": [
+        {"name": "BCU (Banco Central del Uruguay)", "url": "https://www.bcu.gub.uy"},
+    ]},
+    "PA": {"name": "Panama", "sources": [
+        {"name": "SMV (Superintendencia del Mercado de Valores)", "url": "https://www.supervalores.gob.pa"},
+    ]},
+    "DO": {"name": "Dominican Republic", "sources": [
+        {"name": "SIMV (Superintendencia del Mercado de Valores)", "url": "https://www.simv.gob.do"},
+    ]},
+    "NP": {"name": "Nepal", "sources": [
+        {"name": "SEBON (Securities Board of Nepal)", "url": "https://www.sebon.gov.np"},
+    ]},
+    "JO": {"name": "Jordan", "sources": [
+        {"name": "JSC (Jordan Securities Commission)", "url": "https://www.jsc.gov.jo"},
+    ]},
+    "GH": {"name": "Ghana", "sources": [
+        {"name": "SEC (Securities and Exchange Commission)", "url": "https://sec.gov.gh"},
+        {"name": "Registrar General's Department", "url": "https://www.rgd.gov.gh"},
+    ]},
+    "UG": {"name": "Uganda", "sources": [
+        {"name": "CMA (Capital Markets Authority)", "url": "https://www.cmauganda.co.ug"},
+        {"name": "URSB (Uganda Registration Services Bureau)", "url": "https://ursb.go.ug"},
+    ]},
 }
 _GLOBAL_SOURCES = [
     {"name": "ICANN Lookup (domain WHOIS)", "url": "https://lookup.icann.org"},
