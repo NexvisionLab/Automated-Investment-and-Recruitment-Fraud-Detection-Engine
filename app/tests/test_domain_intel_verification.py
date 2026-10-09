@@ -25,10 +25,17 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
         self.assertEqual(result["region_label"], "Singapore")
 
     def test_an_unlisted_country_gets_only_the_global_sources_not_another_countrys(self):
-        result = verification_workflow(country_code="FR")
+        result = verification_workflow(country_code="BR")  # Brazil is not curated yet
         self.assertEqual(result["region_label"], "")
         self.assertEqual(result["official_sources"], _GLOBAL_SOURCES)
         self.assertIn("No country-specific list", result["note"])
+
+    def test_every_major_eu_country_and_china_japan_added_this_round_resolves(self):
+        for code, name in (("DE", "Germany"), ("FR", "France"), ("IT", "Italy"), ("ES", "Spain"),
+                           ("NL", "Netherlands"), ("CN", "China"), ("JP", "Japan")):
+            result = verification_workflow(country_code=code)
+            self.assertEqual(result["region_label"], name, code)
+            self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
 
     def test_no_country_code_at_all_behaves_the_same_as_unlisted(self):
         result = verification_workflow()
