@@ -410,6 +410,39 @@ _COUNTRY_SOURCES = {
         {"name": "SFC Alert List", "url": "https://www.sfc.hk/en/alert-list"},
         {"name": "Companies Registry", "url": "https://www.cr.gov.hk"},
     ]},
+    "SA": {"name": "Saudi Arabia", "sources": [
+        {"name": "CMA - Unlicensed Companies List", "url": "https://cma.gov.sa/en/Awareness/Pages/ForexN.aspx"},
+    ]},
+    "TR": {"name": "Turkey", "sources": [
+        {"name": "SPK (Capital Markets Board)", "url": "https://spk.gov.tr"},
+    ]},
+    "PK": {"name": "Pakistan", "sources": [
+        {"name": "SECP (Securities and Exchange Commission of Pakistan)", "url": "https://www.secp.gov.pk"},
+    ]},
+    "BD": {"name": "Bangladesh", "sources": [
+        {"name": "BSEC (Bangladesh Securities and Exchange Commission)", "url": "https://sec.gov.bd"},
+    ]},
+    "CH": {"name": "Switzerland", "sources": [
+        {"name": "FINMA (Swiss Financial Market Supervisory Authority)", "url": "https://www.finma.ch"},
+        {"name": "Zefix - Central Business Names Index", "url": "https://www.zefix.ch"},
+    ]},
+    "SE": {"name": "Sweden", "sources": [
+        {"name": "Finansinspektionen - Investor Alerts", "url": "https://www.fi.se/en/our-registers/investor-alerts"},
+        {"name": "Bolagsverket - Company Register", "url": "https://www.bolagsverket.se"},
+        {"name": "Polisen (Swedish Police)", "url": "https://polisen.se"},
+    ]},
+    "IE": {"name": "Ireland", "sources": [
+        {"name": "Central Bank of Ireland", "url": "https://www.centralbank.ie"},
+        {"name": "CRO - Company Search", "url": "https://core.cro.ie"},
+        {"name": "Garda - Cybercrime", "url": "https://www.garda.ie/cybercrime"},
+    ]},
+    "AR": {"name": "Argentina", "sources": [
+        {"name": "CNV (Comisión Nacional de Valores)", "url": "https://www.cnv.gov.ar"},
+    ]},
+    "TW": {"name": "Taiwan", "sources": [
+        {"name": "165 Anti-Fraud Hotline", "url": "https://165.npa.gov.tw"},
+        {"name": "FSC (Financial Supervisory Commission)", "url": "https://www.fsc.gov.tw"},
+    ]},
 }
 _GLOBAL_SOURCES = [
     {"name": "ICANN Lookup (domain WHOIS)", "url": "https://lookup.icann.org"},
