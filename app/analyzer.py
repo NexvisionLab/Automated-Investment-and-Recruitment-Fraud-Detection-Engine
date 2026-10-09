@@ -214,7 +214,7 @@ def _risk_band(score: int, abstained: bool, strong_rule: bool) -> tuple[str, str
     return "Low", "No strong indicator was found, but this is not proof of legitimacy."
 
 
-def analyze(text: str, source_url: str = "", online_checks: bool = False, messages: list[dict] | None = None, claimed_company: str = "", claimed_domain: str = "", recruiter_email: str = "", claimed_license: str = "") -> dict:
+def analyze(text: str, source_url: str = "", online_checks: bool = False, messages: list[dict] | None = None, claimed_company: str = "", claimed_domain: str = "", recruiter_email: str = "", claimed_license: str = "", country_code: str = "") -> dict:
     original_text = str(text or "")
     original_url = str(source_url or "")
     norm = normalize_detailed(original_text); value = norm.normalized
@@ -244,7 +244,7 @@ def analyze(text: str, source_url: str = "", online_checks: bool = False, messag
     total = min(100, rule_component + url_points + identity_points + unicode_points + conversation["escalation_score"] + model_points)
     band, summary = _risk_band(total, ml["abstained"], strong_rule)
     live = [online_domain_check(x["host"]) for x in url_analysis if online_checks and x.get("host")][:3]
-    verification = verification_workflow(claimed_company, claimed_domain, recruiter_email, claimed_license)
+    verification = verification_workflow(claimed_company, claimed_domain, recruiter_email, claimed_license, country_code)
     actions = list(dict.fromkeys(x["action"] for x in findings))[:6] or ["Verify the sender and offer through independently located official channels before acting."]
     primary = findings[0]["category"] if findings else "No decisive pattern"
     level = {"Critical": "critical", "High": "high", "Elevated": "caution", "Low": "low", "Needs review": "review"}[band]
