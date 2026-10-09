@@ -440,7 +440,7 @@ _COUNTRY_SOURCES = {
     ]},
     "BD": {"name": "Bangladesh", "sources": [
         {"name": "BSEC (Bangladesh Securities and Exchange Commission)", "url": "https://sec.gov.bd"},
-        {"name": "CID - Cyber Police", "url": "https://cid.gov.bd"},
+        {"name": "CID - Cyber Police", "url": "https://www.cid.gov.bd"},
     ]},
     "CH": {"name": "Switzerland", "sources": [
         {"name": "FINMA (Swiss Financial Market Supervisory Authority)", "url": "https://www.finma.ch"},
@@ -485,7 +485,7 @@ _COUNTRY_SOURCES = {
     ]},
     "CL": {"name": "Chile", "sources": [
         {"name": "CMF (Comisión para el Mercado Financiero)", "url": "https://www.cmfchile.cl"},
-        {"name": "PDI - Policía de Investigaciones", "url": "https://www.investigaciones.cl"},
+        {"name": "PDI - Policía de Investigaciones", "url": "https://www.pdi.cl"},
     ]},
     "CO": {"name": "Colombia", "sources": [
         {"name": "Superintendencia Financiera de Colombia", "url": "https://www.superfinanciera.gov.co"},

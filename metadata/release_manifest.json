@@ -115,8 +115,8 @@
     },
     {
       "path": "app/domain_intel.py",
-      "sha256": "8279652f6955e2b383cffc15a3afcd0e2ece0f19bb1a938b0065a425c8d4c681",
-      "size_bytes": 30781
+      "sha256": "67eb8fb46c195c0c53329f868a767a27f93c44bf000f75e521d777ad7b02376e",
+      "size_bytes": 30773
     },
     {
       "path": "app/normalization.py",
@@ -430,6 +430,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "56b989c0fdcd18d7500aed246706e752aad1d02d6156918c45d17e9a161711d8",
-  "total_size_bytes": 130490434
+  "release_digest": "ef16de9560eff5071542384ba2bafa589292dadfcb96094cd4c8fbcb82510136",
+  "total_size_bytes": 130490426
 }
