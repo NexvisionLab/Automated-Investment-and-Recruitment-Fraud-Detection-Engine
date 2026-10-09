@@ -307,6 +307,7 @@ _COUNTRY_SOURCES = {
         {"name": "SEC Investor.gov - Check Out Your Investment Professional",
          "url": "https://www.investor.gov/introduction-investing/getting-started/working-investment-professional/check-out-your-investment-professional"},
         {"name": "FTC - Report Fraud", "url": "https://reportfraud.ftc.gov"},
+        {"name": "FBI IC3 - Internet Crime Complaint Center", "url": "https://www.ic3.gov"},
     ]},
     "GB": {"name": "United Kingdom", "sources": [
         {"name": "FCA Financial Services Register", "url": "https://www.fca.org.uk/firms/financial-services-register"},
@@ -316,6 +317,7 @@ _COUNTRY_SOURCES = {
     "AU": {"name": "Australia", "sources": [
         {"name": "ASIC MoneySmart - Check ASIC Lists", "url": "https://www.moneysmart.gov.au/tools-and-resources/check-asic-lists"},
         {"name": "Scamwatch - Report a Scam", "url": "https://www.scamwatch.gov.au/report-a-scam"},
+        {"name": "ReportCyber (Australian Cyber Security Centre)", "url": "https://www.cyber.gov.au"},
     ]},
     "CA": {"name": "Canada", "sources": [
         {"name": "Canadian Securities Administrators - National Registration Search", "url": "https://www.securities-administrators.ca"},
@@ -343,11 +345,13 @@ _COUNTRY_SOURCES = {
         {"name": "BaFin (Federal Financial Supervisory Authority)", "url": "https://www.bafin.de"},
         {"name": "Handelsregister - Company Register", "url": "https://www.handelsregister.de"},
         {"name": "Verbraucherzentrale Fakeshop-Finder", "url": "https://www.verbraucherzentrale.de/fakeshopfinder-71560"},
+        {"name": "Bundeskriminalamt (Federal Criminal Police Office)", "url": "https://www.bka.de"},
     ]},
     "FR": {"name": "France", "sources": [
         {"name": "AMF - Listes noires et mises en garde", "url": "https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-noires-et-mises-en-garde"},
         {"name": "ABE Infoservice - Listes noires et alertes", "url": "https://www.abe-infoservice.fr/liste-noire/listes-noires-et-alertes-des-autorites"},
         {"name": "Infogreffe - Company Register", "url": "https://www.infogreffe.fr"},
+        {"name": "PHAROS - Report Illicit Online Content", "url": "https://www.internet-signalement.gouv.fr"},
     ]},
     "IT": {"name": "Italy", "sources": [
         {"name": "CONSOB", "url": "https://www.consob.it"},
@@ -358,15 +362,18 @@ _COUNTRY_SOURCES = {
         {"name": "CNMV", "url": "https://www.cnmv.es"},
         {"name": "INCIBE", "url": "https://www.incibe.es"},
         {"name": "OSI - Oficina de Seguridad del Internauta", "url": "https://www.osi.es"},
+        {"name": "Policía Nacional", "url": "https://www.policia.es"},
     ]},
     "NL": {"name": "Netherlands", "sources": [
         {"name": "AFM (Authority for the Financial Markets)", "url": "https://www.afm.nl"},
         {"name": "KVK Company Search", "url": "https://www.kvk.nl/zoeken"},
         {"name": "Fraudehelpdesk", "url": "https://www.fraudehelpdesk.nl"},
+        {"name": "Politie (Dutch Police)", "url": "https://www.politie.nl"},
     ]},
     "CN": {"name": "China", "sources": [
         {"name": "National Enterprise Credit Information Publicity System", "url": "https://www.gsxt.gov.cn"},
         {"name": "CSRC (China Securities Regulatory Commission)", "url": "https://www.csrc.gov.cn"},
+        {"name": "12377 - China Internet Illegal Information Reporting Center", "url": "https://www.12377.cn"},
     ]},
     "JP": {"name": "Japan", "sources": [
         {"name": "FSA - Licensed Financial Institutions List", "url": "https://www.fsa.go.jp/en/regulated/licensed/index.html"},
@@ -379,9 +386,11 @@ _COUNTRY_SOURCES = {
     "TH": {"name": "Thailand", "sources": [
         {"name": "SEC Thailand", "url": "https://www.sec.or.th"},
         {"name": "DBD (Department of Business Development)", "url": "https://www.dbd.go.th"},
+        {"name": "Royal Thai Police Online (Report a Scam)", "url": "https://www.thaipoliceonline.go.th"},
     ]},
     "VN": {"name": "Vietnam", "sources": [
         {"name": "State Securities Commission of Vietnam", "url": "https://www.ssc.gov.vn"},
+        {"name": "Ministry of Public Security", "url": "https://en.mps.gov.vn"},
     ]},
     "NG": {"name": "Nigeria", "sources": [
         {"name": "SEC Nigeria - Scammer Alert", "url": "https://sec.gov.ng/for-investors/keep-track-of-circulars/scammer-alert/"},
@@ -396,6 +405,7 @@ _COUNTRY_SOURCES = {
     "BR": {"name": "Brazil", "sources": [
         {"name": "CVM (Comissão de Valores Mobiliários)", "url": "https://www.cvm.gov.br"},
         {"name": "Portal do Investidor", "url": "https://www.portaldoinvestidor.gov.br"},
+        {"name": "Polícia Federal", "url": "https://www.gov.br/pf"},
     ]},
     "MX": {"name": "Mexico", "sources": [
         {"name": "CNBV (Comisión Nacional Bancaria y de Valores)", "url": "https://www.gob.mx/cnbv"},
@@ -405,19 +415,24 @@ _COUNTRY_SOURCES = {
         {"name": "FMA - Warnings and Alerts", "url": "https://www.fma.govt.nz/library/warnings-and-alerts"},
         {"name": "New Zealand Companies Register", "url": "https://www.companiesoffice.govt.nz"},
         {"name": "Netsafe", "url": "https://www.netsafe.org.nz"},
+        {"name": "New Zealand Police - Report Fraud", "url": "https://www.police.govt.nz"},
     ]},
     "HK": {"name": "Hong Kong", "sources": [
         {"name": "SFC Alert List", "url": "https://www.sfc.hk/en/alert-list"},
         {"name": "Companies Registry", "url": "https://www.cr.gov.hk"},
+        {"name": "Hong Kong Police Force", "url": "https://www.police.gov.hk"},
     ]},
     "SA": {"name": "Saudi Arabia", "sources": [
         {"name": "CMA - Unlicensed Companies List", "url": "https://cma.gov.sa/en/Awareness/Pages/ForexN.aspx"},
+        {"name": "Absher - Report Cybercrime", "url": "https://www.absher.sa"},
     ]},
     "TR": {"name": "Turkey", "sources": [
         {"name": "SPK (Capital Markets Board)", "url": "https://spk.gov.tr"},
+        {"name": "İhbarWeb - Internet Information Reporting Center", "url": "https://www.ihbarweb.org.tr"},
     ]},
     "PK": {"name": "Pakistan", "sources": [
         {"name": "SECP (Securities and Exchange Commission of Pakistan)", "url": "https://www.secp.gov.pk"},
+        {"name": "FIA NR3C (National Response Centre for Cyber Crime)", "url": "https://www.nr3c.gov.pk"},
     ]},
     "BD": {"name": "Bangladesh", "sources": [
         {"name": "BSEC (Bangladesh Securities and Exchange Commission)", "url": "https://sec.gov.bd"},
@@ -425,6 +440,7 @@ _COUNTRY_SOURCES = {
     "CH": {"name": "Switzerland", "sources": [
         {"name": "FINMA (Swiss Financial Market Supervisory Authority)", "url": "https://www.finma.ch"},
         {"name": "Zefix - Central Business Names Index", "url": "https://www.zefix.ch"},
+        {"name": "NCSC (National Cyber Security Centre) - Report an Incident", "url": "https://www.ncsc.admin.ch"},
     ]},
     "SE": {"name": "Sweden", "sources": [
         {"name": "Finansinspektionen - Investor Alerts", "url": "https://www.fi.se/en/our-registers/investor-alerts"},
@@ -446,10 +462,12 @@ _COUNTRY_SOURCES = {
     "PL": {"name": "Poland", "sources": [
         {"name": "KNF - Public Warning List", "url": "https://www.knf.gov.pl/dla_konsumenta/ostrzezenia_publiczne"},
         {"name": "KRS - National Court Register Search", "url": "https://ekrs.ms.gov.pl"},
+        {"name": "Policja (Polish Police)", "url": "https://www.policja.pl"},
     ]},
     "BE": {"name": "Belgium", "sources": [
         {"name": "FSMA (Financial Services and Markets Authority)", "url": "https://www.fsma.be"},
         {"name": "KBO Public Search - Company Register", "url": "https://kbopub.economie.fgov.be"},
+        {"name": "Police - Report Fraud", "url": "https://www.police.be"},
     ]},
     "PT": {"name": "Portugal", "sources": [
         {"name": "CMVM (Comissão do Mercado de Valores Mobiliários)", "url": "https://www.cmvm.pt"},
@@ -457,12 +475,15 @@ _COUNTRY_SOURCES = {
     "AT": {"name": "Austria", "sources": [
         {"name": "FMA (Financial Market Authority)", "url": "https://www.fma.gv.at"},
         {"name": "Watchlist Internet", "url": "https://www.watchlist-internet.at"},
+        {"name": "Bundeskriminalamt (Federal Criminal Police Office)", "url": "https://www.bundeskriminalamt.at"},
     ]},
     "CL": {"name": "Chile", "sources": [
         {"name": "CMF (Comisión para el Mercado Financiero)", "url": "https://www.cmfchile.cl"},
+        {"name": "PDI - Policía de Investigaciones", "url": "https://www.investigaciones.cl"},
     ]},
     "CO": {"name": "Colombia", "sources": [
         {"name": "Superintendencia Financiera de Colombia", "url": "https://www.superfinanciera.gov.co"},
+        {"name": "CAI Virtual (Policía Nacional)", "url": "https://caivirtual.policia.gov.co"},
     ]},
     "KE": {"name": "Kenya", "sources": [
         {"name": "CMA (Capital Markets Authority)", "url": "https://www.cma.or.ke"},
