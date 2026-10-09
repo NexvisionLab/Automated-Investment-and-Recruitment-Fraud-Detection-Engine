@@ -443,6 +443,36 @@ _COUNTRY_SOURCES = {
         {"name": "165 Anti-Fraud Hotline", "url": "https://165.npa.gov.tw"},
         {"name": "FSC (Financial Supervisory Commission)", "url": "https://www.fsc.gov.tw"},
     ]},
+    "PL": {"name": "Poland", "sources": [
+        {"name": "KNF - Public Warning List", "url": "https://www.knf.gov.pl/dla_konsumenta/ostrzezenia_publiczne"},
+        {"name": "KRS - National Court Register Search", "url": "https://ekrs.ms.gov.pl"},
+    ]},
+    "BE": {"name": "Belgium", "sources": [
+        {"name": "FSMA (Financial Services and Markets Authority)", "url": "https://www.fsma.be"},
+        {"name": "KBO Public Search - Company Register", "url": "https://kbopub.economie.fgov.be"},
+    ]},
+    "PT": {"name": "Portugal", "sources": [
+        {"name": "CMVM (Comissão do Mercado de Valores Mobiliários)", "url": "https://www.cmvm.pt"},
+    ]},
+    "AT": {"name": "Austria", "sources": [
+        {"name": "FMA (Financial Market Authority)", "url": "https://www.fma.gv.at"},
+        {"name": "Watchlist Internet", "url": "https://www.watchlist-internet.at"},
+    ]},
+    "CL": {"name": "Chile", "sources": [
+        {"name": "CMF (Comisión para el Mercado Financiero)", "url": "https://www.cmfchile.cl"},
+    ]},
+    "CO": {"name": "Colombia", "sources": [
+        {"name": "Superintendencia Financiera de Colombia", "url": "https://www.superfinanciera.gov.co"},
+    ]},
+    "KE": {"name": "Kenya", "sources": [
+        {"name": "CMA (Capital Markets Authority)", "url": "https://www.cma.or.ke"},
+    ]},
+    "EG": {"name": "Egypt", "sources": [
+        {"name": "FRA (Financial Regulatory Authority)", "url": "https://fra.gov.eg"},
+    ]},
+    "RU": {"name": "Russia", "sources": [
+        {"name": "Bank of Russia - Warning List", "url": "https://www.cbr.ru/inside/warning-list/"},
+    ]},
 }
 _GLOBAL_SOURCES = [
     {"name": "ICANN Lookup (domain WHOIS)", "url": "https://lookup.icann.org"},
