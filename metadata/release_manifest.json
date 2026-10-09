@@ -1,7 +1,7 @@
 {
   "algorithm": "SHA-256",
   "dataset_version": "1.2.0",
-  "file_count": 84,
+  "file_count": 85,
   "files": [
     {
       "path": ".github/dependabot.yml",
@@ -95,8 +95,8 @@
     },
     {
       "path": "app/analyzer.py",
-      "sha256": "0589123c14b8650e9d112e5b85d4af22555a91d77d6268f4607ba63f465ab89a",
-      "size_bytes": 21474
+      "sha256": "0324d4db7b61d9bc266ae0fb01c714c4b9b382c958011491755fe0773f58479f",
+      "size_bytes": 21512
     },
     {
       "path": "app/classifier.py",
@@ -115,8 +115,8 @@
     },
     {
       "path": "app/domain_intel.py",
-      "sha256": "913f546c9d6eb02992ad04447cefcf6ecc63f1383eab28a288f1a19378ae86b4",
-      "size_bytes": 13795
+      "sha256": "05211edfd1874e758f8eea4d450e88bc69c802004a258add4392e5cc52d15855",
+      "size_bytes": 17182
     },
     {
       "path": "app/normalization.py",
@@ -207,6 +207,11 @@
       "path": "app/tests/test_csv_benchmark_gaps.py",
       "sha256": "3d74f905a35227a31b8445acba51765b5bf6a2d32c7659219a27ac5ee458ef7a",
       "size_bytes": 11020
+    },
+    {
+      "path": "app/tests/test_domain_intel_verification.py",
+      "sha256": "dff0aacf92013ffc411aca0849ee28821bccf18bcc02f01a3f676a2a2fe356f8",
+      "size_bytes": 2525
     },
     {
       "path": "app/tests/test_hardening.py",
@@ -425,6 +430,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "ffc1abb5f57b02aecf4df1c38a5f0e21e04cf61a58b0ac22534f506d260f7217",
-  "total_size_bytes": 130465705
+  "release_digest": "3aeefd2a2f515f764fcb76bbc0fe5f4b681fe3a284bb13ba9fd2def59dfec73d",
+  "total_size_bytes": 130471655
 }

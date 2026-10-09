@@ -291,7 +291,62 @@ def dns_email_domain_analysis(domain: str) -> dict:
             "limitations": "DNS presence is not proof of legitimacy; absence may be benign. UDP replies may be truncated."}
 
 
-def verification_workflow(claimed_company: str = "", claimed_domain: str = "", recruiter_email: str = "", claimed_license: str = "") -> dict:
+# Financial regulator, company registry and scam-reporting references by country (ISO 3166-1
+# alpha-2). Each entry was individually verified against the agency's own site or recent official
+# coverage, not guessed - these are links an investigator may actually click and trust, so a wrong
+# or stale one is worse than no entry at all. Add a country only once its links are verified the
+# same way; an unlisted country still gets _GLOBAL_SOURCES, never a blank list.
+_COUNTRY_SOURCES = {
+    "SG": {"name": "Singapore", "sources": [
+        {"name": "Singapore MAS Financial Institutions Directory", "url": "https://eservices.mas.gov.sg/fid"},
+        {"name": "Singapore MAS Investor Alert List", "url": "https://www.mas.gov.sg/investor-alert-list"},
+        {"name": "Singapore ACRA BizFile", "url": "https://www.bizfile.gov.sg"},
+        {"name": "Singapore ScamShield", "url": "https://www.scamshield.gov.sg"},
+    ]},
+    "US": {"name": "United States", "sources": [
+        {"name": "SEC Investor.gov - Check Out Your Investment Professional",
+         "url": "https://www.investor.gov/introduction-investing/getting-started/working-investment-professional/check-out-your-investment-professional"},
+        {"name": "FTC - Report Fraud", "url": "https://reportfraud.ftc.gov"},
+    ]},
+    "GB": {"name": "United Kingdom", "sources": [
+        {"name": "FCA Financial Services Register", "url": "https://www.fca.org.uk/firms/financial-services-register"},
+        {"name": "Companies House - Find a Company", "url": "https://find-and-update.company-information.service.gov.uk"},
+        {"name": "Action Fraud", "url": "https://www.actionfraud.police.uk"},
+    ]},
+    "AU": {"name": "Australia", "sources": [
+        {"name": "ASIC MoneySmart - Check ASIC Lists", "url": "https://www.moneysmart.gov.au/tools-and-resources/check-asic-lists"},
+        {"name": "Scamwatch - Report a Scam", "url": "https://www.scamwatch.gov.au/report-a-scam"},
+    ]},
+    "CA": {"name": "Canada", "sources": [
+        {"name": "Canadian Securities Administrators - National Registration Search", "url": "https://www.securities-administrators.ca"},
+        {"name": "Canadian Anti-Fraud Centre", "url": "https://antifraudcentre-centreantifraude.ca"},
+    ]},
+    "MY": {"name": "Malaysia", "sources": [
+        {"name": "Bank Negara Malaysia - Financial Consumer Alert", "url": "https://www.bnm.gov.my/fca"},
+        {"name": "SSM Company Search", "url": "https://www.ssm.com.my"},
+        {"name": "National Scam Response Centre (997)",
+         "url": "https://www.malaysia.gov.my/en/categories/safety-and-community/cybersecurity/nsrc-997-hotline"},
+    ]},
+    "IN": {"name": "India", "sources": [
+        {"name": "SEBI SCORES - Investor Complaints", "url": "https://scores.sebi.gov.in"},
+        {"name": "MCA Company Search", "url": "https://www.mca.gov.in"},
+        {"name": "National Cyber Crime Reporting Portal", "url": "https://cybercrime.gov.in"},
+    ]},
+    "ID": {"name": "Indonesia", "sources": [
+        {"name": "OJK (Financial Services Authority)", "url": "https://www.ojk.go.id"},
+        {"name": "AHU Online - Company Search", "url": "https://ahu.go.id/pencarian/profil-pt"},
+    ]},
+    "PH": {"name": "Philippines", "sources": [
+        {"name": "SEC Philippines", "url": "https://www.sec.gov.ph"},
+    ]},
+}
+_GLOBAL_SOURCES = [
+    {"name": "ICANN Lookup (domain WHOIS)", "url": "https://lookup.icann.org"},
+]
+
+
+def verification_workflow(claimed_company: str = "", claimed_domain: str = "", recruiter_email: str = "", claimed_license: str = "",
+                           country_code: str = "") -> dict:
     checks = []
     if claimed_company:
         checks.append({"status": "manual", "check": "Confirm the exact legal entity in the relevant company registry", "value": claimed_company})
@@ -306,14 +361,13 @@ def verification_workflow(claimed_company: str = "", claimed_domain: str = "", r
         {"status": "manual", "check": "Call a published switchboard number, not a number supplied in the message", "value": ""},
         {"status": "manual", "check": "Confirm the vacancy, representative, payment beneficiary, and licence separately", "value": ""},
     ])
+    entry = _COUNTRY_SOURCES.get((country_code or "").strip().upper())
+    note = "Links are references for the investigator. This checker does not submit your evidence to them or call their APIs."
+    if not entry:
+        note += " No country-specific list is available yet for your region; these are general references, alongside your own country's financial regulator and company registry."
     return {
         "checks": checks,
-        "official_sources": [
-            {"name": "Singapore MAS Financial Institutions Directory", "url": "https://eservices.mas.gov.sg/fid"},
-            {"name": "Singapore MAS Investor Alert List", "url": "https://www.mas.gov.sg/investor-alert-list"},
-            {"name": "Singapore ACRA BizFile", "url": "https://www.bizfile.gov.sg"},
-            {"name": "Singapore ScamShield", "url": "https://www.scamshield.gov.sg"},
-            {"name": "ICANN Lookup", "url": "https://lookup.icann.org"},
-        ],
-        "note": "Links are references for the investigator. This checker does not submit your evidence to them or call their APIs.",
+        "official_sources": (entry["sources"] if entry else []) + _GLOBAL_SOURCES,
+        "region_label": entry["name"] if entry else "",
+        "note": note,
     }
