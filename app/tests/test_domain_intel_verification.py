@@ -25,11 +25,11 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
         self.assertEqual(result["region_label"], "Singapore")
 
     def test_an_unlisted_country_gets_only_the_global_sources_not_another_countrys(self):
-        # Israel and UAE are deliberately not curated yet - no official URL could be confirmed
-        # with confidence for Israel, and UAE's regulator was mid-transition (SCA -> CMA) when
-        # this was researched. Both still fall back to the global references, never another
-        # country's links.
-        for code in ("IL", "AE"):
+        # Israel, UAE and Qatar are deliberately not curated yet - no official regulator URL
+        # could be confirmed with reasonable confidence for any of them (UAE's regulator was
+        # also mid-transition, SCA -> CMA, when this was researched). All three still fall back
+        # to the global references, never another country's links.
+        for code in ("IL", "AE", "QA"):
             result = verification_workflow(country_code=code)
             self.assertEqual(result["region_label"], "", code)
             self.assertEqual(result["official_sources"], _GLOBAL_SOURCES, code)
@@ -54,6 +54,13 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
         for code, name in (("SA", "Saudi Arabia"), ("TR", "Turkey"), ("PK", "Pakistan"), ("BD", "Bangladesh"),
                            ("CH", "Switzerland"), ("SE", "Sweden"), ("IE", "Ireland"), ("AR", "Argentina"),
                            ("TW", "Taiwan")):
+            result = verification_workflow(country_code=code)
+            self.assertEqual(result["region_label"], name, code)
+            self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
+
+    def test_every_country_added_round_5_resolves(self):
+        for code, name in (("PL", "Poland"), ("BE", "Belgium"), ("PT", "Portugal"), ("AT", "Austria"),
+                           ("CL", "Chile"), ("CO", "Colombia"), ("KE", "Kenya"), ("EG", "Egypt"), ("RU", "Russia")):
             result = verification_workflow(country_code=code)
             self.assertEqual(result["region_label"], name, code)
             self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
