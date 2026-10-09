@@ -29,7 +29,7 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
         # could be confirmed with reasonable confidence for any of them (UAE's regulator was
         # also mid-transition, SCA -> CMA, when this was researched). All three still fall back
         # to the global references, never another country's links.
-        for code in ("IL", "AE", "QA"):
+        for code in ("IL", "AE", "QA", "ZZ"):
             result = verification_workflow(country_code=code)
             self.assertEqual(result["region_label"], "", code)
             self.assertEqual(result["official_sources"], _GLOBAL_SOURCES, code)
@@ -65,6 +65,11 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
             self.assertEqual(result["region_label"], name, code)
             self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
 
+    def test_iran_resolves(self):
+        result = verification_workflow(country_code="IR")
+        self.assertEqual(result["region_label"], "Iran")
+        self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES))
+
     def test_no_country_code_at_all_behaves_the_same_as_unlisted(self):
         result = verification_workflow()
         self.assertEqual(result["region_label"], "")
@@ -81,17 +86,18 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
     def test_every_country_with_a_confirmed_police_or_cyber_police_source_has_one(self):
         # Ali asked for a police/cyber-police reference alongside the financial-regulator one,
         # wherever an official URL could be confirmed with reasonable confidence. This locks in
-        # the set added for that - it is not every covered country (some, like Bangladesh and
-        # Egypt, had no confirmable official police URL at research time), but none of these
-        # should regress to losing their police source.
+        # the set added for that - it is not every covered country (Argentina and Russia still
+        # have no confirmable official police URL - Russia's MVD only resolved to an unwieldy
+        # Cyrillic IDN domain), but none of these should regress to losing their police source.
         police_keywords = ("police", "polic", "polis", "polizei", "polizia", "polícia", "garda", "bka",
                             "bundeskriminalamt", "fraud centre", "scam response centre", "anti-fraud",
                             "cybercrime", "cyber crime", "efcc", "scamshield", "action fraud", "ic3", "nr3c",
                             "hbarweb", "ncsc", "absher", "12377", "pharos", "reportcyber", "cyber security centre",
-                            "public security")
+                            "public security", "pnp", "polri", "cid", "dci", "guardia nacional", "fata", "naja")
         countries_with_police = ("US", "GB", "AU", "CA", "MY", "IN", "DE", "FR", "IT", "ES", "NL", "CN", "JP",
-                                 "TH", "VN", "NG", "ZA", "BR", "NZ", "HK", "SA", "TR", "PK", "CH", "SE", "IE",
-                                 "TW", "PL", "BE", "AT", "CL", "CO")
+                                 "KR", "TH", "VN", "NG", "ZA", "BR", "MX", "NZ", "HK", "SA", "TR", "PK", "BD",
+                                 "CH", "SE", "IE", "TW", "PL", "BE", "PT", "AT", "CL", "CO", "KE", "EG", "ID", "PH",
+                                 "IR")
         for code in countries_with_police:
             names = " ".join(s["name"].lower() for s in _COUNTRY_SOURCES[code]["sources"])
             self.assertTrue(any(kw in names for kw in police_keywords), (code, names))
