@@ -70,6 +70,16 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
         self.assertEqual(result["region_label"], "Iran")
         self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES))
 
+    def test_every_country_added_round_6_resolves(self):
+        for code, name in (("NO", "Norway"), ("DK", "Denmark"), ("FI", "Finland"), ("CZ", "Czech Republic"),
+                           ("HU", "Hungary"), ("RO", "Romania"), ("GR", "Greece"), ("LU", "Luxembourg"),
+                           ("HR", "Croatia"), ("PE", "Peru"), ("UY", "Uruguay"), ("PA", "Panama"),
+                           ("DO", "Dominican Republic"), ("NP", "Nepal"), ("JO", "Jordan"), ("GH", "Ghana"),
+                           ("UG", "Uganda")):
+            result = verification_workflow(country_code=code)
+            self.assertEqual(result["region_label"], name, code)
+            self.assertGreater(len(result["official_sources"]), len(_GLOBAL_SOURCES), code)
+
     def test_no_country_code_at_all_behaves_the_same_as_unlisted(self):
         result = verification_workflow()
         self.assertEqual(result["region_label"], "")
