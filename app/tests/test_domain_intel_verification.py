@@ -78,6 +78,24 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
                 self.assertTrue(s.get("name"), code)
                 self.assertTrue(str(s.get("url", "")).startswith("https://"), (code, s))
 
+    def test_every_country_with_a_confirmed_police_or_cyber_police_source_has_one(self):
+        # Ali asked for a police/cyber-police reference alongside the financial-regulator one,
+        # wherever an official URL could be confirmed with reasonable confidence. This locks in
+        # the set added for that - it is not every covered country (some, like Bangladesh and
+        # Egypt, had no confirmable official police URL at research time), but none of these
+        # should regress to losing their police source.
+        police_keywords = ("police", "polic", "polis", "polizei", "polizia", "polícia", "garda", "bka",
+                            "bundeskriminalamt", "fraud centre", "scam response centre", "anti-fraud",
+                            "cybercrime", "cyber crime", "efcc", "scamshield", "action fraud", "ic3", "nr3c",
+                            "hbarweb", "ncsc", "absher", "12377", "pharos", "reportcyber", "cyber security centre",
+                            "public security")
+        countries_with_police = ("US", "GB", "AU", "CA", "MY", "IN", "DE", "FR", "IT", "ES", "NL", "CN", "JP",
+                                 "TH", "VN", "NG", "ZA", "BR", "NZ", "HK", "SA", "TR", "PK", "CH", "SE", "IE",
+                                 "TW", "PL", "BE", "AT", "CL", "CO")
+        for code in countries_with_police:
+            names = " ".join(s["name"].lower() for s in _COUNTRY_SOURCES[code]["sources"])
+            self.assertTrue(any(kw in names for kw in police_keywords), (code, names))
+
     def test_the_sender_checks_are_unaffected_by_country(self):
         result = verification_workflow(claimed_company="Acme Pte Ltd", country_code="US")
         self.assertTrue(any(c["check"].startswith("Confirm the exact legal entity") for c in result["checks"]))
