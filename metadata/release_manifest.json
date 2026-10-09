@@ -115,8 +115,8 @@
     },
     {
       "path": "app/domain_intel.py",
-      "sha256": "5af04bb3f36833204247e370269173d1eb10992e1f95b68f5d1e11b21bd7c2e3",
-      "size_bytes": 27921
+      "sha256": "1c46258d4f6168321468b273c04298908f9e9d34f93bce52bbf57bf28ef7d5ec",
+      "size_bytes": 28101
     },
     {
       "path": "app/normalization.py",
@@ -210,8 +210,8 @@
     },
     {
       "path": "app/tests/test_domain_intel_verification.py",
-      "sha256": "4f6dd0f3dd24e255ddf8a7267bafdfd0b608ae15585d651f6dfd7eaf2beee071",
-      "size_bytes": 6905
+      "sha256": "72e6b871475e658c56286221a46e6d5ebfaa839b33a0b7d013dc4d5d2eaf3193",
+      "size_bytes": 6960
     },
     {
       "path": "app/tests/test_hardening.py",
@@ -430,6 +430,6 @@
     }
   ],
   "generated_at": "2026-09-23",
-  "release_digest": "428cf8e71590b11701048a14ea36fc4fbe4fd15f0b80e7ed6df8704b4c03009f",
-  "total_size_bytes": 130486774
+  "release_digest": "1c7ce7236d9b71cfd2e896bd3bfa1d9051bc60ff9f2d421d2e9d457f61f51d53",
+  "total_size_bytes": 130487009
 }

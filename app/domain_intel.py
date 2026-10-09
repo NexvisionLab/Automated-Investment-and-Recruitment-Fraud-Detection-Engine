@@ -504,6 +504,8 @@ _COUNTRY_SOURCES = {
     ]},
     "IR": {"name": "Iran", "sources": [
         {"name": "SEO (Securities and Exchange Organization)", "url": "https://en.seo.ir"},
+        {"name": "FATA - Cyber Police", "url": "https://cyberpolice.ir/en"},
+        {"name": "NAJA (Police Command of the Islamic Republic of Iran)", "url": "https://police.ir"},
     ]},
 }
 _GLOBAL_SOURCES = [

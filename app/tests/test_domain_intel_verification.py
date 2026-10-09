@@ -93,10 +93,11 @@ class VerificationWorkflowCountryTests(unittest.TestCase):
                             "bundeskriminalamt", "fraud centre", "scam response centre", "anti-fraud",
                             "cybercrime", "cyber crime", "efcc", "scamshield", "action fraud", "ic3", "nr3c",
                             "hbarweb", "ncsc", "absher", "12377", "pharos", "reportcyber", "cyber security centre",
-                            "public security", "pnp", "polri", "cid", "dci", "guardia nacional")
+                            "public security", "pnp", "polri", "cid", "dci", "guardia nacional", "fata", "naja")
         countries_with_police = ("US", "GB", "AU", "CA", "MY", "IN", "DE", "FR", "IT", "ES", "NL", "CN", "JP",
                                  "KR", "TH", "VN", "NG", "ZA", "BR", "MX", "NZ", "HK", "SA", "TR", "PK", "BD",
-                                 "CH", "SE", "IE", "TW", "PL", "BE", "PT", "AT", "CL", "CO", "KE", "EG", "ID", "PH")
+                                 "CH", "SE", "IE", "TW", "PL", "BE", "PT", "AT", "CL", "CO", "KE", "EG", "ID", "PH",
+                                 "IR")
         for code in countries_with_police:
             names = " ".join(s["name"].lower() for s in _COUNTRY_SOURCES[code]["sources"])
             self.assertTrue(any(kw in names for kw in police_keywords), (code, names))
