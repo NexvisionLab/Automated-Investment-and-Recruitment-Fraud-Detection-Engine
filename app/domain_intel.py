@@ -372,6 +372,44 @@ _COUNTRY_SOURCES = {
         {"name": "FSA - Licensed Financial Institutions List", "url": "https://www.fsa.go.jp/en/regulated/licensed/index.html"},
         {"name": "National Police Agency", "url": "https://www.npa.go.jp"},
     ]},
+    "KR": {"name": "South Korea", "sources": [
+        {"name": "FSS (Financial Supervisory Service)", "url": "https://www.fss.or.kr"},
+        {"name": "DART - Electronic Disclosure System", "url": "https://dart.fss.or.kr"},
+    ]},
+    "TH": {"name": "Thailand", "sources": [
+        {"name": "SEC Thailand", "url": "https://www.sec.or.th"},
+        {"name": "DBD (Department of Business Development)", "url": "https://www.dbd.go.th"},
+    ]},
+    "VN": {"name": "Vietnam", "sources": [
+        {"name": "State Securities Commission of Vietnam", "url": "https://www.ssc.gov.vn"},
+    ]},
+    "NG": {"name": "Nigeria", "sources": [
+        {"name": "SEC Nigeria - Scammer Alert", "url": "https://sec.gov.ng/for-investors/keep-track-of-circulars/scammer-alert/"},
+        {"name": "CAC (Corporate Affairs Commission)", "url": "https://www.cac.gov.ng"},
+        {"name": "EFCC (Economic and Financial Crimes Commission)", "url": "https://www.efccnigeria.org"},
+    ]},
+    "ZA": {"name": "South Africa", "sources": [
+        {"name": "FSCA (Financial Sector Conduct Authority)", "url": "https://www.fsca.co.za"},
+        {"name": "CIPC - Company Search", "url": "https://www.cipc.co.za"},
+        {"name": "SAPS (South African Police Service)", "url": "https://www.saps.gov.za"},
+    ]},
+    "BR": {"name": "Brazil", "sources": [
+        {"name": "CVM (Comissão de Valores Mobiliários)", "url": "https://www.cvm.gov.br"},
+        {"name": "Portal do Investidor", "url": "https://www.portaldoinvestidor.gov.br"},
+    ]},
+    "MX": {"name": "Mexico", "sources": [
+        {"name": "CNBV (Comisión Nacional Bancaria y de Valores)", "url": "https://www.gob.mx/cnbv"},
+        {"name": "CONDUSEF", "url": "https://www.gob.mx/condusef"},
+    ]},
+    "NZ": {"name": "New Zealand", "sources": [
+        {"name": "FMA - Warnings and Alerts", "url": "https://www.fma.govt.nz/library/warnings-and-alerts"},
+        {"name": "New Zealand Companies Register", "url": "https://www.companiesoffice.govt.nz"},
+        {"name": "Netsafe", "url": "https://www.netsafe.org.nz"},
+    ]},
+    "HK": {"name": "Hong Kong", "sources": [
+        {"name": "SFC Alert List", "url": "https://www.sfc.hk/en/alert-list"},
+        {"name": "Companies Registry", "url": "https://www.cr.gov.hk"},
+    ]},
 }
 _GLOBAL_SOURCES = [
     {"name": "ICANN Lookup (domain WHOIS)", "url": "https://lookup.icann.org"},
