@@ -337,9 +337,11 @@ _COUNTRY_SOURCES = {
     "ID": {"name": "Indonesia", "sources": [
         {"name": "OJK (Financial Services Authority)", "url": "https://www.ojk.go.id"},
         {"name": "AHU Online - Company Search", "url": "https://ahu.go.id/pencarian/profil-pt"},
+        {"name": "Polri (Indonesian National Police)", "url": "https://www.polri.go.id"},
     ]},
     "PH": {"name": "Philippines", "sources": [
         {"name": "SEC Philippines", "url": "https://www.sec.gov.ph"},
+        {"name": "PNP (Philippine National Police)", "url": "https://www.pnp.gov.ph"},
     ]},
     "DE": {"name": "Germany", "sources": [
         {"name": "BaFin (Federal Financial Supervisory Authority)", "url": "https://www.bafin.de"},
@@ -382,6 +384,7 @@ _COUNTRY_SOURCES = {
     "KR": {"name": "South Korea", "sources": [
         {"name": "FSS (Financial Supervisory Service)", "url": "https://www.fss.or.kr"},
         {"name": "DART - Electronic Disclosure System", "url": "https://dart.fss.or.kr"},
+        {"name": "National Police Agency", "url": "https://www.police.go.kr"},
     ]},
     "TH": {"name": "Thailand", "sources": [
         {"name": "SEC Thailand", "url": "https://www.sec.or.th"},
@@ -410,6 +413,7 @@ _COUNTRY_SOURCES = {
     "MX": {"name": "Mexico", "sources": [
         {"name": "CNBV (Comisión Nacional Bancaria y de Valores)", "url": "https://www.gob.mx/cnbv"},
         {"name": "CONDUSEF", "url": "https://www.gob.mx/condusef"},
+        {"name": "Guardia Nacional", "url": "https://www.gob.mx/guardianacional"},
     ]},
     "NZ": {"name": "New Zealand", "sources": [
         {"name": "FMA - Warnings and Alerts", "url": "https://www.fma.govt.nz/library/warnings-and-alerts"},
@@ -436,6 +440,7 @@ _COUNTRY_SOURCES = {
     ]},
     "BD": {"name": "Bangladesh", "sources": [
         {"name": "BSEC (Bangladesh Securities and Exchange Commission)", "url": "https://sec.gov.bd"},
+        {"name": "CID - Cyber Police", "url": "https://cid.gov.bd"},
     ]},
     "CH": {"name": "Switzerland", "sources": [
         {"name": "FINMA (Swiss Financial Market Supervisory Authority)", "url": "https://www.finma.ch"},
@@ -471,6 +476,7 @@ _COUNTRY_SOURCES = {
     ]},
     "PT": {"name": "Portugal", "sources": [
         {"name": "CMVM (Comissão do Mercado de Valores Mobiliários)", "url": "https://www.cmvm.pt"},
+        {"name": "Polícia Judiciária", "url": "https://www.policiajudiciaria.pt"},
     ]},
     "AT": {"name": "Austria", "sources": [
         {"name": "FMA (Financial Market Authority)", "url": "https://www.fma.gv.at"},
@@ -487,12 +493,19 @@ _COUNTRY_SOURCES = {
     ]},
     "KE": {"name": "Kenya", "sources": [
         {"name": "CMA (Capital Markets Authority)", "url": "https://www.cma.or.ke"},
+        {"name": "DCI (Directorate of Criminal Investigations)", "url": "https://www.dci.go.ke"},
     ]},
     "EG": {"name": "Egypt", "sources": [
         {"name": "FRA (Financial Regulatory Authority)", "url": "https://fra.gov.eg"},
+        {"name": "Ministry of Interior - Cybercrime Unit", "url": "https://moi.gov.eg"},
     ]},
     "RU": {"name": "Russia", "sources": [
         {"name": "Bank of Russia - Warning List", "url": "https://www.cbr.ru/inside/warning-list/"},
+    ]},
+    "IR": {"name": "Iran", "sources": [
+        {"name": "SEO (Securities and Exchange Organization)", "url": "https://en.seo.ir"},
+        {"name": "FATA - Cyber Police", "url": "https://cyberpolice.ir/en"},
+        {"name": "NAJA (Police Command of the Islamic Republic of Iran)", "url": "https://police.ir"},
     ]},
 }
 _GLOBAL_SOURCES = [
